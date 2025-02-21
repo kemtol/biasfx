@@ -1,2 +1,2 @@
 # biasfx
-tes
+tes nyampe ke server ga?
