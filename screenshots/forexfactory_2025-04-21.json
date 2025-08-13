@@ -1,0 +1,280 @@
+[
+  {
+    "timestamp": "2025-04-21T00:00:00",
+    "source": "Forex Factory",
+    "event": [
+      {
+        "currency": "NZD",
+        "event_name": "Bank Holiday",
+        "event_date": "2025-04-21",
+        "event_status": "Confirmed",
+        "impact_level": "None",
+        "forecast": null,
+        "actual": null,
+        "previous": null,
+        "ai": [
+          {
+            "ai_forecast": null,
+            "ai_forecast_confidence": null,
+            "ai_pair_to_trade": null,
+            "ai_recommendation": "notrade",
+            "ai_recommendation_position_timing": null,
+            "ai_rationale": "Bank holidays typically result in low market activity, with no economic data releases impacting currency movements."
+          }
+        ]
+      },
+      {
+        "currency": "AUD",
+        "event_name": "Bank Holiday",
+        "event_date": "2025-04-21",
+        "event_status": "Confirmed",
+        "impact_level": "None",
+        "forecast": null,
+        "actual": null,
+        "previous": null,
+        "ai": [
+          {
+            "ai_forecast": null,
+            "ai_forecast_confidence": null,
+            "ai_pair_to_trade": null,
+            "ai_recommendation": "notrade",
+            "ai_recommendation_position_timing": null,
+            "ai_rationale": "Bank holidays typically result in low market activity, with no economic data releases impacting currency movements."
+          }
+        ]
+      },
+      {
+        "currency": "CNY",
+        "event_name": "1-y Loan Prime Rate",
+        "event_date": "2025-04-21T08:00:00",
+        "event_status": "Confirmed",
+        "impact_level": "Medium",
+        "forecast": 3.1,
+        "actual": 3.1,
+        "previous": 3.1,
+        "ai": [
+          {
+            "ai_forecast": 3.1,
+            "ai_forecast_confidence": "95",
+            "ai_pair_to_trade": "USD/CNY",
+            "ai_recommendation": "neutral",
+            "ai_recommendation_position_timing": "notrade",
+            "ai_rationale": "The unchanged Loan Prime Rate suggests stability in monetary policy, indicating a balanced economic outlook."
+          }
+        ]
+      },
+      {
+        "currency": "CNY",
+        "event_name": "5-y Loan Prime Rate",
+        "event_date": "2025-04-21T08:00:00",
+        "event_status": "Confirmed",
+        "impact_level": "Medium",
+        "forecast": 3.6,
+        "actual": 3.6,
+        "previous": 3.6,
+        "ai": [
+          {
+            "ai_forecast": 3.6,
+            "ai_forecast_confidence": "95",
+            "ai_pair_to_trade": "USD/CNY",
+            "ai_recommendation": "neutral",
+            "ai_recommendation_position_timing": "notrade",
+            "ai_rationale": "The consistent 5-year Loan Prime Rate indicates steady long-term economic expectations and minimal immediate currency impact."
+          }
+        ]
+      },
+      {
+        "currency": "CHF",
+        "event_name": "Bank Holiday",
+        "event_date": "2025-04-21",
+        "event_status": "Confirmed",
+        "impact_level": "None",
+        "forecast": null,
+        "actual": null,
+        "previous": null,
+        "ai": [
+          {
+            "ai_forecast": null,
+            "ai_forecast_confidence": null,
+            "ai_pair_to_trade": null,
+            "ai_recommendation": "notrade",
+            "ai_recommendation_position_timing": null,
+            "ai_rationale": "Bank holidays typically result in low market activity, with no economic data releases impacting currency movements."
+          }
+        ]
+      },
+      {
+        "currency": "EUR",
+        "event_name": "French Bank Holiday",
+        "event_date": "2025-04-21",
+        "event_status": "Confirmed",
+        "impact_level": "None",
+        "forecast": null,
+        "actual": null,
+        "previous": null,
+        "ai": [
+          {
+            "ai_forecast": null,
+            "ai_forecast_confidence": null,
+            "ai_pair_to_trade": null,
+            "ai_recommendation": "notrade",
+            "ai_recommendation_position_timing": null,
+            "ai_rationale": "Bank holidays typically result in low market activity, with no economic data releases impacting currency movements."
+          }
+        ]
+      },
+      {
+        "currency": "EUR",
+        "event_name": "German Bank Holiday",
+        "event_date": "2025-04-21",
+        "event_status": "Confirmed",
+        "impact_level": "None",
+        "forecast": null,
+        "actual": null,
+        "previous": null,
+        "ai": [
+          {
+            "ai_forecast": null,
+            "ai_forecast_confidence": null,
+            "ai_pair_to_trade": null,
+            "ai_recommendation": "notrade",
+            "ai_recommendation_position_timing": null,
+            "ai_rationale": "Bank holidays typically result in low market activity, with no economic data releases impacting currency movements."
+          }
+        ]
+      },
+      {
+        "currency": "EUR",
+        "event_name": "Italian Bank Holiday",
+        "event_date": "2025-04-21",
+        "event_status": "Confirmed",
+        "impact_level": "None",
+        "forecast": null,
+        "actual": null,
+        "previous": null,
+        "ai": [
+          {
+            "ai_forecast": null,
+            "ai_forecast_confidence": null,
+            "ai_pair_to_trade": null,
+            "ai_recommendation": "notrade",
+            "ai_recommendation_position_timing": null,
+            "ai_rationale": "Bank holidays typically result in low market activity, with no economic data releases impacting currency movements."
+          }
+        ]
+      },
+      {
+        "currency": "GBP",
+        "event_name": "Bank Holiday",
+        "event_date": "2025-04-21",
+        "event_status": "Confirmed",
+        "impact_level": "None",
+        "forecast": null,
+        "actual": null,
+        "previous": null,
+        "ai": [
+          {
+            "ai_forecast": null,
+            "ai_forecast_confidence": null,
+            "ai_pair_to_trade": null,
+            "ai_recommendation": "notrade",
+            "ai_recommendation_position_timing": null,
+            "ai_rationale": "Bank holidays typically result in low market activity, with no economic data releases impacting currency movements."
+          }
+        ]
+      },
+      {
+        "currency": "USD",
+        "event_name": "FOMC Member Goolsbee Speaks",
+        "event_date": "2025-04-21T19:30:00",
+        "event_status": "Confirmed",
+        "impact_level": "Medium",
+        "forecast": null,
+        "actual": null,
+        "previous": null,
+        "ai": [
+          {
+            "ai_forecast": null,
+            "ai_forecast_confidence": null,
+            "ai_pair_to_trade": "EUR/USD",
+            "ai_recommendation": "bullish",
+            "ai_recommendation_position_timing": "putbeforenews",
+            "ai_rationale": "Speeches by FOMC members can influence USD based on rate outlooks and economic assessments. Market participants should be alert to any hawkish or dovish cues."
+          }
+        ]
+      },
+      {
+        "currency": "USD",
+        "event_name": "CB Leading Index m/m",
+        "event_date": "2025-04-21T21:00:00",
+        "event_status": "Confirmed",
+        "impact_level": "Low",
+        "forecast": -0.5,
+        "actual": -0.5,
+        "previous": -0.3,
+        "ai": [
+          {
+            "ai_forecast": -0.5,
+            "ai_forecast_confidence": "85",
+            "ai_pair_to_trade": "USD/JPY",
+            "ai_recommendation": "bearish",
+            "ai_recommendation_position_timing": "putafternews",
+            "ai_rationale": "A declining leading index suggests weakening economic conditions, likely impacting USD negatively in the short term."
+          }
+        ]
+      },
+      {
+        "currency": "NZD",
+        "event_name": "Trade Balance",
+        "event_date": "2025-04-22T05:45:00",
+        "event_status": "Confirmed",
+        "impact_level": "Medium",
+        "forecast": 80,
+        "actual": 80,
+        "previous": 510,
+        "ai": [
+          {
+            "ai_forecast": 80,
+            "ai_forecast_confidence": "90",
+            "ai_pair_to_trade": "NZD/USD",
+            "ai_recommendation": "neutral",
+            "ai_recommendation_position_timing": "notrade",
+            "ai_rationale": "The trade balance narrows significantly, reflecting potential challenges in trade dynamics, but with limited immediate market impact."
+          }
+        ]
+      },
+      {
+        "currency": "JPY",
+        "event_name": "BOJ Core CPI y/y",
+        "event_date": "2025-04-22T12:00:00",
+        "event_status": "Confirmed",
+        "impact_level": "Medium",
+        "forecast": 2.4,
+        "actual": 2.4,
+        "previous": 2.2,
+        "ai": [
+          {
+            "ai_forecast": 2.4,
+            "ai_forecast_confidence": "90",
+            "ai_pair_to_trade": "USD/JPY",
+            "ai_recommendation": "bullish",
+            "ai_recommendation_position_timing": "putafternews",
+            "ai_rationale": "A rising BOJ Core CPI indicates inflationary pressures, potentially leading to yen strength as monetary tightening becomes more likely."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "error": "No economic calendar data available in the provided image."
+  },
+  {
+    "error": "Image does not contain economic calendar data",
+    "message": "The image provided is a security verification page from www.forexfactory.com, not an economic calendar."
+  },
+  {
+    "timestamp": "2023-10-01T12:00:00Z",
+    "source": "www.forexfactory.com",
+    "event": []
+  }
+]

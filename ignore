@@ -1,0 +1,218 @@
+export OPENAI_API_KEY="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"
+
+export OPENAI_API_KEY="AIzaSyBGzNR36CSmW0fYlIoqYUIXZyY5V-qFxao"
+
+W0CY87H193QOH05M
+
+
+curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBGzNR36CSmW0fYlIoqYUIXZyY5V-qFxao" \
+-H 'Content-Type: application/json' \
+-X POST \
+-d '{
+  "contents": [{
+    "parts":[{"text": "Explain how AI works"}]
+    }]
+   }'
+
+
+
+
+
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
+import time
+
+# Konfigurasi Chrome
+options = Options()
+options.add_argument("--user-data-dir=/tmp/chrome_dev_test")  # Gunakan profil yang tadi berhasil
+options.add_argument("--no-sandbox")  
+options.add_argument("--disable-dev-shm-usage")
+options.add_argument("--disable-blink-features=AutomationControlled")
+options.add_experimental_option("excludeSwitches", ["enable-automation"])
+options.add_experimental_option("useAutomationExtension", False)
+
+# Jalankan ChromeDriver
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+
+# Buka halaman TradingView Chart
+chart_url = "https://www.tradingview.com/chart/90FNc4nG/?symbol=OANDA%3AXAUUSD"
+driver.get(chart_url)
+
+print("✅ Chrome berhasil dibuka. Mengecek apakah login diperlukan...")
+
+try:
+    # Cek apakah tombol "log in" muncul
+    login_button = WebDriverWait(driver, 5).until(
+        EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'log in')]"))
+    )
+    login_button.click()
+    print("✅ Tombol login diklik. Menunggu halaman login terbuka...")
+
+    # Tunggu input username muncul
+    username_input = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, "id_username"))
+    )
+
+    # Kosongkan field username
+    username_input.send_keys(Keys.CONTROL + "a")  # Select all text
+    username_input.send_keys(Keys.DELETE)
+    time.sleep(5)  # Tunggu agar benar-benar kosong
+
+    # Masukkan email
+    email_kamu = "mkemalw@gmail.com"  # GANTI dengan email kamu
+    username_input.send_keys(email_kamu)
+    print(f"✅ Berhasil input email: {email_kamu}")
+
+    # Tunggu input password muncul
+    password_input = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, "id_password"))
+    )
+
+    # Kosongkan field password
+    password_input.send_keys(Keys.CONTROL + "a")
+    password_input.send_keys(Keys.DELETE)
+    time.sleep(2)
+
+    # Masukkan password
+    password_kamu = "3Desember1986!@#"  # GANTI dengan password kamu
+    password_input.send_keys(password_kamu)
+    print("✅ Berhasil input password.")
+
+    # Tunggu elemen tombol "Sign in" muncul dan bisa diklik
+    login_button = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH, "//button[@data-overflow-tooltip-text='Sign in']"))
+    )
+
+    # Scroll ke tombol jika tidak terlihat
+    driver.execute_script("arguments[0].scrollIntoView();", login_button)
+    time.sleep(1)
+
+    # Klik tombol menggunakan JavaScript jika klik biasa gagal
+    try:
+        login_button.click()
+        print("✅ Tombol Sign in diklik.")
+    except:
+        driver.execute_script("arguments[0].click();", login_button)
+        print("✅ Tombol Sign in diklik via JavaScript.")
+    
+    # Cek apakah halaman kembali ke chart atau malah ke halaman lain
+    current_url = driver.current_url
+    if "chart" not in current_url:
+        print("🔄 Tidak kembali ke chart. Reload halaman chart...")
+        driver.get(chart_url)
+
+    # Tunggu elemen chart muncul setelah reload
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CLASS_NAME, "chart-container"))
+    )
+    
+    print("🎉 Login sukses! Kembali ke halaman chart XAU/USD.")
+
+except Exception as e:
+    print(f"❌ Error: {e}")
+
+# Biarkan browser tetap terbuka setelah login
+print("✅ Browser tetap terbuka. Jangan tutup script ini jika ingin sesi tetap berjalan.")
+try:
+    while True:
+        time.sleep(1)
+except KeyboardInterrupt:
+    print("Menutup browser...")
+    driver.quit()
+
+Yes im work with grab special project back in 2022
+prabowo
+New regualtion regarding workforce compliance M/3/HK.04.000.III/20215
+7 days and 20% from average income on app
+
+
+
+2025 Superbank: Grab x kakaobank digital bank in Indonesia. Mobile Banking, Core Lending, AML, Loan Channeling.
+2022 Grab Special Project: Bank Fama Migration. Core Banking and Integration
+2020 Word Bank: Ministry of Religion in Indonesia: Student Government Student Loan Disbursement System
+2018
+
+With all my combine 12 years experience. Mostly Planning, Discovery, Requirement Gathering, Design, Development, Implementation, Testing, Deployment and Iteration
+
+Agile is the most hard to implement but very rewarding. Automation on testing and deployment. And AI prompt engineering for development process. It can cut off 30% of cost.
+
+0. Business Owner (inhouse)
+1. Product Manager (inhouse)
+2. Technical Propduct Manager (inhouse)
+3. Engineering Manager (inhouse)
+4. Software Engineer (inhouse/outsource)
+5. QA Automation engineer (inhouse/outsource)
+6. DevOps Engineer (inhouse/outsource)
+
+1. clear communication
+2. clear roadmap, requirement and prio based on high impact vs low effort matrix
+3. clear development process ritual (standup, path to green, sprint planning and review)
+4. clear documentation (PRD, TSD, BRD)
+
+in grab and superbank we use tree structure like this
+Tribe we devide into business impact unit
+1. Onboarding Tribe
+2. Mobility Tribe
+3. Payment Tribe 
+4. Fintech Tribe
+
+and squad will be under features of business like
+1. Onboarding: Driver Squad
+2. Onboarding: Passenger
+
+or
+
+1. Fintech: BNPL squad
+2. Fintech: Loan Channeling squad
+
+Each squad consist of cross function that i am explained earlier
+
+If i have to choose new structure i will use hybrid model, used by amazon. It is combined between millitary mgmt (the oldest mgmgt in history of mankind) with agile. Which can result in:
+1. Dedicated leadership
+2. Functional subgroup 
+3. Cross functional collaboration
+4. AI driven development
+
+
+No we do hybrid model in Grab/Superbank
+1. year one we use mostly inhouse that time around 50 employee
+2. year two we aim to make 60% inhouse 40% oursourcing that time around 200 workforce
+3. year three we aim to make 40% inhouse 60% outsourcing that time around 500 workforce
+
+mostly outsourcing on engineering non core product and operations.
+
+
+From 1 to 100 around 85
+From 1 to 100 around 85.
+
+I work as a SME consultant for puninar raya a transportaion and logistic from 2017 - 2020
+i work as a SME consultant in fleet mgmt system in Prima Armada Raya from 2020-2021
+i work as a Fleet Mgmt Developer for Renvee in 2017
+I work as a VP on Grab Fintech Transportation and Mobility in 2022 
+
+
+KIA Carnival is not really common in indonesia despite korean brand is now on the rise. But if the purpose of this to procure for b2b market or business in a sense japanese brands is still a very feasible choice regarding maintenance and after sales service
+
+I have experience in one of the biggest logistic truck company. Puninar raya, Pertamina Patra Logistic and Also Renvee for Fleet Management.
+The brand mostly daihatsu for blindvan which is grandmax.
+For passenger and hybrid we use toyota hi-ace
+Some of them using Isuzu Elf
+All that i know is japanese company.
+Puninar raya is around 650 truck, which 20% is blund van.
+Each of the company have replacement cycle is around 5 - 10 years some of the company that i work at this time not using EV at all. 
+
+Trend is on wait and see kind of situation. One of the reason for the company not really all in for EV is secondary market. The predatorial production is one of the business model, is not the content/goods itself. For instance if you use hi-ace it can be higher in price for secondary because the suppy and demand imbalance of production line. Thats why the reason of this business is also trade off vechicle betweek company.
+
+Most of the company that i work for mostly is additonal maybe around 60% they aim for additional because they need to grow and grow is what the investor want to see. For how they contact sales is mostly B2B and sometimes they can custom what they want using caroserie, Final selection process most likely is price and TOC (Total Operation Cost)
+
+Some of the company i work for, is very satisfied with their combination of fleet. Theyre rarely change the model because it can cause major change in how they project the investment in parts and engineer.
+
+I would say wait and see, 85% in 5 years the logistic and transportation fleet still use conventional combustion especially diesel. EV is mostly use in intracity transport like commuter bus but not for long range kind of trip business model.
+
+Depends, like i said before if we use this research in Indonesia, the secondary market for fleet exchange is still one of the reason why company choose a specific model. Because that is how it works. So when EV jump in into a logistic or transportation service, i think they need to have a breaktrugh long range and low TOC with solid after sales service that can be disrupt the 50 years of business way of work.
