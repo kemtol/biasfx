@@ -1,0 +1,4 @@
+[2025-08-22 12:11:47 WIB] START python3 service/core_bpjs.py --cutoff 09:30 --top 10
+[12:11:47] python3 service/core_bpjs.py --cutoff 09:30 --top 10 | python3: can't open file '/home/mkemalw/Projects/SSSAHAM_SERVICE/service/core_bpjs.py': [Errno 2] No such file or directory
+[2025-08-22 12:26:50 WIB] START python3 service/core_bpjs.py --cutoff 09:30 --top 10
+[12:26:50] python3 service/core_bpjs.py --cutoff 09:30 --top 10 | python3: can't open file '/home/mkemalw/Projects/SSSAHAM_SERVICE/service/core_bpjs.py': [Errno 2] No such file or directory

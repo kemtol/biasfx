@@ -1,9 +1,0 @@
-ticker,date,close,value_traded,atr_pctile,vol_ma5_ma20,obv_slope,adl_slope,breakout_55,vol_spike,near_high,above_emas,spring_like,upthrust,obv_div,status,score,reasons,status_rank
-SMIL.JK,2025-08-08,346.0,25396988200.0,0.058333333333333334,1.124404934004434,889617800.0,1109614349.2424278,False,False,False,True,False,False,False,Akumulasi Lanjut,100,"ATR%ile rendah, OBV naik, ADL naik, Di atas EMA20/50",1
-HRTA.JK,2025-08-08,735.0,19058109000.0,0.15833333333333333,1.3337950538192942,179613900.0,12486908.311688423,False,False,False,True,False,False,False,Akumulasi Lanjut,100,"ATR%ile rendah, OBV naik, ADL naik, Di atas EMA20/50",1
-INET.JK,2025-08-08,288.0,130785091200.0,0.7416666666666667,0.6596131514651176,3603240400.0,194747541.10032701,False,False,False,True,False,False,False,Akumulasi Lanjut,95,"Volume dry-up, OBV naik, ADL naik, Di atas EMA20/50",1
-MARK.JK,2025-08-08,670.0,12889996000.0,0.1,1.078365546479545,58315000.0,87701170.00000024,False,False,False,False,False,False,False,Akumulasi Lanjut,95,"ATR%ile rendah, OBV naik, ADL naik",1
-UNIQ.JK,2025-08-08,402.0,21736501800.0,0.1,1.3857295090638213,243964400.0,-59599955.94128108,False,False,False,False,False,False,False,Akumulasi Lanjut,85,"ATR%ile rendah, OBV naik",1
-ITMA.JK,2025-08-08,740.0,9635318000.0,0.11666666666666667,0.8182124633308756,132489800.0,-29066145.909090817,False,False,False,False,False,False,False,Akumulasi Lanjut,85,"ATR%ile rendah, OBV naik",1
-PTPP.JK,2025-08-08,388.0,4322940800.0,0.025,0.6297635461013231,-141348100.0,-150080503.80952406,False,False,False,False,False,False,False,Akumulasi Lanjut,80,"ATR%ile rendah, Volume dry-up",1
-ELSA.JK,2025-08-08,480.0,4109952000.0,0.21666666666666667,0.6340424066332744,-82370200.0,-94589260.21560633,False,False,False,False,False,False,False,Akumulasi Lanjut,80,"ATR%ile rendah, Volume dry-up",1

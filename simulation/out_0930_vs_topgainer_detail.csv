@@ -1,0 +1,191 @@
+date,ticker,status
+2025-07-23,AMAR.JK,Overlap
+2025-07-23,ARGO.JK,Overlap
+2025-07-23,ARTA.JK,Overlap
+2025-07-23,BKSW.JK,False Positive
+2025-07-23,DCII.JK,Overlap
+2025-07-23,IMAS.JK,Overlap
+2025-07-23,IMJS.JK,Overlap
+2025-07-23,MEGA.JK,False Positive
+2025-07-23,MLBI.JK,False Positive
+2025-07-23,RUNS.JK,False Positive
+2025-07-24,ARGO.JK,Overlap
+2025-07-24,BABY.JK,Overlap
+2025-07-24,BWPT.JK,False Positive
+2025-07-24,LIVE.JK,False Positive
+2025-07-24,LRNA.JK,False Positive
+2025-07-24,MERI.JK,False Positive
+2025-07-24,MINA.JK,False Positive
+2025-07-24,SOUL.JK,False Positive
+2025-07-24,TRUK.JK,False Positive
+2025-07-24,VERN.JK,Overlap
+2025-07-25,BABY.JK,False Positive
+2025-07-25,BAJA.JK,Overlap
+2025-07-25,BUVA.JK,Overlap
+2025-07-25,CLAY.JK,Overlap
+2025-07-25,EURO.JK,False Positive
+2025-07-25,FUJI.JK,Overlap
+2025-07-25,KEJU.JK,False Positive
+2025-07-25,KETR.JK,False Positive
+2025-07-25,PGUN.JK,Overlap
+2025-07-25,SGER.JK,False Positive
+2025-07-29,AEGS.JK,False Positive
+2025-07-29,APEX.JK,Overlap
+2025-07-29,BBLD.JK,False Positive
+2025-07-29,GEMA.JK,False Positive
+2025-07-29,JARR.JK,Overlap
+2025-07-29,KBLM.JK,Overlap
+2025-07-29,KLIN.JK,False Positive
+2025-07-29,PGLI.JK,Overlap
+2025-07-29,RUIS.JK,Overlap
+2025-07-29,SWID.JK,Overlap
+2025-07-30,COCO.JK,Overlap
+2025-07-30,ISEA.JK,Overlap
+2025-07-30,JARR.JK,Overlap
+2025-07-30,KLIN.JK,False Positive
+2025-07-30,PGUN.JK,Overlap
+2025-07-30,PNGO.JK,False Positive
+2025-07-30,SMMT.JK,False Positive
+2025-07-30,SSTM.JK,Overlap
+2025-07-30,SWID.JK,Overlap
+2025-07-30,TEBE.JK,Overlap
+2025-07-31,BOAT.JK,Overlap
+2025-07-31,BRRC.JK,Overlap
+2025-07-31,BUVA.JK,Overlap
+2025-07-31,CGAS.JK,Overlap
+2025-07-31,FLMC.JK,False Positive
+2025-07-31,KLIN.JK,False Positive
+2025-07-31,KUAS.JK,Overlap
+2025-07-31,OILS.JK,False Positive
+2025-07-31,PTSN.JK,Overlap
+2025-07-31,UNVR.JK,False Positive
+2025-08-01,DSFI.JK,Overlap
+2025-08-01,FUTR.JK,Overlap
+2025-08-01,FWCT.JK,Overlap
+2025-08-01,IDEA.JK,False Positive
+2025-08-01,LOPI.JK,False Positive
+2025-08-01,LPPS.JK,False Positive
+2025-08-01,MINA.JK,Overlap
+2025-08-01,NINE.JK,False Positive
+2025-08-01,RUNS.JK,False Positive
+2025-08-01,SAME.JK,False Positive
+2025-08-04,AEGS.JK,False Positive
+2025-08-04,COIN.JK,Overlap
+2025-08-04,DKHH.JK,Overlap
+2025-08-04,FILM.JK,Overlap
+2025-08-04,KEJU.JK,Overlap
+2025-08-04,LIVE.JK,False Positive
+2025-08-04,PPRI.JK,Overlap
+2025-08-04,RUNS.JK,False Positive
+2025-08-04,SWID.JK,Overlap
+2025-08-04,VISI.JK,False Positive
+2025-08-05,BSBK.JK,False Positive
+2025-08-05,CARS.JK,False Positive
+2025-08-05,COIN.JK,Overlap
+2025-08-05,CUAN.JK,False Positive
+2025-08-05,FILM.JK,Overlap
+2025-08-05,FITT.JK,Overlap
+2025-08-05,FMII.JK,False Positive
+2025-08-05,IDEA.JK,False Positive
+2025-08-05,KBLV.JK,Overlap
+2025-08-05,RELI.JK,Overlap
+2025-08-06,AEGS.JK,False Positive
+2025-08-06,COIN.JK,Overlap
+2025-08-06,FORU.JK,Overlap
+2025-08-06,IDEA.JK,False Positive
+2025-08-06,IKAN.JK,Overlap
+2025-08-06,KIOS.JK,Overlap
+2025-08-06,NAYZ.JK,False Positive
+2025-08-06,NINE.JK,False Positive
+2025-08-06,RCCC.JK,False Positive
+2025-08-06,SOUL.JK,False Positive
+2025-08-07,COIN.JK,Overlap
+2025-08-07,CSIS.JK,Overlap
+2025-08-07,EMDE.JK,False Positive
+2025-08-07,FUTR.JK,Overlap
+2025-08-07,KBLV.JK,Overlap
+2025-08-07,LOPI.JK,False Positive
+2025-08-07,RAAM.JK,Overlap
+2025-08-07,SGER.JK,False Positive
+2025-08-07,SMGA.JK,Overlap
+2025-08-07,SOSS.JK,Overlap
+2025-08-08,BBHI.JK,False Positive
+2025-08-08,DSSA.JK,Overlap
+2025-08-08,GWSA.JK,False Positive
+2025-08-08,INDX.JK,Overlap
+2025-08-08,NAYZ.JK,False Positive
+2025-08-08,PEVE.JK,Overlap
+2025-08-08,PPRI.JK,Overlap
+2025-08-08,SOSS.JK,Overlap
+2025-08-08,TALF.JK,False Positive
+2025-08-08,TKIM.JK,False Positive
+2025-08-11,BRNA.JK,Overlap
+2025-08-11,BULL.JK,Overlap
+2025-08-11,CASH.JK,False Positive
+2025-08-11,CHEM.JK,Overlap
+2025-08-11,COIN.JK,False Positive
+2025-08-11,FUTR.JK,Overlap
+2025-08-11,MLPT.JK,Overlap
+2025-08-11,PPRE.JK,Overlap
+2025-08-11,SKLT.JK,False Positive
+2025-08-11,WEGE.JK,Overlap
+2025-08-12,BBYB.JK,Overlap
+2025-08-12,BULL.JK,False Positive
+2025-08-12,DKHH.JK,Overlap
+2025-08-12,IDEA.JK,False Positive
+2025-08-12,JKON.JK,Overlap
+2025-08-12,KEJU.JK,False Positive
+2025-08-12,PPRE.JK,Overlap
+2025-08-12,TNCA.JK,Overlap
+2025-08-12,UANG.JK,Overlap
+2025-08-12,ZYRX.JK,Overlap
+2025-08-13,BELL.JK,Overlap
+2025-08-13,BRNA.JK,False Positive
+2025-08-13,CRSN.JK,Overlap
+2025-08-13,DKHH.JK,Overlap
+2025-08-13,GRPH.JK,Overlap
+2025-08-13,LAJU.JK,False Positive
+2025-08-13,NRCA.JK,False Positive
+2025-08-13,PNBS.JK,False Positive
+2025-08-13,SLIS.JK,Overlap
+2025-08-13,UANG.JK,Overlap
+2025-08-14,ADCP.JK,False Positive
+2025-08-14,BGTG.JK,False Positive
+2025-08-14,BWPT.JK,False Positive
+2025-08-14,GSMF.JK,Overlap
+2025-08-14,IOTF.JK,Overlap
+2025-08-14,KAQI.JK,Overlap
+2025-08-14,LIFE.JK,Overlap
+2025-08-14,RUNS.JK,False Positive
+2025-08-14,TOSK.JK,Overlap
+2025-08-14,UANG.JK,Overlap
+2025-08-15,ARGO.JK,Overlap
+2025-08-15,DPUM.JK,Overlap
+2025-08-15,GSMF.JK,Overlap
+2025-08-15,IMJS.JK,False Positive
+2025-08-15,KBLV.JK,Overlap
+2025-08-15,LIFE.JK,Overlap
+2025-08-15,LPPS.JK,False Positive
+2025-08-15,MFIN.JK,Overlap
+2025-08-15,SMLE.JK,False Positive
+2025-08-15,UANG.JK,Overlap
+2025-08-19,ASLC.JK,Overlap
+2025-08-19,BWPT.JK,False Positive
+2025-08-19,CSIS.JK,Overlap
+2025-08-19,EMDE.JK,False Positive
+2025-08-19,LIFE.JK,False Positive
+2025-08-19,LPPS.JK,Overlap
+2025-08-19,MFIN.JK,Overlap
+2025-08-19,MLPL.JK,False Positive
+2025-08-19,NAYZ.JK,False Positive
+2025-08-19,PZZA.JK,False Positive
+2025-08-20,ACST.JK,Overlap
+2025-08-20,BWPT.JK,Overlap
+2025-08-20,DATA.JK,Overlap
+2025-08-20,JKON.JK,False Positive
+2025-08-20,MFIN.JK,Overlap
+2025-08-20,PNBS.JK,False Positive
+2025-08-20,SAPX.JK,Overlap
+2025-08-20,SOSS.JK,Overlap
+2025-08-20,TAYS.JK,False Positive
+2025-08-20,UANG.JK,Overlap

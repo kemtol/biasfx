@@ -1,0 +1,11 @@
+ticker,daily_rows,daily_last,daily_age_days,daily_cols,daily_monotonic,daily_dups,daily_vol_zero,daily_na_%,m1_rows,m1_last,m1_cols,m1_monotonic,m1_dups,m1_outside_session,m1_vol_zero,m1_na_%,m5_rows,m5_last,m5_cols,m5_monotonic,m5_dups,m5_outside_session,m5_vol_zero,m5_na_%,consistency_1m_to_5m,price_mismatch,vol_mismatch
+ARMY.JK,99,2025-08-08 00:00:00,,"Open,High,Low,Close,Adj Close,Volume",True,0,99,0.0,0,,,True,0,0,0,,0,,,True,0,0,0,,,,
+JRPT.JK,100,2025-08-11 00:00:00,,"Open,High,Low,Close,Adj Close,Volume",True,0,0,0.0,36,2025-08-13 09:00:00,"Open,High,Low,Close,Volume",True,0,15,4,0.0,31,2025-08-08 08:50:00,"Open,High,Low,Close,Volume",True,0,11,3,0.0,NO_OVERLAP,,
+MPIX.JK,100,2025-08-11 00:00:00,,"Open,High,Low,Close,Adj Close,Volume",True,0,0,0.0,198,2025-08-13 09:02:00,"Open,High,Low,Close,Volume",True,0,45,45,0.0,127,2025-08-08 09:10:00,"Open,High,Low,Close,Volume",True,0,37,0,0.0,NO_OVERLAP,,
+ASJT.JK,100,2025-08-11 00:00:00,,"Open,High,Low,Close,Adj Close,Volume",True,0,0,0.0,21,2025-08-13 07:18:00,"Open,High,Low,Close,Volume",True,0,7,3,0.0,27,2025-08-08 08:40:00,"Open,High,Low,Close,Volume",True,0,5,3,0.0,NO_OVERLAP,,
+WIKA.JK,99,2025-08-08 00:00:00,,"Open,High,Low,Close,Adj Close,Volume",True,0,99,0.0,0,,,True,0,0,0,,0,,,True,0,0,0,,,,
+IBOS.JK,100,2025-08-11 00:00:00,,"Open,High,Low,Close,Adj Close,Volume",True,0,0,0.0,0,,,True,0,0,0,,0,,,True,0,0,0,,,,
+MARI.JK,100,2025-08-11 00:00:00,,"Open,High,Low,Close,Adj Close,Volume",True,0,0,0.0,0,,,True,0,0,0,,0,,,True,0,0,0,,,,
+IPCM.JK,100,2025-08-11 00:00:00,,"Open,High,Low,Close,Adj Close,Volume",True,0,0,0.0,226,2025-08-13 09:00:00,"Open,High,Low,Close,Volume",True,0,53,54,0.0,152,2025-08-08 09:15:00,"Open,High,Low,Close,Volume",True,0,38,0,0.0,NO_OVERLAP,,
+TRIL.JK,99,2025-08-08 00:00:00,,"Open,High,Low,Close,Adj Close,Volume",True,0,99,0.0,0,,,True,0,0,0,,0,,,True,0,0,0,,,,
+ABBA.JK,100,2025-08-11 00:00:00,,"Open,High,Low,Close,Adj Close,Volume",True,0,0,0.0,0,,,True,0,0,0,,0,,,True,0,0,0,,,,

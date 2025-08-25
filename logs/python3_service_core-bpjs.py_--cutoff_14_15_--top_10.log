@@ -1,0 +1,148 @@
+[2025-08-22 00:39:50 WIB] START python3 service/core-bpjs.py --cutoff 14:15 --top 10
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | /home/mkemalw/Projects/SSSAHAM_SERVICE/service/core-bpjs.py:276: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '['7.259' '7.062' '7.037' '6.063' '6.059' '5.829' '5.042' '4.966' '4.918'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '4.091' '3.886' '3.697' '3.670' '3.596' '3.560' '3.510' '3.255' '3.194'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '3.155' '3.055' '2.950' '2.895' '2.885' '2.879' '2.819' '2.813' '2.771'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '2.678' '2.659' '2.637' '2.548' '2.497' '2.410' '2.390' '2.352' '2.345'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '2.273' '2.246' '2.203' '2.143' '2.143' '2.142' '2.094' '2.091' '2.076'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '2.069' '2.049' '2.029' '2.001' '1.949' '1.862' '1.832' '1.809' '1.728'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.717' '1.709' '1.684' '1.673' '1.665' '1.652' '1.616' '1.585' '1.577'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.570' '1.570' '1.560' '1.516' '1.489' '1.486' '1.483' '1.464' '1.442'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.426' '1.424' '1.421' '1.421' '1.400' '1.373' '1.367' '1.362' '1.358'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.352' '1.344' '1.327' '1.316' '1.306' '1.257' '1.244' '1.242' '1.235'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.235' '1.189' '1.187' '1.182' '1.152' '1.130' '1.119' '1.113' '1.109'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.105' '1.096' '1.079' '1.077' '1.044' '1.040' '1.039' '1.032' '1.029'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.023' '1.009' '1.007' '1.005' '1.003' '1.002' '0.998' '0.988' '0.970'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.969' '0.965' '0.953' '0.950' '0.921' '0.919' '0.917' '0.893' '0.893'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.891' '0.889' '0.882' '0.863' '0.861' '0.857' '0.857' '0.847' '0.845'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.845' '0.822' '0.816' '0.815' '0.793' '0.790' '0.784' '0.765' '0.765'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.762' '0.745' '0.726' '0.718' '0.711' '0.704' '0.686' '0.682' '0.671'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.669' '0.660' '0.658' '0.655' '0.638' '0.626' '0.610' '0.598' '0.596'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.568' '0.551' '0.545' '0.527' '0.525' '0.523' '0.520' '0.515' '0.506'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.494' '0.478' '0.465' '0.443' '0.412' '0.406' '0.389' '0.382' '0.372'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.363' '0.244' '0.213' '0.196' '0.000' '0.000']' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |   out.loc[:, "score"]            = out["score"].map(fmt_f3)
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | /home/mkemalw/Projects/SSSAHAM_SERVICE/service/core-bpjs.py:277: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '['33.33%' '34.33%' '33.78%' '24.76%' '24.62%' '34.71%' '23.53%' '24.74%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '24.44%' '2.00%' '10.71%' '2.00%' '8.16%' '2.00%' '25.00%' '25.00%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '20.00%' '1.42%' '1.72%' '3.21%' '10.00%' '7.56%' '9.26%' '17.24%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '9.41%' '11.00%' '17.00%' '7.18%' '25.00%' '2.00%' '15.51%' '1.08%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '12.68%' '5.26%' '9.96%' '7.69%' '2.99%' '6.78%' '9.55%' '13.92%' '5.56%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '14.43%' '7.41%' '24.91%' '1.82%' '4.63%' '9.09%' '4.71%' '7.39%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '19.37%' '5.00%' '5.26%' '3.03%' '7.08%' '2.72%' '8.04%' '9.43%' '10.58%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.04%' '2.44%' '1.90%' '9.33%' '2.46%' '4.98%' '11.11%' '1.64%' '7.76%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '3.29%' '1.44%' '9.30%' '4.57%' '2.26%' '1.12%' '5.33%' '8.60%' '9.73%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.08%' '2.70%' '4.95%' '9.86%' '5.10%' '1.24%' '8.25%' '3.17%' '1.27%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '2.41%' '9.52%' '1.73%' '2.48%' '9.62%' '9.72%' '1.59%' '4.04%' '2.56%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '3.23%' '3.23%' '2.21%' '1.90%' '5.11%' '9.72%' '1.50%' '2.64%' '6.87%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.05%' '2.02%' '6.82%' '1.35%' '2.38%' '3.08%' '2.07%' '1.59%' '1.43%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '4.23%' '1.08%' '1.81%' '4.00%' '1.73%' '1.92%' '1.10%' '1.57%' '1.22%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '2.11%' '4.02%' '1.69%' '2.65%' '1.69%' '4.23%' '1.19%' '2.46%' '1.38%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.79%' '2.78%' '1.12%' '2.88%' '1.84%' '3.12%' '1.26%' '4.40%' '4.65%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.48%' '1.79%' '3.76%' '3.08%' '3.00%' '1.57%' '1.39%' '1.71%' '2.60%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '3.68%' '2.41%' '1.45%' '6.82%' '2.75%' '3.03%' '1.83%' '7.44%' '1.10%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.33%' '2.08%' '1.45%' '1.20%' '2.43%' '3.00%' '1.02%' '2.29%' '1.11%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.64%' '1.95%' '1.55%' '1.05%' '1.64%' '1.33%' '1.15%' '2.22%' '1.35%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.39%' '1.05%' '3.45%' '1.49%' '1.25%' '1.61%' '4.50%' '2.82%' '1.18%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '6.52%' '1.02%']' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |   out.loc[:, "daily_return"]     = out["daily_return"].map(fmt_pct)
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | /home/mkemalw/Projects/SSSAHAM_SERVICE/service/core-bpjs.py:278: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '['100.00%' '100.00%' '100.00%' '100.00%' '100.00%' '100.00%' '96.88%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '100.00%' '100.00%' '100.00%' '83.33%' '100.00%' '100.00%' '100.00%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '100.00%' '100.00%' '100.00%' '100.00%' '85.71%' '75.00%' '100.00%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '82.43%' '100.00%' '56.25%' '100.00%' '58.82%' '56.52%' '80.00%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '100.00%' '100.00%' '56.10%' '100.00%' '71.43%' '57.14%' '100.00%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '87.50%' '83.33%' '50.00%' '85.71%' '46.43%' '90.48%' '42.42%' '47.06%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '100.00%' '50.00%' '92.31%' '100.00%' '66.67%' '52.17%' '77.78%' '60.00%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '55.56%' '88.89%' '100.00%' '85.71%' '100.00%' '100.00%' '100.00%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '80.95%' '40.00%' '100.00%' '100.00%' '100.00%' '44.44%' '90.91%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '100.00%' '61.54%' '100.00%' '100.00%' '100.00%' '57.69%' '100.00%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '87.50%' '93.55%' '85.71%' '100.00%' '72.73%' '33.33%' '58.82%' '33.33%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '94.74%' '64.71%' '100.00%' '31.25%' '100.00%' '100.00%' '75.00%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '100.00%' '60.00%' '42.11%' '100.00%' '60.00%' '57.14%' '87.50%' '60.00%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '66.67%' '100.00%' '100.00%' '93.33%' '100.00%' '50.00%' '85.71%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '100.00%' '66.67%' '83.33%' '25.71%' '100.00%' '66.67%' '85.71%' '77.78%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '80.00%' '100.00%' '31.25%' '100.00%' '83.33%' '50.00%' '100.00%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '33.33%' '66.67%' '100.00%' '66.67%' '50.00%' '38.78%' '85.71%' '81.82%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '81.25%' '21.82%' '33.33%' '100.00%' '70.00%' '75.00%' '50.00%' '100.00%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '29.41%' '44.44%' '80.00%' '50.00%' '21.05%' '83.33%' '30.77%' '80.00%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '38.89%' '60.00%' '28.57%' '42.86%' '66.67%' '75.00%' '70.00%' '72.73%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '80.00%' '69.23%' '36.84%' '55.56%' '75.00%' '50.00%' '29.03%' '28.57%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '33.33%' '42.86%' '28.57%' '50.00%' '22.22%' '60.00%' '66.67%' '42.86%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '27.27%' '16.67%' '54.55%' '33.33%' '37.50%' '50.00%' '28.57%' '40.00%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '25.00%' '50.00%' '25.00%' '50.00%' '45.45%' '25.00%' '11.11%' '9.09%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '9.39%' '11.11%' '15.38%' '0.00%' '0.00%']' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |   out.loc[:, "closing_strength"] = out["closing_strength"].map(fmt_pct)
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | /home/mkemalw/Projects/SSSAHAM_SERVICE/service/core-bpjs.py:279: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '['38.46%' '33.71%' '33.78%' '23.59%' '23.67%' '10.05%' '21.74%' '16.88%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.51%' '2.00%' '7.13%' '0.11%' '6.00%' '0.00%' '0.00%' '9.05%' '0.00%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.00%' '2.56%' '3.21%' '0.00%' '10.39%' '9.26%' '11.05%' '0.72%' '9.59%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '6.58%' '5.03%' '19.13%' '2.00%' '-0.22%' '1.08%' '12.72%' '1.05%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.00%' '7.69%' '6.63%' '7.00%' '8.32%' '13.92%' '1.18%' '12.23%' '5.36%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '26.81%' '3.70%' '3.99%' '0.00%' '6.38%' '6.78%' '12.19%' '5.00%' '4.03%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '4.92%' '7.42%' '3.42%' '8.00%' '0.00%' '4.58%' '1.04%' '2.57%' '1.90%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.98%' '2.61%' '3.60%' '8.91%' '1.64%' '2.46%' '3.83%' '1.44%' '1.06%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '2.69%' '1.49%' '3.81%' '5.69%' '1.08%' '1.08%' '3.82%' '2.04%' '4.95%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '8.33%' '5.48%' '0.62%' '10.53%' '4.69%' '1.27%' '2.41%' '6.93%' '1.73%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.64%' '8.78%' '9.72%' '-0.58%' '4.04%' '2.78%' '0.60%' '2.29%' '1.25%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.94%' '4.73%' '20.99%' '0.92%' '2.64%' '7.69%' '-0.52%' '2.04%' '5.51%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.35%' '2.38%' '2.77%' '1.96%' '1.59%' '0.71%' '1.67%' '1.08%' '1.45%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '2.88%' '1.73%' '0.95%' '1.90%' '1.57%' '0.61%' '1.45%' '1.28%' '1.69%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.29%' '5.06%' '4.79%' '2.24%' '0.00%' '1.64%' '1.79%' '2.78%' '0.56%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '2.83%' '0.00%' '2.33%' '1.26%' '2.68%' '2.77%' '1.35%' '1.77%' '2.64%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '4.26%' '0.00%' '0.78%' '1.39%' '0.85%' '2.59%' '3.68%' '1.80%' '4.75%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '6.82%' '2.75%' '3.39%' '0.91%' '7.44%' '1.47%' '1.33%' '0.23%' '0.00%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.00%' '4.34%' '2.79%' '0.70%' '0.46%' '-0.63%' '1.64%' '1.96%' '1.24%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.00%' '-0.01%' '0.81%' '1.15%' '2.22%' '-0.18%' '-0.88%' '0.70%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '0.84%' '-0.71%' '0.62%' '-0.64%' '-4.31%' '-0.78%' '-1.15%' '-2.97%'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '-0.13%']' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |   out.loc[:, "afternoon_power"]  = out["afternoon_power"].map(fmt_pct)
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | /home/mkemalw/Projects/SSSAHAM_SERVICE/service/core-bpjs.py:280: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '['11413.92x' '64.41x' '116.10x' '51.43x' '96.48x' '640.33x' '30.85x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '29.15x' '97.10x' '608.24x' '837.08x' '36.36x' '23.55x' '32.99x' '16.25x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '12.13x' '14.06x' '22.33x' '33.07x' '44.80x' '13.61x' '18.25x' '10.21x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '390.47x' '11.91x' '258.16x' '141.24x' '18.57x' '4.96x' '11.61x' '97.69x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '10.51x' '13.24x' '1015.31x' '7.49x' '9.08x' '10.99x' '51.44x' '7.72x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '34.04x' '8.18x' '50.22x' '234.75x' '2.74x' '99.89x' '6.85x' '5.54x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '14.37x' '27.36x' '5.50x' '15.70x' '19.33x' '5.57x' '3.49x' '5.59x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '3.33x' '3.66x' '3.25x' '6.50x' '103.66x' '3.74x' '3.20x' '3.48x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '24.74x' '3.17x' '3.53x' '8.31x' '3.01x' '3.24x' '2.83x' '9.63x' '3.01x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '3.72x' '2.93x' '3.53x' '2.60x' '5.26x' '872.47x' '7.25x' '29.98x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '2.64x' '6.77x' '2.07x' '1195.32x' '2.61x' '2.47x' '3.18x' '2.33x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '6.30x' '10.71x' '1.79x' '6.03x' '5.81x' '2.60x' '5.35x' '3.98x' '1.95x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.95x' '1.94x' '1.30x' '7.49x' '2.30x' '1.55x' '3.71x' '2.32x' '35.04x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.73x' '3.36x' '2.09x' '2.48x' '2.39x' '1.67x' '19.66x' '1.67x' '2.19x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '5.33x' '1.55x' '15.89x' '3.08x' '1.52x' '3.05x' '4.92x' '8.49x' '1.81x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.89x' '1.80x' '41.12x' '12.16x' '1.36x' '2.31x' '2.03x' '4.07x' '1.32x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '14.23x' '5.47x' '1.72x' '3.97x' '36.14x' '1.48x' '11.27x' '1.59x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '5.64x' '2.28x' '12.47x' '4.68x' '1.97x' '1.57x' '1.65x' '1.48x' '1.33x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.54x' '4.06x' '2.14x' '1.31x' '2.61x' '6.13x' '8.35x' '5.44x' '3.17x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '7.19x' '2.26x' '11.29x' '1.45x' '1.25x' '2.45x' '5.75x' '20.15x' '1.52x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '3.57x' '2.89x' '1.71x' '4.43x' '2.22x' '4.94x' '1.40x' '4.09x' '1.22x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '1.27x' '3.51x' '25.80x' '76.84x' '10.99x' '5.47x' '2.53x' '163.76x'
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  '6.05x']' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |   out.loc[:, "vol_pace"]         = out["vol_pace"].map(fmt_x)
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | Hari ini: 2025-08-22 | target_date: 2025-08-21
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | [INFO] 1m files: 773 | root=/home/mkemalw/Projects/SSSAHAM_SERVICE
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | [INFO] Cutoffs: 14:15
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | 
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | [14:15] [✓] TOP CANDIDATES — bpjs v2.4-core
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | (work_date = 2025-08-21, cutoff = 14:15, filters: return 1–40%, pace > 1.2x)
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 |  ticker       date score   last daily_return closing_strength afternoon_power  vol_pace  price_at_cutoff
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | DFAM.JK 2025-08-21 7.259   72.0       33.33%          100.00%          38.46% 11413.92x             64.0
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | PRIM.JK 2025-08-21 7.062   90.0       34.33%          100.00%          33.71%    64.41x             80.0
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | ACRO.JK 2025-08-21 7.037   99.0       33.78%          100.00%          33.78%   116.10x             99.0
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | MDLA.JK 2025-08-21 6.063  262.0       24.76%          100.00%          23.59%    51.43x            262.0
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | GULA.JK 2025-08-21 6.059  324.0       24.62%          100.00%          23.67%    96.48x            324.0
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | ACST.JK 2025-08-21 5.829  163.0       34.71%          100.00%          10.05%   640.33x            163.0
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | PTSN.JK 2025-08-21 5.042  336.0       23.53%           96.88%          21.74%    30.85x            298.0
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | SMAR.JK 2025-08-21 4.966 6050.0       24.74%          100.00%          16.88%    29.15x           6050.0
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | SOSS.JK 2025-08-21 4.918  840.0       24.44%          100.00%           0.51%    97.10x            840.0
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | ADCP.JK 2025-08-21 4.091   51.0        2.00%          100.00%           2.00%   608.24x             51.0
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | 
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | [DIAG] Alasan drop teratas:
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | - daily_return_out_of_range: 515
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | - not_target_date:None: 12
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | - not_target_date:2025-08-20: 7
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | - not_target_date:2025-08-12: 3
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | - not_target_date:2025-08-19: 2
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | - pace_insufficient:0.2786885245901639: 1
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | - pace_insufficient:0.3625: 1
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | - pace_insufficient:0.16289592760180996: 1
+[00:41:23] python3 service/core-bpjs.py --cutoff 14:15 --top 10 | [14:15] [✔] Disimpan ke: /home/mkemalw/Projects/SSSAHAM_SERVICE/rekomendasi/bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-22 00:41:23 WIB] DONE  python3 service/core-bpjs.py --cutoff 14:15 --top 10 ✅

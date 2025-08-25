@@ -1,0 +1,62 @@
+Ticker,Error
+MAPI.JK,worker-timeout>15s
+TPMA.JK,worker-timeout>15s
+SPRE.JK,worker-timeout>15s
+LABA.JK,"""Column(s) ['Adj Close', 'Close', 'High', 'Low', 'Open', 'Volume'] do not exist"""
+OKAS.JK,worker-timeout>15s
+ENAK.JK,worker-timeout>15s
+PANS.JK,"""Column(s) ['Adj Close', 'Close', 'High', 'Low', 'Open', 'Volume'] do not exist"""
+PTMR.JK,"""Column(s) ['Adj Close', 'Close', 'High', 'Low', 'Open', 'Volume'] do not exist"""
+INDX.JK,worker-timeout>15s
+BESS.JK,"agg function failed [how->max,dtype->object]"
+FOLK.JK,"agg function failed [how->max,dtype->object]"
+CHIP.JK,"agg function failed [how->max,dtype->object]"
+AMAR.JK,"agg function failed [how->max,dtype->object]"
+LABS.JK,"agg function failed [how->max,dtype->object]"
+IRSX.JK,"agg function failed [how->max,dtype->object]"
+ACST.JK,"agg function failed [how->max,dtype->object]"
+ZYRX.JK,"agg function failed [how->max,dtype->object]"
+CSMI.JK,"agg function failed [how->max,dtype->object]"
+TNCA.JK,worker-timeout>15s
+OBMD.JK,"agg function failed [how->max,dtype->object]"
+AMFG.JK,"agg function failed [how->max,dtype->object]"
+SKRN.JK,"agg function failed [how->max,dtype->object]"
+MYOH.JK,worker-timeout>15s
+HBAT.JK,"agg function failed [how->max,dtype->object]"
+TRIN.JK,"agg function failed [how->max,dtype->object]"
+JECC.JK,"agg function failed [how->max,dtype->object]"
+DMND.JK,"agg function failed [how->max,dtype->object]"
+KMTR.JK,"agg function failed [how->max,dtype->object]"
+CSIS.JK,worker-timeout>15s
+KICI.JK,worker-timeout>15s
+MAXI.JK,"agg function failed [how->max,dtype->object]"
+MKTR.JK,"agg function failed [how->max,dtype->object]"
+AMAG.JK,worker-timeout>15s
+SURE.JK,"agg function failed [how->max,dtype->object]"
+PSDN.JK,"agg function failed [how->max,dtype->object]"
+LUCY.JK,"agg function failed [how->max,dtype->object]"
+TBMS.JK,"agg function failed [how->max,dtype->object]"
+BBSI.JK,"agg function failed [how->max,dtype->object]"
+LION.JK,"agg function failed [how->max,dtype->object]"
+BOBA.JK,"agg function failed [how->max,dtype->object]"
+GDYR.JK,"agg function failed [how->max,dtype->object]"
+IDEA.JK,"agg function failed [how->max,dtype->object]"
+TGKA.JK,"agg function failed [how->max,dtype->object]"
+ATLA.JK,"agg function failed [how->max,dtype->object]"
+VOKS.JK,"agg function failed [how->max,dtype->object]"
+AMIN.JK,"agg function failed [how->max,dtype->object]"
+PUDP.JK,"agg function failed [how->max,dtype->object]"
+AGAR.JK,"agg function failed [how->max,dtype->object]"
+PGLI.JK,"agg function failed [how->max,dtype->object]"
+BRAM.JK,"agg function failed [how->max,dtype->object]"
+DPUM.JK,"agg function failed [how->max,dtype->object]"
+ALKA.JK,"agg function failed [how->max,dtype->object]"
+LAJU.JK,"agg function failed [how->max,dtype->object]"
+ASBI.JK,"agg function failed [how->max,dtype->object]"
+KIOS.JK,"agg function failed [how->max,dtype->object]"
+HDFA.JK,"agg function failed [how->max,dtype->object]"
+YULE.JK,'>=' not supported between instances of 'numpy.ndarray' and 'Timestamp'
+NATO.JK,"agg function failed [how->max,dtype->object]"
+ADCP.JK,"agg function failed [how->max,dtype->object]"
+OMRE.JK,'>=' not supported between instances of 'numpy.ndarray' and 'Timestamp'
+PGJO.JK,"""Column(s) ['Adj Close', 'Close', 'High', 'Low', 'Open', 'Volume'] do not exist"""

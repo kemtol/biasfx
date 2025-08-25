@@ -1,0 +1,6121 @@
+.
+├── artifacts
+│   ├── after_click_login.png
+│   ├── final.html
+│   ├── ipot_after_login_mobile.png
+│   ├── ipot-desktop-profile
+│   │   ├── BrowserMetrics-spare.pma
+│   │   ├── component_crx_cache
+│   │   │   └── metadata.json
+│   │   ├── Default
+│   │   │   ├── Account Web Data
+│   │   │   ├── Account Web Data-journal
+│   │   │   ├── Affiliation Database
+│   │   │   ├── Affiliation Database-journal
+│   │   │   ├── AutofillStrikeDatabase
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── blob_storage
+│   │   │   │   └── 7a1cfa45-1828-4b6d-8fe4-5e5edffdb257
+│   │   │   ├── BookmarkMergedSurfaceOrdering
+│   │   │   ├── BrowsingTopicsSiteData
+│   │   │   ├── BrowsingTopicsSiteData-journal
+│   │   │   ├── BrowsingTopicsState
+│   │   │   ├── BudgetDatabase
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── Cache
+│   │   │   │   └── Cache_Data
+│   │   │   │       ├── 00639dbc3db3f1b3_0
+│   │   │   │       ├── 0161c783dcedac1e_0
+│   │   │   │       ├── 01a4f5b30039f7d0_0
+│   │   │   │       ├── 02e783f6055ebb33_0
+│   │   │   │       ├── 0491628db718ac32_0
+│   │   │   │       ├── 056eb0c412d05b02_0
+│   │   │   │       ├── 05b12947637c401e_0
+│   │   │   │       ├── 07649ab3843b062a_0
+│   │   │   │       ├── 0849768f01255a88_0
+│   │   │   │       ├── 08ea7ffb8376d343_0
+│   │   │   │       ├── 09ffe14b4a12272e_0
+│   │   │   │       ├── 0b12e593600c4acf_0
+│   │   │   │       ├── 0c7d711bbce00483_0
+│   │   │   │       ├── 0d0f5061a39728a2_0
+│   │   │   │       ├── 0d558892d7e8d7bc_0
+│   │   │   │       ├── 0e883a62cada32ea_0
+│   │   │   │       ├── 0ef307644e4770ed_0
+│   │   │   │       ├── 0f33c378dc8ebe2a_0
+│   │   │   │       ├── 0f731cd91e698a53_0
+│   │   │   │       ├── 1045d5752b9a932a_0
+│   │   │   │       ├── 11c257b3940b681b_0
+│   │   │   │       ├── 11f3b0390b942ae9_0
+│   │   │   │       ├── 125ad5fddd10d0eb_0
+│   │   │   │       ├── 13fc39fa4a9b7b61_0
+│   │   │   │       ├── 142503d707243eca_0
+│   │   │   │       ├── 144fbca3768cb774_0
+│   │   │   │       ├── 145818e62aa16a7c_0
+│   │   │   │       ├── 14aa4f248d81c97b_0
+│   │   │   │       ├── 14cb72b062b5ab37_0
+│   │   │   │       ├── 14e6af3b98915b02_0
+│   │   │   │       ├── 1524cf5dea462669_0
+│   │   │   │       ├── 15f715736fd24497_0
+│   │   │   │       ├── 19fae569ccbf4ae6_0
+│   │   │   │       ├── 1ab094fb1037300d_0
+│   │   │   │       ├── 1b3d2c426bdbf138_0
+│   │   │   │       ├── 1bc0b4259c8e6293_0
+│   │   │   │       ├── 1cc96765ac4e3eff_0
+│   │   │   │       ├── 1da73a9aaf1776ce_0
+│   │   │   │       ├── 1e05e26ab1519c75_0
+│   │   │   │       ├── 1f0d26f903f7bd01_0
+│   │   │   │       ├── 1f14d2f4f36d06fd_0
+│   │   │   │       ├── 1f30d360e8aa1001_0
+│   │   │   │       ├── 1f5603e0c1a52f56_0
+│   │   │   │       ├── 1f9c1c079bb4b141_0
+│   │   │   │       ├── 200245b8d5af8d50_0
+│   │   │   │       ├── 200f35bf94a75ed0_0
+│   │   │   │       ├── 222865a3456e95c9_0
+│   │   │   │       ├── 24379ee08fb62ce0_0
+│   │   │   │       ├── 26908a60c9cc789b_0
+│   │   │   │       ├── 273cbc33cd30b687_0
+│   │   │   │       ├── 2746aed8dddb0877_0
+│   │   │   │       ├── 2882ba7b7794a1ab_0
+│   │   │   │       ├── 290815ebb9140518_0
+│   │   │   │       ├── 29093d8764bb8cf9_0
+│   │   │   │       ├── 292b3a27e8bac45f_0
+│   │   │   │       ├── 29618b008776c355_0
+│   │   │   │       ├── 2964d2072160acdc_0
+│   │   │   │       ├── 296e7eb43309460b_0
+│   │   │   │       ├── 29b5113cc5198db2_0
+│   │   │   │       ├── 29daec4c7e93ebdd_0
+│   │   │   │       ├── 2c12201ea142dce0_0
+│   │   │   │       ├── 2c4bd15ca227b24c_0
+│   │   │   │       ├── 2d83c7a08dc8fc66_0
+│   │   │   │       ├── 2d9dbf08e7c16868_0
+│   │   │   │       ├── 2f734f9e9fc83204_0
+│   │   │   │       ├── 2fbb29f928b67d0d_0
+│   │   │   │       ├── 2fdb45c8806a8f6a_0
+│   │   │   │       ├── 3045d92b989b32f9_0
+│   │   │   │       ├── 3063ea4b3a9ed70d_0
+│   │   │   │       ├── 30b6673a962c6f51_0
+│   │   │   │       ├── 30d5dbdfa685109b_0
+│   │   │   │       ├── 30ef7eb11c6129c9_0
+│   │   │   │       ├── 3114528bf8ebdbbd_0
+│   │   │   │       ├── 312d85d154115e4d_0
+│   │   │   │       ├── 31aa39cbc5f833e3_0
+│   │   │   │       ├── 331be7d3a5757e4b_0
+│   │   │   │       ├── 331e7d8132eda5a3_0
+│   │   │   │       ├── 3334bd3e7692fbfe_0
+│   │   │   │       ├── 3512a18faabeb550_0
+│   │   │   │       ├── 352f6e08a46162b5_0
+│   │   │   │       ├── 35bebe3c0b48f3b4_0
+│   │   │   │       ├── 36bb1f2e41698f3b_0
+│   │   │   │       ├── 39273c81cd64ae17_0
+│   │   │   │       ├── 393873f1b0091d26_0
+│   │   │   │       ├── 39d22bfe2c81ac9b_0
+│   │   │   │       ├── 3aaefa8b622bc4b2_0
+│   │   │   │       ├── 3b3edac8a5b0a329_0
+│   │   │   │       ├── 3b6a6c39ba8e01ad_0
+│   │   │   │       ├── 3c427d103d5e382b_0
+│   │   │   │       ├── 3e5a632c4763be93_0
+│   │   │   │       ├── 3facba090342e067_0
+│   │   │   │       ├── 4072c598b87977e5_0
+│   │   │   │       ├── 43515c493c66dd2c_0
+│   │   │   │       ├── 45c9fd9eb197f1c7_0
+│   │   │   │       ├── 46a4812b4bf5c01b_0
+│   │   │   │       ├── 46e1c6a049f3c5a1_0
+│   │   │   │       ├── 47dcba5ab342f245_0
+│   │   │   │       ├── 4bea631f07d69769_0
+│   │   │   │       ├── 4c015c6e20d579c7_0
+│   │   │   │       ├── 4cee7fd86b6f0ab1_0
+│   │   │   │       ├── 4d221fe6a4db17c9_0
+│   │   │   │       ├── 4ebe842f135aa057_0
+│   │   │   │       ├── 4f2978decc44f49b_0
+│   │   │   │       ├── 4f8077e879d0cc8a_0
+│   │   │   │       ├── 5165f10be17ebdb6_0
+│   │   │   │       ├── 52126a3134964a24_0
+│   │   │   │       ├── 5260c6e602f28c55_0
+│   │   │   │       ├── 5275e86c2cda12c5_0
+│   │   │   │       ├── 529c76cfd55ed564_0
+│   │   │   │       ├── 537b4a2009047968_0
+│   │   │   │       ├── 5386f2bdcfa576dc_0
+│   │   │   │       ├── 54f5ea4659e15515_0
+│   │   │   │       ├── 55114bce85fffdba_0
+│   │   │   │       ├── 55713ad9207a8c88_0
+│   │   │   │       ├── 55835b706883da2c_0
+│   │   │   │       ├── 56ec272d96bdab04_0
+│   │   │   │       ├── 59dc1706d8866940_0
+│   │   │   │       ├── 5afa8e743f6c40ed_0
+│   │   │   │       ├── 5bab9557cf0565aa_0
+│   │   │   │       ├── 5baf691a06025916_0
+│   │   │   │       ├── 5c3a0ddd06b2b43a_0
+│   │   │   │       ├── 5d78ecc3d41917f3_0
+│   │   │   │       ├── 5d8a4bfb178fbb98_0
+│   │   │   │       ├── 5f5e3a6deb499301_0
+│   │   │   │       ├── 5fac9d3f72735abc_0
+│   │   │   │       ├── 5fca00d7bacf072a_0
+│   │   │   │       ├── 606a3443c847ad12_0
+│   │   │   │       ├── 6071d4e69b0ce672_0
+│   │   │   │       ├── 6168b3f0ae70702b_0
+│   │   │   │       ├── 629652d6a81a60fd_0
+│   │   │   │       ├── 63d55d708f49359b_0
+│   │   │   │       ├── 651c44444ec54884_0
+│   │   │   │       ├── 65591c1b0f7e2a92_0
+│   │   │   │       ├── 6590ae1b8f72f20e_0
+│   │   │   │       ├── 65c4d72c88912c89_0
+│   │   │   │       ├── 666a864d68c1e112_0
+│   │   │   │       ├── 66b32b7c3f3d9794_0
+│   │   │   │       ├── 6759e53852ba60e3_0
+│   │   │   │       ├── 679b553c8e519ba2_0
+│   │   │   │       ├── 67d07dce900f6d06_0
+│   │   │   │       ├── 689835ae7f5d06b2_0
+│   │   │   │       ├── 689cc2e0ad3ded10_0
+│   │   │   │       ├── 68f64549dd70c0dc_0
+│   │   │   │       ├── 6a0da76e80bb3e3f_0
+│   │   │   │       ├── 6a8aa76109039947_0
+│   │   │   │       ├── 6b3d5c5814e9aa51_0
+│   │   │   │       ├── 6b8dc409266388e8_0
+│   │   │   │       ├── 6b9788580c95d129_0
+│   │   │   │       ├── 6bdb3fd482fc5cab_0
+│   │   │   │       ├── 6c69521fad77aca8_0
+│   │   │   │       ├── 6ce1861c25163493_0
+│   │   │   │       ├── 6d77caa76fd79741_0
+│   │   │   │       ├── 6f5fcaec65e2ca52_0
+│   │   │   │       ├── 71ed9d3b43b90d2a_0
+│   │   │   │       ├── 733c4d2e7d19890b_0
+│   │   │   │       ├── 7349cbf14bec706c_0
+│   │   │   │       ├── 73d84b433314a26a_0
+│   │   │   │       ├── 74156703f943e3e9_0
+│   │   │   │       ├── 76beb143c326c5a7_0
+│   │   │   │       ├── 77b825ab8e07809e_0
+│   │   │   │       ├── 78ebf1119b48da47_0
+│   │   │   │       ├── 7b3a9100414bf59a_0
+│   │   │   │       ├── 7bda0ca9b7ddc8ee_0
+│   │   │   │       ├── 7d2e5aeddd0c7762_0
+│   │   │   │       ├── 7d700bf203b054c6_0
+│   │   │   │       ├── 7dbbcefaf8fa3e0c_0
+│   │   │   │       ├── 7dc164ef482741ac_0
+│   │   │   │       ├── 7e48038cf1307a25_0
+│   │   │   │       ├── 7ede8b3786ecf9e5_0
+│   │   │   │       ├── 7f30381df4bf6363_0
+│   │   │   │       ├── 802fc8687ee8a91c_0
+│   │   │   │       ├── 80f3ce042251bada_0
+│   │   │   │       ├── 81dd5a2a669d5143_0
+│   │   │   │       ├── 820c691b1103cb0e_0
+│   │   │   │       ├── 83db81b2bf699448_0
+│   │   │   │       ├── 841ba07bc1600b51_0
+│   │   │   │       ├── 84545e0674852cfd_0
+│   │   │   │       ├── 846f03efda385a68_0
+│   │   │   │       ├── 84fd396454cf9897_0
+│   │   │   │       ├── 8503c644ffe033ab_0
+│   │   │   │       ├── 8561c75ba19de468_0
+│   │   │   │       ├── 87250f9f23b85262_0
+│   │   │   │       ├── 87d71cd3f2c5827f_0
+│   │   │   │       ├── 88833d6e0107ba13_0
+│   │   │   │       ├── 88fd965514b410c2_0
+│   │   │   │       ├── 8923ef9104273d30_0
+│   │   │   │       ├── 89fe00b3c1d778f4_0
+│   │   │   │       ├── 8a3c7a6590a6f230_0
+│   │   │   │       ├── 8abe6fd2f9bb8395_0
+│   │   │   │       ├── 8ad08c3ccc2c4657_0
+│   │   │   │       ├── 8ba84feaa9a96db0_0
+│   │   │   │       ├── 8bfb1b1949f9f944_0
+│   │   │   │       ├── 8c8a1c9bca6146fd_0
+│   │   │   │       ├── 8cae32f1575938ff_0
+│   │   │   │       ├── 8d01141307c046d3_0
+│   │   │   │       ├── 8f09f24428b77f31_0
+│   │   │   │       ├── 900c7153b73f2df7_0
+│   │   │   │       ├── 9090fdfaffbbfa70_0
+│   │   │   │       ├── 92af464e8fd66de3_0
+│   │   │   │       ├── 933355d07f3e2385_0
+│   │   │   │       ├── 937ed6f9dde48cea_0
+│   │   │   │       ├── 93d5e1c29ec7cbc7_0
+│   │   │   │       ├── 9425097b9ec1b00c_0
+│   │   │   │       ├── 946de7a58760fe59_0
+│   │   │   │       ├── 9482b1452a3ef4c8_0
+│   │   │   │       ├── 96748c682edeb5a6_0
+│   │   │   │       ├── 96e4751061c80794_0
+│   │   │   │       ├── 974e488253260798_0
+│   │   │   │       ├── 97ab73667b0a6983_0
+│   │   │   │       ├── 97d86313a4b94c02_0
+│   │   │   │       ├── 98f7d2d47aa2c509_0
+│   │   │   │       ├── 991668466a5473b6_0
+│   │   │   │       ├── 9a68bea8c4d8b454_0
+│   │   │   │       ├── 9a747bff9ac89a4b_0
+│   │   │   │       ├── 9abceb9b18a58f93_0
+│   │   │   │       ├── 9b34a0f3b49bbb9d_0
+│   │   │   │       ├── 9e2cc701a8570b20_0
+│   │   │   │       ├── 9f8bde252a2e7aa4_0
+│   │   │   │       ├── a093d6d7872882a4_0
+│   │   │   │       ├── a0f501bc66f74499_0
+│   │   │   │       ├── a1080340fdb4f863_0
+│   │   │   │       ├── a1acec4e1ebc4b55_0
+│   │   │   │       ├── a1c7c1962cbbff0c_0
+│   │   │   │       ├── a2a762b415dab620_0
+│   │   │   │       ├── a30d1f44b07c3532_0
+│   │   │   │       ├── a328bc61453a8436_0
+│   │   │   │       ├── a391e90942b60f98_0
+│   │   │   │       ├── a67d95e55eab2133_0
+│   │   │   │       ├── a6e74494de89ead9_0
+│   │   │   │       ├── a7406e9d7321d957_0
+│   │   │   │       ├── a7d4d6b09a245537_0
+│   │   │   │       ├── a884743846ce0013_0
+│   │   │   │       ├── a8bcbb64490c5c6e_0
+│   │   │   │       ├── a972d20a78e209f2_0
+│   │   │   │       ├── aac6570dd3751f04_0
+│   │   │   │       ├── ac76fd85dc673fb0_0
+│   │   │   │       ├── aca533dc4b280b03_0
+│   │   │   │       ├── ad3510edd2683312_0
+│   │   │   │       ├── ad8e8171440f91f4_0
+│   │   │   │       ├── ae91b0af0f2750e1_0
+│   │   │   │       ├── ae943706b331940b_0
+│   │   │   │       ├── af0b410577ef699f_0
+│   │   │   │       ├── b04967825a2fd5f8_0
+│   │   │   │       ├── b087cdfcd55ab504_0
+│   │   │   │       ├── b15861cdfeb811fb_0
+│   │   │   │       ├── b22472ead74bb14d_0
+│   │   │   │       ├── b2d6502b7b0233a0_0
+│   │   │   │       ├── b398436e84bb3164_0
+│   │   │   │       ├── b39cdf3510a70878_0
+│   │   │   │       ├── b50811a4dbf9d818_0
+│   │   │   │       ├── b5f7729918d2ab5a_0
+│   │   │   │       ├── b6ec1afeb3789a3b_0
+│   │   │   │       ├── b8ca5c0e1b4374a4_0
+│   │   │   │       ├── b9a4845310c9d663_0
+│   │   │   │       ├── ba0966024c04f0df_0
+│   │   │   │       ├── ba10e7b512f0e40d_0
+│   │   │   │       ├── ba195515b1bc8cdc_0
+│   │   │   │       ├── ba2ce0dca4161855_0
+│   │   │   │       ├── ba42ecc47260b40e_0
+│   │   │   │       ├── ba4ba760f9ac7bf3_0
+│   │   │   │       ├── bc6ebf78b9ad0b6a_0
+│   │   │   │       ├── bccbd8174edefc82_0
+│   │   │   │       ├── bf8ae9a33d71aa08_0
+│   │   │   │       ├── c0cbbc3a83fdbdb6_0
+│   │   │   │       ├── c0fc32207110c39e_0
+│   │   │   │       ├── c1f41f668f24fbbb_0
+│   │   │   │       ├── c46ee3a1db21720b_0
+│   │   │   │       ├── c7572d42153c1e1d_0
+│   │   │   │       ├── c7aec0d581b55f80_0
+│   │   │   │       ├── c806b0677d6e90b5_0
+│   │   │   │       ├── c99dcfcf7c42a052_0
+│   │   │   │       ├── cc5f661fdc09aabe_0
+│   │   │   │       ├── cd0fd4c1636f00d9_0
+│   │   │   │       ├── cfa5775286338026_0
+│   │   │   │       ├── d15679b8698b75dd_0
+│   │   │   │       ├── d3735d8b9c1427d5_0
+│   │   │   │       ├── d55f4f6e3c93eca9_0
+│   │   │   │       ├── d59a3746630c5f65_0
+│   │   │   │       ├── d60d0ab08a49c8a8_0
+│   │   │   │       ├── d686083bd143cd58_0
+│   │   │   │       ├── d6e7268239f203a6_0
+│   │   │   │       ├── d72a3b8c1b491c2e_0
+│   │   │   │       ├── d7e9c946d7bb1f06_0
+│   │   │   │       ├── d8f8669899a4a5cf_0
+│   │   │   │       ├── d91da19acb084c1b_0
+│   │   │   │       ├── d9d05b381f5be860_0
+│   │   │   │       ├── d9f3fbc9ac2bf96b_0
+│   │   │   │       ├── dac3b612d4b5c4f8_0
+│   │   │   │       ├── db300532a78d2200_0
+│   │   │   │       ├── db73fbc08bc4a5a1_0
+│   │   │   │       ├── dbb2e5ea797e9074_0
+│   │   │   │       ├── dc297b9985e36eba_0
+│   │   │   │       ├── dc5abccac40d60d2_0
+│   │   │   │       ├── dca1c60a43308d47_0
+│   │   │   │       ├── de1fde521036f9b3_0
+│   │   │   │       ├── dee237c2759d6465_0
+│   │   │   │       ├── dfb0c51104c5e975_0
+│   │   │   │       ├── dfdfc1b5998ba184_0
+│   │   │   │       ├── dfe6a9ae8f50f7ac_0
+│   │   │   │       ├── e03deb1c65431abd_0
+│   │   │   │       ├── e214dbf2a88a3016_0
+│   │   │   │       ├── e248d2e14266ea42_0
+│   │   │   │       ├── e31614200d227f65_0
+│   │   │   │       ├── e32f1d3aff2d12af_0
+│   │   │   │       ├── e3c142c7b785581d_0
+│   │   │   │       ├── e57e95db648f82af_0
+│   │   │   │       ├── e71cc8e21ccd310e_0
+│   │   │   │       ├── e7b70c69e57d1339_0
+│   │   │   │       ├── ea65a7e2d635bf5b_0
+│   │   │   │       ├── ea6d9266959e716c_0
+│   │   │   │       ├── ea9eca3eeb9e7ca1_0
+│   │   │   │       ├── eb4cb3f8a0d4949a_0
+│   │   │   │       ├── ec246984ac15dfaf_0
+│   │   │   │       ├── ec50eab58f836e9e_0
+│   │   │   │       ├── ed5152d08612b2ae_0
+│   │   │   │       ├── ed552ba2c78a92ad_0
+│   │   │   │       ├── edb805d5aafd5dfa_0
+│   │   │   │       ├── ee0966de38ba5533_0
+│   │   │   │       ├── eeb1bead360425db_0
+│   │   │   │       ├── f0f9d50384d86278_0
+│   │   │   │       ├── f1ab77237dfed6d3_0
+│   │   │   │       ├── f1f00ad80a413784_0
+│   │   │   │       ├── f1fad3bff041a482_0
+│   │   │   │       ├── f34bdaf037139117_0
+│   │   │   │       ├── f3cc59d9131bf607_0
+│   │   │   │       ├── f3d9614c8413fb7c_0
+│   │   │   │       ├── f3dbaf76f6f4bcbb_0
+│   │   │   │       ├── f4d73dfa575e603c_0
+│   │   │   │       ├── f66c1122f83112d0_0
+│   │   │   │       ├── f6c70958f1125712_0
+│   │   │   │       ├── f6db61abadbd2f2c_0
+│   │   │   │       ├── f706519cbf01dfaf_0
+│   │   │   │       ├── f744f95718e6d144_0
+│   │   │   │       ├── f870184ba2ee9ea5_0
+│   │   │   │       ├── fa9b3bac17e95f51_0
+│   │   │   │       ├── fafb20fae0a0a03b_0
+│   │   │   │       ├── fafb58948b45c617_0
+│   │   │   │       ├── fba6c43f4bedc0a4_0
+│   │   │   │       ├── fcd1cb716e5b39fd_0
+│   │   │   │       ├── fd0a574ca3065159_0
+│   │   │   │       ├── fdda77fe6bb8d1b0_0
+│   │   │   │       ├── fe61ee752b2a1c06_0
+│   │   │   │       ├── ff43469234f43fe3_0
+│   │   │   │       ├── index
+│   │   │   │       └── index-dir
+│   │   │   │           └── the-real-index
+│   │   │   ├── chrome_cart_db
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── ClientCertificates
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── Code Cache
+│   │   │   │   ├── js
+│   │   │   │   │   ├── 03ab2369bc5b13a0_0
+│   │   │   │   │   ├── 06329277f3796b9d_0
+│   │   │   │   │   ├── 09f34003b7dd675b_0
+│   │   │   │   │   ├── 0a679e564170370b_0
+│   │   │   │   │   ├── 106fe8f0a4bf08a5_0
+│   │   │   │   │   ├── 12748c66199ee45f_0
+│   │   │   │   │   ├── 143e5e3b75111b95_0
+│   │   │   │   │   ├── 152cbeb48b1f9721_0
+│   │   │   │   │   ├── 153cac333035f667_0
+│   │   │   │   │   ├── 177109d8ee7686d6_0
+│   │   │   │   │   ├── 19a960627babdd70_0
+│   │   │   │   │   ├── 1a2c113f61003cce_0
+│   │   │   │   │   ├── 1aabe9f72016d328_0
+│   │   │   │   │   ├── 1c753122bb3df4d3_0
+│   │   │   │   │   ├── 244e30ef8fd3be12_0
+│   │   │   │   │   ├── 245f343c9693e31d_0
+│   │   │   │   │   ├── 25561a242bf9a73c_0
+│   │   │   │   │   ├── 29a1d17233fc7e99_0
+│   │   │   │   │   ├── 2ecbe094baa9e05f_0
+│   │   │   │   │   ├── 2fa8f86a386c4824_0
+│   │   │   │   │   ├── 3058e09d111afdd7_0
+│   │   │   │   │   ├── 324b5d41c455b729_0
+│   │   │   │   │   ├── 32a3c9e5c04cfef2_0
+│   │   │   │   │   ├── 33f42b3f017015e0_0
+│   │   │   │   │   ├── 3bc03e613ee1152d_0
+│   │   │   │   │   ├── 3c28919848e4b4f6_0
+│   │   │   │   │   ├── 3d9c401a143ec14d_0
+│   │   │   │   │   ├── 3ef578646d1e7a0f_0
+│   │   │   │   │   ├── 40290117881dfbaf_0
+│   │   │   │   │   ├── 40435e37814b9c9f_0
+│   │   │   │   │   ├── 40b32ef738ac97ad_0
+│   │   │   │   │   ├── 40ea0b21585102f9_0
+│   │   │   │   │   ├── 41a47edbbab646d8_0
+│   │   │   │   │   ├── 41b46b63bbba061f_0
+│   │   │   │   │   ├── 42cf488b4a318ba6_0
+│   │   │   │   │   ├── 46318e5e70a008ac_0
+│   │   │   │   │   ├── 46a6e2e9e5e5941d_0
+│   │   │   │   │   ├── 4ba2a80cbc056251_0
+│   │   │   │   │   ├── 4ccac9cb090dd9df_0
+│   │   │   │   │   ├── 4cecdbddebdf5a7c_0
+│   │   │   │   │   ├── 4d5f8b2873183d20_0
+│   │   │   │   │   ├── 4f6a22e4360103d4_0
+│   │   │   │   │   ├── 4fdde04d69091a20_0
+│   │   │   │   │   ├── 50ff395750ed6c3e_0
+│   │   │   │   │   ├── 50ffc1fb46f62620_0
+│   │   │   │   │   ├── 51711a97630781bf_0
+│   │   │   │   │   ├── 527a3c0957eec5d1_0
+│   │   │   │   │   ├── 53e8adca92469149_0
+│   │   │   │   │   ├── 557cdfd99e297e66_0
+│   │   │   │   │   ├── 55932999d0591f44_0
+│   │   │   │   │   ├── 568197a9e476135b_0
+│   │   │   │   │   ├── 581646e936d74331_0
+│   │   │   │   │   ├── 5932486ce01193a2_0
+│   │   │   │   │   ├── 59348df24ec3b7cb_0
+│   │   │   │   │   ├── 5a7fad7b201f63c1_0
+│   │   │   │   │   ├── 5b35e051f55680b0_0
+│   │   │   │   │   ├── 5b993cfae40c83b1_0
+│   │   │   │   │   ├── 5c38444140eff5e9_0
+│   │   │   │   │   ├── 5d433dd6b8c8d026_0
+│   │   │   │   │   ├── 5d45d9a9e079300a_0
+│   │   │   │   │   ├── 6282ac297321de6f_0
+│   │   │   │   │   ├── 64dd244243f1ce8e_0
+│   │   │   │   │   ├── 6b8b9c286f5cc818_0
+│   │   │   │   │   ├── 6d1f616ec16dd3b2_0
+│   │   │   │   │   ├── 6d342c94f97f9fc0_0
+│   │   │   │   │   ├── 6df24014b8d228db_0
+│   │   │   │   │   ├── 6e1e630a46ee95e0_0
+│   │   │   │   │   ├── 6edefe823704f6c8_0
+│   │   │   │   │   ├── 6f37c5a4fde43284_0
+│   │   │   │   │   ├── 6fef20f823b89d75_0
+│   │   │   │   │   ├── 7590178063e86d2b_0
+│   │   │   │   │   ├── 796942dc82ef8ac1_0
+│   │   │   │   │   ├── 7b01a3666db02698_0
+│   │   │   │   │   ├── 7bf0b212024b7b08_0
+│   │   │   │   │   ├── 801c8e610cfe3016_0
+│   │   │   │   │   ├── 839dc7d3fd4bc7d2_0
+│   │   │   │   │   ├── 847e1e3f6ded8d73_0
+│   │   │   │   │   ├── 87d0fad866be812f_0
+│   │   │   │   │   ├── 8b698aecfa062531_0
+│   │   │   │   │   ├── 8ba773e6f3e1af77_0
+│   │   │   │   │   ├── 8d44fb20754c7d8d_0
+│   │   │   │   │   ├── 8d9ed1a7e7a16447_0
+│   │   │   │   │   ├── 8da1c59adfb679a2_0
+│   │   │   │   │   ├── 9010a1b8cabcd263_0
+│   │   │   │   │   ├── 901901adc242a91a_0
+│   │   │   │   │   ├── 93456e7362515747_0
+│   │   │   │   │   ├── 973b9aa8f39593f2_0
+│   │   │   │   │   ├── 982a5ed2aa9aee93_0
+│   │   │   │   │   ├── 98904eceb5d4c2e8_0
+│   │   │   │   │   ├── 99db3792de59d1cc_0
+│   │   │   │   │   ├── 9b488ea29eff4912_0
+│   │   │   │   │   ├── 9e86f865e01b04cd_0
+│   │   │   │   │   ├── a096cad84d7348f7_0
+│   │   │   │   │   ├── a683b15c96d7b247_0
+│   │   │   │   │   ├── a687c30a31559647_0
+│   │   │   │   │   ├── a7329b955ac5d4a5_0
+│   │   │   │   │   ├── aef1bf401e3b7ed2_0
+│   │   │   │   │   ├── aef8fb0c191770c1_0
+│   │   │   │   │   ├── b0fa1b600fa30a48_0
+│   │   │   │   │   ├── b11b572943d75ee8_0
+│   │   │   │   │   ├── b233c69c75881c46_0
+│   │   │   │   │   ├── b50ac289d7209da8_0
+│   │   │   │   │   ├── b618cffbd2740bcd_0
+│   │   │   │   │   ├── b6f6904930b57f01_0
+│   │   │   │   │   ├── b7014f8ce6b7ffec_0
+│   │   │   │   │   ├── b927430ed7642e06_0
+│   │   │   │   │   ├── bc3700bddf17f222_0
+│   │   │   │   │   ├── bc9829261175b4b0_0
+│   │   │   │   │   ├── bd9e360efdf5b946_0
+│   │   │   │   │   ├── c1dbda7e3c4effa8_0
+│   │   │   │   │   ├── c625e2074be01169_0
+│   │   │   │   │   ├── c848a2ec142329e3_0
+│   │   │   │   │   ├── ca696adcc4d20983_0
+│   │   │   │   │   ├── cb01c0b9967de08a_0
+│   │   │   │   │   ├── cd8400683961d6b4_0
+│   │   │   │   │   ├── d3cb4075be7e0258_0
+│   │   │   │   │   ├── d65a646838840655_0
+│   │   │   │   │   ├── d84f93db8013813f_0
+│   │   │   │   │   ├── d8d6fb63167bd769_0
+│   │   │   │   │   ├── db4301094bf9296d_0
+│   │   │   │   │   ├── de933ae19cd0ebe7_0
+│   │   │   │   │   ├── dfecad84c1ad4e60_0
+│   │   │   │   │   ├── e01622277b50db89_0
+│   │   │   │   │   ├── e103c06edbc30d59_0
+│   │   │   │   │   ├── e152542eb0d720d7_0
+│   │   │   │   │   ├── e68eab4754c261d9_0
+│   │   │   │   │   ├── e740817447624df7_0
+│   │   │   │   │   ├── e788e8412cd0c0d2_0
+│   │   │   │   │   ├── ea421fa6195b71c5_0
+│   │   │   │   │   ├── eb4066a2bf0bfc19_0
+│   │   │   │   │   ├── ed37ee4d88e7337b_0
+│   │   │   │   │   ├── ee5e826eabf83309_0
+│   │   │   │   │   ├── ef5067a42a66bb34_0
+│   │   │   │   │   ├── f0f2cea940258b92_0
+│   │   │   │   │   ├── f2b8579c230c4047_0
+│   │   │   │   │   ├── f47198c793ec30df_0
+│   │   │   │   │   ├── f54957ee9c83510a_0
+│   │   │   │   │   ├── f7a334a4e66a4eed_0
+│   │   │   │   │   ├── f7e02496c9e6d18b_0
+│   │   │   │   │   ├── fa865c5879952a17_0
+│   │   │   │   │   ├── fb79d179fe2ab6f4_0
+│   │   │   │   │   ├── index
+│   │   │   │   │   └── index-dir
+│   │   │   │   │       └── the-real-index
+│   │   │   │   └── wasm
+│   │   │   │       ├── index
+│   │   │   │       └── index-dir
+│   │   │   │           └── the-real-index
+│   │   │   ├── commerce_subscription_db
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── Cookies
+│   │   │   ├── Cookies-journal
+│   │   │   ├── DawnGraphiteCache
+│   │   │   │   ├── data_0
+│   │   │   │   ├── data_1
+│   │   │   │   ├── data_2
+│   │   │   │   ├── data_3
+│   │   │   │   └── index
+│   │   │   ├── DawnWebGPUCache
+│   │   │   │   ├── data_0
+│   │   │   │   ├── data_1
+│   │   │   │   ├── data_2
+│   │   │   │   ├── data_3
+│   │   │   │   └── index
+│   │   │   ├── DIPS
+│   │   │   ├── DIPS-wal
+│   │   │   ├── discount_infos_db
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── discounts_db
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── Download Service
+│   │   │   │   ├── EntryDB
+│   │   │   │   │   ├── LOCK
+│   │   │   │   │   ├── LOG
+│   │   │   │   │   └── LOG.old
+│   │   │   │   └── Files
+│   │   │   ├── Extension Rules
+│   │   │   │   ├── 000003.log
+│   │   │   │   ├── CURRENT
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── MANIFEST-000001
+│   │   │   ├── Extension Scripts
+│   │   │   │   ├── 000003.log
+│   │   │   │   ├── CURRENT
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── MANIFEST-000001
+│   │   │   ├── Extension State
+│   │   │   │   ├── 000003.log
+│   │   │   │   ├── CURRENT
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   ├── LOG.old
+│   │   │   │   └── MANIFEST-000001
+│   │   │   ├── Favicons
+│   │   │   ├── Favicons-journal
+│   │   │   ├── Feature Engagement Tracker
+│   │   │   │   ├── AvailabilityDB
+│   │   │   │   │   ├── LOCK
+│   │   │   │   │   ├── LOG
+│   │   │   │   │   └── LOG.old
+│   │   │   │   └── EventDB
+│   │   │   │       ├── LOCK
+│   │   │   │       ├── LOG
+│   │   │   │       └── LOG.old
+│   │   │   ├── GCM Store
+│   │   │   │   ├── 000003.log
+│   │   │   │   ├── CURRENT
+│   │   │   │   ├── Encryption
+│   │   │   │   │   ├── 000003.log
+│   │   │   │   │   ├── CURRENT
+│   │   │   │   │   ├── LOCK
+│   │   │   │   │   ├── LOG
+│   │   │   │   │   ├── LOG.old
+│   │   │   │   │   └── MANIFEST-000001
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   ├── LOG.old
+│   │   │   │   └── MANIFEST-000001
+│   │   │   ├── GPUCache
+│   │   │   │   ├── data_0
+│   │   │   │   ├── data_1
+│   │   │   │   ├── data_2
+│   │   │   │   ├── data_3
+│   │   │   │   └── index
+│   │   │   ├── heavy_ad_intervention_opt_out.db
+│   │   │   ├── heavy_ad_intervention_opt_out.db-journal
+│   │   │   ├── History
+│   │   │   ├── History-journal
+│   │   │   ├── Local Storage
+│   │   │   │   └── leveldb
+│   │   │   │       ├── 000003.log
+│   │   │   │       ├── CURRENT
+│   │   │   │       ├── LOCK
+│   │   │   │       ├── LOG
+│   │   │   │       ├── LOG.old
+│   │   │   │       └── MANIFEST-000001
+│   │   │   ├── LOCK
+│   │   │   ├── LOG
+│   │   │   ├── Login Data
+│   │   │   ├── Login Data For Account
+│   │   │   ├── Login Data For Account-journal
+│   │   │   ├── Login Data-journal
+│   │   │   ├── LOG.old
+│   │   │   ├── Network Action Predictor
+│   │   │   ├── Network Action Predictor-journal
+│   │   │   ├── Network Persistent State
+│   │   │   ├── optimization_guide_hint_cache_store
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── parcel_tracking_db
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── passkey_enclave_state
+│   │   │   ├── PersistentOriginTrials
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── Preferences
+│   │   │   ├── PreferredApps
+│   │   │   ├── README
+│   │   │   ├── Reporting and NEL
+│   │   │   ├── Reporting and NEL-journal
+│   │   │   ├── Safe Browsing Cookies
+│   │   │   ├── Safe Browsing Cookies-journal
+│   │   │   ├── SCT Auditing Pending Reports
+│   │   │   ├── Secure Preferences
+│   │   │   ├── Segmentation Platform
+│   │   │   │   ├── SegmentInfoDB
+│   │   │   │   │   ├── LOCK
+│   │   │   │   │   ├── LOG
+│   │   │   │   │   └── LOG.old
+│   │   │   │   ├── SignalDB
+│   │   │   │   │   ├── LOCK
+│   │   │   │   │   ├── LOG
+│   │   │   │   │   └── LOG.old
+│   │   │   │   └── SignalStorageConfigDB
+│   │   │   │       ├── LOCK
+│   │   │   │       ├── LOG
+│   │   │   │       └── LOG.old
+│   │   │   ├── ServerCertificate
+│   │   │   ├── ServerCertificate-journal
+│   │   │   ├── Service Worker
+│   │   │   │   ├── Database
+│   │   │   │   │   ├── 000003.log
+│   │   │   │   │   ├── CURRENT
+│   │   │   │   │   ├── LOCK
+│   │   │   │   │   ├── LOG
+│   │   │   │   │   ├── LOG.old
+│   │   │   │   │   └── MANIFEST-000001
+│   │   │   │   └── ScriptCache
+│   │   │   │       ├── b6c28cea6ed9dfc1_0
+│   │   │   │       ├── b6c28cea6ed9dfc1_1
+│   │   │   │       ├── index
+│   │   │   │       └── index-dir
+│   │   │   │           └── the-real-index
+│   │   │   ├── Sessions
+│   │   │   │   ├── Session_13400071838291963
+│   │   │   │   ├── Session_13400072325176552
+│   │   │   │   ├── Tabs_13400071838740754
+│   │   │   │   └── Tabs_13400072325458394
+│   │   │   ├── Session Storage
+│   │   │   │   ├── 000003.log
+│   │   │   │   ├── CURRENT
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   ├── LOG.old
+│   │   │   │   └── MANIFEST-000001
+│   │   │   ├── Shared Dictionary
+│   │   │   │   ├── cache
+│   │   │   │   │   ├── index
+│   │   │   │   │   └── index-dir
+│   │   │   │   │       └── the-real-index
+│   │   │   │   ├── db
+│   │   │   │   └── db-journal
+│   │   │   ├── shared_proto_db
+│   │   │   │   ├── 000003.log
+│   │   │   │   ├── CURRENT
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   ├── LOG.old
+│   │   │   │   ├── MANIFEST-000001
+│   │   │   │   └── metadata
+│   │   │   │       ├── 000003.log
+│   │   │   │       ├── CURRENT
+│   │   │   │       ├── LOCK
+│   │   │   │       ├── LOG
+│   │   │   │       ├── LOG.old
+│   │   │   │       └── MANIFEST-000001
+│   │   │   ├── SharedStorage
+│   │   │   ├── SharedStorage-wal
+│   │   │   ├── Shortcuts
+│   │   │   ├── Shortcuts-journal
+│   │   │   ├── Site Characteristics Database
+│   │   │   │   ├── 000003.log
+│   │   │   │   ├── CURRENT
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   ├── LOG.old
+│   │   │   │   └── MANIFEST-000001
+│   │   │   ├── Sync Data
+│   │   │   │   └── LevelDB
+│   │   │   │       ├── 000003.log
+│   │   │   │       ├── CURRENT
+│   │   │   │       ├── LOCK
+│   │   │   │       ├── LOG
+│   │   │   │       ├── LOG.old
+│   │   │   │       └── MANIFEST-000001
+│   │   │   ├── Top Sites
+│   │   │   ├── Top Sites-journal
+│   │   │   ├── TransportSecurity
+│   │   │   ├── trusted_vault.pb
+│   │   │   ├── Trust Tokens
+│   │   │   ├── Trust Tokens-journal
+│   │   │   ├── Web Data
+│   │   │   ├── Web Data-journal
+│   │   │   └── WebStorage
+│   │   │       ├── QuotaManager
+│   │   │       └── QuotaManager-journal
+│   │   ├── Dictionaries
+│   │   │   └── en-US-10-1.bdic
+│   │   ├── extensions_crx_cache
+│   │   │   └── metadata.json
+│   │   ├── first_party_sets.db
+│   │   ├── first_party_sets.db-journal
+│   │   ├── GraphiteDawnCache
+│   │   │   ├── data_0
+│   │   │   ├── data_1
+│   │   │   ├── data_2
+│   │   │   ├── data_3
+│   │   │   └── index
+│   │   ├── GrShaderCache
+│   │   │   ├── data_0
+│   │   │   ├── data_1
+│   │   │   ├── data_2
+│   │   │   ├── data_3
+│   │   │   ├── f_000001
+│   │   │   └── index
+│   │   ├── Last Version
+│   │   ├── Local State
+│   │   ├── NativeMessagingHosts
+│   │   ├── Safe Browsing
+│   │   ├── segmentation_platform
+│   │   │   ├── ukm_db
+│   │   │   └── ukm_db-wal
+│   │   ├── ShaderCache
+│   │   │   ├── data_0
+│   │   │   ├── data_1
+│   │   │   ├── data_2
+│   │   │   ├── data_3
+│   │   │   └── index
+│   │   ├── SingletonCookie -> 15122545008942521737
+│   │   ├── SingletonLock -> kemal-Thinkpad-27014
+│   │   ├── SingletonSocket -> /tmp/.org.chromium.Chromium.B15Ox1/SingletonSocket
+│   │   └── Variations
+│   ├── ipot_marketlive_clean.png
+│   ├── ipot_marketlive.png
+│   ├── ipot-mobile-profile
+│   │   ├── BrowserMetrics-spare.pma
+│   │   ├── component_crx_cache
+│   │   │   └── metadata.json
+│   │   ├── Default
+│   │   │   ├── Account Web Data
+│   │   │   ├── Account Web Data-journal
+│   │   │   ├── Affiliation Database
+│   │   │   ├── Affiliation Database-journal
+│   │   │   ├── AutofillStrikeDatabase
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── blob_storage
+│   │   │   │   └── 7c17a5fa-7a2e-47ec-b49c-9c81317194fb
+│   │   │   ├── BookmarkMergedSurfaceOrdering
+│   │   │   ├── BrowsingTopicsSiteData
+│   │   │   ├── BrowsingTopicsSiteData-journal
+│   │   │   ├── BrowsingTopicsState
+│   │   │   ├── BudgetDatabase
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── Cache
+│   │   │   │   └── Cache_Data
+│   │   │   │       ├── 0032826924580ee9_0
+│   │   │   │       ├── 00639dbc3db3f1b3_0
+│   │   │   │       ├── 02e783f6055ebb33_0
+│   │   │   │       ├── 03f1d54d5598e508_0
+│   │   │   │       ├── 04e7c010c126bb99_0
+│   │   │   │       ├── 056eb0c412d05b02_0
+│   │   │   │       ├── 05a92ff5bd63e060_0
+│   │   │   │       ├── 06b6daee9ffc17e6_0
+│   │   │   │       ├── 06ddd1bdcab9b44b_0
+│   │   │   │       ├── 0703edca7ab2055d_0
+│   │   │   │       ├── 071343af9d7feecc_0
+│   │   │   │       ├── 07649ab3843b062a_0
+│   │   │   │       ├── 07838b60168628c6_0
+│   │   │   │       ├── 078c13e39595bfb5_0
+│   │   │   │       ├── 080c8011385b41fd_0
+│   │   │   │       ├── 08190228243760ad_0
+│   │   │   │       ├── 0849768f01255a88_0
+│   │   │   │       ├── 089053877a10072e_0
+│   │   │   │       ├── 08d59b7feffb8f47_0
+│   │   │   │       ├── 0b291da8b7e72c3b_0
+│   │   │   │       ├── 0c7d711bbce00483_0
+│   │   │   │       ├── 0ce7968ab85ac34c_0
+│   │   │   │       ├── 0e426c6c60741fba_0
+│   │   │   │       ├── 0e883a62cada32ea_0
+│   │   │   │       ├── 0f2a9dc86d34c239_0
+│   │   │   │       ├── 0faa121eadd5fe8a_0
+│   │   │   │       ├── 1019ec4f67899474_0
+│   │   │   │       ├── 1045d5752b9a932a_0
+│   │   │   │       ├── 10cfe836653f4da0_0
+│   │   │   │       ├── 110a0129a8ef06c9_0
+│   │   │   │       ├── 1118e0bc76550022_0
+│   │   │   │       ├── 11a2e7dcbb6f792c_0
+│   │   │   │       ├── 130e701857b32820_0
+│   │   │   │       ├── 131f90233707be95_0
+│   │   │   │       ├── 13216cccb37b8d3f_0
+│   │   │   │       ├── 1389f335f8069df2_0
+│   │   │   │       ├── 142503d707243eca_0
+│   │   │   │       ├── 144fbca3768cb774_0
+│   │   │   │       ├── 145818e62aa16a7c_0
+│   │   │   │       ├── 14cb72b062b5ab37_0
+│   │   │   │       ├── 14e6af3b98915b02_0
+│   │   │   │       ├── 1524cf5dea462669_0
+│   │   │   │       ├── 16255435108ce46a_0
+│   │   │   │       ├── 19fae569ccbf4ae6_0
+│   │   │   │       ├── 1a50b01fdb9bf5de_0
+│   │   │   │       ├── 1a8877aab1dc50fa_0
+│   │   │   │       ├── 1b3d2c426bdbf138_0
+│   │   │   │       ├── 1b93d0eada2b0c02_0
+│   │   │   │       ├── 1cbacc69b3876b64_0
+│   │   │   │       ├── 1cc96765ac4e3eff_0
+│   │   │   │       ├── 1da73a9aaf1776ce_0
+│   │   │   │       ├── 1f0d26f903f7bd01_0
+│   │   │   │       ├── 1f9c1c079bb4b141_0
+│   │   │   │       ├── 207ceb0607474117_0
+│   │   │   │       ├── 222865a3456e95c9_0
+│   │   │   │       ├── 223d4601b1d46381_0
+│   │   │   │       ├── 2341346bbfa450fb_0
+│   │   │   │       ├── 239b06b24673c38f_0
+│   │   │   │       ├── 2446d743cc94fc74_0
+│   │   │   │       ├── 24735b03ced50e2f_0
+│   │   │   │       ├── 25c0b56281f68133_0
+│   │   │   │       ├── 263869d199b61872_0
+│   │   │   │       ├── 273cbc33cd30b687_0
+│   │   │   │       ├── 276e2b0390b8ff44_0
+│   │   │   │       ├── 28207062ea0c8120_0
+│   │   │   │       ├── 2964d2072160acdc_0
+│   │   │   │       ├── 296e7eb43309460b_0
+│   │   │   │       ├── 29b5113cc5198db2_0
+│   │   │   │       ├── 29fddfdab69ff5a0_0
+│   │   │   │       ├── 2a0940e691ea4957_0
+│   │   │   │       ├── 2c1d6de159d673be_0
+│   │   │   │       ├── 2cb67034c807a6c9_0
+│   │   │   │       ├── 2d9dbf08e7c16868_0
+│   │   │   │       ├── 2ef6634784bb5a42_0
+│   │   │   │       ├── 2fbb29f928b67d0d_0
+│   │   │   │       ├── 2fdb45c8806a8f6a_0
+│   │   │   │       ├── 3045d92b989b32f9_0
+│   │   │   │       ├── 30b6673a962c6f51_0
+│   │   │   │       ├── 312d85d154115e4d_0
+│   │   │   │       ├── 3141d364c277299f_0
+│   │   │   │       ├── 324c091273c9cf4a_0
+│   │   │   │       ├── 326bd183b109d251_0
+│   │   │   │       ├── 331e7d8132eda5a3_0
+│   │   │   │       ├── 3377d73d3812d570_0
+│   │   │   │       ├── 352f6e08a46162b5_0
+│   │   │   │       ├── 35bebe3c0b48f3b4_0
+│   │   │   │       ├── 3673b65b6032363e_0
+│   │   │   │       ├── 36cf2b0d2ebd96be_0
+│   │   │   │       ├── 36d2b5c796e9a953_0
+│   │   │   │       ├── 39273c81cd64ae17_0
+│   │   │   │       ├── 392d5952b2db5017_0
+│   │   │   │       ├── 39d22bfe2c81ac9b_0
+│   │   │   │       ├── 3aaefa8b622bc4b2_0
+│   │   │   │       ├── 3ab150d0760551f3_0
+│   │   │   │       ├── 3cfe7e12aee3c078_0
+│   │   │   │       ├── 3d37c1fdb6b6e0ad_0
+│   │   │   │       ├── 3d6dce4f94b9b722_0
+│   │   │   │       ├── 3f5ff714e0b63e45_0
+│   │   │   │       ├── 40474af3aa8da1d0_0
+│   │   │   │       ├── 430a8a40bd1cac2a_0
+│   │   │   │       ├── 43515c493c66dd2c_0
+│   │   │   │       ├── 45c9fd9eb197f1c7_0
+│   │   │   │       ├── 466a87228e96da63_0
+│   │   │   │       ├── 46a4812b4bf5c01b_0
+│   │   │   │       ├── 46e1c6a049f3c5a1_0
+│   │   │   │       ├── 47beb72dd39359c7_0
+│   │   │   │       ├── 48088bd39857fb30_0
+│   │   │   │       ├── 49132ee923026668_0
+│   │   │   │       ├── 49ae4216c630fa01_0
+│   │   │   │       ├── 4adbab02ad1b6257_0
+│   │   │   │       ├── 4b02194a146daad8_0
+│   │   │   │       ├── 4b3d62aec00ca6b8_0
+│   │   │   │       ├── 4bea631f07d69769_0
+│   │   │   │       ├── 4c015c6e20d579c7_0
+│   │   │   │       ├── 4c9162ff89dfeea2_0
+│   │   │   │       ├── 4cfc9e1a6f87f824_0
+│   │   │   │       ├── 4f2978decc44f49b_0
+│   │   │   │       ├── 50e5e10b95739d26_0
+│   │   │   │       ├── 5165f10be17ebdb6_0
+│   │   │   │       ├── 529c76cfd55ed564_0
+│   │   │   │       ├── 537b4a2009047968_0
+│   │   │   │       ├── 53dec31e92de4605_0
+│   │   │   │       ├── 54a480dfd7035531_0
+│   │   │   │       ├── 54f1ef5b90bb47ee_0
+│   │   │   │       ├── 54f5ea4659e15515_0
+│   │   │   │       ├── 55114bce85fffdba_0
+│   │   │   │       ├── 555907fb928ae18d_0
+│   │   │   │       ├── 55688b265dd15d18_0
+│   │   │   │       ├── 55bd38a36413e14e_0
+│   │   │   │       ├── 5655bbeec746cfe0_0
+│   │   │   │       ├── 5793cbc07dd939ed_0
+│   │   │   │       ├── 5935b49827bcfebe_0
+│   │   │   │       ├── 5a93b81f7df56ec0_0
+│   │   │   │       ├── 5a96184c2f21de8b_0
+│   │   │   │       ├── 5a9fd0c71c1bf9b6_0
+│   │   │   │       ├── 5afa8e743f6c40ed_0
+│   │   │   │       ├── 5baf691a06025916_0
+│   │   │   │       ├── 5d3574fc7cb2a0fb_0
+│   │   │   │       ├── 5e2c446daaa74607_0
+│   │   │   │       ├── 5ef2af878b91c821_0
+│   │   │   │       ├── 5fca00d7bacf072a_0
+│   │   │   │       ├── 601acdd7499abc0a_0
+│   │   │   │       ├── 6117ca35f0f9764a_0
+│   │   │   │       ├── 6168b3f0ae70702b_0
+│   │   │   │       ├── 6174b6c7f64b39c5_0
+│   │   │   │       ├── 629652d6a81a60fd_0
+│   │   │   │       ├── 63d55d708f49359b_0
+│   │   │   │       ├── 651c44444ec54884_0
+│   │   │   │       ├── 65591c1b0f7e2a92_0
+│   │   │   │       ├── 658c1cb8fcd06eef_0
+│   │   │   │       ├── 6590ae1b8f72f20e_0
+│   │   │   │       ├── 65c4d72c88912c89_0
+│   │   │   │       ├── 666a864d68c1e112_0
+│   │   │   │       ├── 66b32b7c3f3d9794_0
+│   │   │   │       ├── 67d07dce900f6d06_0
+│   │   │   │       ├── 68ca2dd9f5e5bc15_0
+│   │   │   │       ├── 690da2d7fe6a6466_0
+│   │   │   │       ├── 6a50b4c42b108943_0
+│   │   │   │       ├── 6cd292997b5ad1c3_0
+│   │   │   │       ├── 6ce5a8e008b0921e_0
+│   │   │   │       ├── 6dfa56e80b1ed0a2_0
+│   │   │   │       ├── 6e976b72259fad4b_0
+│   │   │   │       ├── 6f20d886faf25111_0
+│   │   │   │       ├── 6f5fcaec65e2ca52_0
+│   │   │   │       ├── 71ed9d3b43b90d2a_0
+│   │   │   │       ├── 73212bfbcd999e0d_0
+│   │   │   │       ├── 73d84b433314a26a_0
+│   │   │   │       ├── 74072412bfcf9b74_0
+│   │   │   │       ├── 74156703f943e3e9_0
+│   │   │   │       ├── 7629af1193422f82_0
+│   │   │   │       ├── 77b825ab8e07809e_0
+│   │   │   │       ├── 78ebf1119b48da47_0
+│   │   │   │       ├── 78f8fb373d532e1d_0
+│   │   │   │       ├── 7bda0ca9b7ddc8ee_0
+│   │   │   │       ├── 7d700bf203b054c6_0
+│   │   │   │       ├── 7dbbcefaf8fa3e0c_0
+│   │   │   │       ├── 7dc164ef482741ac_0
+│   │   │   │       ├── 7e8166900b660c75_0
+│   │   │   │       ├── 7f30381df4bf6363_0
+│   │   │   │       ├── 80dc4e3ea90542c6_0
+│   │   │   │       ├── 8195936d47230085_0
+│   │   │   │       ├── 81c3347c90f3454b_0
+│   │   │   │       ├── 81dd5a2a669d5143_0
+│   │   │   │       ├── 84545e0674852cfd_0
+│   │   │   │       ├── 846f03efda385a68_0
+│   │   │   │       ├── 8503c644ffe033ab_0
+│   │   │   │       ├── 85d4df8ddfdc2ce0_0
+│   │   │   │       ├── 86eaf67c81854274_0
+│   │   │   │       ├── 881e21f5d5798b44_0
+│   │   │   │       ├── 88833d6e0107ba13_0
+│   │   │   │       ├── 8c8a1c9bca6146fd_0
+│   │   │   │       ├── 8cae32f1575938ff_0
+│   │   │   │       ├── 8db98e89d327a2fc_0
+│   │   │   │       ├── 90af15547f25c99a_0
+│   │   │   │       ├── 9261d0174aac58d0_0
+│   │   │   │       ├── 92af464e8fd66de3_0
+│   │   │   │       ├── 933355d07f3e2385_0
+│   │   │   │       ├── 93370b0f8b1f80ab_0
+│   │   │   │       ├── 937ed6f9dde48cea_0
+│   │   │   │       ├── 93d5e1c29ec7cbc7_0
+│   │   │   │       ├── 9482b1452a3ef4c8_0
+│   │   │   │       ├── 951e64a30b0bf6bf_0
+│   │   │   │       ├── 96748c682edeb5a6_0
+│   │   │   │       ├── 9819136f0259aeba_0
+│   │   │   │       ├── 981c6d86fc2923a0_0
+│   │   │   │       ├── 98da6f2da61603c9_0
+│   │   │   │       ├── 991668466a5473b6_0
+│   │   │   │       ├── 9a7e3960da344fcf_0
+│   │   │   │       ├── 9b34a0f3b49bbb9d_0
+│   │   │   │       ├── 9b8f1780afecf4b3_0
+│   │   │   │       ├── 9c9fd22493799c44_0
+│   │   │   │       ├── 9e2cc701a8570b20_0
+│   │   │   │       ├── 9f8bde252a2e7aa4_0
+│   │   │   │       ├── 9f9586ba3b9386db_0
+│   │   │   │       ├── a1080340fdb4f863_0
+│   │   │   │       ├── a11befc5dbf11896_0
+│   │   │   │       ├── a127d0dc734b58a6_0
+│   │   │   │       ├── a14dee5bdfab538d_0
+│   │   │   │       ├── a1c7c1962cbbff0c_0
+│   │   │   │       ├── a32d99ff81b27d14_0
+│   │   │   │       ├── a4e9b17e8368fe80_0
+│   │   │   │       ├── a67d95e55eab2133_0
+│   │   │   │       ├── a6d85fcae03bda51_0
+│   │   │   │       ├── a7406e9d7321d957_0
+│   │   │   │       ├── a7d4d6b09a245537_0
+│   │   │   │       ├── a8d21a3df4a41e60_0
+│   │   │   │       ├── aac6570dd3751f04_0
+│   │   │   │       ├── abe572130381e7d7_0
+│   │   │   │       ├── ac76fd85dc673fb0_0
+│   │   │   │       ├── aca533dc4b280b03_0
+│   │   │   │       ├── acc6195cca0da395_0
+│   │   │   │       ├── ad8e8171440f91f4_0
+│   │   │   │       ├── ae50859b2d3a826e_0
+│   │   │   │       ├── afd2596d524d3d44_0
+│   │   │   │       ├── b04967825a2fd5f8_0
+│   │   │   │       ├── b15861cdfeb811fb_0
+│   │   │   │       ├── b22472ead74bb14d_0
+│   │   │   │       ├── b29058da41001c25_0
+│   │   │   │       ├── b48bea6df497857d_0
+│   │   │   │       ├── b50607ebd0fc480a_0
+│   │   │   │       ├── b50811a4dbf9d818_0
+│   │   │   │       ├── b5f7729918d2ab5a_0
+│   │   │   │       ├── b6c0bcb6d5cdeb1b_0
+│   │   │   │       ├── b769f73b4686b661_0
+│   │   │   │       ├── b77525495ddc83f6_0
+│   │   │   │       ├── ba0966024c04f0df_0
+│   │   │   │       ├── ba10e7b512f0e40d_0
+│   │   │   │       ├── ba2ce0dca4161855_0
+│   │   │   │       ├── ba4ba760f9ac7bf3_0
+│   │   │   │       ├── ba880c1f58d6a9b8_0
+│   │   │   │       ├── bbe7e71925f32acb_0
+│   │   │   │       ├── bc6ebf78b9ad0b6a_0
+│   │   │   │       ├── bccbd8174edefc82_0
+│   │   │   │       ├── bfae1e80d7324898_0
+│   │   │   │       ├── c0cbbc3a83fdbdb6_0
+│   │   │   │       ├── c6af6f16681be5eb_0
+│   │   │   │       ├── c6b92e2c2a17fe6b_0
+│   │   │   │       ├── c8ec67ef59220dbd_0
+│   │   │   │       ├── ca35992a11fb6cb1_0
+│   │   │   │       ├── cc5f661fdc09aabe_0
+│   │   │   │       ├── d0fb33f804675e9c_0
+│   │   │   │       ├── d15679b8698b75dd_0
+│   │   │   │       ├── d30d59f1861ac6b6_0
+│   │   │   │       ├── d59a3746630c5f65_0
+│   │   │   │       ├── d686083bd143cd58_0
+│   │   │   │       ├── d68d9d4b2d6686a1_0
+│   │   │   │       ├── d6e7268239f203a6_0
+│   │   │   │       ├── d7e9c946d7bb1f06_0
+│   │   │   │       ├── d82b1bca8c4b8bf5_0
+│   │   │   │       ├── d9373947c857dba6_0
+│   │   │   │       ├── dac3b612d4b5c4f8_0
+│   │   │   │       ├── db3bea8e27d89425_0
+│   │   │   │       ├── dbb2e5ea797e9074_0
+│   │   │   │       ├── dbdf2a9b69d7926e_0
+│   │   │   │       ├── dc297b9985e36eba_0
+│   │   │   │       ├── dc9b1aa4d0cedaa1_0
+│   │   │   │       ├── dd45e5cea3a53804_0
+│   │   │   │       ├── de1fde521036f9b3_0
+│   │   │   │       ├── e150fb8adc4e5a29_0
+│   │   │   │       ├── e214dbf2a88a3016_0
+│   │   │   │       ├── e3a4b7ee05d37889_0
+│   │   │   │       ├── e49e35d27f4288dd_0
+│   │   │   │       ├── e513d5eaee971bad_0
+│   │   │   │       ├── e56ed0b5769220a9_0
+│   │   │   │       ├── e61b2a4713596fc7_0
+│   │   │   │       ├── e6b10f0b1dd1b7c2_0
+│   │   │   │       ├── e71cc8e21ccd310e_0
+│   │   │   │       ├── e8ff6405719115fe_0
+│   │   │   │       ├── ea65a7e2d635bf5b_0
+│   │   │   │       ├── ea6d9266959e716c_0
+│   │   │   │       ├── ead817a987d79966_0
+│   │   │   │       ├── ec34d8139ba266cf_0
+│   │   │   │       ├── ecbea54a33dd7160_0
+│   │   │   │       ├── ecd7bc1cf06798e4_0
+│   │   │   │       ├── ed5152d08612b2ae_0
+│   │   │   │       ├── ed552ba2c78a92ad_0
+│   │   │   │       ├── ed670665b965a3b7_0
+│   │   │   │       ├── edb805d5aafd5dfa_0
+│   │   │   │       ├── edeaa0d229487e9e_0
+│   │   │   │       ├── ef41195ff962ac8c_0
+│   │   │   │       ├── ef5394f4789ebee5_0
+│   │   │   │       ├── ef824872f4d0a6b7_0
+│   │   │   │       ├── f00aac0b17a35ca8_0
+│   │   │   │       ├── f0b97bae50945e4d_0
+│   │   │   │       ├── f0c1d711a7e07da4_0
+│   │   │   │       ├── f1ab77237dfed6d3_0
+│   │   │   │       ├── f34bdaf037139117_0
+│   │   │   │       ├── f3e9037af1fdafe2_0
+│   │   │   │       ├── f6c70958f1125712_0
+│   │   │   │       ├── f6db61abadbd2f2c_0
+│   │   │   │       ├── f85415e6fc08b4bd_0
+│   │   │   │       ├── f86b63ae12087157_0
+│   │   │   │       ├── fa6fc84123f408e0_0
+│   │   │   │       ├── fafb20fae0a0a03b_0
+│   │   │   │       ├── fafb58948b45c617_0
+│   │   │   │       ├── fb48fc4177c724ce_0
+│   │   │   │       ├── fba6c43f4bedc0a4_0
+│   │   │   │       ├── fc2cf592ccbca1b2_0
+│   │   │   │       ├── fce66b49d461c303_0
+│   │   │   │       ├── fd0a574ca3065159_0
+│   │   │   │       ├── ff883497643899ae_0
+│   │   │   │       ├── index
+│   │   │   │       └── index-dir
+│   │   │   │           └── the-real-index
+│   │   │   ├── chrome_cart_db
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── ClientCertificates
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── Code Cache
+│   │   │   │   ├── js
+│   │   │   │   │   ├── 022ee93444f2e611_0
+│   │   │   │   │   ├── 06443701a9c10603_0
+│   │   │   │   │   ├── 0a679e564170370b_0
+│   │   │   │   │   ├── 0deef20438f401c4_0
+│   │   │   │   │   ├── 0e544765d19d51f6_0
+│   │   │   │   │   ├── 0f1b7f9991dfd6d6_0
+│   │   │   │   │   ├── 106fe8f0a4bf08a5_0
+│   │   │   │   │   ├── 1304d61724ece099_0
+│   │   │   │   │   ├── 143e5e3b75111b95_0
+│   │   │   │   │   ├── 152cbeb48b1f9721_0
+│   │   │   │   │   ├── 177109d8ee7686d6_0
+│   │   │   │   │   ├── 19844d5a683cb83e_0
+│   │   │   │   │   ├── 199f1140e0234783_0
+│   │   │   │   │   ├── 1aabe9f72016d328_0
+│   │   │   │   │   ├── 1d2722d6cd3edb76_0
+│   │   │   │   │   ├── 1d5a21fa83dd35fe_0
+│   │   │   │   │   ├── 1dccfd721bc9562e_0
+│   │   │   │   │   ├── 246c3102a93aee99_0
+│   │   │   │   │   ├── 284cb1a24bb9eb7d_0
+│   │   │   │   │   ├── 29a1d17233fc7e99_0
+│   │   │   │   │   ├── 2eb07b99cc5b2e2b_0
+│   │   │   │   │   ├── 3058e09d111afdd7_0
+│   │   │   │   │   ├── 32a3c9e5c04cfef2_0
+│   │   │   │   │   ├── 33ad662fc240cd72_0
+│   │   │   │   │   ├── 38e5e00c33638e42_0
+│   │   │   │   │   ├── 3c28919848e4b4f6_0
+│   │   │   │   │   ├── 3cea6434fed038c2_0
+│   │   │   │   │   ├── 3f354f343a5a527e_0
+│   │   │   │   │   ├── 3f60a3e7857e66b1_0
+│   │   │   │   │   ├── 40290117881dfbaf_0
+│   │   │   │   │   ├── 40af4f6aef32e8eb_0
+│   │   │   │   │   ├── 40b32ef738ac97ad_0
+│   │   │   │   │   ├── 40ea0b21585102f9_0
+│   │   │   │   │   ├── 41a47edbbab646d8_0
+│   │   │   │   │   ├── 4260620e4dea480d_0
+│   │   │   │   │   ├── 4ba2a80cbc056251_0
+│   │   │   │   │   ├── 4f3df1c56bae5c47_0
+│   │   │   │   │   ├── 4fdde04d69091a20_0
+│   │   │   │   │   ├── 51711a97630781bf_0
+│   │   │   │   │   ├── 527a3c0957eec5d1_0
+│   │   │   │   │   ├── 52a1fa3c027a2ad9_0
+│   │   │   │   │   ├── 53abc7b629b33922_0
+│   │   │   │   │   ├── 55932999d0591f44_0
+│   │   │   │   │   ├── 59348df24ec3b7cb_0
+│   │   │   │   │   ├── 597a0571035d7d27_0
+│   │   │   │   │   ├── 5a7fad7b201f63c1_0
+│   │   │   │   │   ├── 5b19138da122cfe0_0
+│   │   │   │   │   ├── 5b993cfae40c83b1_0
+│   │   │   │   │   ├── 5bbbafb3239767cf_0
+│   │   │   │   │   ├── 5c92d3350e3792e6_0
+│   │   │   │   │   ├── 6282ac297321de6f_0
+│   │   │   │   │   ├── 6318309e3c1e4618_0
+│   │   │   │   │   ├── 66755be91fa184af_0
+│   │   │   │   │   ├── 68ed65474b3b30f6_0
+│   │   │   │   │   ├── 6b8b9c286f5cc818_0
+│   │   │   │   │   ├── 6d342c94f97f9fc0_0
+│   │   │   │   │   ├── 7315130db5834cab_0
+│   │   │   │   │   ├── 796942dc82ef8ac1_0
+│   │   │   │   │   ├── 79b81a91fa454075_0
+│   │   │   │   │   ├── 79d6bee92af30ab4_0
+│   │   │   │   │   ├── 7b01a3666db02698_0
+│   │   │   │   │   ├── 7bf0b212024b7b08_0
+│   │   │   │   │   ├── 808d5cbefbbe255d_0
+│   │   │   │   │   ├── 847e1e3f6ded8d73_0
+│   │   │   │   │   ├── 857dcb847655e4d7_0
+│   │   │   │   │   ├── 87d0fad866be812f_0
+│   │   │   │   │   ├── 896ff82157250d28_0
+│   │   │   │   │   ├── 8d9ed1a7e7a16447_0
+│   │   │   │   │   ├── 8ec3a75fe0778a96_0
+│   │   │   │   │   ├── 8ed67b1af2ae96be_0
+│   │   │   │   │   ├── 943533cfb7e53e57_0
+│   │   │   │   │   ├── 98c5002073f5eae5_0
+│   │   │   │   │   ├── 99a4f51a69fe8efd_0
+│   │   │   │   │   ├── 99af7143f5583213_0
+│   │   │   │   │   ├── 9b2ec8bef0ca4ec8_0
+│   │   │   │   │   ├── 9e86f865e01b04cd_0
+│   │   │   │   │   ├── a0f9d8a7f5ff6011_0
+│   │   │   │   │   ├── a4eaf526c84cf43d_0
+│   │   │   │   │   ├── a7329b955ac5d4a5_0
+│   │   │   │   │   ├── a742a8d969e86973_0
+│   │   │   │   │   ├── a77eb9b540d56613_0
+│   │   │   │   │   ├── a7d8d4deaa90bd95_0
+│   │   │   │   │   ├── a81b97ff47b10113_0
+│   │   │   │   │   ├── aa4101eac69800f7_0
+│   │   │   │   │   ├── aef1bf401e3b7ed2_0
+│   │   │   │   │   ├── b233c69c75881c46_0
+│   │   │   │   │   ├── b2dea3c912228404_0
+│   │   │   │   │   ├── b3b225c55ffba022_0
+│   │   │   │   │   ├── b7014f8ce6b7ffec_0
+│   │   │   │   │   ├── bc0fd4a90715a4df_0
+│   │   │   │   │   ├── bc35260b4d67e614_0
+│   │   │   │   │   ├── bc9829261175b4b0_0
+│   │   │   │   │   ├── bcccac9ca36d7680_0
+│   │   │   │   │   ├── c101f3cd68f2c59e_0
+│   │   │   │   │   ├── c1dbda7e3c4effa8_0
+│   │   │   │   │   ├── c625e2074be01169_0
+│   │   │   │   │   ├── ca696adcc4d20983_0
+│   │   │   │   │   ├── caf01cc823b69f70_0
+│   │   │   │   │   ├── cb01c0b9967de08a_0
+│   │   │   │   │   ├── d65a646838840655_0
+│   │   │   │   │   ├── dc959d51b98f66f5_0
+│   │   │   │   │   ├── de050796395f7cb8_0
+│   │   │   │   │   ├── de4237e9d604efdb_0
+│   │   │   │   │   ├── dfecad84c1ad4e60_0
+│   │   │   │   │   ├── e103c06edbc30d59_0
+│   │   │   │   │   ├── e152542eb0d720d7_0
+│   │   │   │   │   ├── e74540d372277fff_0
+│   │   │   │   │   ├── e788e8412cd0c0d2_0
+│   │   │   │   │   ├── ea421fa6195b71c5_0
+│   │   │   │   │   ├── ecb46e8b28fa2446_0
+│   │   │   │   │   ├── ed37ee4d88e7337b_0
+│   │   │   │   │   ├── edc0a81c94740d5c_0
+│   │   │   │   │   ├── f2b8579c230c4047_0
+│   │   │   │   │   ├── f54957ee9c83510a_0
+│   │   │   │   │   ├── f71d6cdbb37d9ab9_0
+│   │   │   │   │   ├── f7a334a4e66a4eed_0
+│   │   │   │   │   ├── f7e02496c9e6d18b_0
+│   │   │   │   │   ├── fd3ea3f073790459_0
+│   │   │   │   │   ├── fd945ec07720dbe6_0
+│   │   │   │   │   ├── index
+│   │   │   │   │   └── index-dir
+│   │   │   │   │       └── the-real-index
+│   │   │   │   └── wasm
+│   │   │   │       ├── index
+│   │   │   │       └── index-dir
+│   │   │   │           └── the-real-index
+│   │   │   ├── commerce_subscription_db
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── Cookies
+│   │   │   ├── Cookies-journal
+│   │   │   ├── DawnGraphiteCache
+│   │   │   │   ├── data_0
+│   │   │   │   ├── data_1
+│   │   │   │   ├── data_2
+│   │   │   │   ├── data_3
+│   │   │   │   └── index
+│   │   │   ├── DawnWebGPUCache
+│   │   │   │   ├── data_0
+│   │   │   │   ├── data_1
+│   │   │   │   ├── data_2
+│   │   │   │   ├── data_3
+│   │   │   │   └── index
+│   │   │   ├── DIPS
+│   │   │   ├── discount_infos_db
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── discounts_db
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── Download Service
+│   │   │   │   ├── EntryDB
+│   │   │   │   │   ├── LOCK
+│   │   │   │   │   ├── LOG
+│   │   │   │   │   └── LOG.old
+│   │   │   │   └── Files
+│   │   │   ├── Extension Rules
+│   │   │   │   ├── 000003.log
+│   │   │   │   ├── CURRENT
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── MANIFEST-000001
+│   │   │   ├── Extension Scripts
+│   │   │   │   ├── 000003.log
+│   │   │   │   ├── CURRENT
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── MANIFEST-000001
+│   │   │   ├── Extension State
+│   │   │   │   ├── 000003.log
+│   │   │   │   ├── CURRENT
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   ├── LOG.old
+│   │   │   │   └── MANIFEST-000001
+│   │   │   ├── Favicons
+│   │   │   ├── Favicons-journal
+│   │   │   ├── Feature Engagement Tracker
+│   │   │   │   ├── AvailabilityDB
+│   │   │   │   │   ├── LOCK
+│   │   │   │   │   ├── LOG
+│   │   │   │   │   └── LOG.old
+│   │   │   │   └── EventDB
+│   │   │   │       ├── LOCK
+│   │   │   │       ├── LOG
+│   │   │   │       └── LOG.old
+│   │   │   ├── GCM Store
+│   │   │   │   ├── 000003.log
+│   │   │   │   ├── CURRENT
+│   │   │   │   ├── Encryption
+│   │   │   │   │   ├── 000003.log
+│   │   │   │   │   ├── CURRENT
+│   │   │   │   │   ├── LOCK
+│   │   │   │   │   ├── LOG
+│   │   │   │   │   ├── LOG.old
+│   │   │   │   │   └── MANIFEST-000001
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   ├── LOG.old
+│   │   │   │   └── MANIFEST-000001
+│   │   │   ├── GPUCache
+│   │   │   │   ├── data_0
+│   │   │   │   ├── data_1
+│   │   │   │   ├── data_2
+│   │   │   │   ├── data_3
+│   │   │   │   └── index
+│   │   │   ├── heavy_ad_intervention_opt_out.db
+│   │   │   ├── heavy_ad_intervention_opt_out.db-journal
+│   │   │   ├── History
+│   │   │   ├── History-journal
+│   │   │   ├── IndexedDB
+│   │   │   │   └── https_www.youtube.com_0.indexeddb.leveldb
+│   │   │   │       ├── 000003.log
+│   │   │   │       ├── CURRENT
+│   │   │   │       ├── LOCK
+│   │   │   │       ├── LOG
+│   │   │   │       └── MANIFEST-000001
+│   │   │   ├── Local Storage
+│   │   │   │   └── leveldb
+│   │   │   │       ├── 000003.log
+│   │   │   │       ├── CURRENT
+│   │   │   │       ├── LOCK
+│   │   │   │       ├── LOG
+│   │   │   │       ├── LOG.old
+│   │   │   │       └── MANIFEST-000001
+│   │   │   ├── LOCK
+│   │   │   ├── LOG
+│   │   │   ├── Login Data
+│   │   │   ├── Login Data For Account
+│   │   │   ├── Login Data For Account-journal
+│   │   │   ├── Login Data-journal
+│   │   │   ├── LOG.old
+│   │   │   ├── Network Action Predictor
+│   │   │   ├── Network Action Predictor-journal
+│   │   │   ├── Network Persistent State
+│   │   │   ├── optimization_guide_hint_cache_store
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── parcel_tracking_db
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── PersistentOriginTrials
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   └── LOG.old
+│   │   │   ├── Preferences
+│   │   │   ├── PreferredApps
+│   │   │   ├── README
+│   │   │   ├── Reporting and NEL
+│   │   │   ├── Reporting and NEL-journal
+│   │   │   ├── Safe Browsing Cookies
+│   │   │   ├── Safe Browsing Cookies-journal
+│   │   │   ├── SCT Auditing Pending Reports
+│   │   │   ├── Secure Preferences
+│   │   │   ├── Segmentation Platform
+│   │   │   │   ├── SegmentInfoDB
+│   │   │   │   │   ├── LOCK
+│   │   │   │   │   ├── LOG
+│   │   │   │   │   └── LOG.old
+│   │   │   │   ├── SignalDB
+│   │   │   │   │   ├── LOCK
+│   │   │   │   │   ├── LOG
+│   │   │   │   │   └── LOG.old
+│   │   │   │   └── SignalStorageConfigDB
+│   │   │   │       ├── LOCK
+│   │   │   │       ├── LOG
+│   │   │   │       └── LOG.old
+│   │   │   ├── ServerCertificate
+│   │   │   ├── ServerCertificate-journal
+│   │   │   ├── Service Worker
+│   │   │   │   ├── CacheStorage
+│   │   │   │   │   └── 379f1cbab5b08b6fc9e08681e42d8be311441c88
+│   │   │   │   │       ├── 3441bf20-aa94-49c9-b1ed-e99bc1cc5963
+│   │   │   │   │       │   ├── index
+│   │   │   │   │       │   └── index-dir
+│   │   │   │   │       │       └── the-real-index
+│   │   │   │   │       └── index.txt
+│   │   │   │   ├── Database
+│   │   │   │   │   ├── 000003.log
+│   │   │   │   │   ├── CURRENT
+│   │   │   │   │   ├── LOCK
+│   │   │   │   │   ├── LOG
+│   │   │   │   │   ├── LOG.old
+│   │   │   │   │   └── MANIFEST-000001
+│   │   │   │   └── ScriptCache
+│   │   │   │       ├── 2cc80dabc69f58b6_0
+│   │   │   │       ├── 2cc80dabc69f58b6_1
+│   │   │   │       ├── index
+│   │   │   │       └── index-dir
+│   │   │   │           └── the-real-index
+│   │   │   ├── Sessions
+│   │   │   │   ├── Session_13400069575097356
+│   │   │   │   ├── Session_13400069591869778
+│   │   │   │   ├── Tabs_13400069575518403
+│   │   │   │   └── Tabs_13400069592220296
+│   │   │   ├── Session Storage
+│   │   │   │   ├── 000003.log
+│   │   │   │   ├── CURRENT
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   ├── LOG.old
+│   │   │   │   └── MANIFEST-000001
+│   │   │   ├── Shared Dictionary
+│   │   │   │   ├── cache
+│   │   │   │   │   ├── index
+│   │   │   │   │   └── index-dir
+│   │   │   │   │       └── the-real-index
+│   │   │   │   ├── db
+│   │   │   │   └── db-journal
+│   │   │   ├── shared_proto_db
+│   │   │   │   ├── 000003.log
+│   │   │   │   ├── CURRENT
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   ├── LOG.old
+│   │   │   │   ├── MANIFEST-000001
+│   │   │   │   └── metadata
+│   │   │   │       ├── 000003.log
+│   │   │   │       ├── CURRENT
+│   │   │   │       ├── LOCK
+│   │   │   │       ├── LOG
+│   │   │   │       ├── LOG.old
+│   │   │   │       └── MANIFEST-000001
+│   │   │   ├── SharedStorage
+│   │   │   ├── Shortcuts
+│   │   │   ├── Shortcuts-journal
+│   │   │   ├── Site Characteristics Database
+│   │   │   │   ├── 000003.log
+│   │   │   │   ├── CURRENT
+│   │   │   │   ├── LOCK
+│   │   │   │   ├── LOG
+│   │   │   │   ├── LOG.old
+│   │   │   │   └── MANIFEST-000001
+│   │   │   ├── Sync Data
+│   │   │   │   └── LevelDB
+│   │   │   │       ├── 000003.log
+│   │   │   │       ├── CURRENT
+│   │   │   │       ├── LOCK
+│   │   │   │       ├── LOG
+│   │   │   │       ├── LOG.old
+│   │   │   │       └── MANIFEST-000001
+│   │   │   ├── Top Sites
+│   │   │   ├── Top Sites-journal
+│   │   │   ├── TransportSecurity
+│   │   │   ├── trusted_vault.pb
+│   │   │   ├── Trust Tokens
+│   │   │   ├── Trust Tokens-journal
+│   │   │   ├── VideoDecodeStats
+│   │   │   │   ├── LOCK
+│   │   │   │   └── LOG
+│   │   │   ├── Web Data
+│   │   │   ├── Web Data-journal
+│   │   │   └── WebStorage
+│   │   │       ├── QuotaManager
+│   │   │       └── QuotaManager-journal
+│   │   ├── Dictionaries
+│   │   │   └── en-US-10-1.bdic
+│   │   ├── extensions_crx_cache
+│   │   │   └── metadata.json
+│   │   ├── first_party_sets.db
+│   │   ├── first_party_sets.db-journal
+│   │   ├── GraphiteDawnCache
+│   │   │   ├── data_0
+│   │   │   ├── data_1
+│   │   │   ├── data_2
+│   │   │   ├── data_3
+│   │   │   └── index
+│   │   ├── GrShaderCache
+│   │   │   ├── data_0
+│   │   │   ├── data_1
+│   │   │   ├── data_2
+│   │   │   ├── data_3
+│   │   │   ├── f_000001
+│   │   │   └── index
+│   │   ├── Last Version
+│   │   ├── Local State
+│   │   ├── NativeMessagingHosts
+│   │   ├── Safe Browsing
+│   │   ├── segmentation_platform
+│   │   │   ├── ukm_db
+│   │   │   └── ukm_db-wal
+│   │   ├── ShaderCache
+│   │   │   ├── data_0
+│   │   │   ├── data_1
+│   │   │   ├── data_2
+│   │   │   ├── data_3
+│   │   │   └── index
+│   │   └── Variations
+│   └── ipot-profile
+│       ├── BrowserMetrics-spare.pma
+│       ├── component_crx_cache
+│       │   └── metadata.json
+│       ├── Default
+│       │   ├── Account Web Data
+│       │   ├── Account Web Data-journal
+│       │   ├── Affiliation Database
+│       │   ├── Affiliation Database-journal
+│       │   ├── AutofillStrikeDatabase
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   └── LOG.old
+│       │   ├── blob_storage
+│       │   │   └── 06f9bf3f-7ce1-4cec-a786-afa0510743da
+│       │   ├── BookmarkMergedSurfaceOrdering
+│       │   ├── BrowsingTopicsSiteData
+│       │   ├── BrowsingTopicsSiteData-journal
+│       │   ├── BrowsingTopicsState
+│       │   ├── BudgetDatabase
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   └── LOG.old
+│       │   ├── Cache
+│       │   │   └── Cache_Data
+│       │   │       ├── 00639dbc3db3f1b3_0
+│       │   │       ├── 012790ad5e31ce37_0
+│       │   │       ├── 02e783f6055ebb33_0
+│       │   │       ├── 056eb0c412d05b02_0
+│       │   │       ├── 07649ab3843b062a_0
+│       │   │       ├── 0849768f01255a88_0
+│       │   │       ├── 0c7d711bbce00483_0
+│       │   │       ├── 0e883a62cada32ea_0
+│       │   │       ├── 1045d5752b9a932a_0
+│       │   │       ├── 10ee67b4da3394a5_0
+│       │   │       ├── 142503d707243eca_0
+│       │   │       ├── 144fbca3768cb774_0
+│       │   │       ├── 145818e62aa16a7c_0
+│       │   │       ├── 14cb72b062b5ab37_0
+│       │   │       ├── 14e6af3b98915b02_0
+│       │   │       ├── 1524cf5dea462669_0
+│       │   │       ├── 19218b35a4a7ba8a_0
+│       │   │       ├── 19fae569ccbf4ae6_0
+│       │   │       ├── 1b3d2c426bdbf138_0
+│       │   │       ├── 1cc96765ac4e3eff_0
+│       │   │       ├── 1da73a9aaf1776ce_0
+│       │   │       ├── 1f0d26f903f7bd01_0
+│       │   │       ├── 1f9c1c079bb4b141_0
+│       │   │       ├── 222865a3456e95c9_0
+│       │   │       ├── 224ce3879b7e6953_0
+│       │   │       ├── 23ff061954a77768_0
+│       │   │       ├── 270153454a4f47e3_0
+│       │   │       ├── 273cbc33cd30b687_0
+│       │   │       ├── 2964d2072160acdc_0
+│       │   │       ├── 296e7eb43309460b_0
+│       │   │       ├── 29b5113cc5198db2_0
+│       │   │       ├── 2d9dbf08e7c16868_0
+│       │   │       ├── 2e658108b987d462_0
+│       │   │       ├── 2fbb29f928b67d0d_0
+│       │   │       ├── 2fdb45c8806a8f6a_0
+│       │   │       ├── 3045d92b989b32f9_0
+│       │   │       ├── 30b6673a962c6f51_0
+│       │   │       ├── 312d85d154115e4d_0
+│       │   │       ├── 331e7d8132eda5a3_0
+│       │   │       ├── 352f6e08a46162b5_0
+│       │   │       ├── 35bebe3c0b48f3b4_0
+│       │   │       ├── 39273c81cd64ae17_0
+│       │   │       ├── 39d22bfe2c81ac9b_0
+│       │   │       ├── 3aaefa8b622bc4b2_0
+│       │   │       ├── 43515c493c66dd2c_0
+│       │   │       ├── 45c9fd9eb197f1c7_0
+│       │   │       ├── 466a87228e96da63_0
+│       │   │       ├── 46a4812b4bf5c01b_0
+│       │   │       ├── 46e1c6a049f3c5a1_0
+│       │   │       ├── 4bea631f07d69769_0
+│       │   │       ├── 4c015c6e20d579c7_0
+│       │   │       ├── 4cee7fd86b6f0ab1_0
+│       │   │       ├── 4f2978decc44f49b_0
+│       │   │       ├── 5165f10be17ebdb6_0
+│       │   │       ├── 529c76cfd55ed564_0
+│       │   │       ├── 537b4a2009047968_0
+│       │   │       ├── 54f5ea4659e15515_0
+│       │   │       ├── 55114bce85fffdba_0
+│       │   │       ├── 56991ada06b83a2b_0
+│       │   │       ├── 5afa8e743f6c40ed_0
+│       │   │       ├── 5baf691a06025916_0
+│       │   │       ├── 5bdd9f719984370a_0
+│       │   │       ├── 5fca00d7bacf072a_0
+│       │   │       ├── 6168b3f0ae70702b_0
+│       │   │       ├── 629652d6a81a60fd_0
+│       │   │       ├── 6341a34e6ea6f993_0
+│       │   │       ├── 63d55d708f49359b_0
+│       │   │       ├── 651c44444ec54884_0
+│       │   │       ├── 65591c1b0f7e2a92_0
+│       │   │       ├── 6590ae1b8f72f20e_0
+│       │   │       ├── 65c4d72c88912c89_0
+│       │   │       ├── 666a864d68c1e112_0
+│       │   │       ├── 66b32b7c3f3d9794_0
+│       │   │       ├── 67d07dce900f6d06_0
+│       │   │       ├── 6f5fcaec65e2ca52_0
+│       │   │       ├── 71ed9d3b43b90d2a_0
+│       │   │       ├── 73d84b433314a26a_0
+│       │   │       ├── 74156703f943e3e9_0
+│       │   │       ├── 77b825ab8e07809e_0
+│       │   │       ├── 78ebf1119b48da47_0
+│       │   │       ├── 79130e3d3896f4d6_0
+│       │   │       ├── 7bda0ca9b7ddc8ee_0
+│       │   │       ├── 7d700bf203b054c6_0
+│       │   │       ├── 7dbbcefaf8fa3e0c_0
+│       │   │       ├── 7dc164ef482741ac_0
+│       │   │       ├── 7f30381df4bf6363_0
+│       │   │       ├── 81dd5a2a669d5143_0
+│       │   │       ├── 8226efd66a4ec433_0
+│       │   │       ├── 84545e0674852cfd_0
+│       │   │       ├── 846f03efda385a68_0
+│       │   │       ├── 8503c644ffe033ab_0
+│       │   │       ├── 88833d6e0107ba13_0
+│       │   │       ├── 8c8a1c9bca6146fd_0
+│       │   │       ├── 8cae32f1575938ff_0
+│       │   │       ├── 92af464e8fd66de3_0
+│       │   │       ├── 933355d07f3e2385_0
+│       │   │       ├── 937ed6f9dde48cea_0
+│       │   │       ├── 93d5e1c29ec7cbc7_0
+│       │   │       ├── 9482b1452a3ef4c8_0
+│       │   │       ├── 96748c682edeb5a6_0
+│       │   │       ├── 991668466a5473b6_0
+│       │   │       ├── 9b34a0f3b49bbb9d_0
+│       │   │       ├── 9e2cc701a8570b20_0
+│       │   │       ├── 9f8bde252a2e7aa4_0
+│       │   │       ├── a1080340fdb4f863_0
+│       │   │       ├── a1c7c1962cbbff0c_0
+│       │   │       ├── a67d95e55eab2133_0
+│       │   │       ├── a7406e9d7321d957_0
+│       │   │       ├── a7d4d6b09a245537_0
+│       │   │       ├── aac6570dd3751f04_0
+│       │   │       ├── ac76fd85dc673fb0_0
+│       │   │       ├── aca533dc4b280b03_0
+│       │   │       ├── ad8e8171440f91f4_0
+│       │   │       ├── adcbf7ebd6ff1bf2_0
+│       │   │       ├── b04967825a2fd5f8_0
+│       │   │       ├── b15861cdfeb811fb_0
+│       │   │       ├── b22472ead74bb14d_0
+│       │   │       ├── b50811a4dbf9d818_0
+│       │   │       ├── b5f7729918d2ab5a_0
+│       │   │       ├── ba0966024c04f0df_0
+│       │   │       ├── ba10e7b512f0e40d_0
+│       │   │       ├── ba2ce0dca4161855_0
+│       │   │       ├── ba4ba760f9ac7bf3_0
+│       │   │       ├── bc6ebf78b9ad0b6a_0
+│       │   │       ├── bccbd8174edefc82_0
+│       │   │       ├── c0cbbc3a83fdbdb6_0
+│       │   │       ├── c2011a8bef84e879_0
+│       │   │       ├── cba1bff3327f3a07_0
+│       │   │       ├── cc5f661fdc09aabe_0
+│       │   │       ├── cca516bd0c8a58c7_0
+│       │   │       ├── cd648618daf101e4_0
+│       │   │       ├── d15679b8698b75dd_0
+│       │   │       ├── d59a3746630c5f65_0
+│       │   │       ├── d686083bd143cd58_0
+│       │   │       ├── d6e7268239f203a6_0
+│       │   │       ├── d7e9c946d7bb1f06_0
+│       │   │       ├── dac3b612d4b5c4f8_0
+│       │   │       ├── dbb2e5ea797e9074_0
+│       │   │       ├── dc297b9985e36eba_0
+│       │   │       ├── de1fde521036f9b3_0
+│       │   │       ├── df1c19e0e3830768_0
+│       │   │       ├── e1103998ea23a8c3_0
+│       │   │       ├── e214dbf2a88a3016_0
+│       │   │       ├── e71cc8e21ccd310e_0
+│       │   │       ├── e8f34a07b7e0608b_0
+│       │   │       ├── ea65a7e2d635bf5b_0
+│       │   │       ├── ea6d9266959e716c_0
+│       │   │       ├── eacc8fd2c23403e8_0
+│       │   │       ├── ecd7bc1cf06798e4_0
+│       │   │       ├── ed5152d08612b2ae_0
+│       │   │       ├── ed552ba2c78a92ad_0
+│       │   │       ├── edb805d5aafd5dfa_0
+│       │   │       ├── efa99bfb73bb025b_0
+│       │   │       ├── efe51eca3d14f432_0
+│       │   │       ├── f1135ba506b8451e_0
+│       │   │       ├── f1ab77237dfed6d3_0
+│       │   │       ├── f34bdaf037139117_0
+│       │   │       ├── f6c70958f1125712_0
+│       │   │       ├── f6db61abadbd2f2c_0
+│       │   │       ├── f7fdd216b960ab23_0
+│       │   │       ├── f870184ba2ee9ea5_0
+│       │   │       ├── fafb20fae0a0a03b_0
+│       │   │       ├── fafb58948b45c617_0
+│       │   │       ├── fba6c43f4bedc0a4_0
+│       │   │       ├── fd0a574ca3065159_0
+│       │   │       ├── index
+│       │   │       └── index-dir
+│       │   │           └── the-real-index
+│       │   ├── chrome_cart_db
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   └── LOG.old
+│       │   ├── ClientCertificates
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   └── LOG.old
+│       │   ├── Code Cache
+│       │   │   ├── js
+│       │   │   │   ├── 043f76ca81e8ed9c_0
+│       │   │   │   ├── 09c6abb23c7ba90d_0
+│       │   │   │   ├── 0a679e564170370b_0
+│       │   │   │   ├── 0c79ccd9a4c7dbe8_0
+│       │   │   │   ├── 106fe8f0a4bf08a5_0
+│       │   │   │   ├── 134125ea937650a7_0
+│       │   │   │   ├── 143e5e3b75111b95_0
+│       │   │   │   ├── 1507b888bae9eb8d_0
+│       │   │   │   ├── 152cbeb48b1f9721_0
+│       │   │   │   ├── 16a51c66f3cebab6_0
+│       │   │   │   ├── 1745ca45a7bc2b9e_0
+│       │   │   │   ├── 177109d8ee7686d6_0
+│       │   │   │   ├── 1aabe9f72016d328_0
+│       │   │   │   ├── 21ca9a0eb6f622b8_0
+│       │   │   │   ├── 2595ebb3f8e81154_0
+│       │   │   │   ├── 29a1d17233fc7e99_0
+│       │   │   │   ├── 2a1e47618ece87fc_0
+│       │   │   │   ├── 2adbf963f3704f2c_0
+│       │   │   │   ├── 3058e09d111afdd7_0
+│       │   │   │   ├── 32a3c9e5c04cfef2_0
+│       │   │   │   ├── 3b00c32ea9722cfd_0
+│       │   │   │   ├── 3c28919848e4b4f6_0
+│       │   │   │   ├── 40290117881dfbaf_0
+│       │   │   │   ├── 40b32ef738ac97ad_0
+│       │   │   │   ├── 40ea0b21585102f9_0
+│       │   │   │   ├── 41a47edbbab646d8_0
+│       │   │   │   ├── 4ba2a80cbc056251_0
+│       │   │   │   ├── 4fdde04d69091a20_0
+│       │   │   │   ├── 51711a97630781bf_0
+│       │   │   │   ├── 527a3c0957eec5d1_0
+│       │   │   │   ├── 55932999d0591f44_0
+│       │   │   │   ├── 581c260c1c3c51dd_0
+│       │   │   │   ├── 59348df24ec3b7cb_0
+│       │   │   │   ├── 597a0571035d7d27_0
+│       │   │   │   ├── 5a7fad7b201f63c1_0
+│       │   │   │   ├── 5b993cfae40c83b1_0
+│       │   │   │   ├── 6282ac297321de6f_0
+│       │   │   │   ├── 6b8b9c286f5cc818_0
+│       │   │   │   ├── 6d342c94f97f9fc0_0
+│       │   │   │   ├── 7647eabdb8429d21_0
+│       │   │   │   ├── 796942dc82ef8ac1_0
+│       │   │   │   ├── 7b01a3666db02698_0
+│       │   │   │   ├── 7bf0b212024b7b08_0
+│       │   │   │   ├── 7c7000b64f63d3c5_0
+│       │   │   │   ├── 7c88098cf07d0e9c_0
+│       │   │   │   ├── 847e1e3f6ded8d73_0
+│       │   │   │   ├── 87d0fad866be812f_0
+│       │   │   │   ├── 891bd5fc4931254e_0
+│       │   │   │   ├── 8d9ed1a7e7a16447_0
+│       │   │   │   ├── 92bed2255b82e99c_0
+│       │   │   │   ├── 9e86f865e01b04cd_0
+│       │   │   │   ├── a026a018c2921b0f_0
+│       │   │   │   ├── a6b5464115679d09_0
+│       │   │   │   ├── a7329b955ac5d4a5_0
+│       │   │   │   ├── aef1bf401e3b7ed2_0
+│       │   │   │   ├── af66b69e77ce70a7_0
+│       │   │   │   ├── b0c34e18b45d7454_0
+│       │   │   │   ├── b233c69c75881c46_0
+│       │   │   │   ├── b558e6e6773c9b65_0
+│       │   │   │   ├── b7014f8ce6b7ffec_0
+│       │   │   │   ├── bc9829261175b4b0_0
+│       │   │   │   ├── c0f94d88bdb41645_0
+│       │   │   │   ├── c1dbda7e3c4effa8_0
+│       │   │   │   ├── c625e2074be01169_0
+│       │   │   │   ├── ca696adcc4d20983_0
+│       │   │   │   ├── cb01c0b9967de08a_0
+│       │   │   │   ├── d65a646838840655_0
+│       │   │   │   ├── db548c547cd971d1_0
+│       │   │   │   ├── df530614bcc847a3_0
+│       │   │   │   ├── dfecad84c1ad4e60_0
+│       │   │   │   ├── e103c06edbc30d59_0
+│       │   │   │   ├── e152542eb0d720d7_0
+│       │   │   │   ├── e344741edcacfca7_0
+│       │   │   │   ├── e788e8412cd0c0d2_0
+│       │   │   │   ├── ea421fa6195b71c5_0
+│       │   │   │   ├── ebcf045474281220_0
+│       │   │   │   ├── ed37ee4d88e7337b_0
+│       │   │   │   ├── f2b8579c230c4047_0
+│       │   │   │   ├── f54957ee9c83510a_0
+│       │   │   │   ├── f7a334a4e66a4eed_0
+│       │   │   │   ├── f7e02496c9e6d18b_0
+│       │   │   │   ├── index
+│       │   │   │   └── index-dir
+│       │   │   │       └── the-real-index
+│       │   │   └── wasm
+│       │   │       ├── index
+│       │   │       └── index-dir
+│       │   │           └── the-real-index
+│       │   ├── commerce_subscription_db
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   └── LOG.old
+│       │   ├── Cookies
+│       │   ├── Cookies-journal
+│       │   ├── DawnGraphiteCache
+│       │   │   ├── data_0
+│       │   │   ├── data_1
+│       │   │   ├── data_2
+│       │   │   ├── data_3
+│       │   │   └── index
+│       │   ├── DawnWebGPUCache
+│       │   │   ├── data_0
+│       │   │   ├── data_1
+│       │   │   ├── data_2
+│       │   │   ├── data_3
+│       │   │   └── index
+│       │   ├── DIPS
+│       │   ├── DIPS-wal
+│       │   ├── discount_infos_db
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   └── LOG.old
+│       │   ├── discounts_db
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   └── LOG.old
+│       │   ├── Download Service
+│       │   │   ├── EntryDB
+│       │   │   │   ├── LOCK
+│       │   │   │   ├── LOG
+│       │   │   │   └── LOG.old
+│       │   │   └── Files
+│       │   ├── Extension Rules
+│       │   │   ├── 000003.log
+│       │   │   ├── CURRENT
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   └── MANIFEST-000001
+│       │   ├── Extension Scripts
+│       │   │   ├── 000003.log
+│       │   │   ├── CURRENT
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   └── MANIFEST-000001
+│       │   ├── Extension State
+│       │   │   ├── 000003.log
+│       │   │   ├── CURRENT
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   ├── LOG.old
+│       │   │   └── MANIFEST-000001
+│       │   ├── Favicons
+│       │   ├── Favicons-journal
+│       │   ├── Feature Engagement Tracker
+│       │   │   ├── AvailabilityDB
+│       │   │   │   ├── LOCK
+│       │   │   │   ├── LOG
+│       │   │   │   └── LOG.old
+│       │   │   └── EventDB
+│       │   │       ├── LOCK
+│       │   │       ├── LOG
+│       │   │       └── LOG.old
+│       │   ├── GCM Store
+│       │   │   ├── 000003.log
+│       │   │   ├── CURRENT
+│       │   │   ├── Encryption
+│       │   │   │   ├── 000003.log
+│       │   │   │   ├── CURRENT
+│       │   │   │   ├── LOCK
+│       │   │   │   ├── LOG
+│       │   │   │   ├── LOG.old
+│       │   │   │   └── MANIFEST-000001
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   ├── LOG.old
+│       │   │   └── MANIFEST-000001
+│       │   ├── GPUCache
+│       │   │   ├── data_0
+│       │   │   ├── data_1
+│       │   │   ├── data_2
+│       │   │   ├── data_3
+│       │   │   └── index
+│       │   ├── heavy_ad_intervention_opt_out.db
+│       │   ├── heavy_ad_intervention_opt_out.db-journal
+│       │   ├── History
+│       │   ├── History-journal
+│       │   ├── Local Storage
+│       │   │   └── leveldb
+│       │   │       ├── 000003.log
+│       │   │       ├── CURRENT
+│       │   │       ├── LOCK
+│       │   │       ├── LOG
+│       │   │       ├── LOG.old
+│       │   │       └── MANIFEST-000001
+│       │   ├── LOCK
+│       │   ├── LOG
+│       │   ├── Login Data
+│       │   ├── Login Data For Account
+│       │   ├── Login Data For Account-journal
+│       │   ├── Login Data-journal
+│       │   ├── LOG.old
+│       │   ├── Network Action Predictor
+│       │   ├── Network Action Predictor-journal
+│       │   ├── Network Persistent State
+│       │   ├── optimization_guide_hint_cache_store
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   └── LOG.old
+│       │   ├── parcel_tracking_db
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   └── LOG.old
+│       │   ├── PersistentOriginTrials
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   └── LOG.old
+│       │   ├── Preferences
+│       │   ├── PreferredApps
+│       │   ├── README
+│       │   ├── Reporting and NEL
+│       │   ├── Reporting and NEL-journal
+│       │   ├── Safe Browsing Cookies
+│       │   ├── Safe Browsing Cookies-journal
+│       │   ├── SCT Auditing Pending Reports
+│       │   ├── Secure Preferences
+│       │   ├── Segmentation Platform
+│       │   │   ├── SegmentInfoDB
+│       │   │   │   ├── LOCK
+│       │   │   │   ├── LOG
+│       │   │   │   └── LOG.old
+│       │   │   ├── SignalDB
+│       │   │   │   ├── LOCK
+│       │   │   │   ├── LOG
+│       │   │   │   └── LOG.old
+│       │   │   └── SignalStorageConfigDB
+│       │   │       ├── LOCK
+│       │   │       ├── LOG
+│       │   │       └── LOG.old
+│       │   ├── ServerCertificate
+│       │   ├── ServerCertificate-journal
+│       │   ├── Service Worker
+│       │   │   ├── Database
+│       │   │   │   ├── 000003.log
+│       │   │   │   ├── CURRENT
+│       │   │   │   ├── LOCK
+│       │   │   │   ├── LOG
+│       │   │   │   ├── LOG.old
+│       │   │   │   └── MANIFEST-000001
+│       │   │   └── ScriptCache
+│       │   │       ├── 2cc80dabc69f58b6_0
+│       │   │       ├── 2cc80dabc69f58b6_1
+│       │   │       ├── index
+│       │   │       └── index-dir
+│       │   │           └── the-real-index
+│       │   ├── Sessions
+│       │   │   ├── Session_13400065037309393
+│       │   │   ├── Session_13400067571227628
+│       │   │   ├── Session_13400067610793977
+│       │   │   └── Tabs_13400067516253190
+│       │   ├── Session Storage
+│       │   │   ├── 000003.log
+│       │   │   ├── CURRENT
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   ├── LOG.old
+│       │   │   └── MANIFEST-000001
+│       │   ├── Shared Dictionary
+│       │   │   ├── cache
+│       │   │   │   ├── index
+│       │   │   │   └── index-dir
+│       │   │   │       └── the-real-index
+│       │   │   ├── db
+│       │   │   └── db-journal
+│       │   ├── shared_proto_db
+│       │   │   ├── 000003.log
+│       │   │   ├── CURRENT
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   ├── LOG.old
+│       │   │   ├── MANIFEST-000001
+│       │   │   └── metadata
+│       │   │       ├── 000003.log
+│       │   │       ├── CURRENT
+│       │   │       ├── LOCK
+│       │   │       ├── LOG
+│       │   │       ├── LOG.old
+│       │   │       └── MANIFEST-000001
+│       │   ├── SharedStorage
+│       │   ├── SharedStorage-wal
+│       │   ├── Shortcuts
+│       │   ├── Shortcuts-journal
+│       │   ├── Site Characteristics Database
+│       │   │   ├── 000003.log
+│       │   │   ├── CURRENT
+│       │   │   ├── LOCK
+│       │   │   ├── LOG
+│       │   │   ├── LOG.old
+│       │   │   └── MANIFEST-000001
+│       │   ├── Sync Data
+│       │   │   └── LevelDB
+│       │   │       ├── 000003.log
+│       │   │       ├── CURRENT
+│       │   │       ├── LOCK
+│       │   │       ├── LOG
+│       │   │       ├── LOG.old
+│       │   │       └── MANIFEST-000001
+│       │   ├── Top Sites
+│       │   ├── Top Sites-journal
+│       │   ├── trusted_vault.pb
+│       │   ├── Trust Tokens
+│       │   ├── Trust Tokens-journal
+│       │   ├── Web Data
+│       │   ├── Web Data-journal
+│       │   └── WebStorage
+│       │       ├── QuotaManager
+│       │       └── QuotaManager-journal
+│       ├── Dictionaries
+│       │   └── en-US-10-1.bdic
+│       ├── extensions_crx_cache
+│       │   └── metadata.json
+│       ├── first_party_sets.db
+│       ├── first_party_sets.db-journal
+│       ├── GraphiteDawnCache
+│       │   ├── data_0
+│       │   ├── data_1
+│       │   ├── data_2
+│       │   ├── data_3
+│       │   └── index
+│       ├── GrShaderCache
+│       │   ├── data_0
+│       │   ├── data_1
+│       │   ├── data_2
+│       │   ├── data_3
+│       │   ├── f_000001
+│       │   └── index
+│       ├── Last Version
+│       ├── Local State
+│       ├── NativeMessagingHosts
+│       ├── Safe Browsing
+│       ├── segmentation_platform
+│       │   ├── ukm_db
+│       │   └── ukm_db-wal
+│       ├── ShaderCache
+│       │   ├── data_0
+│       │   ├── data_1
+│       │   ├── data_2
+│       │   ├── data_3
+│       │   └── index
+│       ├── SingletonCookie -> 10767490827120502829
+│       ├── SingletonLock -> kemal-Thinkpad-21742
+│       ├── SingletonSocket -> /tmp/.org.chromium.Chromium.pjMmyy/SingletonSocket
+│       └── Variations
+├── BSJP.py
+├── emiten
+│   ├── _backup_daily_rows_20250819_163907
+│   │   ├── AADI.JK.csv
+│   │   ├── AALI.JK.csv
+│   │   ├── ABDA.JK.csv
+│   │   ├── ABMM.JK.csv
+│   │   ├── ACES.JK.csv
+│   │   ├── ACRO.JK.csv
+│   │   ├── ACST.JK.csv
+│   │   ├── ADCP.JK.csv
+│   │   ├── ADES.JK.csv
+│   │   ├── ADHI.JK.csv
+│   │   ├── ADMG.JK.csv
+│   │   ├── ADMR.JK.csv
+│   │   ├── ADRO.JK.csv
+│   │   ├── AGAR.JK.csv
+│   │   ├── AGII.JK.csv
+│   │   ├── AGRO.JK.csv
+│   │   ├── AGRS.JK.csv
+│   │   ├── AISA.JK.csv
+│   │   ├── AKPI.JK.csv
+│   │   ├── AKRA.JK.csv
+│   │   ├── ALDO.JK.csv
+│   │   ├── ALII.JK.csv
+│   │   ├── AMAG.JK.csv
+│   │   ├── AMAN.JK.csv
+│   │   ├── AMAR.JK.csv
+│   │   ├── AMFG.JK.csv
+│   │   ├── AMIN.JK.csv
+│   │   ├── AMMS.JK.csv
+│   │   ├── AMOR.JK.csv
+│   │   ├── AMRT.JK.csv
+│   │   ├── APEX.JK.csv
+│   │   ├── APII.JK.csv
+│   │   ├── APLI.JK.csv
+│   │   ├── ARCI.JK.csv
+│   │   ├── ARKO.JK.csv
+│   │   ├── ARNA.JK.csv
+│   │   ├── ARTA.JK.csv
+│   │   ├── ARTO.JK.csv
+│   │   ├── ASGR.JK.csv
+│   │   ├── ASII.JK.csv
+│   │   ├── ASJT.JK.csv
+│   │   ├── ASLC.JK.csv
+│   │   ├── ASLI.JK.csv
+│   │   ├── ASPR.JK.csv
+│   │   ├── ASRI.JK.csv
+│   │   ├── ASRM.JK.csv
+│   │   ├── ASSA.JK.csv
+│   │   ├── ATIC.JK.csv
+│   │   ├── ATLA.JK.csv
+│   │   ├── AUTO.JK.csv
+│   │   ├── AYAM.JK.csv
+│   │   ├── AYLS.JK.csv
+│   │   ├── BABP.JK.csv
+│   │   ├── BABY.JK.csv
+│   │   ├── BACA.JK.csv
+│   │   ├── BANK.JK.csv
+│   │   ├── BAPA.JK.csv
+│   │   ├── BATA.JK.csv
+│   │   ├── BATR.JK.csv
+│   │   ├── BBCA.JK.csv
+│   │   ├── BBHI.JK.csv
+│   │   ├── BBMD.JK.csv
+│   │   ├── BBRM.JK.csv
+│   │   ├── BBSI.JK.csv
+│   │   ├── BBSS.JK.csv
+│   │   ├── BBTN.JK.csv
+│   │   ├── BBYB.JK.csv
+│   │   ├── BCAP.JK.csv
+│   │   ├── BDKR.JK.csv
+│   │   ├── BEEF.JK.csv
+│   │   ├── BEER.JK.csv
+│   │   ├── BELL.JK.csv
+│   │   ├── BESS.JK.csv
+│   │   ├── BEST.JK.csv
+│   │   ├── BGTG.JK.csv
+│   │   ├── BHAT.JK.csv
+│   │   ├── BIKE.JK.csv
+│   │   ├── BIPI.JK.csv
+│   │   ├── BIRD.JK.csv
+│   │   ├── BISI.JK.csv
+│   │   ├── BJTM.JK.csv
+│   │   ├── BKSL.JK.csv
+│   │   ├── BKSW.JK.csv
+│   │   ├── BLES.JK.csv
+│   │   ├── BLOG.JK.csv
+│   │   ├── BLTZ.JK.csv
+│   │   ├── BLUE.JK.csv
+│   │   ├── BMAS.JK.csv
+│   │   ├── BMSR.JK.csv
+│   │   ├── BMTR.JK.csv
+│   │   ├── BNGA.JK.csv
+│   │   ├── BNII.JK.csv
+│   │   ├── BNLI.JK.csv
+│   │   ├── BOAT.JK.csv
+│   │   ├── BOBA.JK.csv
+│   │   ├── BOLT.JK.csv
+│   │   ├── BPFI.JK.csv
+│   │   ├── BPII.JK.csv
+│   │   ├── BRAM.JK.csv
+│   │   ├── BRIS.JK.csv
+│   │   ├── BRNA.JK.csv
+│   │   ├── BRPT.JK.csv
+│   │   ├── BRRC.JK.csv
+│   │   ├── BSDE.JK.csv
+│   │   ├── BSIM.JK.csv
+│   │   ├── BSWD.JK.csv
+│   │   ├── BTON.JK.csv
+│   │   ├── BTPN.JK.csv
+│   │   ├── BTPS.JK.csv
+│   │   ├── BUDI.JK.csv
+│   │   ├── BUKA.JK.csv
+│   │   ├── BULL.JK.csv
+│   │   ├── BUVA.JK.csv
+│   │   ├── BVIC.JK.csv
+│   │   ├── BWPT.JK.csv
+│   │   ├── BYAN.JK.csv
+│   │   ├── CAKK.JK.csv
+│   │   ├── CAMP.JK.csv
+│   │   ├── CARE.JK.csv
+│   │   ├── CARS.JK.csv
+│   │   ├── CASA.JK.csv
+│   │   ├── CASH.JK.csv
+│   │   ├── CASS.JK.csv
+│   │   ├── CBDK.JK.csv
+│   │   ├── CBPE.JK.csv
+│   │   ├── CBRE.JK.csv
+│   │   ├── CBUT.JK.csv
+│   │   ├── CEKA.JK.csv
+│   │   ├── CGAS.JK.csv
+│   │   ├── CHEK.JK.csv
+│   │   ├── CHIP.JK.csv
+│   │   ├── CLEO.JK.csv
+│   │   ├── CLPI.JK.csv
+│   │   ├── CMNT.JK.csv
+│   │   ├── CMPP.JK.csv
+│   │   ├── CMRY.JK.csv
+│   │   ├── CNKO.JK.csv
+│   │   ├── CNMA.JK.csv
+│   │   ├── COCO.JK.csv
+│   │   ├── COIN.JK.csv
+│   │   ├── CPIN.JK.csv
+│   │   ├── CPRO.JK.csv
+│   │   ├── CRAB.JK.csv
+│   │   ├── CRSN.JK.csv
+│   │   ├── CSAP.JK.csv
+│   │   ├── CSIS.JK.csv
+│   │   ├── CSMI.JK.csv
+│   │   ├── CTBN.JK.csv
+│   │   ├── CTRA.JK.csv
+│   │   ├── CUAN.JK.csv
+│   │   ├── DAAZ.JK.csv
+│   │   ├── DATA.JK.csv
+│   │   ├── DAYA.JK.csv
+│   │   ├── DCII.JK.csv
+│   │   ├── DEPO.JK.csv
+│   │   ├── DEWA.JK.csv
+│   │   ├── DEWI.JK.csv
+│   │   ├── DFAM.JK.csv
+│   │   ├── DGNS.JK.csv
+│   │   ├── DGWG.JK.csv
+│   │   ├── DILD.JK.csv
+│   │   ├── DKFT.JK.csv
+│   │   ├── DKHH.JK.csv
+│   │   ├── DLTA.JK.csv
+│   │   ├── DMAS.JK.csv
+│   │   ├── DNAR.JK.csv
+│   │   ├── DNET.JK.csv
+│   │   ├── DOID.JK.csv
+│   │   ├── DOOH.JK.csv
+│   │   ├── DPNS.JK.csv
+│   │   ├── DPUM.JK.csv
+│   │   ├── DSFI.JK.csv
+│   │   ├── DSNG.JK.csv
+│   │   ├── DSSA.JK.csv
+│   │   ├── DUTI.JK.csv
+│   │   ├── DVLA.JK.csv
+│   │   ├── DYAN.JK.csv
+│   │   ├── EAST.JK.csv
+│   │   ├── ECII.JK.csv
+│   │   ├── EDGE.JK.csv
+│   │   ├── EKAD.JK.csv
+│   │   ├── ELIT.JK.csv
+│   │   ├── ELSA.JK.csv
+│   │   ├── EMTK.JK.csv
+│   │   ├── ENAK.JK.csv
+│   │   ├── ENRG.JK.csv
+│   │   ├── EPMT.JK.csv
+│   │   ├── ERAA.JK.csv
+│   │   ├── ERTX.JK.csv
+│   │   ├── ESSA.JK.csv
+│   │   ├── ESTA.JK.csv
+│   │   ├── EURO.JK.csv
+│   │   ├── EXCL.JK.csv
+│   │   ├── FAPA.JK.csv
+│   │   ├── FAST.JK.csv
+│   │   ├── FILM.JK.csv
+│   │   ├── FIMP.JK.csv
+│   │   ├── FIRE.JK.csv
+│   │   ├── FLMC.JK.csv
+│   │   ├── FMII.JK.csv
+│   │   ├── FOLK.JK.csv
+│   │   ├── FORE.JK.csv
+│   │   ├── FUJI.JK.csv
+│   │   ├── FUTR.JK.csv
+│   │   ├── FWCT.JK.csv
+│   │   ├── GDYR.JK.csv
+│   │   ├── GEMA.JK.csv
+│   │   ├── GEMS.JK.csv
+│   │   ├── GGRM.JK.csv
+│   │   ├── GHON.JK.csv
+│   │   ├── GJTL.JK.csv
+│   │   ├── GLOB.JK.csv
+│   │   ├── GMTD.JK.csv
+│   │   ├── GOLD.JK.csv
+│   │   ├── GOLF.JK.csv
+│   │   ├── GPRA.JK.csv
+│   │   ├── GPSO.JK.csv
+│   │   ├── GRPH.JK.csv
+│   │   ├── GSMF.JK.csv
+│   │   ├── GTBO.JK.csv
+│   │   ├── GTRA.JK.csv
+│   │   ├── GULA.JK.csv
+│   │   ├── GWSA.JK.csv
+│   │   ├── GZCO.JK.csv
+│   │   ├── HALO.JK.csv
+│   │   ├── HATM.JK.csv
+│   │   ├── HBAT.JK.csv
+│   │   ├── HDFA.JK.csv
+│   │   ├── HEAL.JK.csv
+│   │   ├── HELI.JK.csv
+│   │   ├── HEXA.JK.csv
+│   │   ├── HGII.JK.csv
+│   │   ├── HILL.JK.csv
+│   │   ├── HOMI.JK.csv
+│   │   ├── HOPE.JK.csv
+│   │   ├── HRUM.JK.csv
+│   │   ├── HUMI.JK.csv
+│   │   ├── HYGN.JK.csv
+│   │   ├── IBST.JK.csv
+│   │   ├── IFSH.JK.csv
+│   │   ├── IGAR.JK.csv
+│   │   ├── IKBI.JK.csv
+│   │   ├── INCI.JK.csv
+│   │   ├── INCO.JK.csv
+│   │   ├── INDF.JK.csv
+│   │   ├── INDO.JK.csv
+│   │   ├── INDR.JK.csv
+│   │   ├── INKP.JK.csv
+│   │   ├── INOV.JK.csv
+│   │   ├── INPS.JK.csv
+│   │   ├── INRU.JK.csv
+│   │   ├── INTD.JK.csv
+│   │   ├── INTP.JK.csv
+│   │   ├── IOTF.JK.csv
+│   │   ├── IPAC.JK.csv
+│   │   ├── IPCC.JK.csv
+│   │   ├── IPOL.JK.csv
+│   │   ├── IRSX.JK.csv
+│   │   ├── ISAT.JK.csv
+│   │   ├── ISSP.JK.csv
+│   │   ├── ITIC.JK.csv
+│   │   ├── ITMA.JK.csv
+│   │   ├── JAST.JK.csv
+│   │   ├── JATI.JK.csv
+│   │   ├── JAWA.JK.csv
+│   │   ├── JIHD.JK.csv
+│   │   ├── JKON.JK.csv
+│   │   ├── JMAS.JK.csv
+│   │   ├── JPFA.JK.csv
+│   │   ├── JRPT.JK.csv
+│   │   ├── JSMR.JK.csv
+│   │   ├── JSPT.JK.csv
+│   │   ├── KAEF.JK.csv
+│   │   ├── KAQI.JK.csv
+│   │   ├── KARW.JK.csv
+│   │   ├── KBLV.JK.csv
+│   │   ├── KDSI.JK.csv
+│   │   ├── KEJU.JK.csv
+│   │   ├── KETR.JK.csv
+│   │   ├── KICI.JK.csv
+│   │   ├── KIJA.JK.csv
+│   │   ├── KIOS.JK.csv
+│   │   ├── KKGI.JK.csv
+│   │   ├── KLAS.JK.csv
+│   │   ├── KLBF.JK.csv
+│   │   ├── KLIN.JK.csv
+│   │   ├── KMDS.JK.csv
+│   │   ├── KMTR.JK.csv
+│   │   ├── KOBX.JK.csv
+│   │   ├── KOIN.JK.csv
+│   │   ├── KOKA.JK.csv
+│   │   ├── KONI.JK.csv
+│   │   ├── KOPI.JK.csv
+│   │   ├── KPIG.JK.csv
+│   │   ├── KRYA.JK.csv
+│   │   ├── KSIX.JK.csv
+│   │   ├── KUAS.JK.csv
+│   │   ├── LABS.JK.csv
+│   │   ├── LAJU.JK.csv
+│   │   ├── LAPD.JK.csv
+│   │   ├── LCKM.JK.csv
+│   │   ├── LFLO.JK.csv
+│   │   ├── LINK.JK.csv
+│   │   ├── LIVE.JK.csv
+│   │   ├── LMPI.JK.csv
+│   │   ├── LOPI.JK.csv
+│   │   ├── LPCK.JK.csv
+│   │   ├── LPGI.JK.csv
+│   │   ├── LPIN.JK.csv
+│   │   ├── LPKR.JK.csv
+│   │   ├── LPLI.JK.csv
+│   │   ├── LPPF.JK.csv
+│   │   ├── LPPS.JK.csv
+│   │   ├── LSIP.JK.csv
+│   │   ├── LTLS.JK.csv
+│   │   ├── LUCK.JK.csv
+│   │   ├── LUCY.JK.csv
+│   │   ├── MAHA.JK.csv
+│   │   ├── MAIN.JK.csv
+│   │   ├── MAPA.JK.csv
+│   │   ├── MAPI.JK.csv
+│   │   ├── MARK.JK.csv
+│   │   ├── MASB.JK.csv
+│   │   ├── MAXI.JK.csv
+│   │   ├── MBAP.JK.csv
+│   │   ├── MBMA.JK.csv
+│   │   ├── MBSS.JK.csv
+│   │   ├── MBTO.JK.csv
+│   │   ├── MCAS.JK.csv
+│   │   ├── MCOR.JK.csv
+│   │   ├── MDKA.JK.csv
+│   │   ├── MDKI.JK.csv
+│   │   ├── MDLA.JK.csv
+│   │   ├── MDLN.JK.csv
+│   │   ├── MEDC.JK.csv
+│   │   ├── MEDS.JK.csv
+│   │   ├── MERI.JK.csv
+│   │   ├── MERK.JK.csv
+│   │   ├── MFIN.JK.csv
+│   │   ├── MGRO.JK.csv
+│   │   ├── MICE.JK.csv
+│   │   ├── MIDI.JK.csv
+│   │   ├── MINE.JK.csv
+│   │   ├── MITI.JK.csv
+│   │   ├── MKAP.JK.csv
+│   │   ├── MKPI.JK.csv
+│   │   ├── MKTR.JK.csv
+│   │   ├── MLIA.JK.csv
+│   │   ├── MLPL.JK.csv
+│   │   ├── MLPT.JK.csv
+│   │   ├── MMIX.JK.csv
+│   │   ├── MMLP.JK.csv
+│   │   ├── MNCN.JK.csv
+│   │   ├── MOLI.JK.csv
+│   │   ├── MORA.JK.csv
+│   │   ├── MPMX.JK.csv
+│   │   ├── MPOW.JK.csv
+│   │   ├── MPPA.JK.csv
+│   │   ├── MPXL.JK.csv
+│   │   ├── MRAT.JK.csv
+│   │   ├── MSIN.JK.csv
+│   │   ├── MSJA.JK.csv
+│   │   ├── MSKY.JK.csv
+│   │   ├── MTDL.JK.csv
+│   │   ├── MTLA.JK.csv
+│   │   ├── MTMH.JK.csv
+│   │   ├── MYOR.JK.csv
+│   │   ├── NAIK.JK.csv
+│   │   ├── NATO.JK.csv
+│   │   ├── NAYZ.JK.csv
+│   │   ├── NCKL.JK.csv
+│   │   ├── NELY.JK.csv
+│   │   ├── NEST.JK.csv
+│   │   ├── NETV.JK.csv
+│   │   ├── NFCX.JK.csv
+│   │   ├── NICK.JK.csv
+│   │   ├── NICL.JK.csv
+│   │   ├── NIKL.JK.csv
+│   │   ├── NISP.JK.csv
+│   │   ├── NOBU.JK.csv
+│   │   ├── NRCA.JK.csv
+│   │   ├── NTBK.JK.csv
+│   │   ├── OASA.JK.csv
+│   │   ├── OBAT.JK.csv
+│   │   ├── OBMD.JK.csv
+│   │   ├── OILS.JK.csv
+│   │   ├── OKAS.JK.csv
+│   │   ├── OMED.JK.csv
+│   │   ├── OMRE.JK.csv
+│   │   ├── OPMS.JK.csv
+│   │   ├── PACK.JK.csv
+│   │   ├── PALM.JK.csv
+│   │   ├── PAMG.JK.csv
+│   │   ├── PANI.JK.csv
+│   │   ├── PANR.JK.csv
+│   │   ├── PANS.JK.csv
+│   │   ├── PART.JK.csv
+│   │   ├── PBID.JK.csv
+│   │   ├── PDES.JK.csv
+│   │   ├── PEGE.JK.csv
+│   │   ├── PEHA.JK.csv
+│   │   ├── PEVE.JK.csv
+│   │   ├── PGAS.JK.csv
+│   │   ├── PGEO.JK.csv
+│   │   ├── PGJO.JK.csv
+│   │   ├── PGUN.JK.csv
+│   │   ├── PICO.JK.csv
+│   │   ├── PIPA.JK.csv
+│   │   ├── PJAA.JK.csv
+│   │   ├── PMJS.JK.csv
+│   │   ├── PMMP.JK.csv
+│   │   ├── PMUI.JK.csv
+│   │   ├── PNBN.JK.csv
+│   │   ├── PNLF.JK.csv
+│   │   ├── PNSE.JK.csv
+│   │   ├── POLI.JK.csv
+│   │   ├── PORT.JK.csv
+│   │   ├── PPGL.JK.csv
+│   │   ├── PPRI.JK.csv
+│   │   ├── PRIM.JK.csv
+│   │   ├── PSAB.JK.csv
+│   │   ├── PSAT.JK.csv
+│   │   ├── PSDN.JK.csv
+│   │   ├── PTBA.JK.csv
+│   │   ├── PTIS.JK.csv
+│   │   ├── PTMP.JK.csv
+│   │   ├── PTMR.JK.csv
+│   │   ├── PTPP.JK.csv
+│   │   ├── PTPW.JK.csv
+│   │   ├── PTRO.JK.csv
+│   │   ├── PTSN.JK.csv
+│   │   ├── PUDP.JK.csv
+│   │   ├── PURI.JK.csv
+│   │   ├── PWON.JK.csv
+│   │   ├── PYFA.JK.csv
+│   │   ├── PZZA.JK.csv
+│   │   ├── RAAM.JK.csv
+│   │   ├── RAJA.JK.csv
+│   │   ├── RALS.JK.csv
+│   │   ├── RANC.JK.csv
+│   │   ├── RATU.JK.csv
+│   │   ├── RDTX.JK.csv
+│   │   ├── RGAS.JK.csv
+│   │   ├── RIGS.JK.csv
+│   │   ├── RMKE.JK.csv
+│   │   ├── RMKO.JK.csv
+│   │   ├── ROCK.JK.csv
+│   │   ├── RSCH.JK.csv
+│   │   ├── SAFE.JK.csv
+│   │   ├── SAMF.JK.csv
+│   │   ├── SAPX.JK.csv
+│   │   ├── SATU.JK.csv
+│   │   ├── SBMA.JK.csv
+│   │   ├── SCMA.JK.csv
+│   │   ├── SDPC.JK.csv
+│   │   ├── SDRA.JK.csv
+│   │   ├── SFAN.JK.csv
+│   │   ├── SGER.JK.csv
+│   │   ├── SGRO.JK.csv
+│   │   ├── SHID.JK.csv
+│   │   ├── SHIP.JK.csv
+│   │   ├── SICO.JK.csv
+│   │   ├── SIDO.JK.csv
+│   │   ├── SILO.JK.csv
+│   │   ├── SIMP.JK.csv
+│   │   ├── SKBM.JK.csv
+│   │   ├── SKLT.JK.csv
+│   │   ├── SKRN.JK.csv
+│   │   ├── SLIS.JK.csv
+│   │   ├── SMDM.JK.csv
+│   │   ├── SMDR.JK.csv
+│   │   ├── SMGA.JK.csv
+│   │   ├── SMGR.JK.csv
+│   │   ├── SMIL.JK.csv
+│   │   ├── SMKL.JK.csv
+│   │   ├── SMMA.JK.csv
+│   │   ├── SNLK.JK.csv
+│   │   ├── SOHO.JK.csv
+│   │   ├── SOLA.JK.csv
+│   │   ├── SONA.JK.csv
+│   │   ├── SOSS.JK.csv
+│   │   ├── SPMA.JK.csv
+│   │   ├── SPRE.JK.csv
+│   │   ├── SPTO.JK.csv
+│   │   ├── SRAJ.JK.csv
+│   │   ├── SRSN.JK.csv
+│   │   ├── SRTG.JK.csv
+│   │   ├── SSIA.JK.csv
+│   │   ├── SSMS.JK.csv
+│   │   ├── SSTM.JK.csv
+│   │   ├── STAA.JK.csv
+│   │   ├── STRK.JK.csv
+│   │   ├── STTP.JK.csv
+│   │   ├── SULI.JK.csv
+│   │   ├── SUNI.JK.csv
+│   │   ├── SURE.JK.csv
+│   │   ├── SWID.JK.csv
+│   │   ├── TALF.JK.csv
+│   │   ├── TAPG.JK.csv
+│   │   ├── TAYS.JK.csv
+│   │   ├── TBIG.JK.csv
+│   │   ├── TBLA.JK.csv
+│   │   ├── TBMS.JK.csv
+│   │   ├── TCPI.JK.csv
+│   │   ├── TEBE.JK.csv
+│   │   ├── TFAS.JK.csv
+│   │   ├── TGUK.JK.csv
+│   │   ├── TIFA.JK.csv
+│   │   ├── TIRA.JK.csv
+│   │   ├── TKIM.JK.csv
+│   │   ├── TMAS.JK.csv
+│   │   ├── TNCA.JK.csv
+│   │   ├── TOBA.JK.csv
+│   │   ├── TOOL.JK.csv
+│   │   ├── TOTL.JK.csv
+│   │   ├── TOTO.JK.csv
+│   │   ├── TOWR.JK.csv
+│   │   ├── TPMA.JK.csv
+│   │   ├── TRGU.JK.csv
+│   │   ├── TRIM.JK.csv
+│   │   ├── TRIN.JK.csv
+│   │   ├── TRIS.JK.csv
+│   │   ├── TRJA.JK.csv
+│   │   ├── TRST.JK.csv
+│   │   ├── TRUK.JK.csv
+│   │   ├── TSPC.JK.csv
+│   │   ├── TUGU.JK.csv
+│   │   ├── UCID.JK.csv
+│   │   ├── UDNG.JK.csv
+│   │   ├── UFOE.JK.csv
+│   │   ├── ULTJ.JK.csv
+│   │   ├── UNIC.JK.csv
+│   │   ├── UNIQ.JK.csv
+│   │   ├── UNSP.JK.csv
+│   │   ├── UNTD.JK.csv
+│   │   ├── UNVR.JK.csv
+│   │   ├── URBN.JK.csv
+│   │   ├── UVCR.JK.csv
+│   │   ├── VAST.JK.csv
+│   │   ├── VICI.JK.csv
+│   │   ├── VISI.JK.csv
+│   │   ├── VOKS.JK.csv
+│   │   ├── VRNA.JK.csv
+│   │   ├── WAPO.JK.csv
+│   │   ├── WEHA.JK.csv
+│   │   ├── WGSH.JK.csv
+│   │   ├── WIFI.JK.csv
+│   │   ├── WIIM.JK.csv
+│   │   ├── WIRG.JK.csv
+│   │   ├── WOMF.JK.csv
+│   │   ├── WOOD.JK.csv
+│   │   ├── WOWS.JK.csv
+│   │   ├── WTON.JK.csv
+│   │   ├── YOII.JK.csv
+│   │   ├── YPAS.JK.csv
+│   │   ├── YULE.JK.csv
+│   │   ├── YUPI.JK.csv
+│   │   ├── ZBRA.JK.csv
+│   │   └── ZYRX.JK.csv
+│   ├── cache_15m
+│   │   ├── AADI.JK.csv
+│   │   ├── AALI.JK.csv
+│   │   ├── ABBA.JK.csv
+│   │   ├── ABDA.JK.csv
+│   │   ├── ABMM.JK.csv
+│   │   ├── ACES.JK.csv
+│   │   ├── ACRO.JK.csv
+│   │   ├── ACST.JK.csv
+│   │   ├── ADCP.JK.csv
+│   │   ├── ADES.JK.csv
+│   │   ├── ADHI.JK.csv
+│   │   ├── ADMF.JK.csv
+│   │   ├── ADMG.JK.csv
+│   │   ├── ADMR.JK.csv
+│   │   ├── ADRO.JK.csv
+│   │   ├── AEGS.JK.csv
+│   │   ├── AGAR.JK.csv
+│   │   ├── AGII.JK.csv
+│   │   ├── AGRO.JK.csv
+│   │   ├── AGRS.JK.csv
+│   │   ├── AHAP.JK.csv
+│   │   ├── AIMS.JK.csv
+│   │   ├── AISA.JK.csv
+│   │   ├── AKKU.JK.csv
+│   │   ├── AKPI.JK.csv
+│   │   ├── AKRA.JK.csv
+│   │   ├── AKSI.JK.csv
+│   │   ├── ALDO.JK.csv
+│   │   ├── ALII.JK.csv
+│   │   ├── ALKA.JK.csv
+│   │   ├── ALTO.JK.csv
+│   │   ├── AMAG.JK.csv
+│   │   ├── AMAN.JK.csv
+│   │   ├── AMAR.JK.csv
+│   │   ├── AMFG.JK.csv
+│   │   ├── AMIN.JK.csv
+│   │   ├── AMMN.JK.csv
+│   │   ├── AMMS.JK.csv
+│   │   ├── AMOR.JK.csv
+│   │   ├── AMRT.JK.csv
+│   │   ├── ANDI.JK.csv
+│   │   ├── ANJT.JK.csv
+│   │   ├── ANTM.JK.csv
+│   │   ├── APEX.JK.csv
+│   │   ├── APIC.JK.csv
+│   │   ├── APII.JK.csv
+│   │   ├── APLI.JK.csv
+│   │   ├── APLN.JK.csv
+│   │   ├── ARCI.JK.csv
+│   │   ├── AREA.JK.csv
+│   │   ├── ARGO.JK.csv
+│   │   ├── ARII.JK.csv
+│   │   ├── ARKA.JK.csv
+│   │   ├── ARKO.JK.csv
+│   │   ├── ARMY.JK.csv
+│   │   ├── ARNA.JK.csv
+│   │   ├── ARTA.JK.csv
+│   │   ├── ARTO.JK.csv
+│   │   ├── ASBI.JK.csv
+│   │   ├── ASDM.JK.csv
+│   │   ├── ASGR.JK.csv
+│   │   ├── ASHA.JK.csv
+│   │   ├── ASII.JK.csv
+│   │   ├── ASJT.JK.csv
+│   │   ├── ASLC.JK.csv
+│   │   ├── ASLI.JK.csv
+│   │   ├── ASMI.JK.csv
+│   │   ├── ASPI.JK.csv
+│   │   ├── ASPR.JK.csv
+│   │   ├── ASRI.JK.csv
+│   │   ├── ASRM.JK.csv
+│   │   ├── ASSA.JK.csv
+│   │   ├── ATAP.JK.csv
+│   │   ├── ATIC.JK.csv
+│   │   ├── ATLA.JK.csv
+│   │   ├── AUTO.JK.csv
+│   │   ├── AVIA.JK.csv
+│   │   ├── AWAN.JK.csv
+│   │   ├── AXIO.JK.csv
+│   │   ├── AYAM.JK.csv
+│   │   ├── AYLS.JK.csv
+│   │   ├── BABP.JK.csv
+│   │   ├── BABY.JK.csv
+│   │   ├── BACA.JK.csv
+│   │   ├── BAIK.JK.csv
+│   │   ├── BAJA.JK.csv
+│   │   ├── BALI.JK.csv
+│   │   ├── BANK.JK.csv
+│   │   ├── BAPA.JK.csv
+│   │   ├── BAPI.JK.csv
+│   │   ├── BATA.JK.csv
+│   │   ├── BATR.JK.csv
+│   │   ├── BAUT.JK.csv
+│   │   ├── BAYU.JK.csv
+│   │   ├── BBCA.JK.csv
+│   │   ├── BBHI.JK.csv
+│   │   ├── BBKP.JK.csv
+│   │   ├── BBLD.JK.csv
+│   │   ├── BBMD.JK.csv
+│   │   ├── BBNI.JK.csv
+│   │   ├── BBRI.JK.csv
+│   │   ├── BBRM.JK.csv
+│   │   ├── BBSI.JK.csv
+│   │   ├── BBSS.JK.csv
+│   │   ├── BBTN.JK.csv
+│   │   ├── BBYB.JK.csv
+│   │   ├── BCAP.JK.csv
+│   │   ├── BCIP.JK.csv
+│   │   ├── BDKR.JK.csv
+│   │   ├── BDMN.JK.csv
+│   │   ├── BEEF.JK.csv
+│   │   ├── BEER.JK.csv
+│   │   ├── BEKS.JK.csv
+│   │   ├── BELI.JK.csv
+│   │   ├── BELL.JK.csv
+│   │   ├── BESS.JK.csv
+│   │   ├── BEST.JK.csv
+│   │   ├── BFIN.JK.csv
+│   │   ├── BGTG.JK.csv
+│   │   ├── BHAT.JK.csv
+│   │   ├── BHIT.JK.csv
+│   │   ├── BIKE.JK.csv
+│   │   ├── BIMA.JK.csv
+│   │   ├── BINA.JK.csv
+│   │   ├── BINO.JK.csv
+│   │   ├── BIPI.JK.csv
+│   │   ├── BIPP.JK.csv
+│   │   ├── BIRD.JK.csv
+│   │   ├── BISI.JK.csv
+│   │   ├── BJBR.JK.csv
+│   │   ├── BJTM.JK.csv
+│   │   ├── BKDP.JK.csv
+│   │   ├── BKSL.JK.csv
+│   │   ├── BKSW.JK.csv
+│   │   ├── BLES.JK.csv
+│   │   ├── BLOG.JK.csv
+│   │   ├── BLTA.JK.csv
+│   │   ├── BLTZ.JK.csv
+│   │   ├── BLUE.JK.csv
+│   │   ├── BMAS.JK.csv
+│   │   ├── BMBL.JK.csv
+│   │   ├── BMHS.JK.csv
+│   │   ├── BMRI.JK.csv
+│   │   ├── BMSR.JK.csv
+│   │   ├── BMTR.JK.csv
+│   │   ├── BNBA.JK.csv
+│   │   ├── BNBR.JK.csv
+│   │   ├── BNGA.JK.csv
+│   │   ├── BNII.JK.csv
+│   │   ├── BNLI.JK.csv
+│   │   ├── BOAT.JK.csv
+│   │   ├── BOBA.JK.csv
+│   │   ├── BOGA.JK.csv
+│   │   ├── BOLA.JK.csv
+│   │   ├── BOLT.JK.csv
+│   │   ├── BOSS.JK.csv
+│   │   ├── BPFI.JK.csv
+│   │   ├── BPII.JK.csv
+│   │   ├── BPTR.JK.csv
+│   │   ├── BRAM.JK.csv
+│   │   ├── BREN.JK.csv
+│   │   ├── BRIS.JK.csv
+│   │   ├── BRMS.JK.csv
+│   │   ├── BRNA.JK.csv
+│   │   ├── BRPT.JK.csv
+│   │   ├── BRRC.JK.csv
+│   │   ├── BSBK.JK.csv
+│   │   ├── BSDE.JK.csv
+│   │   ├── BSIM.JK.csv
+│   │   ├── BSML.JK.csv
+│   │   ├── BSSR.JK.csv
+│   │   ├── BSWD.JK.csv
+│   │   ├── BTEK.JK.csv
+│   │   ├── BTEL.JK.csv
+│   │   ├── BTON.JK.csv
+│   │   ├── BTPN.JK.csv
+│   │   ├── BTPS.JK.csv
+│   │   ├── BUAH.JK.csv
+│   │   ├── BUDI.JK.csv
+│   │   ├── BUKA.JK.csv
+│   │   ├── BUKK.JK.csv
+│   │   ├── BULL.JK.csv
+│   │   ├── BUMI.JK.csv
+│   │   ├── BUVA.JK.csv
+│   │   ├── BVIC.JK.csv
+│   │   ├── BWPT.JK.csv
+│   │   ├── BYAN.JK.csv
+│   │   ├── CAKK.JK.csv
+│   │   ├── CAMP.JK.csv
+│   │   ├── CANI.JK.csv
+│   │   ├── CARE.JK.csv
+│   │   ├── CARS.JK.csv
+│   │   ├── CASA.JK.csv
+│   │   ├── CASH.JK.csv
+│   │   ├── CASS.JK.csv
+│   │   ├── CBDK.JK.csv
+│   │   ├── CBMF.JK.csv
+│   │   ├── CBPE.JK.csv
+│   │   ├── CBRE.JK.csv
+│   │   ├── CBUT.JK.csv
+│   │   ├── CCSI.JK.csv
+│   │   ├── CDIA.JK.csv
+│   │   ├── CEKA.JK.csv
+│   │   ├── CENT.JK.csv
+│   │   ├── CFIN.JK.csv
+│   │   ├── CGAS.JK.csv
+│   │   ├── CHEK.JK.csv
+│   │   ├── CHEM.JK.csv
+│   │   ├── CHIP.JK.csv
+│   │   ├── CINT.JK.csv
+│   │   ├── CITA.JK.csv
+│   │   ├── CITY.JK.csv
+│   │   ├── CLAY.JK.csv
+│   │   ├── CLEO.JK.csv
+│   │   ├── CLPI.JK.csv
+│   │   ├── CMNP.JK.csv
+│   │   ├── CMNT.JK.csv
+│   │   ├── CMPP.JK.csv
+│   │   ├── CMRY.JK.csv
+│   │   ├── CNKO.JK.csv
+│   │   ├── CNMA.JK.csv
+│   │   ├── COAL.JK.csv
+│   │   ├── COCO.JK.csv
+│   │   ├── COIN.JK.csv
+│   │   ├── COWL.JK.csv
+│   │   ├── CPIN.JK.csv
+│   │   ├── CPRI.JK.csv
+│   │   ├── CPRO.JK.csv
+│   │   ├── CRAB.JK.csv
+│   │   ├── CRSN.JK.csv
+│   │   ├── CSAP.JK.csv
+│   │   ├── CSIS.JK.csv
+│   │   ├── CSMI.JK.csv
+│   │   ├── CSRA.JK.csv
+│   │   ├── CTBN.JK.csv
+│   │   ├── CTRA.JK.csv
+│   │   ├── CTTH.JK.csv
+│   │   ├── CUAN.JK.csv
+│   │   ├── CYBR.JK.csv
+│   │   ├── DAAZ.JK.csv
+│   │   ├── DADA.JK.csv
+│   │   ├── DART.JK.csv
+│   │   ├── DATA.JK.csv
+│   │   ├── DAYA.JK.csv
+│   │   ├── DCII.JK.csv
+│   │   ├── DEAL.JK.csv
+│   │   ├── DEFI.JK.csv
+│   │   ├── DEPO.JK.csv
+│   │   ├── DEWA.JK.csv
+│   │   ├── DEWI.JK.csv
+│   │   ├── DFAM.JK.csv
+│   │   ├── DGIK.JK.csv
+│   │   ├── DGNS.JK.csv
+│   │   ├── DGWG.JK.csv
+│   │   ├── DIGI.JK.csv
+│   │   ├── DILD.JK.csv
+│   │   ├── DIVA.JK.csv
+│   │   ├── DKFT.JK.csv
+│   │   ├── DKHH.JK.csv
+│   │   ├── DLTA.JK.csv
+│   │   ├── DMAS.JK.csv
+│   │   ├── DMMX.JK.csv
+│   │   ├── DMND.JK.csv
+│   │   ├── DNAR.JK.csv
+│   │   ├── DNET.JK.csv
+│   │   ├── DOID.JK.csv
+│   │   ├── DOOH.JK.csv
+│   │   ├── DOSS.JK.csv
+│   │   ├── DPNS.JK.csv
+│   │   ├── DPUM.JK.csv
+│   │   ├── DRMA.JK.csv
+│   │   ├── DSFI.JK.csv
+│   │   ├── DSNG.JK.csv
+│   │   ├── DSSA.JK.csv
+│   │   ├── DUCK.JK.csv
+│   │   ├── DUTI.JK.csv
+│   │   ├── DVLA.JK.csv
+│   │   ├── DWGL.JK.csv
+│   │   ├── DYAN.JK.csv
+│   │   ├── EAST.JK.csv
+│   │   ├── ECII.JK.csv
+│   │   ├── EDGE.JK.csv
+│   │   ├── EKAD.JK.csv
+│   │   ├── ELIT.JK.csv
+│   │   ├── ELPI.JK.csv
+│   │   ├── ELSA.JK.csv
+│   │   ├── ELTY.JK.csv
+│   │   ├── EMDE.JK.csv
+│   │   ├── EMTK.JK.csv
+│   │   ├── ENAK.JK.csv
+│   │   ├── ENRG.JK.csv
+│   │   ├── ENVY.JK.csv
+│   │   ├── ENZO.JK.csv
+│   │   ├── EPAC.JK.csv
+│   │   ├── EPMT.JK.csv
+│   │   ├── ERAA.JK.csv
+│   │   ├── ERAL.JK.csv
+│   │   ├── ERTX.JK.csv
+│   │   ├── ESIP.JK.csv
+│   │   ├── ESSA.JK.csv
+│   │   ├── ESTA.JK.csv
+│   │   ├── ESTI.JK.csv
+│   │   ├── ETWA.JK.csv
+│   │   ├── EURO.JK.csv
+│   │   ├── EXCL.JK.csv
+│   │   ├── FAPA.JK.csv
+│   │   ├── FAST.JK.csv
+│   │   ├── FILM.JK.csv
+│   │   ├── FIMP.JK.csv
+│   │   ├── FIRE.JK.csv
+│   │   ├── FITT.JK.csv
+│   │   ├── FLMC.JK.csv
+│   │   ├── FMII.JK.csv
+│   │   ├── FOLK.JK.csv
+│   │   ├── FOOD.JK.csv
+│   │   ├── FORE.JK.csv
+│   │   ├── FORU.JK.csv
+│   │   ├── FPNI.JK.csv
+│   │   ├── FUJI.JK.csv
+│   │   ├── FUTR.JK.csv
+│   │   ├── FWCT.JK.csv
+│   │   ├── GAMA.JK.csv
+│   │   ├── GDST.JK.csv
+│   │   ├── GDYR.JK.csv
+│   │   ├── GEMA.JK.csv
+│   │   ├── GEMS.JK.csv
+│   │   ├── GGRM.JK.csv
+│   │   ├── GGRP.JK.csv
+│   │   ├── GHON.JK.csv
+│   │   ├── GIAA.JK.csv
+│   │   ├── GJTL.JK.csv
+│   │   ├── GLOB.JK.csv
+│   │   ├── GLVA.JK.csv
+│   │   ├── GMFI.JK.csv
+│   │   ├── GMTD.JK.csv
+│   │   ├── GOLD.JK.csv
+│   │   ├── GOLF.JK.csv
+│   │   ├── GOLL.JK.csv
+│   │   ├── GOOD.JK.csv
+│   │   ├── GOTO.JK.csv
+│   │   ├── GPRA.JK.csv
+│   │   ├── GPSO.JK.csv
+│   │   ├── GRIA.JK.csv
+│   │   ├── GRPH.JK.csv
+│   │   ├── GRPM.JK.csv
+│   │   ├── GSMF.JK.csv
+│   │   ├── GTBO.JK.csv
+│   │   ├── GTRA.JK.csv
+│   │   ├── GTSI.JK.csv
+│   │   ├── GULA.JK.csv
+│   │   ├── GUNA.JK.csv
+│   │   ├── GWSA.JK.csv
+│   │   ├── GZCO.JK.csv
+│   │   ├── HADE.JK.csv
+│   │   ├── HAIS.JK.csv
+│   │   ├── HAJJ.JK.csv
+│   │   ├── HALO.JK.csv
+│   │   ├── HATM.JK.csv
+│   │   ├── HBAT.JK.csv
+│   │   ├── HDFA.JK.csv
+│   │   ├── HDIT.JK.csv
+│   │   ├── HEAL.JK.csv
+│   │   ├── HELI.JK.csv
+│   │   ├── HERO.JK.csv
+│   │   ├── HEXA.JK.csv
+│   │   ├── HGII.JK.csv
+│   │   ├── HILL.JK.csv
+│   │   ├── HKMU.JK.csv
+│   │   ├── HMSP.JK.csv
+│   │   ├── HOKI.JK.csv
+│   │   ├── HOME.JK.csv
+│   │   ├── HOMI.JK.csv
+│   │   ├── HOPE.JK.csv
+│   │   ├── HOTL.JK.csv
+│   │   ├── HRME.JK.csv
+│   │   ├── HRTA.JK.csv
+│   │   ├── HRUM.JK.csv
+│   │   ├── HUMI.JK.csv
+│   │   ├── HYGN.JK.csv
+│   │   ├── IATA.JK.csv
+│   │   ├── IBFN.JK.csv
+│   │   ├── IBOS.JK.csv
+│   │   ├── IBST.JK.csv
+│   │   ├── ICBP.JK.csv
+│   │   ├── ICON.JK.csv
+│   │   ├── IDEA.JK.csv
+│   │   ├── IDPR.JK.csv
+│   │   ├── IFII.JK.csv
+│   │   ├── IFSH.JK.csv
+│   │   ├── IGAR.JK.csv
+│   │   ├── IIKP.JK.csv
+│   │   ├── IKAI.JK.csv
+│   │   ├── IKAN.JK.csv
+│   │   ├── IKBI.JK.csv
+│   │   ├── IKPM.JK.csv
+│   │   ├── IMAS.JK.csv
+│   │   ├── IMJS.JK.csv
+│   │   ├── IMPC.JK.csv
+│   │   ├── INAI.JK.csv
+│   │   ├── INCF.JK.csv
+│   │   ├── INCI.JK.csv
+│   │   ├── INCO.JK.csv
+│   │   ├── INDF.JK.csv
+│   │   ├── INDO.JK.csv
+│   │   ├── INDR.JK.csv
+│   │   ├── INDS.JK.csv
+│   │   ├── INDX.JK.csv
+│   │   ├── INDY.JK.csv
+│   │   ├── INET.JK.csv
+│   │   ├── INKP.JK.csv
+│   │   ├── INOV.JK.csv
+│   │   ├── INPC.JK.csv
+│   │   ├── INPP.JK.csv
+│   │   ├── INPS.JK.csv
+│   │   ├── INRU.JK.csv
+│   │   ├── INTA.JK.csv
+│   │   ├── INTD.JK.csv
+│   │   ├── INTP.JK.csv
+│   │   ├── IOTF.JK.csv
+│   │   ├── IPAC.JK.csv
+│   │   ├── IPCC.JK.csv
+│   │   ├── IPCM.JK.csv
+│   │   ├── IPOL.JK.csv
+│   │   ├── IPTV.JK.csv
+│   │   ├── IRRA.JK.csv
+│   │   ├── IRSX.JK.csv
+│   │   ├── ISAP.JK.csv
+│   │   ├── ISAT.JK.csv
+│   │   ├── ISEA.JK.csv
+│   │   ├── ISSP.JK.csv
+│   │   ├── ITIC.JK.csv
+│   │   ├── ITMA.JK.csv
+│   │   ├── ITMG.JK.csv
+│   │   ├── JARR.JK.csv
+│   │   ├── JAST.JK.csv
+│   │   ├── JATI.JK.csv
+│   │   ├── JAWA.JK.csv
+│   │   ├── JAYA.JK.csv
+│   │   ├── JECC.JK.csv
+│   │   ├── JGLE.JK.csv
+│   │   ├── JIHD.JK.csv
+│   │   ├── JKON.JK.csv
+│   │   ├── JMAS.JK.csv
+│   │   ├── JPFA.JK.csv
+│   │   ├── JRPT.JK.csv
+│   │   ├── JSKY.JK.csv
+│   │   ├── JSMR.JK.csv
+│   │   ├── JSPT.JK.csv
+│   │   ├── JTPE.JK.csv
+│   │   ├── KAEF.JK.csv
+│   │   ├── KAQI.JK.csv
+│   │   ├── KARW.JK.csv
+│   │   ├── KAYU.JK.csv
+│   │   ├── KBAG.JK.csv
+│   │   ├── KBLI.JK.csv
+│   │   ├── KBLM.JK.csv
+│   │   ├── KBLV.JK.csv
+│   │   ├── KBRI.JK.csv
+│   │   ├── KDSI.JK.csv
+│   │   ├── KDTN.JK.csv
+│   │   ├── KEEN.JK.csv
+│   │   ├── KEJU.JK.csv
+│   │   ├── KETR.JK.csv
+│   │   ├── KIAS.JK.csv
+│   │   ├── KICI.JK.csv
+│   │   ├── KIJA.JK.csv
+│   │   ├── KING.JK.csv
+│   │   ├── KINO.JK.csv
+│   │   ├── KIOS.JK.csv
+│   │   ├── KJEN.JK.csv
+│   │   ├── KKES.JK.csv
+│   │   ├── KKGI.JK.csv
+│   │   ├── KLAS.JK.csv
+│   │   ├── KLBF.JK.csv
+│   │   ├── KLIN.JK.csv
+│   │   ├── KMDS.JK.csv
+│   │   ├── KMTR.JK.csv
+│   │   ├── KOBX.JK.csv
+│   │   ├── KOCI.JK.csv
+│   │   ├── KOIN.JK.csv
+│   │   ├── KOKA.JK.csv
+│   │   ├── KONI.JK.csv
+│   │   ├── KOPI.JK.csv
+│   │   ├── KOTA.JK.csv
+│   │   ├── KPIG.JK.csv
+│   │   ├── KRAS.JK.csv
+│   │   ├── KREN.JK.csv
+│   │   ├── KRYA.JK.csv
+│   │   ├── KSIX.JK.csv
+│   │   ├── KUAS.JK.csv
+│   │   ├── LABA.JK.csv
+│   │   ├── LABS.JK.csv
+│   │   ├── LAJU.JK.csv
+│   │   ├── LAND.JK.csv
+│   │   ├── LAPD.JK.csv
+│   │   ├── LCGP.JK.csv
+│   │   ├── LCKM.JK.csv
+│   │   ├── LEAD.JK.csv
+│   │   ├── LFLO.JK.csv
+│   │   ├── LIFE.JK.csv
+│   │   ├── LINK.JK.csv
+│   │   ├── LION.JK.csv
+│   │   ├── LIVE.JK.csv
+│   │   ├── LMAS.JK.csv
+│   │   ├── LMAX.JK.csv
+│   │   ├── LMPI.JK.csv
+│   │   ├── LOPI.JK.csv
+│   │   ├── LPCK.JK.csv
+│   │   ├── LPGI.JK.csv
+│   │   ├── LPIN.JK.csv
+│   │   ├── LPKR.JK.csv
+│   │   ├── LPLI.JK.csv
+│   │   ├── LPPF.JK.csv
+│   │   ├── LPPS.JK.csv
+│   │   ├── LRNA.JK.csv
+│   │   ├── LSIP.JK.csv
+│   │   ├── LTLS.JK.csv
+│   │   ├── LUCK.JK.csv
+│   │   ├── LUCY.JK.csv
+│   │   ├── MABA.JK.csv
+│   │   ├── MAGP.JK.csv
+│   │   ├── MAHA.JK.csv
+│   │   ├── MAIN.JK.csv
+│   │   ├── MANG.JK.csv
+│   │   ├── MAPA.JK.csv
+│   │   ├── MAPB.JK.csv
+│   │   ├── MAPI.JK.csv
+│   │   ├── MARI.JK.csv
+│   │   ├── MARK.JK.csv
+│   │   ├── MASB.JK.csv
+│   │   ├── MAXI.JK.csv
+│   │   ├── MAYA.JK.csv
+│   │   ├── MBAP.JK.csv
+│   │   ├── MBMA.JK.csv
+│   │   ├── MBSS.JK.csv
+│   │   ├── MBTO.JK.csv
+│   │   ├── MCAS.JK.csv
+│   │   ├── MCOL.JK.csv
+│   │   ├── MCOR.JK.csv
+│   │   ├── MDIA.JK.csv
+│   │   ├── MDIY.JK.csv
+│   │   ├── MDKA.JK.csv
+│   │   ├── MDKI.JK.csv
+│   │   ├── MDLA.JK.csv
+│   │   ├── MDLN.JK.csv
+│   │   ├── MDRN.JK.csv
+│   │   ├── MEDC.JK.csv
+│   │   ├── MEDS.JK.csv
+│   │   ├── MEGA.JK.csv
+│   │   ├── MEJA.JK.csv
+│   │   ├── MENN.JK.csv
+│   │   ├── MERI.JK.csv
+│   │   ├── MERK.JK.csv
+│   │   ├── META.JK.csv
+│   │   ├── MFIN.JK.csv
+│   │   ├── MGLV.JK.csv
+│   │   ├── MGNA.JK.csv
+│   │   ├── MGRO.JK.csv
+│   │   ├── MHKI.JK.csv
+│   │   ├── MICE.JK.csv
+│   │   ├── MIDI.JK.csv
+│   │   ├── MIKA.JK.csv
+│   │   ├── MINA.JK.csv
+│   │   ├── MINE.JK.csv
+│   │   ├── MIRA.JK.csv
+│   │   ├── MITI.JK.csv
+│   │   ├── MKAP.JK.csv
+│   │   ├── MKPI.JK.csv
+│   │   ├── MKTR.JK.csv
+│   │   ├── MLBI.JK.csv
+│   │   ├── MLIA.JK.csv
+│   │   ├── MLPL.JK.csv
+│   │   ├── MLPT.JK.csv
+│   │   ├── MMIX.JK.csv
+│   │   ├── MMLP.JK.csv
+│   │   ├── MNCN.JK.csv
+│   │   ├── MOLI.JK.csv
+│   │   ├── MORA.JK.csv
+│   │   ├── MPIX.JK.csv
+│   │   ├── MPMX.JK.csv
+│   │   ├── MPOW.JK.csv
+│   │   ├── MPPA.JK.csv
+│   │   ├── MPRO.JK.csv
+│   │   ├── MPXL.JK.csv
+│   │   ├── MRAT.JK.csv
+│   │   ├── MREI.JK.csv
+│   │   ├── MSIE.JK.csv
+│   │   ├── MSIN.JK.csv
+│   │   ├── MSJA.JK.csv
+│   │   ├── MSKY.JK.csv
+│   │   ├── MSTI.JK.csv
+│   │   ├── MTDL.JK.csv
+│   │   ├── MTEL.JK.csv
+│   │   ├── MTFN.JK.csv
+│   │   ├── MTLA.JK.csv
+│   │   ├── MTMH.JK.csv
+│   │   ├── MTPS.JK.csv
+│   │   ├── MTRA.JK.csv
+│   │   ├── MTWI.JK.csv
+│   │   ├── MUTU.JK.csv
+│   │   ├── MYOH.JK.csv
+│   │   ├── MYOR.JK.csv
+│   │   ├── NAIK.JK.csv
+│   │   ├── NANO.JK.csv
+│   │   ├── NASA.JK.csv
+│   │   ├── NASI.JK.csv
+│   │   ├── NATO.JK.csv
+│   │   ├── NAYZ.JK.csv
+│   │   ├── NCKL.JK.csv
+│   │   ├── NELY.JK.csv
+│   │   ├── NEST.JK.csv
+│   │   ├── NETV.JK.csv
+│   │   ├── NFCX.JK.csv
+│   │   ├── NICE.JK.csv
+│   │   ├── NICK.JK.csv
+│   │   ├── NICL.JK.csv
+│   │   ├── NIKL.JK.csv
+│   │   ├── NINE.JK.csv
+│   │   ├── NIRO.JK.csv
+│   │   ├── NISP.JK.csv
+│   │   ├── NOBU.JK.csv
+│   │   ├── NPGF.JK.csv
+│   │   ├── NRCA.JK.csv
+│   │   ├── NSSS.JK.csv
+│   │   ├── NTBK.JK.csv
+│   │   ├── NUSA.JK.csv
+│   │   ├── NZIA.JK.csv
+│   │   ├── OASA.JK.csv
+│   │   ├── OBAT.JK.csv
+│   │   ├── OBMD.JK.csv
+│   │   ├── OCAP.JK.csv
+│   │   ├── OILS.JK.csv
+│   │   ├── OKAS.JK.csv
+│   │   ├── OLIV.JK.csv
+│   │   ├── OMED.JK.csv
+│   │   ├── OMRE.JK.csv
+│   │   ├── OPMS.JK.csv
+│   │   ├── PACK.JK.csv
+│   │   ├── PADA.JK.csv
+│   │   ├── PADI.JK.csv
+│   │   ├── PALM.JK.csv
+│   │   ├── PAMG.JK.csv
+│   │   ├── PANI.JK.csv
+│   │   ├── PANR.JK.csv
+│   │   ├── PANS.JK.csv
+│   │   ├── PART.JK.csv
+│   │   ├── PBID.JK.csv
+│   │   ├── PBRX.JK.csv
+│   │   ├── PBSA.JK.csv
+│   │   ├── PCAR.JK.csv
+│   │   ├── PDES.JK.csv
+│   │   ├── PDPP.JK.csv
+│   │   ├── PEGE.JK.csv
+│   │   ├── PEHA.JK.csv
+│   │   ├── PEVE.JK.csv
+│   │   ├── PGAS.JK.csv
+│   │   ├── PGEO.JK.csv
+│   │   ├── PGJO.JK.csv
+│   │   ├── PGLI.JK.csv
+│   │   ├── PGUN.JK.csv
+│   │   ├── PICO.JK.csv
+│   │   ├── PIPA.JK.csv
+│   │   ├── PJAA.JK.csv
+│   │   ├── PKPK.JK.csv
+│   │   ├── PLAN.JK.csv
+│   │   ├── PLAS.JK.csv
+│   │   ├── PMJS.JK.csv
+│   │   ├── PMMP.JK.csv
+│   │   ├── PMUI.JK.csv
+│   │   ├── PNBN.JK.csv
+│   │   ├── PNBS.JK.csv
+│   │   ├── PNGO.JK.csv
+│   │   ├── PNIN.JK.csv
+│   │   ├── PNLF.JK.csv
+│   │   ├── PNSE.JK.csv
+│   │   ├── POLA.JK.csv
+│   │   ├── POLI.JK.csv
+│   │   ├── POLU.JK.csv
+│   │   ├── POLY.JK.csv
+│   │   ├── POOL.JK.csv
+│   │   ├── PORT.JK.csv
+│   │   ├── POSA.JK.csv
+│   │   ├── POWR.JK.csv
+│   │   ├── PPGL.JK.csv
+│   │   ├── PPRE.JK.csv
+│   │   ├── PPRI.JK.csv
+│   │   ├── PRAY.JK.csv
+│   │   ├── PRDA.JK.csv
+│   │   ├── PRIM.JK.csv
+│   │   ├── PSAB.JK.csv
+│   │   ├── PSAT.JK.csv
+│   │   ├── PSDN.JK.csv
+│   │   ├── PSGO.JK.csv
+│   │   ├── PSKT.JK.csv
+│   │   ├── PSSI.JK.csv
+│   │   ├── PTBA.JK.csv
+│   │   ├── PTDU.JK.csv
+│   │   ├── PTIS.JK.csv
+│   │   ├── PTMP.JK.csv
+│   │   ├── PTMR.JK.csv
+│   │   ├── PTPP.JK.csv
+│   │   ├── PTPS.JK.csv
+│   │   ├── PTPW.JK.csv
+│   │   ├── PTRO.JK.csv
+│   │   ├── PTSN.JK.csv
+│   │   ├── PTSP.JK.csv
+│   │   ├── PUDP.JK.csv
+│   │   ├── PURA.JK.csv
+│   │   ├── PURE.JK.csv
+│   │   ├── PURI.JK.csv
+│   │   ├── PWON.JK.csv
+│   │   ├── PYFA.JK.csv
+│   │   ├── PZZA.JK.csv
+│   │   ├── RAAM.JK.csv
+│   │   ├── RAFI.JK.csv
+│   │   ├── RAJA.JK.csv
+│   │   ├── RALS.JK.csv
+│   │   ├── RANC.JK.csv
+│   │   ├── RATU.JK.csv
+│   │   ├── RBMS.JK.csv
+│   │   ├── RCCC.JK.csv
+│   │   ├── RDTX.JK.csv
+│   │   ├── REAL.JK.csv
+│   │   ├── RELF.JK.csv
+│   │   ├── RELI.JK.csv
+│   │   ├── RGAS.JK.csv
+│   │   ├── RICY.JK.csv
+│   │   ├── RIGS.JK.csv
+│   │   ├── RIMO.JK.csv
+│   │   ├── RISE.JK.csv
+│   │   ├── RMKE.JK.csv
+│   │   ├── RMKO.JK.csv
+│   │   ├── ROCK.JK.csv
+│   │   ├── RODA.JK.csv
+│   │   ├── ROTI.JK.csv
+│   │   ├── RSCH.JK.csv
+│   │   ├── RUIS.JK.csv
+│   │   ├── RUNS.JK.csv
+│   │   ├── SAFE.JK.csv
+│   │   ├── SAGE.JK.csv
+│   │   ├── SAME.JK.csv
+│   │   ├── SAMF.JK.csv
+│   │   ├── SAPX.JK.csv
+│   │   ├── SATU.JK.csv
+│   │   ├── SBMA.JK.csv
+│   │   ├── SCCO.JK.csv
+│   │   ├── SCMA.JK.csv
+│   │   ├── SCNP.JK.csv
+│   │   ├── SCPI.JK.csv
+│   │   ├── SDMU.JK.csv
+│   │   ├── SDPC.JK.csv
+│   │   ├── SDRA.JK.csv
+│   │   ├── SEMA.JK.csv
+│   │   ├── SFAN.JK.csv
+│   │   ├── SGER.JK.csv
+│   │   ├── SGRO.JK.csv
+│   │   ├── SHID.JK.csv
+│   │   ├── SHIP.JK.csv
+│   │   ├── SICO.JK.csv
+│   │   ├── SIDO.JK.csv
+│   │   ├── SILO.JK.csv
+│   │   ├── SIMA.JK.csv
+│   │   ├── SIMP.JK.csv
+│   │   ├── SINI.JK.csv
+│   │   ├── SIPD.JK.csv
+│   │   ├── SKBM.JK.csv
+│   │   ├── SKLT.JK.csv
+│   │   ├── SKRN.JK.csv
+│   │   ├── SKYB.JK.csv
+│   │   ├── SLIS.JK.csv
+│   │   ├── SMAR.JK.csv
+│   │   ├── SMBR.JK.csv
+│   │   ├── SMDM.JK.csv
+│   │   ├── SMDR.JK.csv
+│   │   ├── SMGA.JK.csv
+│   │   ├── SMGR.JK.csv
+│   │   ├── SMIL.JK.csv
+│   │   ├── SMKL.JK.csv
+│   │   ├── SMKM.JK.csv
+│   │   ├── SMLE.JK.csv
+│   │   ├── SMMA.JK.csv
+│   │   ├── SMMT.JK.csv
+│   │   ├── SMRA.JK.csv
+│   │   ├── SMRU.JK.csv
+│   │   ├── SMSM.JK.csv
+│   │   ├── SNLK.JK.csv
+│   │   ├── SOCI.JK.csv
+│   │   ├── SOFA.JK.csv
+│   │   ├── SOHO.JK.csv
+│   │   ├── SOLA.JK.csv
+│   │   ├── SONA.JK.csv
+│   │   ├── SOSS.JK.csv
+│   │   ├── SOTS.JK.csv
+│   │   ├── SOUL.JK.csv
+│   │   ├── SPMA.JK.csv
+│   │   ├── SPRE.JK.csv
+│   │   ├── SPTO.JK.csv
+│   │   ├── SQMI.JK.csv
+│   │   ├── SRAJ.JK.csv
+│   │   ├── SRIL.JK.csv
+│   │   ├── SRSN.JK.csv
+│   │   ├── SRTG.JK.csv
+│   │   ├── SSIA.JK.csv
+│   │   ├── SSMS.JK.csv
+│   │   ├── SSTM.JK.csv
+│   │   ├── STAA.JK.csv
+│   │   ├── STAR.JK.csv
+│   │   ├── STRK.JK.csv
+│   │   ├── STTP.JK.csv
+│   │   ├── SUGI.JK.csv
+│   │   ├── SULI.JK.csv
+│   │   ├── SUNI.JK.csv
+│   │   ├── SURE.JK.csv
+│   │   ├── SURI.JK.csv
+│   │   ├── SWAT.JK.csv
+│   │   ├── SWID.JK.csv
+│   │   ├── TALF.JK.csv
+│   │   ├── TAMA.JK.csv
+│   │   ├── TAMU.JK.csv
+│   │   ├── TAPG.JK.csv
+│   │   ├── TARA.JK.csv
+│   │   ├── TAXI.JK.csv
+│   │   ├── TAYS.JK.csv
+│   │   ├── TBIG.JK.csv
+│   │   ├── TBLA.JK.csv
+│   │   ├── TBMS.JK.csv
+│   │   ├── TCID.JK.csv
+│   │   ├── TCPI.JK.csv
+│   │   ├── TDPM.JK.csv
+│   │   ├── TEBE.JK.csv
+│   │   ├── TECH.JK.csv
+│   │   ├── TFAS.JK.csv
+│   │   ├── TFCO.JK.csv
+│   │   ├── TGKA.JK.csv
+│   │   ├── TGRA.JK.csv
+│   │   ├── TGUK.JK.csv
+│   │   ├── TIFA.JK.csv
+│   │   ├── TINS.JK.csv
+│   │   ├── TIRA.JK.csv
+│   │   ├── TKIM.JK.csv
+│   │   ├── TLDN.JK.csv
+│   │   ├── TLKM.JK.csv
+│   │   ├── TMAS.JK.csv
+│   │   ├── TMPO.JK.csv
+│   │   ├── TNCA.JK.csv
+│   │   ├── TOBA.JK.csv
+│   │   ├── TOOL.JK.csv
+│   │   ├── TOSK.JK.csv
+│   │   ├── TOTL.JK.csv
+│   │   ├── TOTO.JK.csv
+│   │   ├── TOWR.JK.csv
+│   │   ├── TPIA.JK.csv
+│   │   ├── TPMA.JK.csv
+│   │   ├── TRAM.JK.csv
+│   │   ├── TRGU.JK.csv
+│   │   ├── TRIL.JK.csv
+│   │   ├── TRIM.JK.csv
+│   │   ├── TRIN.JK.csv
+│   │   ├── TRIO.JK.csv
+│   │   ├── TRIS.JK.csv
+│   │   ├── TRJA.JK.csv
+│   │   ├── TRON.JK.csv
+│   │   ├── TRST.JK.csv
+│   │   ├── TRUE.JK.csv
+│   │   ├── TRUK.JK.csv
+│   │   ├── TRUS.JK.csv
+│   │   ├── TSPC.JK.csv
+│   │   ├── TUGU.JK.csv
+│   │   ├── TYRE.JK.csv
+│   │   ├── UANG.JK.csv
+│   │   ├── UCID.JK.csv
+│   │   ├── UDNG.JK.csv
+│   │   ├── UFOE.JK.csv
+│   │   ├── ULTJ.JK.csv
+│   │   ├── UNIC.JK.csv
+│   │   ├── UNIQ.JK.csv
+│   │   ├── UNIT.JK.csv
+│   │   ├── UNSP.JK.csv
+│   │   ├── UNTD.JK.csv
+│   │   ├── UNTR.JK.csv
+│   │   ├── UNVR.JK.csv
+│   │   ├── URBN.JK.csv
+│   │   ├── UVCR.JK.csv
+│   │   ├── VAST.JK.csv
+│   │   ├── VERN.JK.csv
+│   │   ├── VICI.JK.csv
+│   │   ├── VICO.JK.csv
+│   │   ├── VINS.JK.csv
+│   │   ├── VISI.JK.csv
+│   │   ├── VIVA.JK.csv
+│   │   ├── VKTR.JK.csv
+│   │   ├── VOKS.JK.csv
+│   │   ├── VRNA.JK.csv
+│   │   ├── VTNY.JK.csv
+│   │   ├── WAPO.JK.csv
+│   │   ├── WEGE.JK.csv
+│   │   ├── WEHA.JK.csv
+│   │   ├── WGSH.JK.csv
+│   │   ├── WIDI.JK.csv
+│   │   ├── WIFI.JK.csv
+│   │   ├── WIIM.JK.csv
+│   │   ├── WINE.JK.csv
+│   │   ├── WINR.JK.csv
+│   │   ├── WINS.JK.csv
+│   │   ├── WIRG.JK.csv
+│   │   ├── WMPP.JK.csv
+│   │   ├── WMUU.JK.csv
+│   │   ├── WOMF.JK.csv
+│   │   ├── WOOD.JK.csv
+│   │   ├── WOWS.JK.csv
+│   │   ├── WSBP.JK.csv
+│   │   ├── WSKT.JK.csv
+│   │   ├── WTON.JK.csv
+│   │   ├── YELO.JK.csv
+│   │   ├── YOII.JK.csv
+│   │   ├── YPAS.JK.csv
+│   │   ├── YULE.JK.csv
+│   │   ├── YUPI.JK.csv
+│   │   ├── ZATA.JK.csv
+│   │   ├── ZBRA.JK.csv
+│   │   ├── ZINC.JK.csv
+│   │   ├── ZONE.JK.csv
+│   │   └── ZYRX.JK.csv
+│   ├── cache_1m
+│   │   ├── AADI.JK.csv
+│   │   ├── AALI.JK.csv
+│   │   ├── ABDA.JK.csv
+│   │   ├── ABMM.JK.csv
+│   │   ├── ACES.JK.csv
+│   │   ├── ACRO.JK.csv
+│   │   ├── ACST.JK.csv
+│   │   ├── ADCP.JK.csv
+│   │   ├── ADES.JK.csv
+│   │   ├── ADHI.JK.csv
+│   │   ├── ADMF.JK.csv
+│   │   ├── ADMG.JK.csv
+│   │   ├── ADMR.JK.csv
+│   │   ├── ADRO.JK.csv
+│   │   ├── AEGS.JK.csv
+│   │   ├── AGAR.JK.csv
+│   │   ├── AGII.JK.csv
+│   │   ├── AGRO.JK.csv
+│   │   ├── AGRS.JK.csv
+│   │   ├── AHAP.JK.csv
+│   │   ├── AIMS.JK.csv
+│   │   ├── AISA.JK.csv
+│   │   ├── AKPI.JK.csv
+│   │   ├── AKRA.JK.csv
+│   │   ├── AKSI.JK.csv
+│   │   ├── ALDO.JK.csv
+│   │   ├── ALII.JK.csv
+│   │   ├── ALKA.JK.csv
+│   │   ├── AMAG.JK.csv
+│   │   ├── AMAN.JK.csv
+│   │   ├── AMAR.JK.csv
+│   │   ├── AMFG.JK.csv
+│   │   ├── AMIN.JK.csv
+│   │   ├── AMMN.JK.csv
+│   │   ├── AMMS.JK.csv
+│   │   ├── AMOR.JK.csv
+│   │   ├── AMRT.JK.csv
+│   │   ├── ANJT.JK.csv
+│   │   ├── ANTM.JK.csv
+│   │   ├── APEX.JK.csv
+│   │   ├── APIC.JK.csv
+│   │   ├── APII.JK.csv
+│   │   ├── APLI.JK.csv
+│   │   ├── APLN.JK.csv
+│   │   ├── ARCI.JK.csv
+│   │   ├── AREA.JK.csv
+│   │   ├── ARGO.JK.csv
+│   │   ├── ARII.JK.csv
+│   │   ├── ARKO.JK.csv
+│   │   ├── ARNA.JK.csv
+│   │   ├── ARTA.JK.csv
+│   │   ├── ARTO.JK.csv
+│   │   ├── ASBI.JK.csv
+│   │   ├── ASDM.JK.csv
+│   │   ├── ASGR.JK.csv
+│   │   ├── ASII.JK.csv
+│   │   ├── ASJT.JK.csv
+│   │   ├── ASLC.JK.csv
+│   │   ├── ASLI.JK.csv
+│   │   ├── ASPI.JK.csv
+│   │   ├── ASPR.JK.csv
+│   │   ├── ASRI.JK.csv
+│   │   ├── ASRM.JK.csv
+│   │   ├── ASSA.JK.csv
+│   │   ├── ATIC.JK.csv
+│   │   ├── ATLA.JK.csv
+│   │   ├── AUTO.JK.csv
+│   │   ├── AVIA.JK.csv
+│   │   ├── AWAN.JK.csv
+│   │   ├── AXIO.JK.csv
+│   │   ├── AYAM.JK.csv
+│   │   ├── AYLS.JK.csv
+│   │   ├── BABP.JK.csv
+│   │   ├── BABY.JK.csv
+│   │   ├── BACA.JK.csv
+│   │   ├── BAIK.JK.csv
+│   │   ├── BAJA.JK.csv
+│   │   ├── BALI.JK.csv
+│   │   ├── BANK.JK.csv
+│   │   ├── BAPA.JK.csv
+│   │   ├── BATA.JK.csv
+│   │   ├── BATR.JK.csv
+│   │   ├── BAYU.JK.csv
+│   │   ├── BBCA.JK.csv
+│   │   ├── BBHI.JK.csv
+│   │   ├── BBKP.JK.csv
+│   │   ├── BBLD.JK.csv
+│   │   ├── BBMD.JK.csv
+│   │   ├── BBNI.JK.csv
+│   │   ├── BBRI.JK.csv
+│   │   ├── BBRM.JK.csv
+│   │   ├── BBSI.JK.csv
+│   │   ├── BBSS.JK.csv
+│   │   ├── BBTN.JK.csv
+│   │   ├── BBYB.JK.csv
+│   │   ├── BCAP.JK.csv
+│   │   ├── BCIP.JK.csv
+│   │   ├── BDKR.JK.csv
+│   │   ├── BDMN.JK.csv
+│   │   ├── BEEF.JK.csv
+│   │   ├── BEER.JK.csv
+│   │   ├── BELI.JK.csv
+│   │   ├── BELL.JK.csv
+│   │   ├── BESS.JK.csv
+│   │   ├── BEST.JK.csv
+│   │   ├── BFIN.JK.csv
+│   │   ├── BGTG.JK.csv
+│   │   ├── BHAT.JK.csv
+│   │   ├── BIKE.JK.csv
+│   │   ├── BINA.JK.csv
+│   │   ├── BINO.JK.csv
+│   │   ├── BIPI.JK.csv
+│   │   ├── BIRD.JK.csv
+│   │   ├── BISI.JK.csv
+│   │   ├── BJBR.JK.csv
+│   │   ├── BJTM.JK.csv
+│   │   ├── BKSL.JK.csv
+│   │   ├── BKSW.JK.csv
+│   │   ├── BLES.JK.csv
+│   │   ├── BLOG.JK.csv
+│   │   ├── BLTZ.JK.csv
+│   │   ├── BLUE.JK.csv
+│   │   ├── BMAS.JK.csv
+│   │   ├── BMHS.JK.csv
+│   │   ├── BMRI.JK.csv
+│   │   ├── BMSR.JK.csv
+│   │   ├── BMTR.JK.csv
+│   │   ├── BNBA.JK.csv
+│   │   ├── BNGA.JK.csv
+│   │   ├── BNII.JK.csv
+│   │   ├── BNLI.JK.csv
+│   │   ├── BOAT.JK.csv
+│   │   ├── BOBA.JK.csv
+│   │   ├── BOGA.JK.csv
+│   │   ├── BOLA.JK.csv
+│   │   ├── BOLT.JK.csv
+│   │   ├── BPFI.JK.csv
+│   │   ├── BPII.JK.csv
+│   │   ├── BPTR.JK.csv
+│   │   ├── BRAM.JK.csv
+│   │   ├── BREN.JK.csv
+│   │   ├── BRIS.JK.csv
+│   │   ├── BRMS.JK.csv
+│   │   ├── BRNA.JK.csv
+│   │   ├── BRPT.JK.csv
+│   │   ├── BRRC.JK.csv
+│   │   ├── BSBK.JK.csv
+│   │   ├── BSDE.JK.csv
+│   │   ├── BSIM.JK.csv
+│   │   ├── BSML.JK.csv
+│   │   ├── BSSR.JK.csv
+│   │   ├── BSWD.JK.csv
+│   │   ├── BTON.JK.csv
+│   │   ├── BTPN.JK.csv
+│   │   ├── BTPS.JK.csv
+│   │   ├── BUAH.JK.csv
+│   │   ├── BUDI.JK.csv
+│   │   ├── BUKA.JK.csv
+│   │   ├── BUKK.JK.csv
+│   │   ├── BULL.JK.csv
+│   │   ├── BUMI.JK.csv
+│   │   ├── BUVA.JK.csv
+│   │   ├── BVIC.JK.csv
+│   │   ├── BWPT.JK.csv
+│   │   ├── BYAN.JK.csv
+│   │   ├── CAKK.JK.csv
+│   │   ├── CAMP.JK.csv
+│   │   ├── CARE.JK.csv
+│   │   ├── CARS.JK.csv
+│   │   ├── CASA.JK.csv
+│   │   ├── CASH.JK.csv
+│   │   ├── CASS.JK.csv
+│   │   ├── CBDK.JK.csv
+│   │   ├── CBPE.JK.csv
+│   │   ├── CBRE.JK.csv
+│   │   ├── CBUT.JK.csv
+│   │   ├── CCSI.JK.csv
+│   │   ├── CDIA.JK.csv
+│   │   ├── CEKA.JK.csv
+│   │   ├── CENT.JK.csv
+│   │   ├── CFIN.JK.csv
+│   │   ├── CGAS.JK.csv
+│   │   ├── CHEK.JK.csv
+│   │   ├── CHEM.JK.csv
+│   │   ├── CHIP.JK.csv
+│   │   ├── CINT.JK.csv
+│   │   ├── CITA.JK.csv
+│   │   ├── CITY.JK.csv
+│   │   ├── CLAY.JK.csv
+│   │   ├── CLEO.JK.csv
+│   │   ├── CLPI.JK.csv
+│   │   ├── CMNP.JK.csv
+│   │   ├── CMNT.JK.csv
+│   │   ├── CMPP.JK.csv
+│   │   ├── CMRY.JK.csv
+│   │   ├── CNKO.JK.csv
+│   │   ├── CNMA.JK.csv
+│   │   ├── COCO.JK.csv
+│   │   ├── COIN.JK.csv
+│   │   ├── CPIN.JK.csv
+│   │   ├── CPRO.JK.csv
+│   │   ├── CRAB.JK.csv
+│   │   ├── CRSN.JK.csv
+│   │   ├── CSAP.JK.csv
+│   │   ├── CSIS.JK.csv
+│   │   ├── CSMI.JK.csv
+│   │   ├── CSRA.JK.csv
+│   │   ├── CTBN.JK.csv
+│   │   ├── CTRA.JK.csv
+│   │   ├── CUAN.JK.csv
+│   │   ├── CYBR.JK.csv
+│   │   ├── DAAZ.JK.csv
+│   │   ├── DART.JK.csv
+│   │   ├── DATA.JK.csv
+│   │   ├── DAYA.JK.csv
+│   │   ├── DCII.JK.csv
+│   │   ├── DEPO.JK.csv
+│   │   ├── DEWA.JK.csv
+│   │   ├── DEWI.JK.csv
+│   │   ├── DFAM.JK.csv
+│   │   ├── DGIK.JK.csv
+│   │   ├── DGNS.JK.csv
+│   │   ├── DGWG.JK.csv
+│   │   ├── DILD.JK.csv
+│   │   ├── DIVA.JK.csv
+│   │   ├── DKFT.JK.csv
+│   │   ├── DKHH.JK.csv
+│   │   ├── DLTA.JK.csv
+│   │   ├── DMAS.JK.csv
+│   │   ├── DMMX.JK.csv
+│   │   ├── DMND.JK.csv
+│   │   ├── DNAR.JK.csv
+│   │   ├── DNET.JK.csv
+│   │   ├── DOID.JK.csv
+│   │   ├── DOOH.JK.csv
+│   │   ├── DOSS.JK.csv
+│   │   ├── DPNS.JK.csv
+│   │   ├── DPUM.JK.csv
+│   │   ├── DRMA.JK.csv
+│   │   ├── DSFI.JK.csv
+│   │   ├── DSNG.JK.csv
+│   │   ├── DSSA.JK.csv
+│   │   ├── DUTI.JK.csv
+│   │   ├── DVLA.JK.csv
+│   │   ├── DWGL.JK.csv
+│   │   ├── DYAN.JK.csv
+│   │   ├── EAST.JK.csv
+│   │   ├── ECII.JK.csv
+│   │   ├── EDGE.JK.csv
+│   │   ├── EKAD.JK.csv
+│   │   ├── ELIT.JK.csv
+│   │   ├── ELPI.JK.csv
+│   │   ├── ELSA.JK.csv
+│   │   ├── EMDE.JK.csv
+│   │   ├── EMTK.JK.csv
+│   │   ├── ENAK.JK.csv
+│   │   ├── ENRG.JK.csv
+│   │   ├── EPMT.JK.csv
+│   │   ├── ERAA.JK.csv
+│   │   ├── ERAL.JK.csv
+│   │   ├── ERTX.JK.csv
+│   │   ├── ESSA.JK.csv
+│   │   ├── ESTA.JK.csv
+│   │   ├── EURO.JK.csv
+│   │   ├── EXCL.JK.csv
+│   │   ├── FAPA.JK.csv
+│   │   ├── FAST.JK.csv
+│   │   ├── FILM.JK.csv
+│   │   ├── FIMP.JK.csv
+│   │   ├── FIRE.JK.csv
+│   │   ├── FITT.JK.csv
+│   │   ├── FLMC.JK.csv
+│   │   ├── FMII.JK.csv
+│   │   ├── FOLK.JK.csv
+│   │   ├── FOOD.JK.csv
+│   │   ├── FORE.JK.csv
+│   │   ├── FORU.JK.csv
+│   │   ├── FPNI.JK.csv
+│   │   ├── FUJI.JK.csv
+│   │   ├── FUTR.JK.csv
+│   │   ├── FWCT.JK.csv
+│   │   ├── GDST.JK.csv
+│   │   ├── GDYR.JK.csv
+│   │   ├── GEMA.JK.csv
+│   │   ├── GEMS.JK.csv
+│   │   ├── GGRM.JK.csv
+│   │   ├── GHON.JK.csv
+│   │   ├── GIAA.JK.csv
+│   │   ├── GJTL.JK.csv
+│   │   ├── GLOB.JK.csv
+│   │   ├── GLVA.JK.csv
+│   │   ├── GMFI.JK.csv
+│   │   ├── GMTD.JK.csv
+│   │   ├── GOLD.JK.csv
+│   │   ├── GOLF.JK.csv
+│   │   ├── GOOD.JK.csv
+│   │   ├── GOTO.JK.csv
+│   │   ├── GPRA.JK.csv
+│   │   ├── GPSO.JK.csv
+│   │   ├── GRIA.JK.csv
+│   │   ├── GRPH.JK.csv
+│   │   ├── GSMF.JK.csv
+│   │   ├── GTBO.JK.csv
+│   │   ├── GTRA.JK.csv
+│   │   ├── GULA.JK.csv
+│   │   ├── GUNA.JK.csv
+│   │   ├── GWSA.JK.csv
+│   │   ├── GZCO.JK.csv
+│   │   ├── HAIS.JK.csv
+│   │   ├── HAJJ.JK.csv
+│   │   ├── HALO.JK.csv
+│   │   ├── HATM.JK.csv
+│   │   ├── HBAT.JK.csv
+│   │   ├── HDFA.JK.csv
+│   │   ├── HEAL.JK.csv
+│   │   ├── HELI.JK.csv
+│   │   ├── HERO.JK.csv
+│   │   ├── HEXA.JK.csv
+│   │   ├── HGII.JK.csv
+│   │   ├── HILL.JK.csv
+│   │   ├── HMSP.JK.csv
+│   │   ├── HOKI.JK.csv
+│   │   ├── HOMI.JK.csv
+│   │   ├── HOPE.JK.csv
+│   │   ├── HRTA.JK.csv
+│   │   ├── HRUM.JK.csv
+│   │   ├── HUMI.JK.csv
+│   │   ├── HYGN.JK.csv
+│   │   ├── IATA.JK.csv
+│   │   ├── IBST.JK.csv
+│   │   ├── ICBP.JK.csv
+│   │   ├── IDEA.JK.csv
+│   │   ├── IDPR.JK.csv
+│   │   ├── IFII.JK.csv
+│   │   ├── IFSH.JK.csv
+│   │   ├── IGAR.JK.csv
+│   │   ├── IKAN.JK.csv
+│   │   ├── IKBI.JK.csv
+│   │   ├── IKPM.JK.csv
+│   │   ├── IMAS.JK.csv
+│   │   ├── IMJS.JK.csv
+│   │   ├── IMPC.JK.csv
+│   │   ├── INAI.JK.csv
+│   │   ├── INCI.JK.csv
+│   │   ├── INCO.JK.csv
+│   │   ├── INDF.JK.csv
+│   │   ├── INDO.JK.csv
+│   │   ├── INDR.JK.csv
+│   │   ├── INDS.JK.csv
+│   │   ├── INDX.JK.csv
+│   │   ├── INDY.JK.csv
+│   │   ├── INET.JK.csv
+│   │   ├── INKP.JK.csv
+│   │   ├── INOV.JK.csv
+│   │   ├── INPC.JK.csv
+│   │   ├── INPP.JK.csv
+│   │   ├── INPS.JK.csv
+│   │   ├── INRU.JK.csv
+│   │   ├── INTD.JK.csv
+│   │   ├── INTP.JK.csv
+│   │   ├── IOTF.JK.csv
+│   │   ├── IPAC.JK.csv
+│   │   ├── IPCC.JK.csv
+│   │   ├── IPCM.JK.csv
+│   │   ├── IPOL.JK.csv
+│   │   ├── IRRA.JK.csv
+│   │   ├── IRSX.JK.csv
+│   │   ├── ISAT.JK.csv
+│   │   ├── ISEA.JK.csv
+│   │   ├── ISSP.JK.csv
+│   │   ├── ITIC.JK.csv
+│   │   ├── ITMA.JK.csv
+│   │   ├── ITMG.JK.csv
+│   │   ├── JARR.JK.csv
+│   │   ├── JAST.JK.csv
+│   │   ├── JATI.JK.csv
+│   │   ├── JAWA.JK.csv
+│   │   ├── JAYA.JK.csv
+│   │   ├── JECC.JK.csv
+│   │   ├── JIHD.JK.csv
+│   │   ├── JKON.JK.csv
+│   │   ├── JMAS.JK.csv
+│   │   ├── JPFA.JK.csv
+│   │   ├── JRPT.JK.csv
+│   │   ├── JSMR.JK.csv
+│   │   ├── JSPT.JK.csv
+│   │   ├── JTPE.JK.csv
+│   │   ├── KAEF.JK.csv
+│   │   ├── KAQI.JK.csv
+│   │   ├── KARW.JK.csv
+│   │   ├── KBLI.JK.csv
+│   │   ├── KBLM.JK.csv
+│   │   ├── KBLV.JK.csv
+│   │   ├── KDSI.JK.csv
+│   │   ├── KDTN.JK.csv
+│   │   ├── KEEN.JK.csv
+│   │   ├── KEJU.JK.csv
+│   │   ├── KETR.JK.csv
+│   │   ├── KICI.JK.csv
+│   │   ├── KIJA.JK.csv
+│   │   ├── KING.JK.csv
+│   │   ├── KINO.JK.csv
+│   │   ├── KIOS.JK.csv
+│   │   ├── KJEN.JK.csv
+│   │   ├── KKGI.JK.csv
+│   │   ├── KLAS.JK.csv
+│   │   ├── KLBF.JK.csv
+│   │   ├── KLIN.JK.csv
+│   │   ├── KMDS.JK.csv
+│   │   ├── KMTR.JK.csv
+│   │   ├── KOBX.JK.csv
+│   │   ├── KOCI.JK.csv
+│   │   ├── KOIN.JK.csv
+│   │   ├── KOKA.JK.csv
+│   │   ├── KONI.JK.csv
+│   │   ├── KOPI.JK.csv
+│   │   ├── KPIG.JK.csv
+│   │   ├── KRAS.JK.csv
+│   │   ├── KRYA.JK.csv
+│   │   ├── KSIX.JK.csv
+│   │   ├── KUAS.JK.csv
+│   │   ├── LABS.JK.csv
+│   │   ├── LAJU.JK.csv
+│   │   ├── LAPD.JK.csv
+│   │   ├── LCKM.JK.csv
+│   │   ├── LEAD.JK.csv
+│   │   ├── LFLO.JK.csv
+│   │   ├── LIFE.JK.csv
+│   │   ├── LINK.JK.csv
+│   │   ├── LION.JK.csv
+│   │   ├── LIVE.JK.csv
+│   │   ├── LMAX.JK.csv
+│   │   ├── LMPI.JK.csv
+│   │   ├── _logs
+│   │   │   ├── align_report_20250819_235914.csv
+│   │   │   ├── align_report_20250820_153459.csv
+│   │   │   ├── align_report_20250820_154004.csv
+│   │   │   ├── append_run_20250819_234839.csv
+│   │   │   ├── run_20250819_211855.csv
+│   │   │   ├── run_20250819_212216.csv
+│   │   │   ├── run_20250819_212954.csv
+│   │   │   ├── sanity_mismatch_end_20250819_235847.csv
+│   │   │   ├── sanity_mismatch_end_20250820_132026.csv
+│   │   │   ├── sanity_mismatch_end_20250820_153415.csv
+│   │   │   ├── sanity_mismatch_start_20250819_235847.csv
+│   │   │   ├── sanity_mismatch_start_20250820_132026.csv
+│   │   │   ├── sanity_mismatch_start_20250820_153415.csv
+│   │   │   ├── sanity_report_20250819_235847.csv
+│   │   │   ├── sanity_report_20250820_132026.csv
+│   │   │   └── sanity_report_20250820_153415.csv
+│   │   ├── LOPI.JK.csv
+│   │   ├── LPCK.JK.csv
+│   │   ├── LPGI.JK.csv
+│   │   ├── LPIN.JK.csv
+│   │   ├── LPKR.JK.csv
+│   │   ├── LPLI.JK.csv
+│   │   ├── LPPF.JK.csv
+│   │   ├── LPPS.JK.csv
+│   │   ├── LRNA.JK.csv
+│   │   ├── LSIP.JK.csv
+│   │   ├── LTLS.JK.csv
+│   │   ├── LUCK.JK.csv
+│   │   ├── LUCY.JK.csv
+│   │   ├── MAHA.JK.csv
+│   │   ├── MAIN.JK.csv
+│   │   ├── MAPA.JK.csv
+│   │   ├── MAPB.JK.csv
+│   │   ├── MAPI.JK.csv
+│   │   ├── MARK.JK.csv
+│   │   ├── MASB.JK.csv
+│   │   ├── MAXI.JK.csv
+│   │   ├── MAYA.JK.csv
+│   │   ├── MBAP.JK.csv
+│   │   ├── MBMA.JK.csv
+│   │   ├── MBSS.JK.csv
+│   │   ├── MBTO.JK.csv
+│   │   ├── MCAS.JK.csv
+│   │   ├── MCOL.JK.csv
+│   │   ├── MCOR.JK.csv
+│   │   ├── MDIY.JK.csv
+│   │   ├── MDKA.JK.csv
+│   │   ├── MDKI.JK.csv
+│   │   ├── MDLA.JK.csv
+│   │   ├── MDLN.JK.csv
+│   │   ├── MEDC.JK.csv
+│   │   ├── MEDS.JK.csv
+│   │   ├── MEGA.JK.csv
+│   │   ├── MERI.JK.csv
+│   │   ├── MERK.JK.csv
+│   │   ├── MFIN.JK.csv
+│   │   ├── MGLV.JK.csv
+│   │   ├── MGRO.JK.csv
+│   │   ├── MHKI.JK.csv
+│   │   ├── MICE.JK.csv
+│   │   ├── MIDI.JK.csv
+│   │   ├── MIKA.JK.csv
+│   │   ├── MINA.JK.csv
+│   │   ├── MINE.JK.csv
+│   │   ├── MITI.JK.csv
+│   │   ├── MKAP.JK.csv
+│   │   ├── MKPI.JK.csv
+│   │   ├── MKTR.JK.csv
+│   │   ├── MLBI.JK.csv
+│   │   ├── MLIA.JK.csv
+│   │   ├── MLPL.JK.csv
+│   │   ├── MLPT.JK.csv
+│   │   ├── MMIX.JK.csv
+│   │   ├── MMLP.JK.csv
+│   │   ├── MNCN.JK.csv
+│   │   ├── MOLI.JK.csv
+│   │   ├── MORA.JK.csv
+│   │   ├── MPIX.JK.csv
+│   │   ├── MPMX.JK.csv
+│   │   ├── MPOW.JK.csv
+│   │   ├── MPPA.JK.csv
+│   │   ├── MPRO.JK.csv
+│   │   ├── MPXL.JK.csv
+│   │   ├── MRAT.JK.csv
+│   │   ├── MREI.JK.csv
+│   │   ├── MSIN.JK.csv
+│   │   ├── MSJA.JK.csv
+│   │   ├── MSKY.JK.csv
+│   │   ├── MSTI.JK.csv
+│   │   ├── MTDL.JK.csv
+│   │   ├── MTEL.JK.csv
+│   │   ├── MTLA.JK.csv
+│   │   ├── MTMH.JK.csv
+│   │   ├── MTWI.JK.csv
+│   │   ├── MUTU.JK.csv
+│   │   ├── MYOH.JK.csv
+│   │   ├── MYOR.JK.csv
+│   │   ├── NAIK.JK.csv
+│   │   ├── NASI.JK.csv
+│   │   ├── NATO.JK.csv
+│   │   ├── NAYZ.JK.csv
+│   │   ├── NCKL.JK.csv
+│   │   ├── NELY.JK.csv
+│   │   ├── NEST.JK.csv
+│   │   ├── NETV.JK.csv
+│   │   ├── NFCX.JK.csv
+│   │   ├── NICE.JK.csv
+│   │   ├── NICK.JK.csv
+│   │   ├── NICL.JK.csv
+│   │   ├── NIKL.JK.csv
+│   │   ├── NINE.JK.csv
+│   │   ├── NIRO.JK.csv
+│   │   ├── NISP.JK.csv
+│   │   ├── NOBU.JK.csv
+│   │   ├── NPGF.JK.csv
+│   │   ├── NRCA.JK.csv
+│   │   ├── NSSS.JK.csv
+│   │   ├── NTBK.JK.csv
+│   │   ├── NZIA.JK.csv
+│   │   ├── OASA.JK.csv
+│   │   ├── OBAT.JK.csv
+│   │   ├── OBMD.JK.csv
+│   │   ├── OILS.JK.csv
+│   │   ├── OKAS.JK.csv
+│   │   ├── OMED.JK.csv
+│   │   ├── OMRE.JK.csv
+│   │   ├── OPMS.JK.csv
+│   │   ├── PACK.JK.csv
+│   │   ├── PADI.JK.csv
+│   │   ├── PALM.JK.csv
+│   │   ├── PAMG.JK.csv
+│   │   ├── PANI.JK.csv
+│   │   ├── PANR.JK.csv
+│   │   ├── PART.JK.csv
+│   │   ├── PBID.JK.csv
+│   │   ├── PBSA.JK.csv
+│   │   ├── PDES.JK.csv
+│   │   ├── PDPP.JK.csv
+│   │   ├── PEGE.JK.csv
+│   │   ├── PEHA.JK.csv
+│   │   ├── PEVE.JK.csv
+│   │   ├── PGAS.JK.csv
+│   │   ├── PGEO.JK.csv
+│   │   ├── PGLI.JK.csv
+│   │   ├── PGUN.JK.csv
+│   │   ├── PICO.JK.csv
+│   │   ├── PIPA.JK.csv
+│   │   ├── PJAA.JK.csv
+│   │   ├── PKPK.JK.csv
+│   │   ├── PMJS.JK.csv
+│   │   ├── PMMP.JK.csv
+│   │   ├── PMUI.JK.csv
+│   │   ├── PNBN.JK.csv
+│   │   ├── PNBS.JK.csv
+│   │   ├── PNGO.JK.csv
+│   │   ├── PNIN.JK.csv
+│   │   ├── PNLF.JK.csv
+│   │   ├── PNSE.JK.csv
+│   │   ├── POLI.JK.csv
+│   │   ├── PORT.JK.csv
+│   │   ├── POWR.JK.csv
+│   │   ├── PPGL.JK.csv
+│   │   ├── PPRE.JK.csv
+│   │   ├── PPRI.JK.csv
+│   │   ├── PRAY.JK.csv
+│   │   ├── PRDA.JK.csv
+│   │   ├── PRIM.JK.csv
+│   │   ├── PSAB.JK.csv
+│   │   ├── PSAT.JK.csv
+│   │   ├── PSDN.JK.csv
+│   │   ├── PSGO.JK.csv
+│   │   ├── PSKT.JK.csv
+│   │   ├── PSSI.JK.csv
+│   │   ├── PTBA.JK.csv
+│   │   ├── PTIS.JK.csv
+│   │   ├── PTMP.JK.csv
+│   │   ├── PTPP.JK.csv
+│   │   ├── PTPS.JK.csv
+│   │   ├── PTPW.JK.csv
+│   │   ├── PTRO.JK.csv
+│   │   ├── PTSN.JK.csv
+│   │   ├── PTSP.JK.csv
+│   │   ├── PUDP.JK.csv
+│   │   ├── PURI.JK.csv
+│   │   ├── PWON.JK.csv
+│   │   ├── PYFA.JK.csv
+│   │   ├── PZZA.JK.csv
+│   │   ├── RAAM.JK.csv
+│   │   ├── RAJA.JK.csv
+│   │   ├── RALS.JK.csv
+│   │   ├── RANC.JK.csv
+│   │   ├── RATU.JK.csv
+│   │   ├── RCCC.JK.csv
+│   │   ├── RDTX.JK.csv
+│   │   ├── RELI.JK.csv
+│   │   ├── RGAS.JK.csv
+│   │   ├── RIGS.JK.csv
+│   │   ├── RISE.JK.csv
+│   │   ├── RMKE.JK.csv
+│   │   ├── RMKO.JK.csv
+│   │   ├── ROCK.JK.csv
+│   │   ├── ROTI.JK.csv
+│   │   ├── RSCH.JK.csv
+│   │   ├── RUIS.JK.csv
+│   │   ├── RUNS.JK.csv
+│   │   ├── SAFE.JK.csv
+│   │   ├── SAME.JK.csv
+│   │   ├── SAMF.JK.csv
+│   │   ├── SAPX.JK.csv
+│   │   ├── SATU.JK.csv
+│   │   ├── SBMA.JK.csv
+│   │   ├── SCCO.JK.csv
+│   │   ├── SCMA.JK.csv
+│   │   ├── SCNP.JK.csv
+│   │   ├── SDPC.JK.csv
+│   │   ├── SDRA.JK.csv
+│   │   ├── SEMA.JK.csv
+│   │   ├── SFAN.JK.csv
+│   │   ├── SGER.JK.csv
+│   │   ├── SGRO.JK.csv
+│   │   ├── SHID.JK.csv
+│   │   ├── SHIP.JK.csv
+│   │   ├── SICO.JK.csv
+│   │   ├── SIDO.JK.csv
+│   │   ├── SILO.JK.csv
+│   │   ├── SIMP.JK.csv
+│   │   ├── SINI.JK.csv
+│   │   ├── SIPD.JK.csv
+│   │   ├── SKBM.JK.csv
+│   │   ├── SKLT.JK.csv
+│   │   ├── SKRN.JK.csv
+│   │   ├── SLIS.JK.csv
+│   │   ├── SMAR.JK.csv
+│   │   ├── SMBR.JK.csv
+│   │   ├── SMDM.JK.csv
+│   │   ├── SMDR.JK.csv
+│   │   ├── SMGA.JK.csv
+│   │   ├── SMGR.JK.csv
+│   │   ├── SMIL.JK.csv
+│   │   ├── SMKL.JK.csv
+│   │   ├── SMKM.JK.csv
+│   │   ├── SMLE.JK.csv
+│   │   ├── SMMA.JK.csv
+│   │   ├── SMMT.JK.csv
+│   │   ├── SMRA.JK.csv
+│   │   ├── SMSM.JK.csv
+│   │   ├── SNLK.JK.csv
+│   │   ├── SOCI.JK.csv
+│   │   ├── SOHO.JK.csv
+│   │   ├── SOLA.JK.csv
+│   │   ├── SONA.JK.csv
+│   │   ├── SOSS.JK.csv
+│   │   ├── SOTS.JK.csv
+│   │   ├── SOUL.JK.csv
+│   │   ├── SPMA.JK.csv
+│   │   ├── SPRE.JK.csv
+│   │   ├── SPTO.JK.csv
+│   │   ├── SRAJ.JK.csv
+│   │   ├── SRSN.JK.csv
+│   │   ├── SRTG.JK.csv
+│   │   ├── SSIA.JK.csv
+│   │   ├── SSMS.JK.csv
+│   │   ├── SSTM.JK.csv
+│   │   ├── STAA.JK.csv
+│   │   ├── STRK.JK.csv
+│   │   ├── STTP.JK.csv
+│   │   ├── SULI.JK.csv
+│   │   ├── SUNI.JK.csv
+│   │   ├── SURE.JK.csv
+│   │   ├── SURI.JK.csv
+│   │   ├── SWID.JK.csv
+│   │   ├── TALF.JK.csv
+│   │   ├── TAPG.JK.csv
+│   │   ├── TAYS.JK.csv
+│   │   ├── TBIG.JK.csv
+│   │   ├── TBLA.JK.csv
+│   │   ├── TBMS.JK.csv
+│   │   ├── TCID.JK.csv
+│   │   ├── TCPI.JK.csv
+│   │   ├── TEBE.JK.csv
+│   │   ├── TFAS.JK.csv
+│   │   ├── TFCO.JK.csv
+│   │   ├── TGKA.JK.csv
+│   │   ├── TGUK.JK.csv
+│   │   ├── TIFA.JK.csv
+│   │   ├── TINS.JK.csv
+│   │   ├── TIRA.JK.csv
+│   │   ├── TKIM.JK.csv
+│   │   ├── TLDN.JK.csv
+│   │   ├── TLKM.JK.csv
+│   │   ├── TMAS.JK.csv
+│   │   ├── TMPO.JK.csv
+│   │   ├── TNCA.JK.csv
+│   │   ├── TOBA.JK.csv
+│   │   ├── TOOL.JK.csv
+│   │   ├── TOSK.JK.csv
+│   │   ├── TOTL.JK.csv
+│   │   ├── TOTO.JK.csv
+│   │   ├── TOWR.JK.csv
+│   │   ├── TPIA.JK.csv
+│   │   ├── TPMA.JK.csv
+│   │   ├── TRGU.JK.csv
+│   │   ├── TRIM.JK.csv
+│   │   ├── TRIN.JK.csv
+│   │   ├── TRIS.JK.csv
+│   │   ├── TRJA.JK.csv
+│   │   ├── TRON.JK.csv
+│   │   ├── TRST.JK.csv
+│   │   ├── TRUK.JK.csv
+│   │   ├── TRUS.JK.csv
+│   │   ├── TSPC.JK.csv
+│   │   ├── TUGU.JK.csv
+│   │   ├── TYRE.JK.csv
+│   │   ├── UANG.JK.csv
+│   │   ├── UCID.JK.csv
+│   │   ├── UDNG.JK.csv
+│   │   ├── UFOE.JK.csv
+│   │   ├── ULTJ.JK.csv
+│   │   ├── UNIC.JK.csv
+│   │   ├── UNIQ.JK.csv
+│   │   ├── UNSP.JK.csv
+│   │   ├── UNTD.JK.csv
+│   │   ├── UNTR.JK.csv
+│   │   ├── UNVR.JK.csv
+│   │   ├── URBN.JK.csv
+│   │   ├── UVCR.JK.csv
+│   │   ├── VAST.JK.csv
+│   │   ├── VERN.JK.csv
+│   │   ├── VICI.JK.csv
+│   │   ├── VICO.JK.csv
+│   │   ├── VINS.JK.csv
+│   │   ├── VISI.JK.csv
+│   │   ├── VKTR.JK.csv
+│   │   ├── VOKS.JK.csv
+│   │   ├── VRNA.JK.csv
+│   │   ├── VTNY.JK.csv
+│   │   ├── WAPO.JK.csv
+│   │   ├── WEGE.JK.csv
+│   │   ├── WEHA.JK.csv
+│   │   ├── WGSH.JK.csv
+│   │   ├── WIFI.JK.csv
+│   │   ├── WIIM.JK.csv
+│   │   ├── WINE.JK.csv
+│   │   ├── WINS.JK.csv
+│   │   ├── WIRG.JK.csv
+│   │   ├── WOMF.JK.csv
+│   │   ├── WOOD.JK.csv
+│   │   ├── WOWS.JK.csv
+│   │   ├── WTON.JK.csv
+│   │   ├── YOII.JK.csv
+│   │   ├── YPAS.JK.csv
+│   │   ├── YULE.JK.csv
+│   │   ├── YUPI.JK.csv
+│   │   ├── ZBRA.JK.csv
+│   │   ├── ZONE.JK.csv
+│   │   └── ZYRX.JK.csv
+│   ├── cache_1m.tar.gz
+│   ├── cache_5m
+│   │   ├── AADI.JK.csv
+│   │   ├── AALI.JK.csv
+│   │   ├── ABDA.JK.csv
+│   │   ├── ABMM.JK.csv
+│   │   ├── ACES.JK.csv
+│   │   ├── ACRO.JK.csv
+│   │   ├── ACST.JK.csv
+│   │   ├── ADCP.JK.csv
+│   │   ├── ADES.JK.csv
+│   │   ├── ADHI.JK.csv
+│   │   ├── ADMF.JK.csv
+│   │   ├── ADMG.JK.csv
+│   │   ├── ADMR.JK.csv
+│   │   ├── ADRO.JK.csv
+│   │   ├── AEGS.JK.csv
+│   │   ├── AGAR.JK.csv
+│   │   ├── AGII.JK.csv
+│   │   ├── AGRO.JK.csv
+│   │   ├── AGRS.JK.csv
+│   │   ├── AHAP.JK.csv
+│   │   ├── AIMS.JK.csv
+│   │   ├── AISA.JK.csv
+│   │   ├── AKPI.JK.csv
+│   │   ├── AKRA.JK.csv
+│   │   ├── AKSI.JK.csv
+│   │   ├── ALDO.JK.csv
+│   │   ├── ALII.JK.csv
+│   │   ├── ALKA.JK.csv
+│   │   ├── AMAG.JK.csv
+│   │   ├── AMAN.JK.csv
+│   │   ├── AMAR.JK.csv
+│   │   ├── AMFG.JK.csv
+│   │   ├── AMIN.JK.csv
+│   │   ├── AMMN.JK.csv
+│   │   ├── AMMS.JK.csv
+│   │   ├── AMOR.JK.csv
+│   │   ├── AMRT.JK.csv
+│   │   ├── ANJT.JK.csv
+│   │   ├── APEX.JK.csv
+│   │   ├── APIC.JK.csv
+│   │   ├── APII.JK.csv
+│   │   ├── APLI.JK.csv
+│   │   ├── APLN.JK.csv
+│   │   ├── ARCI.JK.csv
+│   │   ├── AREA.JK.csv
+│   │   ├── ARGO.JK.csv
+│   │   ├── ARII.JK.csv
+│   │   ├── ARKO.JK.csv
+│   │   ├── ARNA.JK.csv
+│   │   ├── ARTA.JK.csv
+│   │   ├── ARTO.JK.csv
+│   │   ├── ASBI.JK.csv
+│   │   ├── ASDM.JK.csv
+│   │   ├── ASGR.JK.csv
+│   │   ├── ASII.JK.csv
+│   │   ├── ASJT.JK.csv
+│   │   ├── ASLC.JK.csv
+│   │   ├── ASLI.JK.csv
+│   │   ├── ASPI.JK.csv
+│   │   ├── ASPR.JK.csv
+│   │   ├── ASRI.JK.csv
+│   │   ├── ASRM.JK.csv
+│   │   ├── ASSA.JK.csv
+│   │   ├── ATIC.JK.csv
+│   │   ├── ATLA.JK.csv
+│   │   ├── AUTO.JK.csv
+│   │   ├── AVIA.JK.csv
+│   │   ├── AWAN.JK.csv
+│   │   ├── AXIO.JK.csv
+│   │   ├── AYAM.JK.csv
+│   │   ├── AYLS.JK.csv
+│   │   ├── BABP.JK.csv
+│   │   ├── BABY.JK.csv
+│   │   ├── BACA.JK.csv
+│   │   ├── BAIK.JK.csv
+│   │   ├── BAJA.JK.csv
+│   │   ├── BALI.JK.csv
+│   │   ├── BANK.JK.csv
+│   │   ├── BAPA.JK.csv
+│   │   ├── BATA.JK.csv
+│   │   ├── BATR.JK.csv
+│   │   ├── BAYU.JK.csv
+│   │   ├── BBHI.JK.csv
+│   │   ├── BBKP.JK.csv
+│   │   ├── BBLD.JK.csv
+│   │   ├── BBMD.JK.csv
+│   │   ├── BBRM.JK.csv
+│   │   ├── BBSI.JK.csv
+│   │   ├── BBSS.JK.csv
+│   │   ├── BBTN.JK.csv
+│   │   ├── BBYB.JK.csv
+│   │   ├── BCAP.JK.csv
+│   │   ├── BCIP.JK.csv
+│   │   ├── BDKR.JK.csv
+│   │   ├── BDMN.JK.csv
+│   │   ├── BEEF.JK.csv
+│   │   ├── BEER.JK.csv
+│   │   ├── BELI.JK.csv
+│   │   ├── BELL.JK.csv
+│   │   ├── BESS.JK.csv
+│   │   ├── BEST.JK.csv
+│   │   ├── BFIN.JK.csv
+│   │   ├── BGTG.JK.csv
+│   │   ├── BHAT.JK.csv
+│   │   ├── BIKE.JK.csv
+│   │   ├── BINA.JK.csv
+│   │   ├── BINO.JK.csv
+│   │   ├── BIPI.JK.csv
+│   │   ├── BIRD.JK.csv
+│   │   ├── BISI.JK.csv
+│   │   ├── BJBR.JK.csv
+│   │   ├── BJTM.JK.csv
+│   │   ├── BKSL.JK.csv
+│   │   ├── BKSW.JK.csv
+│   │   ├── BLES.JK.csv
+│   │   ├── BLOG.JK.csv
+│   │   ├── BLTZ.JK.csv
+│   │   ├── BLUE.JK.csv
+│   │   ├── BMAS.JK.csv
+│   │   ├── BMHS.JK.csv
+│   │   ├── BMSR.JK.csv
+│   │   ├── BMTR.JK.csv
+│   │   ├── BNBA.JK.csv
+│   │   ├── BNGA.JK.csv
+│   │   ├── BNII.JK.csv
+│   │   ├── BNLI.JK.csv
+│   │   ├── BOAT.JK.csv
+│   │   ├── BOBA.JK.csv
+│   │   ├── BOGA.JK.csv
+│   │   ├── BOLA.JK.csv
+│   │   ├── BOLT.JK.csv
+│   │   ├── BPFI.JK.csv
+│   │   ├── BPII.JK.csv
+│   │   ├── BPTR.JK.csv
+│   │   ├── BRAM.JK.csv
+│   │   ├── BREN.JK.csv
+│   │   ├── BRIS.JK.csv
+│   │   ├── BRNA.JK.csv
+│   │   ├── BRPT.JK.csv
+│   │   ├── BRRC.JK.csv
+│   │   ├── BSBK.JK.csv
+│   │   ├── BSDE.JK.csv
+│   │   ├── BSIM.JK.csv
+│   │   ├── BSML.JK.csv
+│   │   ├── BSSR.JK.csv
+│   │   ├── BSWD.JK.csv
+│   │   ├── BTON.JK.csv
+│   │   ├── BTPN.JK.csv
+│   │   ├── BTPS.JK.csv
+│   │   ├── BUAH.JK.csv
+│   │   ├── BUDI.JK.csv
+│   │   ├── BUKA.JK.csv
+│   │   ├── BUKK.JK.csv
+│   │   ├── BULL.JK.csv
+│   │   ├── BUMI.JK.csv
+│   │   ├── BUVA.JK.csv
+│   │   ├── BVIC.JK.csv
+│   │   ├── BWPT.JK.csv
+│   │   ├── BYAN.JK.csv
+│   │   ├── CAKK.JK.csv
+│   │   ├── CAMP.JK.csv
+│   │   ├── CARE.JK.csv
+│   │   ├── CARS.JK.csv
+│   │   ├── CASA.JK.csv
+│   │   ├── CASH.JK.csv
+│   │   ├── CASS.JK.csv
+│   │   ├── CBDK.JK.csv
+│   │   ├── CBPE.JK.csv
+│   │   ├── CBRE.JK.csv
+│   │   ├── CBUT.JK.csv
+│   │   ├── CCSI.JK.csv
+│   │   ├── CDIA.JK.csv
+│   │   ├── CEKA.JK.csv
+│   │   ├── CENT.JK.csv
+│   │   ├── CFIN.JK.csv
+│   │   ├── CGAS.JK.csv
+│   │   ├── CHEK.JK.csv
+│   │   ├── CHEM.JK.csv
+│   │   ├── CHIP.JK.csv
+│   │   ├── CINT.JK.csv
+│   │   ├── CITA.JK.csv
+│   │   ├── CITY.JK.csv
+│   │   ├── CLAY.JK.csv
+│   │   ├── CLEO.JK.csv
+│   │   ├── CLPI.JK.csv
+│   │   ├── CMNP.JK.csv
+│   │   ├── CMNT.JK.csv
+│   │   ├── CMPP.JK.csv
+│   │   ├── CMRY.JK.csv
+│   │   ├── CNKO.JK.csv
+│   │   ├── CNMA.JK.csv
+│   │   ├── COCO.JK.csv
+│   │   ├── COIN.JK.csv
+│   │   ├── CPIN.JK.csv
+│   │   ├── CPRO.JK.csv
+│   │   ├── CRAB.JK.csv
+│   │   ├── CRSN.JK.csv
+│   │   ├── CSAP.JK.csv
+│   │   ├── CSIS.JK.csv
+│   │   ├── CSMI.JK.csv
+│   │   ├── CSRA.JK.csv
+│   │   ├── CTBN.JK.csv
+│   │   ├── CTRA.JK.csv
+│   │   ├── CUAN.JK.csv
+│   │   ├── CYBR.JK.csv
+│   │   ├── DAAZ.JK.csv
+│   │   ├── DART.JK.csv
+│   │   ├── DATA.JK.csv
+│   │   ├── DAYA.JK.csv
+│   │   ├── DCII.JK.csv
+│   │   ├── DEPO.JK.csv
+│   │   ├── DEWA.JK.csv
+│   │   ├── DEWI.JK.csv
+│   │   ├── DFAM.JK.csv
+│   │   ├── DGIK.JK.csv
+│   │   ├── DGNS.JK.csv
+│   │   ├── DGWG.JK.csv
+│   │   ├── DILD.JK.csv
+│   │   ├── DIVA.JK.csv
+│   │   ├── DKFT.JK.csv
+│   │   ├── DKHH.JK.csv
+│   │   ├── DLTA.JK.csv
+│   │   ├── DMAS.JK.csv
+│   │   ├── DMMX.JK.csv
+│   │   ├── DMND.JK.csv
+│   │   ├── DNAR.JK.csv
+│   │   ├── DNET.JK.csv
+│   │   ├── DOID.JK.csv
+│   │   ├── DOOH.JK.csv
+│   │   ├── DOSS.JK.csv
+│   │   ├── DPNS.JK.csv
+│   │   ├── DPUM.JK.csv
+│   │   ├── DRMA.JK.csv
+│   │   ├── DSFI.JK.csv
+│   │   ├── DSNG.JK.csv
+│   │   ├── DSSA.JK.csv
+│   │   ├── DUTI.JK.csv
+│   │   ├── DVLA.JK.csv
+│   │   ├── DWGL.JK.csv
+│   │   ├── DYAN.JK.csv
+│   │   ├── EAST.JK.csv
+│   │   ├── ECII.JK.csv
+│   │   ├── EDGE.JK.csv
+│   │   ├── EKAD.JK.csv
+│   │   ├── ELIT.JK.csv
+│   │   ├── ELPI.JK.csv
+│   │   ├── ELSA.JK.csv
+│   │   ├── EMDE.JK.csv
+│   │   ├── EMTK.JK.csv
+│   │   ├── ENAK.JK.csv
+│   │   ├── ENRG.JK.csv
+│   │   ├── EPMT.JK.csv
+│   │   ├── ERAA.JK.csv
+│   │   ├── ERAL.JK.csv
+│   │   ├── ERTX.JK.csv
+│   │   ├── ESSA.JK.csv
+│   │   ├── ESTA.JK.csv
+│   │   ├── EURO.JK.csv
+│   │   ├── EXCL.JK.csv
+│   │   ├── FAPA.JK.csv
+│   │   ├── FAST.JK.csv
+│   │   ├── FILM.JK.csv
+│   │   ├── FIMP.JK.csv
+│   │   ├── FIRE.JK.csv
+│   │   ├── FITT.JK.csv
+│   │   ├── FLMC.JK.csv
+│   │   ├── FMII.JK.csv
+│   │   ├── FOLK.JK.csv
+│   │   ├── FOOD.JK.csv
+│   │   ├── FORE.JK.csv
+│   │   ├── FORU.JK.csv
+│   │   ├── FPNI.JK.csv
+│   │   ├── FUJI.JK.csv
+│   │   ├── FUTR.JK.csv
+│   │   ├── FWCT.JK.csv
+│   │   ├── GDST.JK.csv
+│   │   ├── GDYR.JK.csv
+│   │   ├── GEMA.JK.csv
+│   │   ├── GEMS.JK.csv
+│   │   ├── GGRM.JK.csv
+│   │   ├── GHON.JK.csv
+│   │   ├── GIAA.JK.csv
+│   │   ├── GJTL.JK.csv
+│   │   ├── GLOB.JK.csv
+│   │   ├── GLVA.JK.csv
+│   │   ├── GMFI.JK.csv
+│   │   ├── GMTD.JK.csv
+│   │   ├── GOLD.JK.csv
+│   │   ├── GOLF.JK.csv
+│   │   ├── GOOD.JK.csv
+│   │   ├── GOTO.JK.csv
+│   │   ├── GPRA.JK.csv
+│   │   ├── GPSO.JK.csv
+│   │   ├── GRIA.JK.csv
+│   │   ├── GRPH.JK.csv
+│   │   ├── GSMF.JK.csv
+│   │   ├── GTBO.JK.csv
+│   │   ├── GTRA.JK.csv
+│   │   ├── GULA.JK.csv
+│   │   ├── GUNA.JK.csv
+│   │   ├── GWSA.JK.csv
+│   │   ├── GZCO.JK.csv
+│   │   ├── HAIS.JK.csv
+│   │   ├── HAJJ.JK.csv
+│   │   ├── HALO.JK.csv
+│   │   ├── HATM.JK.csv
+│   │   ├── HBAT.JK.csv
+│   │   ├── HDFA.JK.csv
+│   │   ├── HEAL.JK.csv
+│   │   ├── HELI.JK.csv
+│   │   ├── HERO.JK.csv
+│   │   ├── HEXA.JK.csv
+│   │   ├── HGII.JK.csv
+│   │   ├── HILL.JK.csv
+│   │   ├── HMSP.JK.csv
+│   │   ├── HOKI.JK.csv
+│   │   ├── HOMI.JK.csv
+│   │   ├── HOPE.JK.csv
+│   │   ├── HRTA.JK.csv
+│   │   ├── HRUM.JK.csv
+│   │   ├── HUMI.JK.csv
+│   │   ├── HYGN.JK.csv
+│   │   ├── IATA.JK.csv
+│   │   ├── IBST.JK.csv
+│   │   ├── ICBP.JK.csv
+│   │   ├── IDEA.JK.csv
+│   │   ├── IDPR.JK.csv
+│   │   ├── IFII.JK.csv
+│   │   ├── IFSH.JK.csv
+│   │   ├── IGAR.JK.csv
+│   │   ├── IKAN.JK.csv
+│   │   ├── IKBI.JK.csv
+│   │   ├── IKPM.JK.csv
+│   │   ├── IMAS.JK.csv
+│   │   ├── IMJS.JK.csv
+│   │   ├── IMPC.JK.csv
+│   │   ├── INAI.JK.csv
+│   │   ├── INCI.JK.csv
+│   │   ├── INCO.JK.csv
+│   │   ├── INDF.JK.csv
+│   │   ├── INDO.JK.csv
+│   │   ├── INDR.JK.csv
+│   │   ├── INDS.JK.csv
+│   │   ├── INDX.JK.csv
+│   │   ├── INDY.JK.csv
+│   │   ├── INET.JK.csv
+│   │   ├── INKP.JK.csv
+│   │   ├── INOV.JK.csv
+│   │   ├── INPC.JK.csv
+│   │   ├── INPP.JK.csv
+│   │   ├── INPS.JK.csv
+│   │   ├── INRU.JK.csv
+│   │   ├── INTD.JK.csv
+│   │   ├── INTP.JK.csv
+│   │   ├── IOTF.JK.csv
+│   │   ├── IPAC.JK.csv
+│   │   ├── IPCC.JK.csv
+│   │   ├── IPCM.JK.csv
+│   │   ├── IPOL.JK.csv
+│   │   ├── IRRA.JK.csv
+│   │   ├── IRSX.JK.csv
+│   │   ├── ISAT.JK.csv
+│   │   ├── ISEA.JK.csv
+│   │   ├── ISSP.JK.csv
+│   │   ├── ITIC.JK.csv
+│   │   ├── ITMA.JK.csv
+│   │   ├── ITMG.JK.csv
+│   │   ├── JARR.JK.csv
+│   │   ├── JAST.JK.csv
+│   │   ├── JATI.JK.csv
+│   │   ├── JAWA.JK.csv
+│   │   ├── JAYA.JK.csv
+│   │   ├── JECC.JK.csv
+│   │   ├── JIHD.JK.csv
+│   │   ├── JKON.JK.csv
+│   │   ├── JMAS.JK.csv
+│   │   ├── JPFA.JK.csv
+│   │   ├── JRPT.JK.csv
+│   │   ├── JSMR.JK.csv
+│   │   ├── JSPT.JK.csv
+│   │   ├── JTPE.JK.csv
+│   │   ├── KAEF.JK.csv
+│   │   ├── KAQI.JK.csv
+│   │   ├── KARW.JK.csv
+│   │   ├── KBLI.JK.csv
+│   │   ├── KBLM.JK.csv
+│   │   ├── KBLV.JK.csv
+│   │   ├── KDSI.JK.csv
+│   │   ├── KDTN.JK.csv
+│   │   ├── KEEN.JK.csv
+│   │   ├── KEJU.JK.csv
+│   │   ├── KETR.JK.csv
+│   │   ├── KICI.JK.csv
+│   │   ├── KIJA.JK.csv
+│   │   ├── KING.JK.csv
+│   │   ├── KINO.JK.csv
+│   │   ├── KIOS.JK.csv
+│   │   ├── KJEN.JK.csv
+│   │   ├── KKGI.JK.csv
+│   │   ├── KLAS.JK.csv
+│   │   ├── KLBF.JK.csv
+│   │   ├── KLIN.JK.csv
+│   │   ├── KMDS.JK.csv
+│   │   ├── KMTR.JK.csv
+│   │   ├── KOBX.JK.csv
+│   │   ├── KOCI.JK.csv
+│   │   ├── KOIN.JK.csv
+│   │   ├── KOKA.JK.csv
+│   │   ├── KONI.JK.csv
+│   │   ├── KOPI.JK.csv
+│   │   ├── KPIG.JK.csv
+│   │   ├── KRAS.JK.csv
+│   │   ├── KRYA.JK.csv
+│   │   ├── KSIX.JK.csv
+│   │   ├── KUAS.JK.csv
+│   │   ├── LABS.JK.csv
+│   │   ├── LAJU.JK.csv
+│   │   ├── LAPD.JK.csv
+│   │   ├── LCKM.JK.csv
+│   │   ├── LEAD.JK.csv
+│   │   ├── LFLO.JK.csv
+│   │   ├── LIFE.JK.csv
+│   │   ├── LINK.JK.csv
+│   │   ├── LION.JK.csv
+│   │   ├── LIVE.JK.csv
+│   │   ├── LMAX.JK.csv
+│   │   ├── LMPI.JK.csv
+│   │   ├── LOPI.JK.csv
+│   │   ├── LPCK.JK.csv
+│   │   ├── LPGI.JK.csv
+│   │   ├── LPIN.JK.csv
+│   │   ├── LPKR.JK.csv
+│   │   ├── LPLI.JK.csv
+│   │   ├── LPPF.JK.csv
+│   │   ├── LPPS.JK.csv
+│   │   ├── LRNA.JK.csv
+│   │   ├── LSIP.JK.csv
+│   │   ├── LTLS.JK.csv
+│   │   ├── LUCK.JK.csv
+│   │   ├── LUCY.JK.csv
+│   │   ├── MAHA.JK.csv
+│   │   ├── MAIN.JK.csv
+│   │   ├── MAPA.JK.csv
+│   │   ├── MAPB.JK.csv
+│   │   ├── MAPI.JK.csv
+│   │   ├── MARK.JK.csv
+│   │   ├── MASB.JK.csv
+│   │   ├── MAXI.JK.csv
+│   │   ├── MAYA.JK.csv
+│   │   ├── MBAP.JK.csv
+│   │   ├── MBMA.JK.csv
+│   │   ├── MBSS.JK.csv
+│   │   ├── MBTO.JK.csv
+│   │   ├── MCAS.JK.csv
+│   │   ├── MCOL.JK.csv
+│   │   ├── MCOR.JK.csv
+│   │   ├── MDIY.JK.csv
+│   │   ├── MDKA.JK.csv
+│   │   ├── MDKI.JK.csv
+│   │   ├── MDLA.JK.csv
+│   │   ├── MDLN.JK.csv
+│   │   ├── MEDC.JK.csv
+│   │   ├── MEDS.JK.csv
+│   │   ├── MEGA.JK.csv
+│   │   ├── MERI.JK.csv
+│   │   ├── MERK.JK.csv
+│   │   ├── MFIN.JK.csv
+│   │   ├── MGLV.JK.csv
+│   │   ├── MGRO.JK.csv
+│   │   ├── MHKI.JK.csv
+│   │   ├── MICE.JK.csv
+│   │   ├── MIDI.JK.csv
+│   │   ├── MIKA.JK.csv
+│   │   ├── MINA.JK.csv
+│   │   ├── MINE.JK.csv
+│   │   ├── MITI.JK.csv
+│   │   ├── MKAP.JK.csv
+│   │   ├── MKPI.JK.csv
+│   │   ├── MKTR.JK.csv
+│   │   ├── MLBI.JK.csv
+│   │   ├── MLIA.JK.csv
+│   │   ├── MLPL.JK.csv
+│   │   ├── MLPT.JK.csv
+│   │   ├── MMIX.JK.csv
+│   │   ├── MMLP.JK.csv
+│   │   ├── MNCN.JK.csv
+│   │   ├── MOLI.JK.csv
+│   │   ├── MORA.JK.csv
+│   │   ├── MPIX.JK.csv
+│   │   ├── MPMX.JK.csv
+│   │   ├── MPOW.JK.csv
+│   │   ├── MPPA.JK.csv
+│   │   ├── MPRO.JK.csv
+│   │   ├── MPXL.JK.csv
+│   │   ├── MRAT.JK.csv
+│   │   ├── MREI.JK.csv
+│   │   ├── MSIN.JK.csv
+│   │   ├── MSJA.JK.csv
+│   │   ├── MSKY.JK.csv
+│   │   ├── MSTI.JK.csv
+│   │   ├── MTDL.JK.csv
+│   │   ├── MTEL.JK.csv
+│   │   ├── MTLA.JK.csv
+│   │   ├── MTMH.JK.csv
+│   │   ├── MTWI.JK.csv
+│   │   ├── MUTU.JK.csv
+│   │   ├── MYOH.JK.csv
+│   │   ├── MYOR.JK.csv
+│   │   ├── NAIK.JK.csv
+│   │   ├── NASI.JK.csv
+│   │   ├── NATO.JK.csv
+│   │   ├── NAYZ.JK.csv
+│   │   ├── NCKL.JK.csv
+│   │   ├── NELY.JK.csv
+│   │   ├── NEST.JK.csv
+│   │   ├── NETV.JK.csv
+│   │   ├── NFCX.JK.csv
+│   │   ├── NICE.JK.csv
+│   │   ├── NICK.JK.csv
+│   │   ├── NICL.JK.csv
+│   │   ├── NIKL.JK.csv
+│   │   ├── NINE.JK.csv
+│   │   ├── NIRO.JK.csv
+│   │   ├── NISP.JK.csv
+│   │   ├── NOBU.JK.csv
+│   │   ├── NPGF.JK.csv
+│   │   ├── NRCA.JK.csv
+│   │   ├── NSSS.JK.csv
+│   │   ├── NTBK.JK.csv
+│   │   ├── NZIA.JK.csv
+│   │   ├── OASA.JK.csv
+│   │   ├── OBAT.JK.csv
+│   │   ├── OBMD.JK.csv
+│   │   ├── OILS.JK.csv
+│   │   ├── OKAS.JK.csv
+│   │   ├── OMED.JK.csv
+│   │   ├── OMRE.JK.csv
+│   │   ├── OPMS.JK.csv
+│   │   ├── PACK.JK.csv
+│   │   ├── PADI.JK.csv
+│   │   ├── PALM.JK.csv
+│   │   ├── PAMG.JK.csv
+│   │   ├── PANI.JK.csv
+│   │   ├── PANR.JK.csv
+│   │   ├── PART.JK.csv
+│   │   ├── PBID.JK.csv
+│   │   ├── PBSA.JK.csv
+│   │   ├── PDES.JK.csv
+│   │   ├── PDPP.JK.csv
+│   │   ├── PEGE.JK.csv
+│   │   ├── PEHA.JK.csv
+│   │   ├── PEVE.JK.csv
+│   │   ├── PGAS.JK.csv
+│   │   ├── PGEO.JK.csv
+│   │   ├── PGLI.JK.csv
+│   │   ├── PGUN.JK.csv
+│   │   ├── PICO.JK.csv
+│   │   ├── PIPA.JK.csv
+│   │   ├── PJAA.JK.csv
+│   │   ├── PKPK.JK.csv
+│   │   ├── PMJS.JK.csv
+│   │   ├── PMMP.JK.csv
+│   │   ├── PMUI.JK.csv
+│   │   ├── PNBN.JK.csv
+│   │   ├── PNBS.JK.csv
+│   │   ├── PNGO.JK.csv
+│   │   ├── PNIN.JK.csv
+│   │   ├── PNLF.JK.csv
+│   │   ├── PNSE.JK.csv
+│   │   ├── POLI.JK.csv
+│   │   ├── PORT.JK.csv
+│   │   ├── POWR.JK.csv
+│   │   ├── PPGL.JK.csv
+│   │   ├── PPRE.JK.csv
+│   │   ├── PPRI.JK.csv
+│   │   ├── PRAY.JK.csv
+│   │   ├── PRDA.JK.csv
+│   │   ├── PRIM.JK.csv
+│   │   ├── PSAB.JK.csv
+│   │   ├── PSAT.JK.csv
+│   │   ├── PSDN.JK.csv
+│   │   ├── PSGO.JK.csv
+│   │   ├── PSKT.JK.csv
+│   │   ├── PSSI.JK.csv
+│   │   ├── PTBA.JK.csv
+│   │   ├── PTIS.JK.csv
+│   │   ├── PTMP.JK.csv
+│   │   ├── PTPP.JK.csv
+│   │   ├── PTPS.JK.csv
+│   │   ├── PTPW.JK.csv
+│   │   ├── PTRO.JK.csv
+│   │   ├── PTSN.JK.csv
+│   │   ├── PTSP.JK.csv
+│   │   ├── PUDP.JK.csv
+│   │   ├── PURI.JK.csv
+│   │   ├── PWON.JK.csv
+│   │   ├── PYFA.JK.csv
+│   │   ├── PZZA.JK.csv
+│   │   ├── RAAM.JK.csv
+│   │   ├── RAJA.JK.csv
+│   │   ├── RALS.JK.csv
+│   │   ├── RANC.JK.csv
+│   │   ├── RATU.JK.csv
+│   │   ├── RCCC.JK.csv
+│   │   ├── RDTX.JK.csv
+│   │   ├── RELI.JK.csv
+│   │   ├── RGAS.JK.csv
+│   │   ├── RIGS.JK.csv
+│   │   ├── RISE.JK.csv
+│   │   ├── RMKE.JK.csv
+│   │   ├── RMKO.JK.csv
+│   │   ├── ROCK.JK.csv
+│   │   ├── ROTI.JK.csv
+│   │   ├── RSCH.JK.csv
+│   │   ├── RUIS.JK.csv
+│   │   ├── RUNS.JK.csv
+│   │   ├── SAFE.JK.csv
+│   │   ├── SAME.JK.csv
+│   │   ├── SAMF.JK.csv
+│   │   ├── SAPX.JK.csv
+│   │   ├── SATU.JK.csv
+│   │   ├── SBMA.JK.csv
+│   │   ├── SCCO.JK.csv
+│   │   ├── SCMA.JK.csv
+│   │   ├── SCNP.JK.csv
+│   │   ├── SDPC.JK.csv
+│   │   ├── SDRA.JK.csv
+│   │   ├── SEMA.JK.csv
+│   │   ├── SFAN.JK.csv
+│   │   ├── SGER.JK.csv
+│   │   ├── SGRO.JK.csv
+│   │   ├── SHID.JK.csv
+│   │   ├── SHIP.JK.csv
+│   │   ├── SICO.JK.csv
+│   │   ├── SIDO.JK.csv
+│   │   ├── SILO.JK.csv
+│   │   ├── SIMP.JK.csv
+│   │   ├── SINI.JK.csv
+│   │   ├── SIPD.JK.csv
+│   │   ├── SKBM.JK.csv
+│   │   ├── SKLT.JK.csv
+│   │   ├── SKRN.JK.csv
+│   │   ├── SLIS.JK.csv
+│   │   ├── SMAR.JK.csv
+│   │   ├── SMBR.JK.csv
+│   │   ├── SMDM.JK.csv
+│   │   ├── SMDR.JK.csv
+│   │   ├── SMGA.JK.csv
+│   │   ├── SMGR.JK.csv
+│   │   ├── SMIL.JK.csv
+│   │   ├── SMKL.JK.csv
+│   │   ├── SMKM.JK.csv
+│   │   ├── SMLE.JK.csv
+│   │   ├── SMMA.JK.csv
+│   │   ├── SMMT.JK.csv
+│   │   ├── SMRA.JK.csv
+│   │   ├── SMSM.JK.csv
+│   │   ├── SNLK.JK.csv
+│   │   ├── SOCI.JK.csv
+│   │   ├── SOHO.JK.csv
+│   │   ├── SOLA.JK.csv
+│   │   ├── SONA.JK.csv
+│   │   ├── SOSS.JK.csv
+│   │   ├── SOTS.JK.csv
+│   │   ├── SOUL.JK.csv
+│   │   ├── SPMA.JK.csv
+│   │   ├── SPRE.JK.csv
+│   │   ├── SPTO.JK.csv
+│   │   ├── SRAJ.JK.csv
+│   │   ├── SRSN.JK.csv
+│   │   ├── SRTG.JK.csv
+│   │   ├── SSIA.JK.csv
+│   │   ├── SSMS.JK.csv
+│   │   ├── SSTM.JK.csv
+│   │   ├── STAA.JK.csv
+│   │   ├── STRK.JK.csv
+│   │   ├── STTP.JK.csv
+│   │   ├── SULI.JK.csv
+│   │   ├── SUNI.JK.csv
+│   │   ├── SURE.JK.csv
+│   │   ├── SURI.JK.csv
+│   │   ├── SWID.JK.csv
+│   │   ├── TALF.JK.csv
+│   │   ├── TAPG.JK.csv
+│   │   ├── TAYS.JK.csv
+│   │   ├── TBIG.JK.csv
+│   │   ├── TBLA.JK.csv
+│   │   ├── TBMS.JK.csv
+│   │   ├── TCID.JK.csv
+│   │   ├── TCPI.JK.csv
+│   │   ├── TEBE.JK.csv
+│   │   ├── TFAS.JK.csv
+│   │   ├── TFCO.JK.csv
+│   │   ├── TGKA.JK.csv
+│   │   ├── TGUK.JK.csv
+│   │   ├── TIFA.JK.csv
+│   │   ├── TINS.JK.csv
+│   │   ├── TIRA.JK.csv
+│   │   ├── TKIM.JK.csv
+│   │   ├── TLDN.JK.csv
+│   │   ├── TMAS.JK.csv
+│   │   ├── TMPO.JK.csv
+│   │   ├── TNCA.JK.csv
+│   │   ├── TOBA.JK.csv
+│   │   ├── TOOL.JK.csv
+│   │   ├── TOSK.JK.csv
+│   │   ├── TOTL.JK.csv
+│   │   ├── TOTO.JK.csv
+│   │   ├── TOWR.JK.csv
+│   │   ├── TPIA.JK.csv
+│   │   ├── TPMA.JK.csv
+│   │   ├── TRGU.JK.csv
+│   │   ├── TRIM.JK.csv
+│   │   ├── TRIN.JK.csv
+│   │   ├── TRIS.JK.csv
+│   │   ├── TRJA.JK.csv
+│   │   ├── TRON.JK.csv
+│   │   ├── TRST.JK.csv
+│   │   ├── TRUK.JK.csv
+│   │   ├── TRUS.JK.csv
+│   │   ├── TSPC.JK.csv
+│   │   ├── TUGU.JK.csv
+│   │   ├── TYRE.JK.csv
+│   │   ├── UANG.JK.csv
+│   │   ├── UCID.JK.csv
+│   │   ├── UDNG.JK.csv
+│   │   ├── UFOE.JK.csv
+│   │   ├── ULTJ.JK.csv
+│   │   ├── UNIC.JK.csv
+│   │   ├── UNIQ.JK.csv
+│   │   ├── UNSP.JK.csv
+│   │   ├── UNTD.JK.csv
+│   │   ├── UNVR.JK.csv
+│   │   ├── URBN.JK.csv
+│   │   ├── UVCR.JK.csv
+│   │   ├── VAST.JK.csv
+│   │   ├── VERN.JK.csv
+│   │   ├── VICI.JK.csv
+│   │   ├── VICO.JK.csv
+│   │   ├── VINS.JK.csv
+│   │   ├── VISI.JK.csv
+│   │   ├── VKTR.JK.csv
+│   │   ├── VOKS.JK.csv
+│   │   ├── VRNA.JK.csv
+│   │   ├── VTNY.JK.csv
+│   │   ├── WAPO.JK.csv
+│   │   ├── WEGE.JK.csv
+│   │   ├── WEHA.JK.csv
+│   │   ├── WGSH.JK.csv
+│   │   ├── WIFI.JK.csv
+│   │   ├── WIIM.JK.csv
+│   │   ├── WINE.JK.csv
+│   │   ├── WINS.JK.csv
+│   │   ├── WIRG.JK.csv
+│   │   ├── WOMF.JK.csv
+│   │   ├── WOOD.JK.csv
+│   │   ├── WOWS.JK.csv
+│   │   ├── WTON.JK.csv
+│   │   ├── YOII.JK.csv
+│   │   ├── YPAS.JK.csv
+│   │   ├── YUPI.JK.csv
+│   │   ├── ZBRA.JK.csv
+│   │   ├── ZONE.JK.csv
+│   │   └── ZYRX.JK.csv
+│   ├── cache_daily
+│   │   ├── AADI.JK.csv
+│   │   ├── AALI.JK.csv
+│   │   ├── ABBA.JK.csv
+│   │   ├── ABDA.JK.csv
+│   │   ├── ABMM.JK.csv
+│   │   ├── ACES.JK.csv
+│   │   ├── ACRO.JK.csv
+│   │   ├── ACST.JK.csv
+│   │   ├── ADCP.JK.csv
+│   │   ├── ADES.JK.csv
+│   │   ├── ADHI.JK.csv
+│   │   ├── ADMF.JK.csv
+│   │   ├── ADMG.JK.csv
+│   │   ├── ADMR.JK.csv
+│   │   ├── ADRO.JK.csv
+│   │   ├── AEGS.JK.csv
+│   │   ├── AGAR.JK.csv
+│   │   ├── AGII.JK.csv
+│   │   ├── AGRO.JK.csv
+│   │   ├── AGRS.JK.csv
+│   │   ├── AHAP.JK.csv
+│   │   ├── AIMS.JK.csv
+│   │   ├── AISA.JK.csv
+│   │   ├── AKKU.JK.csv
+│   │   ├── AKPI.JK.csv
+│   │   ├── AKRA.JK.csv
+│   │   ├── AKSI.JK.csv
+│   │   ├── ALDO.JK.csv
+│   │   ├── ALII.JK.csv
+│   │   ├── ALKA.JK.csv
+│   │   ├── ALMI.JK.csv
+│   │   ├── ALTO.JK.csv
+│   │   ├── AMAG.JK.csv
+│   │   ├── AMAN.JK.csv
+│   │   ├── AMAR.JK.csv
+│   │   ├── AMFG.JK.csv
+│   │   ├── AMIN.JK.csv
+│   │   ├── AMMN.JK.csv
+│   │   ├── AMMS.JK.csv
+│   │   ├── AMOR.JK.csv
+│   │   ├── AMRT.JK.csv
+│   │   ├── ANDI.JK.csv
+│   │   ├── ANJT.JK.csv
+│   │   ├── ANTM.JK.csv
+│   │   ├── APEX.JK.csv
+│   │   ├── APIC.JK.csv
+│   │   ├── APII.JK.csv
+│   │   ├── APLI.JK.csv
+│   │   ├── APLN.JK.csv
+│   │   ├── ARCI.JK.csv
+│   │   ├── AREA.JK.csv
+│   │   ├── ARGO.JK.csv
+│   │   ├── ARII.JK.csv
+│   │   ├── ARKA.JK.csv
+│   │   ├── ARKO.JK.csv
+│   │   ├── ARMY.JK.csv
+│   │   ├── ARNA.JK.csv
+│   │   ├── ARTA.JK.csv
+│   │   ├── ARTI.JK.csv
+│   │   ├── ARTO.JK.csv
+│   │   ├── ASBI.JK.csv
+│   │   ├── ASDM.JK.csv
+│   │   ├── ASGR.JK.csv
+│   │   ├── ASHA.JK.csv
+│   │   ├── ASII.JK.csv
+│   │   ├── ASJT.JK.csv
+│   │   ├── ASLC.JK.csv
+│   │   ├── ASLI.JK.csv
+│   │   ├── ASMI.JK.csv
+│   │   ├── ASPI.JK.csv
+│   │   ├── ASPR.JK.csv
+│   │   ├── ASRI.JK.csv
+│   │   ├── ASRM.JK.csv
+│   │   ├── ASSA.JK.csv
+│   │   ├── ATAP.JK.csv
+│   │   ├── ATIC.JK.csv
+│   │   ├── ATLA.JK.csv
+│   │   ├── AUTO.JK.csv
+│   │   ├── AVIA.JK.csv
+│   │   ├── AWAN.JK.csv
+│   │   ├── AXIO.JK.csv
+│   │   ├── AYAM.JK.csv
+│   │   ├── AYLS.JK.csv
+│   │   ├── BABP.JK.csv
+│   │   ├── BABY.JK.csv
+│   │   ├── BACA.JK.csv
+│   │   ├── BAIK.JK.csv
+│   │   ├── BAJA.JK.csv
+│   │   ├── BALI.JK.csv
+│   │   ├── BANK.JK.csv
+│   │   ├── BAPA.JK.csv
+│   │   ├── BAPI.JK.csv
+│   │   ├── BATA.JK.csv
+│   │   ├── BATR.JK.csv
+│   │   ├── BAUT.JK.csv
+│   │   ├── BAYU.JK.csv
+│   │   ├── BBCA.JK.csv
+│   │   ├── BBHI.JK.csv
+│   │   ├── BBKP.JK.csv
+│   │   ├── BBLD.JK.csv
+│   │   ├── BBMD.JK.csv
+│   │   ├── BBNI.JK.csv
+│   │   ├── BBRI.JK.csv
+│   │   ├── BBRM.JK.csv
+│   │   ├── BBSI.JK.csv
+│   │   ├── BBSS.JK.csv
+│   │   ├── BBTN.JK.csv
+│   │   ├── BBYB.JK.csv
+│   │   ├── BCAP.JK.csv
+│   │   ├── BCIC.JK.csv
+│   │   ├── BCIP.JK.csv
+│   │   ├── BDKR.JK.csv
+│   │   ├── BDMN.JK.csv
+│   │   ├── BEBS.JK.csv
+│   │   ├── BEEF.JK.csv
+│   │   ├── BEER.JK.csv
+│   │   ├── BEKS.JK.csv
+│   │   ├── BELI.JK.csv
+│   │   ├── BELL.JK.csv
+│   │   ├── BESS.JK.csv
+│   │   ├── BEST.JK.csv
+│   │   ├── BFIN.JK.csv
+│   │   ├── BGTG.JK.csv
+│   │   ├── BHAT.JK.csv
+│   │   ├── BHIT.JK.csv
+│   │   ├── BIKA.JK.csv
+│   │   ├── BIKE.JK.csv
+│   │   ├── BIMA.JK.csv
+│   │   ├── BINA.JK.csv
+│   │   ├── BINO.JK.csv
+│   │   ├── BIPI.JK.csv
+│   │   ├── BIPP.JK.csv
+│   │   ├── BIRD.JK.csv
+│   │   ├── BISI.JK.csv
+│   │   ├── BJBR.JK.csv
+│   │   ├── BJTM.JK.csv
+│   │   ├── BKDP.JK.csv
+│   │   ├── BKSL.JK.csv
+│   │   ├── BKSW.JK.csv
+│   │   ├── BLES.JK.csv
+│   │   ├── BLOG.JK.csv
+│   │   ├── BLTA.JK.csv
+│   │   ├── BLTZ.JK.csv
+│   │   ├── BLUE.JK.csv
+│   │   ├── BMAS.JK.csv
+│   │   ├── BMBL.JK.csv
+│   │   ├── BMHS.JK.csv
+│   │   ├── BMRI.JK.csv
+│   │   ├── BMSR.JK.csv
+│   │   ├── BMTR.JK.csv
+│   │   ├── BNBA.JK.csv
+│   │   ├── BNBR.JK.csv
+│   │   ├── BNGA.JK.csv
+│   │   ├── BNII.JK.csv
+│   │   ├── BNLI.JK.csv
+│   │   ├── BOAT.JK.csv
+│   │   ├── BOBA.JK.csv
+│   │   ├── BOGA.JK.csv
+│   │   ├── BOLA.JK.csv
+│   │   ├── BOLT.JK.csv
+│   │   ├── BOSS.JK.csv
+│   │   ├── BPFI.JK.csv
+│   │   ├── BPII.JK.csv
+│   │   ├── BPTR.JK.csv
+│   │   ├── BRAM.JK.csv
+│   │   ├── BREN.JK.csv
+│   │   ├── BRIS.JK.csv
+│   │   ├── BRMS.JK.csv
+│   │   ├── BRNA.JK.csv
+│   │   ├── BRPT.JK.csv
+│   │   ├── BRRC.JK.csv
+│   │   ├── BSBK.JK.csv
+│   │   ├── BSDE.JK.csv
+│   │   ├── BSIM.JK.csv
+│   │   ├── BSML.JK.csv
+│   │   ├── BSSR.JK.csv
+│   │   ├── BSWD.JK.csv
+│   │   ├── BTEK.JK.csv
+│   │   ├── BTEL.JK.csv
+│   │   ├── BTON.JK.csv
+│   │   ├── BTPN.JK.csv
+│   │   ├── BTPS.JK.csv
+│   │   ├── BUAH.JK.csv
+│   │   ├── BUDI.JK.csv
+│   │   ├── BUKA.JK.csv
+│   │   ├── BUKK.JK.csv
+│   │   ├── BULL.JK.csv
+│   │   ├── BUMI.JK.csv
+│   │   ├── BUVA.JK.csv
+│   │   ├── BVIC.JK.csv
+│   │   ├── BWPT.JK.csv
+│   │   ├── BYAN.JK.csv
+│   │   ├── CAKK.JK.csv
+│   │   ├── CAMP.JK.csv
+│   │   ├── CANI.JK.csv
+│   │   ├── CARE.JK.csv
+│   │   ├── CARS.JK.csv
+│   │   ├── CASA.JK.csv
+│   │   ├── CASH.JK.csv
+│   │   ├── CASS.JK.csv
+│   │   ├── CBDK.JK.csv
+│   │   ├── CBMF.JK.csv
+│   │   ├── CBPE.JK.csv
+│   │   ├── CBRE.JK.csv
+│   │   ├── CBUT.JK.csv
+│   │   ├── CCSI.JK.csv
+│   │   ├── CDIA.JK.csv
+│   │   ├── CEKA.JK.csv
+│   │   ├── CENT.JK.csv
+│   │   ├── CFIN.JK.csv
+│   │   ├── CGAS.JK.csv
+│   │   ├── CHEK.JK.csv
+│   │   ├── CHEM.JK.csv
+│   │   ├── CHIP.JK.csv
+│   │   ├── CINT.JK.csv
+│   │   ├── CITA.JK.csv
+│   │   ├── CITY.JK.csv
+│   │   ├── CLAY.JK.csv
+│   │   ├── CLEO.JK.csv
+│   │   ├── CLPI.JK.csv
+│   │   ├── CMNP.JK.csv
+│   │   ├── CMNT.JK.csv
+│   │   ├── CMPP.JK.csv
+│   │   ├── CMRY.JK.csv
+│   │   ├── CNKO.JK.csv
+│   │   ├── CNMA.JK.csv
+│   │   ├── CNTX.JK.csv
+│   │   ├── COAL.JK.csv
+│   │   ├── COCO.JK.csv
+│   │   ├── COIN.JK.csv
+│   │   ├── COWL.JK.csv
+│   │   ├── CPIN.JK.csv
+│   │   ├── CPRI.JK.csv
+│   │   ├── CPRO.JK.csv
+│   │   ├── CRAB.JK.csv
+│   │   ├── CRSN.JK.csv
+│   │   ├── CSAP.JK.csv
+│   │   ├── CSIS.JK.csv
+│   │   ├── CSMI.JK.csv
+│   │   ├── CSRA.JK.csv
+│   │   ├── CTBN.JK.csv
+│   │   ├── CTRA.JK.csv
+│   │   ├── CTTH.JK.csv
+│   │   ├── CUAN.JK.csv
+│   │   ├── CYBR.JK.csv
+│   │   ├── DAAZ.JK.csv
+│   │   ├── DADA.JK.csv
+│   │   ├── DART.JK.csv
+│   │   ├── DATA.JK.csv
+│   │   ├── DAYA.JK.csv
+│   │   ├── DCII.JK.csv
+│   │   ├── DEAL.JK.csv
+│   │   ├── DEFI.JK.csv
+│   │   ├── DEPO.JK.csv
+│   │   ├── DEWA.JK.csv
+│   │   ├── DEWI.JK.csv
+│   │   ├── DFAM.JK.csv
+│   │   ├── DGIK.JK.csv
+│   │   ├── DGNS.JK.csv
+│   │   ├── DGWG.JK.csv
+│   │   ├── DIGI.JK.csv
+│   │   ├── DILD.JK.csv
+│   │   ├── DIVA.JK.csv
+│   │   ├── DKFT.JK.csv
+│   │   ├── DKHH.JK.csv
+│   │   ├── DLTA.JK.csv
+│   │   ├── DMAS.JK.csv
+│   │   ├── DMMX.JK.csv
+│   │   ├── DMND.JK.csv
+│   │   ├── DNAR.JK.csv
+│   │   ├── DNET.JK.csv
+│   │   ├── DOID.JK.csv
+│   │   ├── DOOH.JK.csv
+│   │   ├── DOSS.JK.csv
+│   │   ├── DPNS.JK.csv
+│   │   ├── DPUM.JK.csv
+│   │   ├── DRMA.JK.csv
+│   │   ├── DSFI.JK.csv
+│   │   ├── DSNG.JK.csv
+│   │   ├── DSSA.JK.csv
+│   │   ├── DUCK.JK.csv
+│   │   ├── DUTI.JK.csv
+│   │   ├── DVLA.JK.csv
+│   │   ├── DWGL.JK.csv
+│   │   ├── DYAN.JK.csv
+│   │   ├── EAST.JK.csv
+│   │   ├── ECII.JK.csv
+│   │   ├── EDGE.JK.csv
+│   │   ├── EKAD.JK.csv
+│   │   ├── ELIT.JK.csv
+│   │   ├── ELPI.JK.csv
+│   │   ├── ELSA.JK.csv
+│   │   ├── ELTY.JK.csv
+│   │   ├── EMDE.JK.csv
+│   │   ├── EMTK.JK.csv
+│   │   ├── ENAK.JK.csv
+│   │   ├── ENRG.JK.csv
+│   │   ├── ENVY.JK.csv
+│   │   ├── ENZO.JK.csv
+│   │   ├── EPAC.JK.csv
+│   │   ├── EPMT.JK.csv
+│   │   ├── ERAA.JK.csv
+│   │   ├── ERAL.JK.csv
+│   │   ├── ERTX.JK.csv
+│   │   ├── ESIP.JK.csv
+│   │   ├── ESSA.JK.csv
+│   │   ├── ESTA.JK.csv
+│   │   ├── ESTI.JK.csv
+│   │   ├── ETWA.JK.csv
+│   │   ├── EURO.JK.csv
+│   │   ├── EXCL.JK.csv
+│   │   ├── FAPA.JK.csv
+│   │   ├── FAST.JK.csv
+│   │   ├── FASW.JK.csv
+│   │   ├── FILM.JK.csv
+│   │   ├── FIMP.JK.csv
+│   │   ├── FIRE.JK.csv
+│   │   ├── FISH.JK.csv
+│   │   ├── FITT.JK.csv
+│   │   ├── FLMC.JK.csv
+│   │   ├── FMII.JK.csv
+│   │   ├── FOLK.JK.csv
+│   │   ├── FOOD.JK.csv
+│   │   ├── FORE.JK.csv
+│   │   ├── FORU.JK.csv
+│   │   ├── FPNI.JK.csv
+│   │   ├── FUJI.JK.csv
+│   │   ├── FUTR.JK.csv
+│   │   ├── FWCT.JK.csv
+│   │   ├── GAMA.JK.csv
+│   │   ├── GDST.JK.csv
+│   │   ├── GDYR.JK.csv
+│   │   ├── GEMA.JK.csv
+│   │   ├── GEMS.JK.csv
+│   │   ├── GGRM.JK.csv
+│   │   ├── GGRP.JK.csv
+│   │   ├── GHON.JK.csv
+│   │   ├── GIAA.JK.csv
+│   │   ├── GJTL.JK.csv
+│   │   ├── GLOB.JK.csv
+│   │   ├── GLVA.JK.csv
+│   │   ├── GMFI.JK.csv
+│   │   ├── GMTD.JK.csv
+│   │   ├── GOLD.JK.csv
+│   │   ├── GOLF.JK.csv
+│   │   ├── GOLL.JK.csv
+│   │   ├── GOOD.JK.csv
+│   │   ├── GOTO.JK.csv
+│   │   ├── GPRA.JK.csv
+│   │   ├── GPSO.JK.csv
+│   │   ├── GRIA.JK.csv
+│   │   ├── GRPH.JK.csv
+│   │   ├── GRPM.JK.csv
+│   │   ├── GSMF.JK.csv
+│   │   ├── GTBO.JK.csv
+│   │   ├── GTRA.JK.csv
+│   │   ├── GTSI.JK.csv
+│   │   ├── GULA.JK.csv
+│   │   ├── GUNA.JK.csv
+│   │   ├── GWSA.JK.csv
+│   │   ├── GZCO.JK.csv
+│   │   ├── HADE.JK.csv
+│   │   ├── HAIS.JK.csv
+│   │   ├── HAJJ.JK.csv
+│   │   ├── HALO.JK.csv
+│   │   ├── HATM.JK.csv
+│   │   ├── HBAT.JK.csv
+│   │   ├── HDFA.JK.csv
+│   │   ├── HDIT.JK.csv
+│   │   ├── HEAL.JK.csv
+│   │   ├── HELI.JK.csv
+│   │   ├── HERO.JK.csv
+│   │   ├── HEXA.JK.csv
+│   │   ├── HGII.JK.csv
+│   │   ├── HILL.JK.csv
+│   │   ├── HITS.JK.csv
+│   │   ├── HKMU.JK.csv
+│   │   ├── HMSP.JK.csv
+│   │   ├── HOKI.JK.csv
+│   │   ├── HOME.JK.csv
+│   │   ├── HOMI.JK.csv
+│   │   ├── HOPE.JK.csv
+│   │   ├── HOTL.JK.csv
+│   │   ├── HRME.JK.csv
+│   │   ├── HRTA.JK.csv
+│   │   ├── HRUM.JK.csv
+│   │   ├── HUMI.JK.csv
+│   │   ├── HYGN.JK.csv
+│   │   ├── IATA.JK.csv
+│   │   ├── IBFN.JK.csv
+│   │   ├── IBOS.JK.csv
+│   │   ├── IBST.JK.csv
+│   │   ├── ICBP.JK.csv
+│   │   ├── ICON.JK.csv
+│   │   ├── IDEA.JK.csv
+│   │   ├── IDPR.JK.csv
+│   │   ├── IFII.JK.csv
+│   │   ├── IFSH.JK.csv
+│   │   ├── IGAR.JK.csv
+│   │   ├── IIKP.JK.csv
+│   │   ├── IKAI.JK.csv
+│   │   ├── IKAN.JK.csv
+│   │   ├── IKBI.JK.csv
+│   │   ├── IKPM.JK.csv
+│   │   ├── IMAS.JK.csv
+│   │   ├── IMJS.JK.csv
+│   │   ├── IMPC.JK.csv
+│   │   ├── INAF.JK.csv
+│   │   ├── INAI.JK.csv
+│   │   ├── INCF.JK.csv
+│   │   ├── INCI.JK.csv
+│   │   ├── INCO.JK.csv
+│   │   ├── INDF.JK.csv
+│   │   ├── INDO.JK.csv
+│   │   ├── INDR.JK.csv
+│   │   ├── INDS.JK.csv
+│   │   ├── INDX.JK.csv
+│   │   ├── INDY.JK.csv
+│   │   ├── INET.JK.csv
+│   │   ├── INKP.JK.csv
+│   │   ├── INOV.JK.csv
+│   │   ├── INPC.JK.csv
+│   │   ├── INPP.JK.csv
+│   │   ├── INPS.JK.csv
+│   │   ├── INRU.JK.csv
+│   │   ├── INTA.JK.csv
+│   │   ├── INTD.JK.csv
+│   │   ├── INTP.JK.csv
+│   │   ├── IOTF.JK.csv
+│   │   ├── IPAC.JK.csv
+│   │   ├── IPCC.JK.csv
+│   │   ├── IPCM.JK.csv
+│   │   ├── IPOL.JK.csv
+│   │   ├── IPPE.JK.csv
+│   │   ├── IPTV.JK.csv
+│   │   ├── IRRA.JK.csv
+│   │   ├── IRSX.JK.csv
+│   │   ├── ISAP.JK.csv
+│   │   ├── ISAT.JK.csv
+│   │   ├── ISEA.JK.csv
+│   │   ├── ISSP.JK.csv
+│   │   ├── ITIC.JK.csv
+│   │   ├── ITMA.JK.csv
+│   │   ├── ITMG.JK.csv
+│   │   ├── JARR.JK.csv
+│   │   ├── JAST.JK.csv
+│   │   ├── JATI.JK.csv
+│   │   ├── JAWA.JK.csv
+│   │   ├── JAYA.JK.csv
+│   │   ├── JECC.JK.csv
+│   │   ├── JGLE.JK.csv
+│   │   ├── JIHD.JK.csv
+│   │   ├── JKON.JK.csv
+│   │   ├── JMAS.JK.csv
+│   │   ├── JPFA.JK.csv
+│   │   ├── JRPT.JK.csv
+│   │   ├── JSKY.JK.csv
+│   │   ├── JSMR.JK.csv
+│   │   ├── JSPT.JK.csv
+│   │   ├── JTPE.JK.csv
+│   │   ├── KAEF.JK.csv
+│   │   ├── KAQI.JK.csv
+│   │   ├── KARW.JK.csv
+│   │   ├── KAYU.JK.csv
+│   │   ├── KBAG.JK.csv
+│   │   ├── KBLI.JK.csv
+│   │   ├── KBLM.JK.csv
+│   │   ├── KBLV.JK.csv
+│   │   ├── KBRI.JK.csv
+│   │   ├── KDSI.JK.csv
+│   │   ├── KDTN.JK.csv
+│   │   ├── KEEN.JK.csv
+│   │   ├── KEJU.JK.csv
+│   │   ├── KETR.JK.csv
+│   │   ├── KIAS.JK.csv
+│   │   ├── KICI.JK.csv
+│   │   ├── KIJA.JK.csv
+│   │   ├── KING.JK.csv
+│   │   ├── KINO.JK.csv
+│   │   ├── KIOS.JK.csv
+│   │   ├── KJEN.JK.csv
+│   │   ├── KKES.JK.csv
+│   │   ├── KKGI.JK.csv
+│   │   ├── KLAS.JK.csv
+│   │   ├── KLBF.JK.csv
+│   │   ├── KLIN.JK.csv
+│   │   ├── KMDS.JK.csv
+│   │   ├── KMTR.JK.csv
+│   │   ├── KOBX.JK.csv
+│   │   ├── KOCI.JK.csv
+│   │   ├── KOIN.JK.csv
+│   │   ├── KOKA.JK.csv
+│   │   ├── KONI.JK.csv
+│   │   ├── KOPI.JK.csv
+│   │   ├── KOTA.JK.csv
+│   │   ├── KPIG.JK.csv
+│   │   ├── KRAS.JK.csv
+│   │   ├── KREN.JK.csv
+│   │   ├── KRYA.JK.csv
+│   │   ├── KSIX.JK.csv
+│   │   ├── KUAS.JK.csv
+│   │   ├── LABA.JK.csv
+│   │   ├── LABS.JK.csv
+│   │   ├── LAJU.JK.csv
+│   │   ├── LAND.JK.csv
+│   │   ├── LAPD.JK.csv
+│   │   ├── LCGP.JK.csv
+│   │   ├── LCKM.JK.csv
+│   │   ├── LEAD.JK.csv
+│   │   ├── LFLO.JK.csv
+│   │   ├── LIFE.JK.csv
+│   │   ├── LINK.JK.csv
+│   │   ├── LION.JK.csv
+│   │   ├── LIVE.JK.csv
+│   │   ├── LMAS.JK.csv
+│   │   ├── LMAX.JK.csv
+│   │   ├── LMPI.JK.csv
+│   │   ├── LMSH.JK.csv
+│   │   ├── LOPI.JK.csv
+│   │   ├── LPCK.JK.csv
+│   │   ├── LPGI.JK.csv
+│   │   ├── LPIN.JK.csv
+│   │   ├── LPKR.JK.csv
+│   │   ├── LPLI.JK.csv
+│   │   ├── LPPF.JK.csv
+│   │   ├── LPPS.JK.csv
+│   │   ├── LRNA.JK.csv
+│   │   ├── LSIP.JK.csv
+│   │   ├── LTLS.JK.csv
+│   │   ├── LUCK.JK.csv
+│   │   ├── LUCY.JK.csv
+│   │   ├── MABA.JK.csv
+│   │   ├── MAGP.JK.csv
+│   │   ├── MAHA.JK.csv
+│   │   ├── MAIN.JK.csv
+│   │   ├── MANG.JK.csv
+│   │   ├── MAPA.JK.csv
+│   │   ├── MAPB.JK.csv
+│   │   ├── MAPI.JK.csv
+│   │   ├── MARI.JK.csv
+│   │   ├── MARK.JK.csv
+│   │   ├── MASA.JK.csv
+│   │   ├── MASB.JK.csv
+│   │   ├── MAXI.JK.csv
+│   │   ├── MAYA.JK.csv
+│   │   ├── MBAP.JK.csv
+│   │   ├── MBMA.JK.csv
+│   │   ├── MBSS.JK.csv
+│   │   ├── MBTO.JK.csv
+│   │   ├── MCAS.JK.csv
+│   │   ├── MCOL.JK.csv
+│   │   ├── MCOR.JK.csv
+│   │   ├── MDIA.JK.csv
+│   │   ├── MDIY.JK.csv
+│   │   ├── MDKA.JK.csv
+│   │   ├── MDKI.JK.csv
+│   │   ├── MDLA.JK.csv
+│   │   ├── MDLN.JK.csv
+│   │   ├── MDRN.JK.csv
+│   │   ├── MEDC.JK.csv
+│   │   ├── MEDS.JK.csv
+│   │   ├── MEGA.JK.csv
+│   │   ├── MEJA.JK.csv
+│   │   ├── MENN.JK.csv
+│   │   ├── MERI.JK.csv
+│   │   ├── MERK.JK.csv
+│   │   ├── META.JK.csv
+│   │   ├── MFIN.JK.csv
+│   │   ├── MFMI.JK.csv
+│   │   ├── MGLV.JK.csv
+│   │   ├── MGNA.JK.csv
+│   │   ├── MGRO.JK.csv
+│   │   ├── MHKI.JK.csv
+│   │   ├── MICE.JK.csv
+│   │   ├── MIDI.JK.csv
+│   │   ├── MIKA.JK.csv
+│   │   ├── MINA.JK.csv
+│   │   ├── MINE.JK.csv
+│   │   ├── MIRA.JK.csv
+│   │   ├── MITI.JK.csv
+│   │   ├── MKAP.JK.csv
+│   │   ├── MKNT.JK.csv
+│   │   ├── MKPI.JK.csv
+│   │   ├── MKTR.JK.csv
+│   │   ├── MLBI.JK.csv
+│   │   ├── MLIA.JK.csv
+│   │   ├── MLPL.JK.csv
+│   │   ├── MLPT.JK.csv
+│   │   ├── MMIX.JK.csv
+│   │   ├── MMLP.JK.csv
+│   │   ├── MNCN.JK.csv
+│   │   ├── MOLI.JK.csv
+│   │   ├── MORA.JK.csv
+│   │   ├── MPIX.JK.csv
+│   │   ├── MPMX.JK.csv
+│   │   ├── MPOW.JK.csv
+│   │   ├── MPPA.JK.csv
+│   │   ├── MPRO.JK.csv
+│   │   ├── MPXL.JK.csv
+│   │   ├── MRAT.JK.csv
+│   │   ├── MREI.JK.csv
+│   │   ├── MSIE.JK.csv
+│   │   ├── MSIN.JK.csv
+│   │   ├── MSJA.JK.csv
+│   │   ├── MSKY.JK.csv
+│   │   ├── MSTI.JK.csv
+│   │   ├── MTDL.JK.csv
+│   │   ├── MTEL.JK.csv
+│   │   ├── MTFN.JK.csv
+│   │   ├── MTLA.JK.csv
+│   │   ├── MTMH.JK.csv
+│   │   ├── MTPS.JK.csv
+│   │   ├── MTRA.JK.csv
+│   │   ├── MTSM.JK.csv
+│   │   ├── MTWI.JK.csv
+│   │   ├── MUTU.JK.csv
+│   │   ├── MYOH.JK.csv
+│   │   ├── MYOR.JK.csv
+│   │   ├── MYTX.JK.csv
+│   │   ├── NAIK.JK.csv
+│   │   ├── NANO.JK.csv
+│   │   ├── NASA.JK.csv
+│   │   ├── NASI.JK.csv
+│   │   ├── NATO.JK.csv
+│   │   ├── NAYZ.JK.csv
+│   │   ├── NCKL.JK.csv
+│   │   ├── NELY.JK.csv
+│   │   ├── NEST.JK.csv
+│   │   ├── NETV.JK.csv
+│   │   ├── NFCX.JK.csv
+│   │   ├── NICE.JK.csv
+│   │   ├── NICK.JK.csv
+│   │   ├── NICL.JK.csv
+│   │   ├── NIKL.JK.csv
+│   │   ├── NINE.JK.csv
+│   │   ├── NIRO.JK.csv
+│   │   ├── NISP.JK.csv
+│   │   ├── NOBU.JK.csv
+│   │   ├── NPGF.JK.csv
+│   │   ├── NRCA.JK.csv
+│   │   ├── NSSS.JK.csv
+│   │   ├── NTBK.JK.csv
+│   │   ├── NUSA.JK.csv
+│   │   ├── NZIA.JK.csv
+│   │   ├── OASA.JK.csv
+│   │   ├── OBAT.JK.csv
+│   │   ├── OBMD.JK.csv
+│   │   ├── OCAP.JK.csv
+│   │   ├── OILS.JK.csv
+│   │   ├── OKAS.JK.csv
+│   │   ├── OLIV.JK.csv
+│   │   ├── OMED.JK.csv
+│   │   ├── OMRE.JK.csv
+│   │   ├── OPMS.JK.csv
+│   │   ├── PACK.JK.csv
+│   │   ├── PADA.JK.csv
+│   │   ├── PADI.JK.csv
+│   │   ├── PALM.JK.csv
+│   │   ├── PAMG.JK.csv
+│   │   ├── PANI.JK.csv
+│   │   ├── PANR.JK.csv
+│   │   ├── PANS.JK.csv
+│   │   ├── PART.JK.csv
+│   │   ├── PBID.JK.csv
+│   │   ├── PBRX.JK.csv
+│   │   ├── PBSA.JK.csv
+│   │   ├── PCAR.JK.csv
+│   │   ├── PDES.JK.csv
+│   │   ├── PDPP.JK.csv
+│   │   ├── PEGE.JK.csv
+│   │   ├── PEHA.JK.csv
+│   │   ├── PEVE.JK.csv
+│   │   ├── PGAS.JK.csv
+│   │   ├── PGEO.JK.csv
+│   │   ├── PGJO.JK.csv
+│   │   ├── PGLI.JK.csv
+│   │   ├── PGUN.JK.csv
+│   │   ├── PICO.JK.csv
+│   │   ├── PIPA.JK.csv
+│   │   ├── PJAA.JK.csv
+│   │   ├── PKPK.JK.csv
+│   │   ├── PLAN.JK.csv
+│   │   ├── PLAS.JK.csv
+│   │   ├── PLIN.JK.csv
+│   │   ├── PMJS.JK.csv
+│   │   ├── PMMP.JK.csv
+│   │   ├── PMUI.JK.csv
+│   │   ├── PNBN.JK.csv
+│   │   ├── PNBS.JK.csv
+│   │   ├── PNGO.JK.csv
+│   │   ├── PNIN.JK.csv
+│   │   ├── PNLF.JK.csv
+│   │   ├── PNSE.JK.csv
+│   │   ├── POLA.JK.csv
+│   │   ├── POLI.JK.csv
+│   │   ├── POLL.JK.csv
+│   │   ├── POLU.JK.csv
+│   │   ├── POLY.JK.csv
+│   │   ├── POOL.JK.csv
+│   │   ├── PORT.JK.csv
+│   │   ├── POSA.JK.csv
+│   │   ├── POWR.JK.csv
+│   │   ├── PPGL.JK.csv
+│   │   ├── PPRE.JK.csv
+│   │   ├── PPRI.JK.csv
+│   │   ├── PPRO.JK.csv
+│   │   ├── PRAY.JK.csv
+│   │   ├── PRDA.JK.csv
+│   │   ├── PRIM.JK.csv
+│   │   ├── PSAB.JK.csv
+│   │   ├── PSAT.JK.csv
+│   │   ├── PSDN.JK.csv
+│   │   ├── PSGO.JK.csv
+│   │   ├── PSKT.JK.csv
+│   │   ├── PSSI.JK.csv
+│   │   ├── PTBA.JK.csv
+│   │   ├── PTDU.JK.csv
+│   │   ├── PTIS.JK.csv
+│   │   ├── PTMP.JK.csv
+│   │   ├── PTMR.JK.csv
+│   │   ├── PTPP.JK.csv
+│   │   ├── PTPS.JK.csv
+│   │   ├── PTPW.JK.csv
+│   │   ├── PTRO.JK.csv
+│   │   ├── PTSN.JK.csv
+│   │   ├── PTSP.JK.csv
+│   │   ├── PUDP.JK.csv
+│   │   ├── PURA.JK.csv
+│   │   ├── PURE.JK.csv
+│   │   ├── PURI.JK.csv
+│   │   ├── PWON.JK.csv
+│   │   ├── PYFA.JK.csv
+│   │   ├── PZZA.JK.csv
+│   │   ├── RAAM.JK.csv
+│   │   ├── RAFI.JK.csv
+│   │   ├── RAJA.JK.csv
+│   │   ├── RALS.JK.csv
+│   │   ├── RANC.JK.csv
+│   │   ├── RATU.JK.csv
+│   │   ├── RBMS.JK.csv
+│   │   ├── RCCC.JK.csv
+│   │   ├── RDTX.JK.csv
+│   │   ├── REAL.JK.csv
+│   │   ├── RELF.JK.csv
+│   │   ├── RELI.JK.csv
+│   │   ├── RGAS.JK.csv
+│   │   ├── RICY.JK.csv
+│   │   ├── RIGS.JK.csv
+│   │   ├── RIMO.JK.csv
+│   │   ├── RISE.JK.csv
+│   │   ├── RMKE.JK.csv
+│   │   ├── RMKO.JK.csv
+│   │   ├── ROCK.JK.csv
+│   │   ├── RODA.JK.csv
+│   │   ├── RONY.JK.csv
+│   │   ├── ROTI.JK.csv
+│   │   ├── RSCH.JK.csv
+│   │   ├── RSGK.JK.csv
+│   │   ├── RUIS.JK.csv
+│   │   ├── RUNS.JK.csv
+│   │   ├── SAFE.JK.csv
+│   │   ├── SAGE.JK.csv
+│   │   ├── SAME.JK.csv
+│   │   ├── SAMF.JK.csv
+│   │   ├── SAPX.JK.csv
+│   │   ├── SATU.JK.csv
+│   │   ├── SBAT.JK.csv
+│   │   ├── SBMA.JK.csv
+│   │   ├── SCCO.JK.csv
+│   │   ├── SCMA.JK.csv
+│   │   ├── SCNP.JK.csv
+│   │   ├── SCPI.JK.csv
+│   │   ├── SDMU.JK.csv
+│   │   ├── SDPC.JK.csv
+│   │   ├── SDRA.JK.csv
+│   │   ├── SEMA.JK.csv
+│   │   ├── SFAN.JK.csv
+│   │   ├── SGER.JK.csv
+│   │   ├── SGRO.JK.csv
+│   │   ├── SHID.JK.csv
+│   │   ├── SHIP.JK.csv
+│   │   ├── SICO.JK.csv
+│   │   ├── SIDO.JK.csv
+│   │   ├── SILO.JK.csv
+│   │   ├── SIMA.JK.csv
+│   │   ├── SIMP.JK.csv
+│   │   ├── SINI.JK.csv
+│   │   ├── SIPD.JK.csv
+│   │   ├── SKBM.JK.csv
+│   │   ├── SKLT.JK.csv
+│   │   ├── SKRN.JK.csv
+│   │   ├── SKYB.JK.csv
+│   │   ├── SLIS.JK.csv
+│   │   ├── SMAR.JK.csv
+│   │   ├── SMBR.JK.csv
+│   │   ├── SMCB.JK.csv
+│   │   ├── SMDM.JK.csv
+│   │   ├── SMDR.JK.csv
+│   │   ├── SMGA.JK.csv
+│   │   ├── SMGR.JK.csv
+│   │   ├── SMIL.JK.csv
+│   │   ├── SMKL.JK.csv
+│   │   ├── SMKM.JK.csv
+│   │   ├── SMLE.JK.csv
+│   │   ├── SMMA.JK.csv
+│   │   ├── SMMT.JK.csv
+│   │   ├── SMRA.JK.csv
+│   │   ├── SMRU.JK.csv
+│   │   ├── SMSM.JK.csv
+│   │   ├── SNLK.JK.csv
+│   │   ├── SOCI.JK.csv
+│   │   ├── SOFA.JK.csv
+│   │   ├── SOHO.JK.csv
+│   │   ├── SOLA.JK.csv
+│   │   ├── SONA.JK.csv
+│   │   ├── SOSS.JK.csv
+│   │   ├── SOTS.JK.csv
+│   │   ├── SOUL.JK.csv
+│   │   ├── SPMA.JK.csv
+│   │   ├── SPRE.JK.csv
+│   │   ├── SPTO.JK.csv
+│   │   ├── SQMI.JK.csv
+│   │   ├── SRAJ.JK.csv
+│   │   ├── SRIL.JK.csv
+│   │   ├── SRSN.JK.csv
+│   │   ├── SRTG.JK.csv
+│   │   ├── SSIA.JK.csv
+│   │   ├── SSMS.JK.csv
+│   │   ├── SSTM.JK.csv
+│   │   ├── STAA.JK.csv
+│   │   ├── STAR.JK.csv
+│   │   ├── STRK.JK.csv
+│   │   ├── STTP.JK.csv
+│   │   ├── SUGI.JK.csv
+│   │   ├── SULI.JK.csv
+│   │   ├── SUNI.JK.csv
+│   │   ├── SUPR.JK.csv
+│   │   ├── SURE.JK.csv
+│   │   ├── SURI.JK.csv
+│   │   ├── SWAT.JK.csv
+│   │   ├── SWID.JK.csv
+│   │   ├── TALF.JK.csv
+│   │   ├── TAMA.JK.csv
+│   │   ├── TAMU.JK.csv
+│   │   ├── TAPG.JK.csv
+│   │   ├── TARA.JK.csv
+│   │   ├── TAXI.JK.csv
+│   │   ├── TAYS.JK.csv
+│   │   ├── TBIG.JK.csv
+│   │   ├── TBLA.JK.csv
+│   │   ├── TBMS.JK.csv
+│   │   ├── TCID.JK.csv
+│   │   ├── TCPI.JK.csv
+│   │   ├── TDPM.JK.csv
+│   │   ├── TEBE.JK.csv
+│   │   ├── TECH.JK.csv
+│   │   ├── TELE.JK.csv
+│   │   ├── TFAS.JK.csv
+│   │   ├── TFCO.JK.csv
+│   │   ├── TGKA.JK.csv
+│   │   ├── TGRA.JK.csv
+│   │   ├── TGUK.JK.csv
+│   │   ├── TIFA.JK.csv
+│   │   ├── TINS.JK.csv
+│   │   ├── TIRA.JK.csv
+│   │   ├── TIRT.JK.csv
+│   │   ├── TKIM.JK.csv
+│   │   ├── TLDN.JK.csv
+│   │   ├── TLKM.JK.csv
+│   │   ├── TMAS.JK.csv
+│   │   ├── TMPO.JK.csv
+│   │   ├── TNCA.JK.csv
+│   │   ├── TOBA.JK.csv
+│   │   ├── TOOL.JK.csv
+│   │   ├── TOPS.JK.csv
+│   │   ├── TOSK.JK.csv
+│   │   ├── TOTL.JK.csv
+│   │   ├── TOTO.JK.csv
+│   │   ├── TOWR.JK.csv
+│   │   ├── TOYS.JK.csv
+│   │   ├── TPIA.JK.csv
+│   │   ├── TPMA.JK.csv
+│   │   ├── TRAM.JK.csv
+│   │   ├── TRGU.JK.csv
+│   │   ├── TRIL.JK.csv
+│   │   ├── TRIM.JK.csv
+│   │   ├── TRIN.JK.csv
+│   │   ├── TRIO.JK.csv
+│   │   ├── TRIS.JK.csv
+│   │   ├── TRJA.JK.csv
+│   │   ├── TRON.JK.csv
+│   │   ├── TRST.JK.csv
+│   │   ├── TRUE.JK.csv
+│   │   ├── TRUK.JK.csv
+│   │   ├── TRUS.JK.csv
+│   │   ├── TSPC.JK.csv
+│   │   ├── TUGU.JK.csv
+│   │   ├── TYRE.JK.csv
+│   │   ├── UANG.JK.csv
+│   │   ├── UCID.JK.csv
+│   │   ├── UDNG.JK.csv
+│   │   ├── UFOE.JK.csv
+│   │   ├── ULTJ.JK.csv
+│   │   ├── UNIC.JK.csv
+│   │   ├── UNIQ.JK.csv
+│   │   ├── UNIT.JK.csv
+│   │   ├── UNSP.JK.csv
+│   │   ├── UNTD.JK.csv
+│   │   ├── UNTR.JK.csv
+│   │   ├── UNVR.JK.csv
+│   │   ├── URBN.JK.csv
+│   │   ├── UVCR.JK.csv
+│   │   ├── VAST.JK.csv
+│   │   ├── VERN.JK.csv
+│   │   ├── VICI.JK.csv
+│   │   ├── VICO.JK.csv
+│   │   ├── VINS.JK.csv
+│   │   ├── VISI.JK.csv
+│   │   ├── VIVA.JK.csv
+│   │   ├── VKTR.JK.csv
+│   │   ├── VOKS.JK.csv
+│   │   ├── VRNA.JK.csv
+│   │   ├── VTNY.JK.csv
+│   │   ├── WAPO.JK.csv
+│   │   ├── WEGE.JK.csv
+│   │   ├── WEHA.JK.csv
+│   │   ├── WGSH.JK.csv
+│   │   ├── WICO.JK.csv
+│   │   ├── WIDI.JK.csv
+│   │   ├── WIFI.JK.csv
+│   │   ├── WIIM.JK.csv
+│   │   ├── WIKA.JK.csv
+│   │   ├── WINE.JK.csv
+│   │   ├── WINR.JK.csv
+│   │   ├── WINS.JK.csv
+│   │   ├── WIRG.JK.csv
+│   │   ├── WMPP.JK.csv
+│   │   ├── WMUU.JK.csv
+│   │   ├── WOMF.JK.csv
+│   │   ├── WOOD.JK.csv
+│   │   ├── WOWS.JK.csv
+│   │   ├── WSBP.JK.csv
+│   │   ├── WSKT.JK.csv
+│   │   ├── WTON.JK.csv
+│   │   ├── YELO.JK.csv
+│   │   ├── YOII.JK.csv
+│   │   ├── YPAS.JK.csv
+│   │   ├── YULE.JK.csv
+│   │   ├── YUPI.JK.csv
+│   │   ├── ZATA.JK.csv
+│   │   ├── ZBRA.JK.csv
+│   │   ├── ZINC.JK.csv
+│   │   ├── ZONE.JK.csv
+│   │   └── ZYRX.JK.csv
+│   └── candidates_active_filtered_20250813.csv
+├── idx-fetch-1m.py
+├── idx-fetch.ipynb
+├── idx-prediction.ipynb
+├── idx-RPA.ipynb
+├── ignore
+├── ihsg
+│   ├── emiten_ihsg_active_20250820.csv
+│   └── emiten_ihsg_active.csv
+├── project_structure.txt
+├── result
+│   ├── errors_parallel_20250819_144234.csv
+│   ├── errors_parallel_20250819_161939.csv
+│   ├── errors_warmup_20250816.csv
+│   ├── errors_warmup_20250816_hardtz.csv
+│   ├── errors_warmup_20250816_tzfix.csv
+│   ├── errors_warmup_parallel_20250816.csv
+│   ├── prob_ara_today_20250813.csv
+│   ├── prob_ara_tomorrow_20250813.csv
+│   ├── sanity_report_20250818_014953.csv
+│   ├── sanity_report_20250818_030037.csv
+│   ├── sanity_report_20250819_125411.csv
+│   ├── sanity_report_20250819_144235.csv
+│   ├── sanity_report_20250819_161941.csv
+│   ├── summary_parallel_20250817_234046.csv
+│   ├── summary_parallel_20250818_030034.csv
+│   ├── summary_parallel_20250819_125410.csv
+│   ├── summary_parallel_20250819_144234.csv
+│   └── summary_parallel_20250819_161939.csv
+└── signals
+    ├── bsjp_20250820_1503.csv
+    └── bsjp_mtf_20250820_1526.csv
+
+217 directories, 5902 files
