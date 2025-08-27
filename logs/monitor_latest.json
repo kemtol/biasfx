@@ -1,0 +1,32 @@
+{
+  "slot-1000": {
+    "ts": "2025-08-27T04:24:08Z",
+    "ts_local": "2025-08-27 11:24:08 WIB",
+    "job": "slot-1000",
+    "command": "/home/mkemalw/Projects/SSSAHAM_SERVICE/run_slot.sh once --cutoff \"09:30\" --minprice \"65\" --fetchlist \"1m\"",
+    "status": "success",
+    "exit_code": 0,
+    "result": "[2025-08-27 11:24:08 WIB] Marker exist untuk date=2025-08-27 cutoff=09:30 min=65 fetch=1m → SKIP."
+  },
+  "slot-1200": {
+    "ts": "2025-08-26T08:12:10Z",
+    "ts_local": "2025-08-26 15:12:10 WIB",
+    "job": "slot-1200",
+    "command": "/home/mkemalw/Projects/SSSAHAM_SERVICE/run_slot.sh once --cutoff \"11:30\" --minprice \"65\" --fetchlist \"1m,5m\"",
+    "status": "start"
+  },
+  "slot-1500": {
+    "ts": "2025-08-26T17:18:54Z",
+    "ts_local": "2025-08-27 00:18:54 WIB",
+    "job": "slot-1500",
+    "command": "/home/mkemalw/Projects/SSSAHAM_SERVICE/run_slot.sh once --cutoff \"14:15\" --minprice \"65\" --fetchlist \"1m,5m,15m\"",
+    "status": "start"
+  },
+  "slot-1600": {
+    "ts": "2025-08-26T17:32:27Z",
+    "ts_local": "2025-08-27 00:32:27 WIB",
+    "job": "slot-1600",
+    "command": "/home/mkemalw/Projects/SSSAHAM_SERVICE/run_slot.sh once --cutoff \"15:50\" --minprice \"65\" --fetchlist \"1m,5m,15m,daily\"",
+    "status": "start"
+  }
+}

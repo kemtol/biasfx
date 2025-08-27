@@ -1,0 +1,5 @@
+[INFO] Start 2025-08-26 07:38:42 WIB | ROOT=/home/mkemalw/Projects/SSSAHAM_SERVICE
+Python 3.12.3
+[WARN] Snapshot 09:30 belum ada: /home/mkemalw/Projects/SSSAHAM_SERVICE/rekomendasi/bpjs_rekomendasi_2025-08-26_0930.csv
+[WARN] Snapshot 11:30 belum ada: /home/mkemalw/Projects/SSSAHAM_SERVICE/rekomendasi/bpjs_rekomendasi_2025-08-26_1130.csv
+[INFO] Menunggu snapshot 14:15: /home/mkemalw/Projects/SSSAHAM_SERVICE/rekomendasi/bpjs_rekomendasi_2025-08-26_1415.csv

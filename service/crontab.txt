@@ -1,0 +1,15 @@
+# Intraday heartbeat (tiap 5 menit, 09:00–16:59)
+*/5 9-16 * * 1-5  /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh cron_intraday "/home/mkemalw/Projects/SSSAHAM_SERVICE/run_slot.sh auto" >> /home/mkemalw/Projects/SSSAHAM_SERVICE/logs/cron_intraday.log 2>&1
+
+# Daily window (tiap 5 menit, 18:00–18:59)
+*/5 18 * * 1-5   /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh cron_daily "/home/mkemalw/Projects/SSSAHAM_SERVICE/run_slot.sh auto" >> /home/mkemalw/Projects/SSSAHAM_SERVICE/logs/cron_daily.log 2>&1
+
+# Fixed boosts
+0 10 * * 1-5     /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh boost_1000 "/home/mkemalw/Projects/SSSAHAM_SERVICE/run_slot.sh auto" >> /home/mkemalw/Projects/SSSAHAM_SERVICE/logs/cron_boost_1000.log 2>&1
+30 14 * * 1-5    /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh boost_1430 "/home/mkemalw/Projects/SSSAHAM_SERVICE/run_slot.sh auto" >> /home/mkemalw/Projects/SSSAHAM_SERVICE/logs/cron_boost_1430.log 2>&1
+
+# Saat boot
+@reboot          /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh boot_catchup "/home/mkemalw/Projects/SSSAHAM_SERVICE/run_slot.sh auto" >> /home/mkemalw/Projects/SSSAHAM_SERVICE/logs/cron_boot.log 2>&1
+
+# KV sync (setiap 5 menit di hari kerja)
+*/5 * * * 1-5    /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh kv_sync "/home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh" >> /home/mkemalw/Projects/SSSAHAM_SERVICE/logs/cron_kv_sync.log 2>&1

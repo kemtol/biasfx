@@ -1,0 +1,124 @@
+[INFO] Resolutions (audit only): 1m
+Hari ini: 2025-08-27 | target_date: 2025-08-27
+[INFO] 1m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_1m  | files: 773
+[INFO] 5m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_5m  | files: 764
+[INFO] 15m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_15m | files: 923
+[INFO] daily dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_daily
+[INFO] Cutoffs: 09:30
+[09:30] ❌ Tidak ada kandidat. (menyimpan file kosong)
+
+[INFO] Semua cutoff kosong. Cek data & filter.
+[INFO] Resolutions (audit only): 1m,5m
+Hari ini: 2025-08-27 | target_date: 2025-08-27
+[INFO] 1m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_1m  | files: 773
+[INFO] 5m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_5m  | files: 764
+[INFO] 15m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_15m | files: 923
+[INFO] daily dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_daily
+[INFO] Cutoffs: 11:30
+[11:30] ❌ Tidak ada kandidat. (menyimpan file kosong)
+
+[INFO] Semua cutoff kosong. Cek data & filter.
+[INFO] Resolutions (audit only): 1m
+Hari ini: 2025-08-27 | target_date: 2025-08-27
+[INFO] 1m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_1m  | files: 773
+[INFO] 5m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_5m  | files: 764
+[INFO] 15m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_15m | files: 923
+[INFO] daily dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_daily
+[INFO] Cutoffs: 09:30
+[09:30] Min price > 65.0 → remain=112
+
+[09:30] [✓] TOP CANDIDATES
+ ticker  price_at_cutoff  daily_return  vol_pace      score    last
+SHIP.JK           5100.0      0.099138 42.666667 269.702117  5100.0
+CBDK.JK           6825.0      0.045977  8.198541 183.323189  6825.0
+UNTR.JK          25050.0      0.013145  1.837766 165.080318 25050.0
+MASB.JK           3320.0      0.031056 13.555556 154.303293  3320.0
+CBUT.JK           1820.0      0.148265 32.945946 150.371803  1820.0
+DATA.JK           4400.0      0.154856  7.324678 140.573438  4400.0
+SMMT.JK           1265.0      0.139640 65.816667 139.842607  1265.0
+ADRO.JK           1850.0      0.048159 18.204152 127.104798  1850.0
+AADI.JK           7050.0      0.010753  3.157107 119.633937  7050.0
+SURE.JK           3300.0      0.092715  6.745098 117.594652  3300.0
+
+[DIAG] Alasan drop teratas:
+  -   ret_out_of_range: 525
+  - no_price_at_cutoff: 223
+  -       pace_too_low: 62
+[INFO] Resolutions (audit only): 1m,5m
+Hari ini: 2025-08-27 | target_date: 2025-08-27
+[INFO] 1m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_1m  | files: 773
+[INFO] 5m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_5m  | files: 764
+[INFO] 15m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_15m | files: 923
+[INFO] daily dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_daily
+[INFO] Cutoffs: 11:30
+[11:30] Min price > 65.0 → remain=127
+
+[11:30] [✓] TOP CANDIDATES
+ ticker  price_at_cutoff  daily_return  vol_pace      score    last
+CBDK.JK           6850.0      0.049808  6.224503 163.665462  6850.0
+PANI.JK          15350.0      0.016556  2.591779 158.418184 15350.0
+CBUT.JK           1700.0      0.072555 43.360000 156.362108  1700.0
+KONI.JK           1560.0      0.243028 43.882353 150.247727  1560.0
+DUTI.JK           3350.0      0.050157 10.812500 142.912868  3350.0
+SURE.JK           3200.0      0.059603  8.042553 124.560625  3200.0
+YULE.JK           2770.0      0.018382  7.500000 112.633372  2770.0
+BREN.JK           9575.0      0.072829  2.020680 108.173557  9575.0
+DATA.JK           4710.0      0.236220  3.757994 107.049998  4710.0
+WIFI.JK           3020.0      0.063380  5.291792 101.074892  3020.0
+
+[DIAG] Alasan drop teratas:
+  -   ret_out_of_range: 559
+  - no_price_at_cutoff: 174
+  -       pace_too_low: 59
+[INFO] Resolutions (audit only): 1m
+Hari ini: 2025-08-27 | target_date: 2025-08-27
+[INFO] 1m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_1m  | files: 773
+[INFO] 5m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_5m  | files: 764
+[INFO] 15m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_15m | files: 923
+[INFO] daily dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_daily
+[INFO] Cutoffs: 14:15
+[14:15] Min price > 65.0 → remain=112
+
+[14:15] [✓] TOP CANDIDATES
+ ticker  price_at_cutoff  daily_return  vol_pace      score    last
+CBDK.JK           6825.0      0.045977  5.494821 154.570383  6825.0
+SURE.JK           3270.0      0.082781 10.544554 139.884082  3270.0
+DUTI.JK           3300.0      0.034483 10.176471 138.662869  3300.0
+KONI.JK           1560.0      0.243028 31.083333 136.988323  1560.0
+CBUT.JK           1730.0      0.091483 19.137500 124.887273  1730.0
+PANI.JK          15375.0      0.018212  1.711390 123.681178 15375.0
+BREN.JK           9725.0      0.089636  1.893784 104.785279  9725.0
+WIFI.JK           3010.0      0.059859  3.855021  86.685014  3010.0
+DATA.JK           4700.0      0.233596  2.230300  80.387699  4700.0
+ADRO.JK           1810.0      0.025496  5.558353  80.014359  1810.0
+
+[DIAG] Alasan drop teratas:
+  -   ret_out_of_range: 558
+  - no_price_at_cutoff: 174
+  -       pace_too_low: 75
+[INFO] Resolutions (audit only): 1m,5m,15m,daily
+Hari ini: 2025-08-27 | target_date: 2025-08-27
+[INFO] 1m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_1m  | files: 773
+[INFO] 5m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_5m  | files: 764
+[INFO] 15m dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_15m | files: 923
+[INFO] daily dir: /home/mkemalw/Projects/SSSAHAM_SERVICE/emiten/cache_daily
+[INFO] Cutoffs: 15:50
+[15:50] Min price > 65.0 → remain=89
+
+[15:50] [✓] TOP CANDIDATES
+ ticker  price_at_cutoff  daily_return  vol_pace      score   last
+CBDK.JK           6825.0      0.045977  4.257475 137.109659 6825.0
+SURE.JK           3270.0      0.082781  7.661871 123.456107 3270.0
+KONI.JK           1560.0      0.243028 14.920000 109.310501 1560.0
+BREN.JK           9725.0      0.089636  1.541461  91.982443 9725.0
+CBUT.JK           1730.0      0.091483  6.533428  83.991376 1730.0
+WIFI.JK           3010.0      0.059859  3.387696  81.132327 3010.0
+DUTI.JK           3300.0      0.034483  3.008696  79.761294 3300.0
+DATA.JK           4700.0      0.233596  1.943951  74.024107 4700.0
+ADRO.JK           1810.0      0.025496  3.621231  65.120593 1810.0
+BTON.JK            406.0      0.046392 21.591837  62.817670  406.0
+
+[DIAG] Alasan drop teratas:
+  -   ret_out_of_range: 558
+  - no_price_at_cutoff: 174
+  -       pace_too_low: 98

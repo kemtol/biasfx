@@ -1,0 +1,1469 @@
+[2025-08-27 12:55:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 12:55:01] TKLEN=64
+[2025-08-27 12:55:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 12:55:01] Mulai scan 19 file…
+[2025-08-27 12:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 12:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 12:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 12:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 12:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 12:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 12:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 12:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 12:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 12:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 12:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 12:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 12:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 12:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 12:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 12:55:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 12:55:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 12:55:03] OK upload: bpjs_rekomendasi_2025-08-27_0930.csv -> 200 ip=104.21.91.51 t=1.150389
+{"ok":true,"key":"reko:2025-08-27:0930"}[2025-08-27 12:55:04] OK upload: bpjs_rekomendasi_2025-08-27_1130.csv -> 200 ip=172.67.166.191 t=0.823197
+{"ok":true,"key":"reko:2025-08-27:1130"}[2025-08-27 12:55:04] Selesai sync.
+[2025-08-27 13:00:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 13:00:01] TKLEN=64
+[2025-08-27 13:00:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 13:00:02] Mulai scan 19 file…
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 13:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 13:00:02] Selesai sync.
+[2025-08-27 13:05:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 13:05:01] TKLEN=64
+[2025-08-27 13:05:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 13:05:01] Mulai scan 19 file…
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 13:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 13:05:01] Selesai sync.
+[2025-08-27 13:10:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 13:10:01] TKLEN=64
+[2025-08-27 13:10:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 13:10:02] Mulai scan 19 file…
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 13:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 13:10:02] Selesai sync.
+[2025-08-27 13:15:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 13:15:01] TKLEN=64
+[2025-08-27 13:15:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 13:15:01] Mulai scan 19 file…
+[2025-08-27 13:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 13:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 13:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 13:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 13:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 13:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 13:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 13:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 13:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 13:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 13:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 13:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 13:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 13:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 13:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 13:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 13:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 13:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 13:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 13:15:02] Selesai sync.
+[2025-08-27 13:20:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 13:20:01] TKLEN=64
+[2025-08-27 13:20:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 13:20:02] Mulai scan 19 file…
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 13:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 13:20:02] Selesai sync.
+[2025-08-27 13:25:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 13:25:01] TKLEN=64
+[2025-08-27 13:25:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 13:25:02] Mulai scan 19 file…
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 13:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 13:25:02] Selesai sync.
+[2025-08-27 13:30:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 13:30:01] TKLEN=64
+[2025-08-27 13:30:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 13:30:01] Mulai scan 19 file…
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 13:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 13:30:01] Selesai sync.
+[2025-08-27 13:35:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 13:35:01] TKLEN=64
+[2025-08-27 13:35:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 13:35:01] Mulai scan 19 file…
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 13:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 13:35:01] Selesai sync.
+[2025-08-27 13:40:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 13:40:01] TKLEN=64
+[2025-08-27 13:40:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 13:40:02] Mulai scan 19 file…
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 13:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 13:40:02] Selesai sync.
+[2025-08-27 13:45:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 13:45:01] TKLEN=64
+[2025-08-27 13:45:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 13:45:01] Mulai scan 19 file…
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 13:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 13:45:01] Selesai sync.
+[2025-08-27 13:50:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 13:50:01] TKLEN=64
+[2025-08-27 13:50:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 13:50:02] Mulai scan 19 file…
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 13:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 13:50:02] Selesai sync.
+[2025-08-27 13:55:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 13:55:01] TKLEN=64
+[2025-08-27 13:55:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 13:55:01] Mulai scan 19 file…
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 13:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 13:55:01] Selesai sync.
+[2025-08-27 14:00:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 14:00:01] TKLEN=64
+[2025-08-27 14:00:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 14:00:02] Mulai scan 19 file…
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 14:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 14:00:02] Selesai sync.
+[2025-08-27 14:05:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 14:05:01] TKLEN=64
+[2025-08-27 14:05:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 14:05:01] Mulai scan 19 file…
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 14:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 14:05:01] Selesai sync.
+[2025-08-27 14:10:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 14:10:01] TKLEN=64
+[2025-08-27 14:10:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 14:10:02] Mulai scan 19 file…
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 14:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 14:10:02] Selesai sync.
+[2025-08-27 14:15:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 14:15:01] TKLEN=64
+[2025-08-27 14:15:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 14:15:01] Mulai scan 19 file…
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 14:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 14:15:01] Selesai sync.
+[2025-08-27 14:20:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 14:20:01] TKLEN=64
+[2025-08-27 14:20:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 14:20:02] Mulai scan 19 file…
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 14:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 14:20:02] Selesai sync.
+[2025-08-27 14:25:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 14:25:01] TKLEN=64
+[2025-08-27 14:25:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 14:25:01] Mulai scan 19 file…
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 14:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 14:25:01] Selesai sync.
+[2025-08-27 14:30:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 14:30:01] TKLEN=64
+[2025-08-27 14:30:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 14:30:01] Mulai scan 19 file…
+[2025-08-27 14:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 14:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 14:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 14:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 14:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 14:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 14:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 14:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 14:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 14:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 14:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 14:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 14:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 14:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 14:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 14:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 14:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 14:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 14:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 14:30:02] Selesai sync.
+[2025-08-27 14:35:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 14:35:01] TKLEN=64
+[2025-08-27 14:35:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 14:35:01] Mulai scan 19 file…
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 14:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 14:35:01] Selesai sync.
+[2025-08-27 14:40:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 14:40:01] TKLEN=64
+[2025-08-27 14:40:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 14:40:01] Mulai scan 19 file…
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 14:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 14:40:01] Selesai sync.
+[2025-08-27 14:45:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 14:45:01] TKLEN=64
+[2025-08-27 14:45:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 14:45:01] Mulai scan 19 file…
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 14:45:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 14:45:01] Selesai sync.
+[2025-08-27 14:50:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 14:50:01] TKLEN=64
+[2025-08-27 14:50:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 14:50:01] Mulai scan 19 file…
+[2025-08-27 14:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 14:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 14:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 14:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 14:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 14:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 14:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 14:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 14:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 14:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 14:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 14:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 14:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 14:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 14:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 14:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 14:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 14:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 14:50:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 14:50:02] Selesai sync.
+[2025-08-27 14:55:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 14:55:01] TKLEN=64
+[2025-08-27 14:55:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 14:55:01] Mulai scan 19 file…
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 14:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 14:55:01] Selesai sync.
+[2025-08-27 15:00:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 15:00:01] TKLEN=64
+[2025-08-27 15:00:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 15:00:01] Mulai scan 19 file…
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 15:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 15:00:01] Selesai sync.
+[2025-08-27 15:05:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 15:05:01] TKLEN=64
+[2025-08-27 15:05:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 15:05:01] Mulai scan 20 file…
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 15:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 15:05:02] OK upload: bpjs_rekomendasi_2025-08-27_1415.csv -> 200 ip=172.67.166.191 t=0.952256
+{"ok":true,"key":"reko:2025-08-27:1415"}[2025-08-27 15:05:02] Selesai sync.
+[2025-08-27 15:10:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 15:10:01] TKLEN=64
+[2025-08-27 15:10:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 15:10:01] Mulai scan 20 file…
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 15:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 15:10:01] Selesai sync.
+[2025-08-27 15:15:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 15:15:01] TKLEN=64
+[2025-08-27 15:15:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 15:15:03] Mulai scan 20 file…
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 15:15:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 15:15:03] Selesai sync.
+[2025-08-27 15:20:02] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 15:20:02] TKLEN=64
+[2025-08-27 15:20:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 15:20:02] Mulai scan 20 file…
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 15:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 15:20:02] Selesai sync.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              [2025-08-27 15:30:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 15:30:01] TKLEN=64
+[2025-08-27 15:30:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 15:30:01] Mulai scan 20 file…
+[2025-08-27 15:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 15:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 15:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 15:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 15:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 15:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 15:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 15:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 15:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 15:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 15:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 15:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 15:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 15:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 15:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 15:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 15:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 15:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 15:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 15:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 15:30:02] Selesai sync.
+[2025-08-27 15:35:02] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 15:35:02] TKLEN=64
+[2025-08-27 15:35:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 15:35:02] Mulai scan 20 file…
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 15:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 15:35:02] Selesai sync.
+[2025-08-27 15:40:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 15:40:01] TKLEN=64
+[2025-08-27 15:40:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 15:40:01] Mulai scan 20 file…
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 15:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 15:40:01] Selesai sync.
+[2025-08-27 15:45:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 15:45:01] TKLEN=64
+[2025-08-27 15:45:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 15:45:02] Mulai scan 20 file…
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 15:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 15:45:02] Selesai sync.
+[2025-08-27 15:50:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 15:50:01] TKLEN=64
+[2025-08-27 15:50:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 15:50:01] Mulai scan 21 file…
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 15:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 15:50:01] Selesai sync.
+[2025-08-27 15:55:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 15:55:01] TKLEN=64
+[2025-08-27 15:55:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 15:55:01] Mulai scan 21 file…
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 15:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 15:55:01] Selesai sync.
+[2025-08-27 16:00:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 16:00:01] TKLEN=64
+[2025-08-27 16:00:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 16:00:01] Mulai scan 21 file…
+[2025-08-27 16:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 16:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 16:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 16:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 16:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 16:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 16:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 16:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 16:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 16:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 16:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 16:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 16:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 16:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 16:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 16:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 16:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 16:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 16:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 16:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 16:00:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 16:00:02] Selesai sync.
+[2025-08-27 16:05:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 16:05:01] TKLEN=64
+[2025-08-27 16:05:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 16:05:02] Mulai scan 22 file…
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 16:05:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 16:05:03] OK upload: bpjs_rekomendasi_2025-08-27_1550.csv -> 200 ip=172.67.166.191 t=0.987984
+{"ok":true,"key":"reko:2025-08-27:1550"}[2025-08-27 16:05:03] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 16:05:03] Selesai sync.
+[2025-08-27 16:10:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 16:10:01] TKLEN=64
+[2025-08-27 16:10:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 16:10:01] Mulai scan 22 file…
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 16:10:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 16:10:01] Selesai sync.
+[2025-08-27 16:15:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 16:15:01] TKLEN=64
+[2025-08-27 16:15:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 16:15:01] Mulai scan 22 file…
+[2025-08-27 16:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 16:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 16:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 16:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 16:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 16:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 16:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 16:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 16:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 16:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 16:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 16:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 16:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 16:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 16:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 16:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 16:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 16:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 16:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 16:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 16:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 16:15:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 16:15:02] Selesai sync.
+[2025-08-27 16:20:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 16:20:01] TKLEN=64
+[2025-08-27 16:20:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 16:20:01] Mulai scan 22 file…
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 16:20:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 16:20:01] Selesai sync.
+[2025-08-27 16:25:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 16:25:01] TKLEN=64
+[2025-08-27 16:25:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 16:25:01] Mulai scan 22 file…
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 16:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 16:25:01] Selesai sync.
+[2025-08-27 16:30:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 16:30:01] TKLEN=64
+[2025-08-27 16:30:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 16:30:01] Mulai scan 22 file…
+[2025-08-27 16:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 16:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 16:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 16:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 16:30:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 16:30:02] Selesai sync.
+[2025-08-27 16:35:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 16:35:01] TKLEN=64
+[2025-08-27 16:35:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 16:35:01] Mulai scan 22 file…
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 16:35:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 16:35:01] Selesai sync.
+[2025-08-27 16:40:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 16:40:01] TKLEN=64
+[2025-08-27 16:40:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 16:40:02] Mulai scan 22 file…
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 16:40:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 16:40:02] Selesai sync.
+[2025-08-27 16:45:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 16:45:01] TKLEN=64
+[2025-08-27 16:45:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 16:45:02] Mulai scan 22 file…
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 16:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 16:45:02] Selesai sync.
+[2025-08-27 16:50:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 16:50:01] TKLEN=64
+[2025-08-27 16:50:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 16:50:01] Mulai scan 22 file…
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 16:50:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 16:50:01] Selesai sync.
+[2025-08-27 16:55:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 16:55:01] TKLEN=64
+[2025-08-27 16:55:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 16:55:01] Mulai scan 22 file…
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 16:55:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 16:55:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 16:55:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 16:55:02] Selesai sync.
+[2025-08-27 17:00:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 17:00:01] TKLEN=64
+[2025-08-27 17:00:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 17:00:01] Mulai scan 22 file…
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 17:00:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 17:00:01] Selesai sync.
+[2025-08-27 17:05:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 17:05:01] TKLEN=64
+[2025-08-27 17:05:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 17:05:01] Mulai scan 22 file…
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 17:05:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 17:05:01] Selesai sync.
+[2025-08-27 17:10:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 17:10:01] TKLEN=64
+[2025-08-27 17:10:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 17:10:02] Mulai scan 22 file…
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 17:10:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 17:10:02] Selesai sync.
+[2025-08-27 17:15:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 17:15:01] TKLEN=64
+[2025-08-27 17:15:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 17:15:01] Mulai scan 22 file…
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 17:15:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 17:15:01] Selesai sync.
+[2025-08-27 17:20:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 17:20:01] TKLEN=64
+[2025-08-27 17:20:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 17:20:02] Mulai scan 22 file…
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 17:20:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 17:20:02] Selesai sync.
+[2025-08-27 17:25:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 17:25:01] TKLEN=64
+[2025-08-27 17:25:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 17:25:01] Mulai scan 22 file…
+[2025-08-27 17:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 17:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 17:25:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 17:25:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 17:25:02] Selesai sync.
+[2025-08-27 17:30:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 17:30:01] TKLEN=64
+[2025-08-27 17:30:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 17:30:01] Mulai scan 22 file…
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 17:30:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 17:30:01] Selesai sync.
+[2025-08-27 17:35:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 17:35:01] TKLEN=64
+[2025-08-27 17:35:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 17:35:02] Mulai scan 22 file…
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 17:35:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 17:35:02] Selesai sync.
+[2025-08-27 17:40:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 17:40:01] TKLEN=64
+[2025-08-27 17:40:01] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 17:40:01] Mulai scan 22 file…
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 17:40:01] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 17:40:01] Selesai sync.
+[2025-08-27 17:45:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-27 17:45:01] TKLEN=64
+[2025-08-27 17:45:02] PING dates => 200 (base=https://bpjs-reko.mkemalw.workers.dev)
+[2025-08-27 17:45:02] Mulai scan 22 file…
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_0930.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1415.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1430.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-21_1550.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_0930.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1130.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-22_1415.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_0930.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1130.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1415.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-25.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_0930.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1130.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1415.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26_1550.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-26.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_0930.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1130.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1415.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27_1550.csv
+[2025-08-27 17:45:02] Sudah sinkron (mark lokal): bpjs_rekomendasi_2025-08-27.csv
+[2025-08-27 17:45:02] Selesai sync.

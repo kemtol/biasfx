@@ -1,0 +1,1 @@
+rm -f ~/Projects/SSSAHAM_SERVICE/.run_slot.lock ~/Projects/SSSAHAM_SERVICE/.cron_wrap.lock

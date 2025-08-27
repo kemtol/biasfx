@@ -1,0 +1,15 @@
+# crontab — clean v2.1 (Asia/Jakarta)
+CRON_TZ=Asia/Jakarta
+MAILTO=""
+
+# PATH (include venv if needed)
+PATH=/usr/local/bin:/usr/bin:/bin
+
+# === Producer (slots) ===
+0 10 * * 1-5  /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh 1000 --job "slot-1000"
+0 12 * * 1-5  /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh 1200 --job "slot-1200"
+0 15 * * 1-5  /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh 1500 --job "slot-1500"
+0 16 * * 1-5  /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh 1600 --job "slot-1600"
+
+# === Consumer (contoh) ===
+# 0-30/1 15 * * 1-5  /home/mkemalw/Projects/SSSAHAM_SERVICE/markov_15.sh >> /home/mkemalw/Projects/SSSAHAM_SERVICE/logs/markov_15_cron.log 2>&1

@@ -1,364 +1,362 @@
-# /service/core_bpjs.py
-# ======================================================================
-# bpjs v2.4-core — Intraday Spike Detector (IHSG) — CLI Service
-# ----------------------------------------------------------------------
-# - Core engine tanpa hardcode daftar ARA/evaluator
-# - Otomatis pilih "latest trading day" <= TODAY jika data hari ini belum ada
-# - TZ: Asia/Jakarta, cutoff configurable (default 09:30)
-# - Filters: daily_return 1%–40%, vol_pace > 1.2x
-# - Score v2.2: price_term * log1p(min(pace, 50))
-# - vol_pace fallback: 1m → 5m → daily (daily dikoreksi faktor 0.75)
-# - Diagnostics ringkas: ringkasan alasan drop (Counter)
-# - Output: Top-N (default 10) + simpan CSV ke root/rekomendasi/
-# ======================================================================
-
+# /service/core-bpjs.py — v2.6 (1m→5m→15m→daily fallback) + minimal patch cols
 from pathlib import Path
-from datetime import datetime, timedelta, date
-from typing import Optional, List, Tuple, Dict
+from datetime import datetime, date
 from collections import defaultdict, Counter
-import argparse
-import pandas as pd
-import numpy as np
-import sys
+from typing import Optional, Dict, List, Tuple
 
-# ---------- PATH ROOT & FOLDERS ----------
-ROOT = Path(__file__).resolve().parent.parent   # project root
-FOLDER_1M    = ROOT / "emiten" / "cache_1m"
-FOLDER_5M    = ROOT / "emiten" / "cache_5m"
-FOLDER_DAILY = ROOT / "emiten" / "cache_daily"
+import os, math, argparse, numpy as np, pandas as pd
+
+ROOT         = Path(__file__).resolve().parents[1]
 OUT_DIR      = ROOT / "rekomendasi"
-OUT_DIR.mkdir(exist_ok=True)
+SESSION_TZ   = "Asia/Jakarta"
 
-SESSION_TZ = "Asia/Jakarta"
+DEFAULT_CUTOFF_STR     = "09:30"
+DEFAULT_TOP_N          = 10
+DEFAULT_BASELINE_DAYS  = 60
+DEFAULT_PACE_MIN       = 1.2
+DEFAULT_RETURN_MIN     = 0.01
+DEFAULT_RETURN_MAX     = 0.40
 
-# ================== DEFAULT CONFIG (bisa di-override CLI) ==================
-DEFAULT_BASELINE_DAYS = 60
-DEFAULT_PACE_MIN      = 1.2
-DEFAULT_RETURN_MIN    = 0.01
-DEFAULT_RETURN_MAX    = 0.40
-DEFAULT_TOP_N         = 10
-DEFAULT_CUTOFF_STR    = "09:30"   # ubah via --cutoff, mis. "14:15"
-# ==========================================================================
+def ensure_outdir():
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-def to_jkt(series: pd.Series) -> pd.Series:
-    s = pd.to_datetime(series, errors="coerce")
+# ---------- dir resolvers ----------
+def _resolve_dir(cands: List[Path]) -> Path:
+    for p in cands:
+        if p and p.exists():
+            return p
+    return cands[0]
+
+def resolve_1m_dir(cli: Optional[str]) -> Path:
+    c = []
+    if cli: c.append(Path(cli))
+    if os.getenv("INTRADAY_1M_DIR"): c.append(Path(os.getenv("INTRADAY_1M_DIR")))
+    c += [ROOT/"emiten"/"cache_1m", ROOT/"intraday"/"1m", ROOT/"data"/"idx-1m", ROOT/"data"/"intraday-1m"]
+    return _resolve_dir(c)
+
+def resolve_5m_dir(cli: Optional[str]) -> Path:
+    c = []
+    if cli: c.append(Path(cli))
+    if os.getenv("INTRADAY_5M_DIR"): c.append(Path(os.getenv("INTRADAY_5M_DIR")))
+    c += [ROOT/"emiten"/"cache_5m", ROOT/"intraday"/"5m", ROOT/"data"/"idx-5m", ROOT/"data"/"intraday-5m"]
+    return _resolve_dir(c)
+
+def resolve_15m_dir(cli: Optional[str]) -> Path:
+    c = []
+    if cli: c.append(Path(cli))
+    if os.getenv("INTRADAY_15M_DIR"): c.append(Path(os.getenv("INTRADAY_15M_DIR")))
+    c += [ROOT/"emiten"/"cache_15m", ROOT/"intraday"/"15m", ROOT/"data"/"idx-15m", ROOT/"data"/"intraday-15m"]
+    return _resolve_dir(c)
+
+def resolve_daily_dir(cli: Optional[str]) -> Path:
+    c = []
+    if cli: c.append(Path(cli))
+    if os.getenv("DAILY_DIR"): c.append(Path(os.getenv("DAILY_DIR")))
+    c += [ROOT/"emiten"/"cache_daily", ROOT/"data"/"idx-daily", ROOT/"data"/"daily"]
+    return _resolve_dir(c)
+
+# ---------- IO helpers ----------
+def read_intraday(folder: Path, ticker: str) -> Optional[pd.DataFrame]:
+    fp = folder / f"{ticker}.csv"
+    if not fp.exists(): return None
     try:
-        if s.dt.tz is None:
-            return s.dt.tz_localize(SESSION_TZ)
-        return s.dt.tz_convert(SESSION_TZ)
-    except Exception:
-        s = pd.to_datetime(s, errors="coerce", utc=True).dt.tz_convert(SESSION_TZ)
-        return s
-
-def pick_work_date(df_dt: pd.Series, today_date: date) -> Optional[date]:
-    dlist = pd.Series(df_dt.dt.date.unique()).dropna().sort_values().tolist()
-    if not dlist:
-        return None
-    for d in reversed(dlist):
-        if d <= today_date:
-            return d
-    return None
-
-def read_daily_flex(path: Path) -> Optional[pd.DataFrame]:
-    if not path.exists():
-        return None
-    try:
-        df = pd.read_csv(path, low_memory=False)
-        # map date col
-        for dc in ("Date", "date", "Datetime"):
-            if dc in df.columns:
-                df["Date"] = pd.to_datetime(df[dc], errors="coerce").dt.date
-                break
+        df = pd.read_csv(fp, low_memory=False)
+        if "Datetime" in df.columns:
+            dt = pd.to_datetime(df["Datetime"], errors="coerce")
+        elif "Date" in df.columns and "Time" in df.columns:
+            dt = pd.to_datetime(df["Date"].astype(str) + " " + df["Time"].astype(str), errors="coerce")
+        elif "Date" in df.columns:
+            dt = pd.to_datetime(df["Date"], errors="coerce")
         else:
             return None
-        # map price/volume
+        df["Datetime"] = dt
+        df["Date"]     = df["Datetime"].dt.date
         if "Close" not in df.columns and "Adj Close" in df.columns:
             df["Close"] = pd.to_numeric(df["Adj Close"], errors="coerce")
         if "Volume" in df.columns:
-            df["Volume"] = pd.to_numeric(df["Volume"], errors="coerce")
-        if "Close" not in df.columns or "Volume" not in df.columns:
-            return None
-        return df.dropna(subset=["Date", "Close", "Volume"]).sort_values("Date").reset_index(drop=True)
+            df["Volume"] = pd.to_numeric(df["Volume"], errors="coerce").fillna(0.0)
+        return df.sort_values("Datetime").reset_index(drop=True)
     except Exception:
         return None
 
-def read_intraday(folder: Path, ticker: str) -> Optional[pd.DataFrame]:
+def read_daily_from(folder: Path, ticker: str) -> Optional[pd.DataFrame]:
     fp = folder / f"{ticker}.csv"
-    if not fp.exists():
-        return None
+    if not fp.exists(): return None
     try:
         df = pd.read_csv(fp, low_memory=False)
-        if "Datetime" not in df.columns:
+        if "Date" in df.columns:
+            df["Date"] = pd.to_datetime(df["Date"], errors="coerce").dt.date
+        elif "date" in df.columns:
+            df["Date"] = pd.to_datetime(df["date"], errors="coerce").dt.date
+        else:
             return None
-        df["Datetime"] = to_jkt(df["Datetime"])
-        for c in ("Open", "High", "Low", "Close", "Volume"):
-            if c in df.columns:
-                df[c] = pd.to_numeric(df[c], errors="coerce")
-        return df.dropna(subset=["Datetime", "Close", "Volume"])
+        if "Close" not in df.columns and "Adj Close" in df.columns:
+            df["Close"] = pd.to_numeric(df["Adj Close"], errors="coerce")
+        if "Volume" in df.columns:
+            df["Volume"] = pd.to_numeric(df["Volume"], errors="coerce").fillna(0.0)
+        return df.sort_values("Date").reset_index(drop=True)
     except Exception:
         return None
 
-def intraday_cut_volume(df_intraday: pd.DataFrame, work_date: date, cutoff_time) -> float:
-    mask = (df_intraday["Datetime"].dt.date == work_date) & (df_intraday["Datetime"].dt.time <= cutoff_time)
-    return float(df_intraday.loc[mask, "Volume"].sum())
-
-def intraday_hist_cut_volumes(df_intraday: pd.DataFrame, work_date: date, n_days: int, cutoff_time) -> List[float]:
-    days = sorted([d for d in df_intraday["Datetime"].dt.date.unique() if d < work_date])[-n_days:]
+# ---------- metrics ----------
+def baseline_volumes_up_to_cutoff(df: pd.DataFrame, work_date: date, cutoff_time, n_days: int) -> List[float]:
+    days = sorted([d for d in df["Datetime"].dt.date.unique() if d < work_date])[-n_days:]
     vols = []
     for d in days:
-        m = (df_intraday["Datetime"].dt.date == d) & (df_intraday["Datetime"].dt.time <= cutoff_time)
-        v = float(df_intraday.loc[m, "Volume"].sum())
-        if v > 0:
-            vols.append(v)
+        m = (df["Datetime"].dt.date == d) & (df["Datetime"].dt.time <= cutoff_time)
+        v = float(df.loc[m, "Volume"].sum())
+        if v > 0: vols.append(v)
     return vols
 
-def vol_pace_robust(ticker: str, work_date: date, cutoff_time, vol_today_cut_1m: Optional[float],
-                    df_1m: Optional[pd.DataFrame], baseline_days: int) -> float:
-    """Return pace; fallback 1m → 5m → daily (daily dikoreksi 0.75 utk cutoff)."""
-    # 1) 1m baseline
+def price_at_cutoff(df: pd.DataFrame, work_date: date, cutoff_time) -> Optional[float]:
     try:
-        if df_1m is not None:
-            vol_today_cut = vol_today_cut_1m if vol_today_cut_1m is not None else intraday_cut_volume(df_1m, work_date, cutoff_time)
-            vols_hist_1m = intraday_hist_cut_volumes(df_1m, work_date, baseline_days, cutoff_time)
-            if len(vols_hist_1m) >= 10:
-                base_1m = float(np.median(vols_hist_1m))
-                if base_1m > 0:
-                    return vol_today_cut / base_1m
+        m = (df["Datetime"].dt.date == work_date) & (df["Datetime"].dt.time <= cutoff_time)
+        sub = df.loc[m]
+        if sub.empty: return None
+        return float(sub["Close"].iloc[-1])
     except Exception:
-        pass
-    # 2) 5m baseline
-    try:
-        df_5m = read_intraday(FOLDER_5M, ticker)
-        if df_5m is not None:
-            vol_today_cut_5m = intraday_cut_volume(df_5m, work_date, cutoff_time)
-            vols_hist_5m = intraday_hist_cut_volumes(df_5m, work_date, baseline_days, cutoff_time)
-            if len(vols_hist_5m) >= 10:
-                base_5m = float(np.median(vols_hist_5m))
-                if base_5m > 0:
-                    return vol_today_cut_5m / base_5m
-    except Exception:
-        pass
-    # 3) Daily baseline (coarser)
-    try:
-        df_daily = read_daily_flex(FOLDER_DAILY / f"{ticker}.csv")
-        if df_daily is not None:
-            hist_daily = df_daily[df_daily["Date"] < work_date].tail(baseline_days)
-            if len(hist_daily) >= 20:
-                base_daily = float(hist_daily["Volume"].median())
-                if base_daily > 0:
-                    vol_today_cut = vol_today_cut_1m
-                    if vol_today_cut is None:
-                        try:
-                            if 'df_5m' in locals() and df_5m is not None:
-                                vol_today_cut = intraday_cut_volume(df_5m, work_date, cutoff_time)
-                        except Exception:
-                            pass
-                    if vol_today_cut is None:
-                        return np.nan
-                    return vol_today_cut / (base_daily * 0.75)
-    except Exception:
-        pass
-    return np.nan
+        return None
 
-def detect_latest_intraday_date(folder_1m: Path, today_date: date) -> Optional[date]:
-    """Scan ringan: cari tanggal kerja terbaru yang tersedia di 1m (<= today)."""
-    latest = None
-    for fp in folder_1m.glob("*.csv"):
-        try:
-            d = pd.read_csv(fp, usecols=["Datetime"], low_memory=False)
-            dt = to_jkt(d["Datetime"])
-            wd = pick_work_date(dt, today_date)
-            if wd and (latest is None or wd > latest):
-                latest = wd
-        except Exception:
-            continue
-    return latest
+def daily_return_until_cutoff(df: pd.DataFrame, work_date: date, cutoff_time) -> Optional[float]:
+    try:
+        days = sorted(df["Datetime"].dt.date.unique())
+        if work_date not in days: return None
+        idx = days.index(work_date)
+        if idx == 0: return None
+        prev_day = days[idx-1]
+        prev_close = float(df.loc[df["Datetime"].dt.date == prev_day, "Close"].tail(1).iloc[0])
+        m = (df["Datetime"].dt.date == work_date) & (df["Datetime"].dt.time <= cutoff_time)
+        sub = df.loc[m]
+        if sub.empty or prev_close <= 0: return None
+        cut_close = float(sub["Close"].iloc[-1])
+        return (cut_close/prev_close) - 1.0
+    except Exception:
+        return None
 
-def bpjs_candidates(target_date: date,
-                    cutoff_time,
-                    baseline_days: int,
-                    pace_min: float,
-                    ret_min: float,
-                    ret_max: float,
-                    top_n: int,
-                    diag: bool = True) -> Tuple[pd.DataFrame, Dict[str, List[str]]]:
+def vol_pace_robust(ticker: str, work_date: date, cutoff_time,
+                    df_1m: Optional[pd.DataFrame],
+                    df_5m: Optional[pd.DataFrame],
+                    df_15m: Optional[pd.DataFrame],
+                    folder_daily: Path,
+                    baseline_days: int) -> float:
+    # 1) 1m
+    try:
+        if df_1m is not None and not df_1m.empty:
+            vols = baseline_volumes_up_to_cutoff(df_1m, work_date, cutoff_time, baseline_days)
+            base = float(np.median(vols)) if vols else 0.0
+            if base > 0:
+                today = float(df_1m.loc[(df_1m["Datetime"].dt.date==work_date) &
+                                        (df_1m["Datetime"].dt.time<=cutoff_time), "Volume"].sum())
+                return max(0.0, today/base)
+    except Exception:
+        pass
+    # 2) 5m
+    try:
+        if df_5m is not None and not df_5m.empty:
+            vols = baseline_volumes_up_to_cutoff(df_5m, work_date, cutoff_time, baseline_days)
+            base = float(np.median(vols)) if vols else 0.0
+            if base > 0:
+                today = float(df_5m.loc[(df_5m["Datetime"].dt.date==work_date) &
+                                        (df_5m["Datetime"].dt.time<=cutoff_time), "Volume"].sum())
+                return max(0.0, today/base)
+    except Exception:
+        pass
+    # 3) 15m
+    try:
+        if df_15m is not None and not df_15m.empty:
+            vols = baseline_volumes_up_to_cutoff(df_15m, work_date, cutoff_time, baseline_days)
+            base = float(np.median(vols)) if vols else 0.0
+            if base > 0:
+                today = float(df_15m.loc[(df_15m["Datetime"].dt.date==work_date) &
+                                         (df_15m["Datetime"].dt.time<=cutoff_time), "Volume"].sum())
+                return max(0.0, today/base)
+    except Exception:
+        pass
+    # 4) daily approx (konservatif)
+    try:
+        df_d = read_daily_from(folder_daily, ticker)
+        if df_d is not None and not df_d.empty and "Volume" in df_d.columns:
+            vols = df_d["Volume"].tail(baseline_days).to_numpy()
+            base = float(np.median(vols)) if vols.size>0 else 0.0
+            if base > 0:
+                today_vol_approx = 0.75*base
+                return max(0.0, today_vol_approx/base)
+    except Exception:
+        pass
+    return 0.0
+
+def score_row(price: float, pace: float) -> float:
+    price_term = math.sqrt(max(price, 0.0))
+    pace_term  = math.log1p(min(max(pace, 0.0), 50.0))
+    return float(price_term * pace_term)
+
+# ---------- engine ----------
+def bpjs_candidates(target_date: date, cutoff_time,
+                    baseline_days: int, pace_min: float,
+                    ret_min: float, ret_max: float, top_n: int,
+                    folder_1m: Path, folder_5m: Path, folder_15m: Path, folder_daily: Path,
+                    diag: bool=True) -> Tuple[pd.DataFrame, Dict[str, List[str]]]:
+
     SUMMARY = []
-    drop_reasons = defaultdict(list) if diag else None
+    drop = defaultdict(list) if diag else None
 
-    for fp in sorted(FOLDER_1M.glob("*.csv")):
-        ticker = fp.stem
+    universe = sorted(set(p.stem for p in folder_1m.glob("*.csv")) |
+                      set(p.stem for p in folder_5m.glob("*.csv")) |
+                      set(p.stem for p in folder_15m.glob("*.csv")))
+
+    for ticker in universe:
         try:
-            df_1m = read_intraday(FOLDER_1M, ticker)
-            if df_1m is None:
-                if diag: drop_reasons[ticker].append("no_1m_file_or_parse_fail")
+            df1  = read_intraday(folder_1m,  ticker)
+            df5  = read_intraday(folder_5m,  ticker)
+            df15 = read_intraday(folder_15m, ticker)
+            # sumber harga/return: 1m → 5m → 15m
+            df_px = df1 if df1 is not None else (df5 if df5 is not None else df15)
+            if df_px is None:
+                if diag: drop[ticker].append("no_intraday")
                 continue
 
-            work_date = pick_work_date(df_1m["Datetime"], target_date)
-            if (work_date is None) or (work_date != target_date):
-                if diag: drop_reasons[ticker].append(f"not_target_date:{work_date}")
+            price_cut = price_at_cutoff(df_px, target_date, cutoff_time)
+            if price_cut is None or price_cut <= 0:
+                if diag: drop[ticker].append("no_price_at_cutoff")
                 continue
 
-            df_dwork = df_1m[(df_1m["Datetime"].dt.date == work_date)].copy().dropna(subset=["Close", "Volume"])
-            if df_dwork.empty or df_dwork["Volume"].sum() == 0:
-                if diag: drop_reasons[ticker].append("no_intraday_or_zero_vol")
+            ret = daily_return_until_cutoff(df_px, target_date, cutoff_time)
+            if ret is None or not (ret_min <= ret <= ret_max):
+                if diag: drop[ticker].append("ret_out_of_range")
                 continue
 
-            # prev close dari daily
-            df_daily = read_daily_flex(FOLDER_DAILY / f"{ticker}.csv")
-            prev_close = np.nan
-            if df_daily is not None:
-                prev_day = df_daily[df_daily["Date"] < work_date]
-                if not prev_day.empty:
-                    prev_close = pd.to_numeric(prev_day.iloc[-1]["Close"], errors="coerce")
-            if pd.isna(prev_close) or prev_close <= 0:
-                if diag: drop_reasons[ticker].append("no_prev_close_daily")
+            pace = vol_pace_robust(ticker, target_date, cutoff_time, df1, df5, df15, folder_daily, baseline_days)
+            if pace < pace_min:
+                if diag: drop[ticker].append("pace_too_low")
                 continue
-
-            # metrik dasar
-            high_px = float(df_dwork['High'].max())
-            low_px  = float(df_dwork['Low'].min())
-            last_px = float(df_dwork['Close'].iloc[-1])
-            daily_return = (last_px / prev_close) - 1.0
-            if not (ret_min < daily_return < ret_max):
-                if diag: drop_reasons[ticker].append("daily_return_out_of_range")
-                continue
-
-            vol_today_cut_1m = intraday_cut_volume(df_1m, work_date, cutoff_time)
-            pace = vol_pace_robust(ticker, work_date, cutoff_time, vol_today_cut_1m, df_1m, baseline_days)
-            if not (pd.notna(pace) and pace > pace_min):
-                if diag: drop_reasons[ticker].append(f"pace_insufficient:{pace}")
-                continue
-
-            # metrik lanjutan
-            daily_range = high_px - low_px
-            closing_strength = (last_px - low_px) / daily_range if daily_range > 0 else 1.0
-
-            start_time = df_dwork['Datetime'].min()
-            first_5min = df_dwork[df_dwork['Datetime'] <= start_time + timedelta(minutes=5)]
-            if not first_5min.empty and first_5min['Volume'].sum() > 0:
-                stable_open = float((first_5min["Close"] * first_5min["Volume"]).sum() / first_5min["Volume"].sum())
-            else:
-                stable_open = float(df_dwork['Open'].iloc[0])
-            afternoon_power = (last_px / stable_open) - 1.0 if stable_open > 0 else 0.0
-
-            # skor v2.2
-            price_term  = (1 + daily_return) * (1 + max(0.0, afternoon_power)) * closing_strength
-            volume_term = np.log1p(min(pace, 50))
-            score = price_term * volume_term
-
-            # harga pada cutoff (opsional diagnostik)
-            cut_mask = df_dwork["Datetime"].dt.time <= cutoff_time
-            price_at_cutoff = float(df_dwork.loc[cut_mask, "Close"].iloc[-1]) if cut_mask.any() else np.nan
 
             SUMMARY.append({
-                "ticker": ticker, "date": work_date, "score": score, "last": last_px,
-                "daily_return": daily_return, "closing_strength": closing_strength,
-                "afternoon_power": afternoon_power, "vol_pace": pace,
-                "price_at_cutoff": price_at_cutoff
+                "ticker": ticker,
+                "price_at_cutoff": price_cut,
+                "daily_return": ret,
+                "vol_pace": pace,
+                "score": score_row(price_cut, pace),
+                "last": price_cut,
             })
-
-        except Exception as e:
-            if diag: drop_reasons[ticker].append(f"exception:{type(e).__name__}")
+        except Exception:
+            if diag: drop[ticker].append("exception")
             continue
 
-    cols = ["ticker","date","score","last","daily_return","closing_strength","afternoon_power","vol_pace","price_at_cutoff"]
-    df_result = (pd.DataFrame(SUMMARY)[cols].sort_values("score", ascending=False).reset_index(drop=True)
-                 if SUMMARY else pd.DataFrame(columns=cols))
-    return df_result, (drop_reasons or {})
+    if not SUMMARY:
+        return pd.DataFrame(), (drop or {})
 
-def format_table(df: pd.DataFrame, top_n: int) -> str:
-    def fmt_pct(x):  return f"{x:,.2%}" if pd.notna(x) else "N/A"
-    def fmt_x(x):    return f"{x:.2f}x"   if pd.notna(x) else "N/A"
-    def fmt_f3(x):   return f"{x:.3f}"    if pd.notna(x) else "N/A"
+    df = (pd.DataFrame(SUMMARY)
+            .sort_values("score", ascending=False)
+            .reset_index(drop=True))
+    return df, (drop or {})
 
-    out = df.copy()
-    if not out.empty:
-        out.loc[:, "score"]            = out["score"].map(fmt_f3)
-        out.loc[:, "daily_return"]     = out["daily_return"].map(fmt_pct)
-        out.loc[:, "closing_strength"] = out["closing_strength"].map(fmt_pct)
-        out.loc[:, "afternoon_power"]  = out["afternoon_power"].map(fmt_pct)
-        out.loc[:, "vol_pace"]         = out["vol_pace"].map(fmt_x)
-    return out.head(top_n).to_string(index=False)
-
+# ---------- CLI ----------
 def main():
-    parser = argparse.ArgumentParser(description="bpjs v2.4-core — Intraday Spike Detector")
-    parser.add_argument("--date", help="Override target date (YYYY-MM-DD). Default: auto latest <= today")
-    # ↓↓↓ sekarang bisa multi --cutoff, atau 1 argumen dipisah koma
-    parser.add_argument("--cutoff", action="append", help='Cutoff HH:MM. Bisa dipakai berulang: --cutoff 09:30 --cutoff 14:15. '
-                                                          'Atau pisahkan dengan koma: "09:30,14:15"')
-    parser.add_argument("--top", type=int, default=DEFAULT_TOP_N, help="Top-N to output & save (default 10)")
-    parser.add_argument("--baseline-days", type=int, default=DEFAULT_BASELINE_DAYS, help="Baseline days (default 60)")
-    parser.add_argument("--pace-min", type=float, default=DEFAULT_PACE_MIN, help="Min volume pace (default 1.2)")
-    parser.add_argument("--ret-min", type=float, default=DEFAULT_RETURN_MIN, help="Min daily return (default 0.01)")
-    parser.add_argument("--ret-max", type=float, default=DEFAULT_RETURN_MAX, help="Max daily return (default 0.40)")
-    args = parser.parse_args()
+    p = argparse.ArgumentParser("bpjs v2.6 core (1m→5m→15m→daily)")
+    p.add_argument("--date", help="YYYY-MM-DD (default: today)")
+    p.add_argument("--cutoff", action="append",
+                   help='HH:MM; repeatable or comma-separated (e.g. --cutoff 09:30 --cutoff 14:15 or "09:30,14:15")')
+    p.add_argument("--top", type=int, default=DEFAULT_TOP_N)
+    p.add_argument("--baseline-days", type=int, default=DEFAULT_BASELINE_DAYS)
+    p.add_argument("--pace-min", type=float, default=DEFAULT_PACE_MIN)
+    p.add_argument("--ret-min", type=float, default=DEFAULT_RETURN_MIN)
+    p.add_argument("--ret-max", type=float, default=DEFAULT_RETURN_MAX)
+    p.add_argument("--min-price", "--minprice", dest="min_price", type=float, default=None)
+    p.add_argument("--resolutions", "--fetchlist", dest="resolutions", default=None)
+    p.add_argument("--src-1m",   dest="src_1m",   default=None)
+    p.add_argument("--src-5m",   dest="src_5m",   default=None)
+    p.add_argument("--src-15m",  dest="src_15m",  default=None)
+    p.add_argument("--src-daily",dest="src_daily",default=None)
+    args = p.parse_args()
+
+    if args.resolutions:
+        print(f"[INFO] Resolutions (audit only): {args.resolutions}")
 
     today = pd.Timestamp("today", tz=SESSION_TZ).normalize().date()
+    target_date = date.fromisoformat(args.date) if args.date else today
 
-    # pilih target_date
-    if args.date:
-        target_date = date.fromisoformat(args.date)
-    else:
-        latest = detect_latest_intraday_date(FOLDER_1M, today)
-        target_date = latest or today
+    F1 = resolve_1m_dir(args.src_1m)
+    F5 = resolve_5m_dir(args.src_5m)
+    F15= resolve_15m_dir(args.src_15m)
+    FD = resolve_daily_dir(args.src_daily)
 
-    # siapkan daftar cutoff
-    cutoffs: list[str]
-    if not args.cutoff:
-        cutoffs = [DEFAULT_CUTOFF_STR]           # default 1 cutoff (09:30)
-    else:
-        # flatten: support --cutoff a --cutoff b, atau "--cutoff a,b"
-        cutoffs = []
-        for item in args.cutoff:
-            cutoffs.extend([x.strip() for x in item.split(",") if x.strip()])
-
+    ensure_outdir()
     print(f"Hari ini: {today} | target_date: {target_date}")
-    print(f"[INFO] 1m files: {len(list(FOLDER_1M.glob('*.csv')))} | root={ROOT}")
+    print(f"[INFO] 1m dir: {F1}  | files: {len(list(F1.glob('*.csv')))}")
+    print(f"[INFO] 5m dir: {F5}  | files: {len(list(F5.glob('*.csv')))}")
+    print(f"[INFO] 15m dir: {F15} | files: {len(list(F15.glob('*.csv')))}")
+    print(f"[INFO] daily dir: {FD}")
+
+    cutoffs = []
+    if not args.cutoff:
+        cutoffs = [DEFAULT_CUTOFF_STR]
+    else:
+        for item in args.cutoff:
+            cutoffs += [x.strip() for x in item.split(",") if x.strip()]
     print(f"[INFO] Cutoffs: {', '.join(cutoffs)}")
 
-    # proses setiap cutoff dan simpan file per cutoff
     any_nonempty = False
     for cstr in cutoffs:
-        cutoff_time = datetime.strptime(cstr, "%H:%M").time()
-        df_result, drop_reasons = bpjs_candidates(
-            target_date=target_date,
-            cutoff_time=cutoff_time,
-            baseline_days=args.baseline_days,
-            pace_min=args.pace_min,
-            ret_min=args.ret_min,
-            ret_max=args.ret_max,
-            top_n=args.top,
-            diag=True,
+        t = datetime.strptime(cstr, "%H:%M").time()
+        df, drop = bpjs_candidates(
+            target_date=target_date, cutoff_time=t,
+            baseline_days=args.baseline_days, pace_min=args.pace_min,
+            ret_min=args.ret_min, ret_max=args.ret_max, top_n=args.top,
+            folder_1m=F1, folder_5m=F5, folder_15m=F15, folder_daily=FD, diag=True
         )
+        # min-price filter (opsional)
+        if args.min_price is not None and not df.empty:
+            mp = float(args.min_price)
+            m = pd.Series(False, index=df.index)
+            if "last" in df.columns:
+                m |= pd.to_numeric(df["last"], errors="coerce") > mp
+            if "price_at_cutoff" in df.columns:
+                m |= pd.to_numeric(df["price_at_cutoff"], errors="coerce") > mp
+            df = df.loc[m].reset_index(drop=True)
+            print(f"[{cstr}] Min price > {mp} → remain={len(df)}")
+
+        df = df.head(args.top) if not df.empty else df
+
+        # ---- MINIMAL PATCH: pastikan kolom untuk Markov/konsistensi tersedia ----
+        if not df.empty:
+            if "closing_strength" not in df.columns and "daily_return" in df.columns:
+                df["closing_strength"] = df["daily_return"]
+            if "afternoon_power" not in df.columns and "score" in df.columns:
+                df["afternoon_power"] = df["score"]
+
+            # urutan kolom yang konsisten (opsional)
+            preferred = [
+                "ticker", "price_at_cutoff", "daily_return",
+                "vol_pace", "score", "last",
+                "closing_strength", "afternoon_power",
+            ]
+            df = df[[c for c in preferred if c in df.columns] +
+                    [c for c in df.columns if c not in preferred]]
+        # ------------------------------------------------------------------------
 
         hhmm = cstr.replace(":", "")
         outfile = OUT_DIR / f"bpjs_rekomendasi_{target_date}_{hhmm}.csv"
-
-        if df_result.empty:
-            print(f"[{cstr}] ❌ Tidak ada kandidat yang lolos. (menyimpan file kosong)")
-            df_result.head(args.top).to_csv(outfile, index=False)
+        if df.empty:
+            print(f"[{cstr}] ❌ Tidak ada kandidat. (menyimpan file kosong)")
+            df.to_csv(outfile, index=False)
         else:
-            print(f"\n[{cstr}] [✓] TOP CANDIDATES — bpjs v2.4-core")
-            print(f"(work_date = {target_date}, cutoff = {cstr}, filters: return {int(args.ret_min*100)}–{int(args.ret_max*100)}%, pace > {args.pace_min}x)")
-            print(format_table(df_result, args.top))
-            df_result.head(args.top).to_csv(outfile, index=False)
+            print(f"\n[{cstr}] [✓] TOP CANDIDATES")
+            with pd.option_context("display.max_rows", args.top, "display.max_columns", None, "display.width", 160):
+                print(df.head(args.top).to_string(index=False))
+            df.to_csv(outfile, index=False)
             any_nonempty = True
 
-            # Ringkasan alasan drop (Top 8)
-            flat_reasons = [r for reasons in drop_reasons.values() for r in reasons]
-            if flat_reasons:
+            flat = [r for reasons in drop.values() for r in reasons]
+            if flat:
                 print("\n[DIAG] Alasan drop teratas:")
-                for k, v in Counter(flat_reasons).most_common(8):
-                    print(f"- {k}: {v}")
-
-        print(f"[{cstr}] [✔] Disimpan ke: {outfile}")
+                for k, v in Counter(flat).most_common(8):
+                    print(f"  - {k:>18}: {v}")
 
     if not any_nonempty:
-        print("\n[INFO] Semua cutoff menghasilkan tabel kosong. Cek data & filter.")
-
+        print("\n[INFO] Semua cutoff kosong. Cek data & filter.")
 
 if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        sys.exit(130)
+        raise

@@ -36,3 +36,358 @@
 /bin/bash: line 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh: No such file or directory
 /bin/bash: line 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh: No such file or directory
 /bin/bash: line 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh: No such file or directory
+/bin/bash: line 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh: No such file or directory
+/bin/bash: line 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh: No such file or directory
+/bin/bash: line 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh: No such file or directory
+/bin/bash: line 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh: No such file or directory
+/bin/bash: line 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh: No such file or directory
+/bin/bash: line 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh: No such file or directory
+/bin/bash: line 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh: No such file or directory
+/bin/bash: line 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh: No such file or directory
+/bin/bash: line 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh: No such file or directory
+/bin/bash: line 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh: No such file or directory
+/bin/bash: line 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh: No such file or directory
+/bin/bash: line 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh: No such file or directory
+/bin/bash: line 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh: No such file or directory
+[2025-08-25 19:05:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-25 19:05:01] TKLEN=64
+[2025-08-25 19:05:01] Mulai scan 10 file…
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1430.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1430.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_1130.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_1130.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:05:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-25 19:05:01] Selesai sync.
+[2025-08-25 19:10:02] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-25 19:10:02] TKLEN=64
+[2025-08-25 19:10:02] Mulai scan 10 file…
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1430.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1430.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_1130.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_1130.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:10:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-25 19:10:02] Selesai sync.
+[2025-08-25 19:15:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-25 19:15:01] TKLEN=64
+[2025-08-25 19:15:01] Mulai scan 10 file…
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1430.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1430.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_1130.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_1130.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:15:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-25 19:15:02] Selesai sync.
+[2025-08-25 19:45:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-25 19:45:01] TKLEN=64
+[2025-08-25 19:45:01] Mulai scan 10 file…
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1430.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1430.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_1130.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_1130.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:45:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-25 19:45:02] Selesai sync.
+[2025-08-25 19:50:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-25 19:50:01] TKLEN=64
+[2025-08-25 19:50:01] Mulai scan 10 file…
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1430.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1430.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_1130.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_1130.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:50:01] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-25 19:50:01] Selesai sync.
+[2025-08-25 19:55:02] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-25 19:55:02] TKLEN=64
+[2025-08-25 19:55:02] Mulai scan 10 file…
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1430.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1430.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_1130.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_1130.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 19:55:03] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-25 19:55:03] Selesai sync.
+[2025-08-25 20:00:01] WORKER_BASE=https://bpjs-reko.mkemalw.workers.dev
+[2025-08-25 20:00:01] TKLEN=64
+[2025-08-25 20:00:01] Mulai scan 11 file…
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1430.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1430.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-21_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-21_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_1130.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_1130.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-22_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-22_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_0930.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_1130.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_1130.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_1415.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] Belum ada di KV → upload: bpjs_rekomendasi_2025-08-25_1550.csv
+curl: (3) URL rejected: Malformed input to a URL function
+[2025-08-25 20:00:02] GAGAL upload (000): bpjs_rekomendasi_2025-08-25_1550.csv
+[2025-08-25 20:00:02] Selesai sync.
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied
+/bin/sh: 1: /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: Permission denied

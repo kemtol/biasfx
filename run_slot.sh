@@ -1,148 +1,139 @@
 #!/usr/bin/env bash
+# run_slot.sh — clean v2 (idempotent marker, unified naming, --force)
 set -Eeuo pipefail
 IFS=$'\n\t'
 
 # ========= Paths & env =========
+export TZ="Asia/Jakarta"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
-LOG_DIR="$SCRIPT_DIR/logs"
 MARK_DIR="$SCRIPT_DIR/.run_slot"
-LOCK_FILE="$SCRIPT_DIR/.run_slot.lock"
-mkdir -p "$LOG_DIR" "$MARK_DIR"
+LOG_DIR="$SCRIPT_DIR/logs"
+mkdir -p "$MARK_DIR" "$LOG_DIR"
 
-# Python (pakai venv kalau ada)
-PY="$SCRIPT_DIR/.venv/bin/python3"
-[[ -x "$PY" ]] || PY="$(command -v python3)"
-
-# Services
-FETCH_1M="$SCRIPT_DIR/service/idx-fetch-1m.py"
-FETCH_5M="$SCRIPT_DIR/service/idx-fetch-5m.py"
-FETCH_15M="$SCRIPT_DIR/service/idx-fetch-15m.py"
-CORE_BPJS="$SCRIPT_DIR/service/core-bpjs.py"
-# FETCH_DAILY="$SCRIPT_DIR/service/idx-fetch-daily.py"   # aktifkan kalau perlu
-
-# ========= Slot mapping (HHMM) =========
-# Intraday fetch trio
-INTRA_SLOTS=(1000 1130 1430 1630)
-# Daily slot (opsional)
-DAILY_SLOT=1800
-
-# Auto-generate rekomendasi pada slot berikut:
-REKO_0930_AT=1000   # jalankan core_bpjs --cutoff 09:30 pada jam 10:00
-REKO_1415_AT=1430   # jalankan core_bpjs --cutoff 14:15 pada jam 14:30
-REKO_1550_AT=1630   # jalankan core_bpjs --cutoff 15:50 pada jam 16:30
-
-# ========= Helpers =========
-log(){ echo "[$(date '+%F %T %Z')]" "$@" | tee -a "$LOG_DIR/run_slot.log" ; }
-
-run_with_log(){
-  local cmd="$1"
-  log "START  $cmd"
-  # jalankan di subshell supaya prefix log per-baris
-  ( timeout 3600 bash -lc "$cmd" ) 2>&1 | while IFS= read -r line; do
-    echo "[$(date '+%T')] $cmd | $line"
-  done | tee -a "$LOG_DIR/run_slot.log"
-  local rc=${PIPESTATUS[0]}
-  if (( rc==0 )); then log "DONE   $cmd ✅"; else log "FAIL   $cmd (exit=$rc) ❌"; fi
-  return $rc
-}
-
-mark_path(){ echo "$MARK_DIR/$(date +%F)_$1.done"; }
-is_marked(){ [[ -f "$(mark_path "$1")" ]]; }
-mark(){ : > "$(mark_path "$1")"; }
-
-run_slot_once(){
-  local slot="$1"
-  local now_hhmm; now_hhmm="$(date +%H%M)"
-
-  # Hanya jalankan bila WAKTU SLOT SUDAH LEWAT & belum done (catch-up aware)
-  if (( 10#$now_hhmm < 10#$slot )); then
-    log "Skip $slot (belum waktunya)."
-    return 0
-  fi
-  if is_marked "$slot"; then
-    log "Skip $slot (sudah done)."
-    return 0
-  fi
-
-  log "=== RUN slot $slot ==="
-
-  case "$slot" in
-    1000|1130|1430|1630)
-      run_with_log "$PY $FETCH_1M"  || true
-      run_with_log "$PY $FETCH_5M"  || true
-      run_with_log "$PY $FETCH_15M" || true
-      ;;
-    1800)
-      # (opsional) jalankan daily fetch
-      # run_with_log "$PY $FETCH_DAILY" || true
-      ;;
-  esac
-
-  # Generate rekomendasi sesuai slot pemicunya
-  if [[ "$slot" == "$REKO_0930_AT" ]]; then
-    run_with_log "$PY $CORE_BPJS --cutoff 09:30 --top 10" || true
-  fi
-  if [[ "$slot" == "$REKO_1415_AT" ]]; then
-    run_with_log "$PY $CORE_BPJS --cutoff 14:15 --top 10" || true
-  fi
-  if [[ "$slot" == "$REKO_1550_AT" ]]; then
-    run_with_log "$PY $CORE_BPJS --cutoff 15:50 --top 10" || true
-  fi
-
-  mark "$slot"
-  log "=== DONE slot $slot ==="
-}
-
-run_auto(){
-  local today now
-  today="$(date +%F)"
-  now="$(date +%H:%M)"
-  log "=== run_slot (mode=auto today=$today now=$now) ==="
-
-  local did=0
-  for s in "${INTRA_SLOTS[@]}"; do
-    run_slot_once "$s" && did=1 || true
-  done
-
-  # (opsional) daily
-  # run_slot_once "$DAILY_SLOT" && did=1 || true
-
-  if [[ "$did" == "0" ]]; then
-    log "No-op: tidak ada slot due (yang lewat & belum done)."
-  fi
-}
-
-# ========= Main =========
-MODE="${1:-auto}"
-
-# Global lock agar tidak ganda
-exec 9>"$LOCK_FILE"
-if ! flock -n 9; then
-  log "Lock aktif, job lain masih jalan. Keluar."
-  exit 0
+VENV_DIR="$SCRIPT_DIR/.venv"
+PY="${VENV_DIR}/bin/python"
+if [[ ! -x "$PY" ]]; then
+  PY="$(command -v python3 || command -v python)"
 fi
 
-case "$MODE" in
-  auto) run_auto ;;
-  [0-9][0-9][0-9][0-9]) run_slot_once "$MODE" ;;
-  status)
-    log "Status marker hari ini:"
-    for s in "${INTRA_SLOTS[@]}" "$DAILY_SLOT"; do
-      if is_marked "$s"; then echo " - $s: done"; else echo " - $s: pending"; fi
+# ========= Helpers =========
+ts() { date +"%Y-%m-%d %H:%M:%S WIB"; }
+
+sanitize() {
+  # turn "1m,5m,15m" -> "1m-5m-15m"
+  echo -n "$1" | sed 's/[^A-Za-z0-9]\+/-/g' | sed 's/^-//; s/-$//'
+}
+
+mark_file_for() {
+  local d="$1" cut="$2" min="$3" fetch="$4"
+  local cut_san; cut_san="$(sanitize "$cut")"
+  local f_san;   f_san="$(sanitize "$fetch")"
+  echo "${MARK_DIR}/${d}_cut${cut_san}_min${min}_f${f_san}.done"
+}
+
+# ========= Commands =========
+usage() {
+  cat <<'EOF'
+Usage:
+  run_slot.sh once         --cutoff HH:MM [--minprice N] [--fetchlist "1m,5m,15m[,daily]"] [--force]
+  run_slot.sh status       [--date YYYY-MM-DD]
+  run_slot.sh clean-date   YYYY-MM-DD
+  run_slot.sh clean-today
+  run_slot.sh clean-all
+
+Notes:
+- Marker dir: ./.run_slot
+- Log dir   : ./logs
+EOF
+}
+
+cmd="${1:-}"; shift || true
+
+case "${cmd:-}" in
+  once)
+    # defaults
+    CUTOFF="09:30"
+    MINPRICE="65"
+    FETCHLIST="1m"
+    FORCE="0"
+
+    while [[ $# -gt 0 ]]; do
+      case "$1" in
+        --cutoff)     CUTOFF="$2"; shift 2;;
+        --minprice)   MINPRICE="$2"; shift 2;;
+        --min-price)  MINPRICE="$2"; shift 2;;
+        --fetchlist|--resolutions) FETCHLIST="$2"; shift 2;;
+        --force)      FORCE="1"; shift 1;;
+        *) echo "[ERR] unknown arg: $1" >&2; usage; exit 2;;
+      esac
     done
+
+    TODAY=$(date +%F)
+    MARK_FILE="$(mark_file_for "$TODAY" "$CUTOFF" "$MINPRICE" "$FETCHLIST")"
+
+    if [[ "$FORCE" != "1" && -e "$MARK_FILE" ]]; then
+      echo "[$(ts)] Marker exist untuk date=${TODAY} cutoff=${CUTOFF} min=${MINPRICE} fetch=${FETCHLIST} → SKIP."
+      exit 0
+    fi
+
+    # -------- actual work: recommendation core --------
+    echo "[$(ts)] START once cutoff=${CUTOFF} min=${MINPRICE} fetch=${FETCHLIST}"
+    set +e
+    "$PY" service/core-bpjs.py \
+       --cutoff "$CUTOFF" \
+       --min-price "$MINPRICE" \
+       --resolutions "$FETCHLIST" \
+       >> "$LOG_DIR/run_slot_${TODAY}.log" 2>&1
+    rc=$?
+    set -e
+    if [[ $rc -ne 0 ]]; then
+      echo "[$(ts)] ERROR rc=$rc (lihat $LOG_DIR/run_slot_${TODAY}.log)"; exit $rc
+    fi
+
+    # touch marker after success
+    : > "$MARK_FILE"
+    echo "[$(ts)] DONE → marker: $MARK_FILE"
     ;;
+
+  status)
+    TARGET="${1:-}"
+    if [[ "$TARGET" == "--date" && -n "${2:-}" ]]; then TARGET="$2"; fi
+    if [[ -z "$TARGET" ]]; then TARGET="$(date +%F)"; fi
+    echo "Status marker untuk $TARGET:"
+    printf "%-10s %-6s %-8s %-18s\n" "DATE" "CUTOFF" "MIN" "FETCHLIST"
+    shopt -s nullglob
+    for f in "$MARK_DIR/${TARGET}_cut"*"_min"*"_f"*.done; do
+      base="$(basename "$f")"   # e.g., 2025-08-27_cut09-30_min65_f1m-5m.done
+      d="${base%%_*}"           # 2025-08-27
+      rest="${base#*_cut}"; cut="${rest%%_min*}"
+      rest="${rest#*_min}";  min="${rest%%_f*}"
+      rest="${rest#*_f}";    fetch="${rest%.done}"
+      fetch="${fetch//-/,}"
+      printf "%-10s %-6s %-8s %-18s\n" "$d" "$cut" "$min" "$fetch"
+    done
+    shopt -u nullglob
+    ;;
+
+  clean-date)
+    [[ $# -lt 1 ]] && { echo "[ERR] butuh YYYY-MM-DD"; exit 2; }
+    D="$1"
+    rm -f "${MARK_DIR}/${D}_"*.done
+    echo "[$(ts)] Bersihkan marker untuk ${D}."
+    ;;
+
   clean-today)
-    log "Bersihkan marker hari ini."
-    rm -f "$MARK_DIR/$(date +%F)_*.done" || true
+    D="$(date +%F)"
+    rm -f "${MARK_DIR}/${D}_"*.done
+    echo "[$(ts)] Bersihkan marker untuk ${D}."
     ;;
+
+  clean-all)
+    rm -f "${MARK_DIR}/"*".done" || true
+    echo "[$(ts)] Bersihkan SEMUA marker."
+    ;;
+
   *)
-    echo "Usage:"
-    echo "  $0 auto            # jalankan semua slot yang due (catch-up)"
-    echo "  $0 1430            # paksa jalankan slot tertentu"
-    echo "  $0 status          # lihat status marker hari ini"
-    echo "  $0 clean-today     # hapus marker hari ini"
-    exit 2
-    ;;
+    usage; exit 2;;
 esac
