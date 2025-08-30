@@ -1,0 +1,63 @@
+Python 3.12.3
+[2025-08-28 20:59:55 WIB] running probability chain using /home/mkemalw/Projects/SSSAHAM_SERVICE/rekomendasi/bpjs_rekomendasi_2025-08-28_1415.csv ...
+Snapshot missing columns: {'closing_strength'} in /home/mkemalw/Projects/SSSAHAM_SERVICE/rekomendasi/bpjs_rekomendasi_2025-08-28_1415.csv
+Python 3.12.3
+[2025-08-28 21:10:53 WIB] running probability chain using /home/mkemalw/Projects/SSSAHAM_SERVICE/rekomendasi/bpjs_rekomendasi_2025-08-28_1415.csv ...
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/mkemalw/Projects/SSSAHAM_SERVICE/markov/run_chain_for_snapshot.py", line 316, in <module>
+    main()
+  File "/home/mkemalw/Projects/SSSAHAM_SERVICE/markov/run_chain_for_snapshot.py", line 187, in main
+    PL = PriorLookup()
+         ^^^^^^^^^^^^^
+  File "/home/mkemalw/Projects/SSSAHAM_SERVICE/markov/runtime_prior.py", line 15, in __init__
+    self.prior = pd.read_parquet(prior_parquet)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mkemalw/Projects/SSSAHAM_SERVICE/.venv/lib/python3.12/site-packages/pandas/io/parquet.py", line 653, in read_parquet
+    impl = get_engine(engine)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/mkemalw/Projects/SSSAHAM_SERVICE/.venv/lib/python3.12/site-packages/pandas/io/parquet.py", line 68, in get_engine
+    raise ImportError(
+ImportError: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
+Python 3.12.3
+[2025-08-28 21:13:06 WIB] running probability chain using /home/mkemalw/Projects/SSSAHAM_SERVICE/rekomendasi/bpjs_rekomendasi_2025-08-28_1415.csv ...
+[OK] wrote rekomendasi/bpjs_rekomendasi_2025-08-28.csv  rows=3
+Rekomendasi Singkat Kode Saham  Skor Sistem  Kekuatan Menjelang Tutup  Dorongan Sore  Konsistensi Muncul  Kecepatan Volume  Peluang Bertahan sampai Tutup  Peluang Naik ≥3% Besok Pagi  Peluang Lanjut Naik Lusa  Peluang Total Berantai  Kelompok Likuiditas  Kelompok Volatilitas Arah Buka  Rata-rata: Bertahan sampai Tutup  Rata-rata: Naik ≥3% Besok Pagi  Rata-rata: Lanjut Naik Lusa
+               skip    DOID.JK       23.926                     0.017          0.765                   1              1.46                          0.566                        0.288                     0.645                   0.090                    8                     5      flat                             0.655                           0.270                        0.765
+               skip    JAWA.JK       18.169                     0.026          0.515                   1              1.73                          0.517                        0.238                     0.635                   0.068                    6                     4      flat                             0.620                           0.227                        0.786
+               skip    CCSI.JK       53.667                     0.023          0.472                   1              6.48                          0.362                        0.297                     0.533                   0.055                    7                     7        up                             0.423                           0.323                        0.691
+[2025-08-28 21:13:07 WIB] completed but output not found; check logs
+Python 3.12.3
+[2025-08-28 21:25:50 WIB] running probability chain using /home/mkemalw/Projects/SSSAHAM_SERVICE/rekomendasi/bpjs_rekomendasi_2025-08-28_1415.csv ...
+[OK] wrote rekomendasi/bpjs_rekomendasi_2025-08-28_MARKOV_MARKOV.csv  rows=3
+[2025-08-28 21:25:50 WIB] completed but output not found; check logs
+./markov_15.sh: line 175: DATE: unbound variable
+Python 3.12.3
+[2025-08-28 21:45:48 WIB] running probability chain using /home/mkemalw/Projects/SSSAHAM_SERVICE/rekomendasi/bpjs_rekomendasi_2025-08-28_1415.csv ...
+[OK] wrote rekomendasi/bpjs_rekomendasi_2025-08-28_MARKOV_MARKOV.csv  rows=3
+[2025-08-28 21:45:49 WIB] completed but output not found; check logs
+Python 3.12.3
+[2025-08-28 21:49:17 WIB] running probability chain using /home/mkemalw/Projects/SSSAHAM_SERVICE/rekomendasi/bpjs_rekomendasi_2025-08-28_1415.csv ...
+[OK] wrote rekomendasi/bpjs_rekomendasi_2025-08-28_MARKOV_MARKOV.csv  rows=3
+[2025-08-28 21:49:18 WIB] completed but output not found; check logs
+Python 3.12.3
+[2025-08-28 21:59:35 WIB] running probability chain using /home/mkemalw/Projects/SSSAHAM_SERVICE/rekomendasi/bpjs_rekomendasi_2025-08-28_1415.csv ...
+[OK] wrote rekomendasi/bpjs_rekomendasi_2025-08-28_MARKOV_MARKOV.csv  rows=3
+[2025-08-28 21:59:35 WIB] completed but output not found; check logs
+Python 3.12.3
+[2025-08-28 22:02:26 WIB] running probability chain using /home/mkemalw/Projects/SSSAHAM_SERVICE/rekomendasi/bpjs_rekomendasi_2025-08-28_1415.csv ...
+usage: run_chain_for_snapshot.py [-h] [--snapshot1415 SNAPSHOT1415]
+                                 [--snapshot0930 SNAPSHOT0930]
+                                 [--snapshot1130 SNAPSHOT1130]
+                                 [--cache_daily_dir CACHE_DAILY_DIR]
+                                 [--sector_default SECTOR_DEFAULT] --slot SLOT
+run_chain_for_snapshot.py: error: the following arguments are required: --slot
+Python 3.12.3
+[2025-08-28 22:03:57 WIB] running probability chain using /home/mkemalw/Projects/SSSAHAM_SERVICE/rekomendasi/bpjs_rekomendasi_2025-08-28_1415.csv ...
+[OK] wrote rekomendasi/bpjs_rekomendasi_2025-08-28_MARKOV_MARKOV.csv  rows=3
+[2025-08-28 22:03:57 WIB] completed but output not found; check logs

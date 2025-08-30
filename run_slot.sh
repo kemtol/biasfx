@@ -1,5 +1,83 @@
-#!/usr/bin/env bash
-# run_slot.sh — clean v2 (idempotent marker, unified naming, --force)
+# =====================================================================
+# run_slot.sh — Generator CSV rekomendasi per cutoff [Dokumentasi]
+# =====================================================================
+# RINGKASAN
+#   Menjalankan pipeline komputasi rekomendasi untuk satu kali eksekusi
+#   ("once") pada jam cutoff tertentu. Skrip ini mendukung "freshness guard"
+#   agar tidak memakai data 5m/15m/daily yang basi.
+#
+# PENGGUNAAN
+#   ./run_slot.sh once \
+#       --cutoff "HH:MM" \
+#       [--minprice <INT>] \
+#       [--top <INT>] \
+#       [--fetchlist "1m,5m,15m,daily"] \
+#       [--force]
+#
+# ARGUMEN
+#   once              : mode eksekusi satu kali (wajib)
+#   --cutoff HH:MM    : waktu cutoff rekom (mis. "15:50") (wajib)
+#   --minprice INT    : filter harga minimum (opsional)
+#   --top INT         : batasi jumlah baris rekomendasi (opsional)
+#   --fetchlist LIST  : kontrol guard sumber data (default disarankan
+#                       per SLOT: "1m" / "1m,5m" / "1m,5m,15m,daily")
+#                       Pilihan elemen: 1m | 5m | 15m | daily
+#   --force           : abaikan freshness guard (pakai dengan hati-hati)
+#
+# PERILAKU
+#   1) Menentukan tanggal hari ini: DATE=$(date +%F)
+#   2) Freshness guard (disarankan AKTIF):
+#        Untuk setiap direktori pada --fetchlist, pastikan ada file yang
+#        *baru* hari ini. Contoh ambang default:
+#          threshold = "${DATE} 08:45"
+#        Logika contoh:
+#          find emiten/cache_5m  -maxdepth 1 -type f -newermt "$threshold" | grep -q .
+#        Jika tidak terpenuhi → exit 66 (STALE).
+#   3) Jalankan komputasi (memanggil Python internal sesuai project kamu).
+#   4) Tulis output CSV:
+#        rekomendasi/bpjs_rekomendasi_${DATE}_${HHMM}.csv
+#        (atau sesuai pola proyek kamu)
+#   5) Marker sukses:
+#        .run_slot/${DATE}_${HHMM}.done — dibuat HANYA setelah semua tahap OK.
+#
+# LOKASI DEFAULT (disarankan)
+#   PROJ_ROOT          : direktori skrip
+#   REKODIR            : "$PROJ_ROOT/rekomendasi"
+#   CACHEDIR_*         : "$PROJ_ROOT/emiten/cache_{1m,5m,15m,daily}"
+#   MARK_DIR           : "$PROJ_ROOT/.run_slot"
+#   LOG_DIR            : "$PROJ_ROOT/logs"
+#
+# VARIABEL LINGKUNGAN (opsional)
+#   TZ="Asia/Jakarta"
+#   FRESHNESS_THRESHOLD="HH:MM"   # override ambang (default: 08:45)
+#   PYTHON_BIN=".venv/bin/python" # kalau mau spesifik python
+#
+# EXIT CODE (disarankan)
+#   0   : sukses
+#   66  : STALE — data di salah satu fetchlist belum update hari ini
+#   70  : gagal komputasi (script Python error)
+#   74  : gagal sinkronisasi/penulisan output
+#   2   : argumen tidak valid
+#
+# CONTOH
+#   Eksekusi standar (slot 15:50):
+#     ./run_slot.sh once --cutoff "15:50" --minprice 65 \
+#       --fetchlist "1m,5m,15m,daily"
+#
+#   Paksa jalan walau guard gagal (tidak disarankan):
+#     ./run_slot.sh once --cutoff "14:15" --force
+#
+#   Batasi 10 teratas:
+#     ./run_slot.sh once --cutoff "15:50" --top 10
+#
+# CEK & DIAGNOSTIK
+#   # lihat timestamp output vs cache
+#   ls -l --time-style=+'%F %T' rekomendasi/bpjs_rekomendasi_$(date +%F)_1550.csv
+#   find emiten/cache_5m  -maxdepth 1 -type f -newermt "$(date +%F) 08:45" | head
+#   # validasi isi bar terakhir (15m), 5 sampel:
+#   for f in emiten/cache_15m/*.csv; do tail -n 1 "$f" | cut -d, -f1 | sed "s|^|$f -> |"; done | tail -n 5
+# =====================================================================
+
 set -Eeuo pipefail
 IFS=$'\n\t'
 

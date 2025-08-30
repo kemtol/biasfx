@@ -1,0 +1,38 @@
+{
+  "date": "2025-08-28",
+  "generated_at": "2025-08-28T20:59:28",
+  "snapshots_present": {
+    "0930": true,
+    "1130": true,
+    "1415": true
+  },
+  "ready_for": {
+    "0930": true,
+    "1130": true,
+    "1415": true
+  },
+  "outputs": {
+    "rekon_long": "/home/mkemalw/Projects/SSSAHAM_SERVICE/service/rekomendasi/bpjs_rekomendasi_2025-08-28_rekon_long.csv",
+    "rekon_latest_upto_0930": "/home/mkemalw/Projects/SSSAHAM_SERVICE/service/rekomendasi/bpjs_rekomendasi_2025-08-28_rekon_latest_upto_0930.csv",
+    "rekon_latest_upto_1130": "/home/mkemalw/Projects/SSSAHAM_SERVICE/service/rekomendasi/bpjs_rekomendasi_2025-08-28_rekon_latest_upto_1130.csv",
+    "rekon_latest_upto_1415": "/home/mkemalw/Projects/SSSAHAM_SERVICE/service/rekomendasi/bpjs_rekomendasi_2025-08-28_rekon_latest_upto_1415.csv"
+  },
+  "checksums": {
+    "rekon_long": {
+      "sha256": "3e3b311ac126847e27da335e29fa039406a99cc35a2f07d4b457c0babb0ca6b6",
+      "rows": 7
+    },
+    "rekon_latest_upto_0930": {
+      "sha256": "5a47655d4120d57a67f59bde729b6bb1f4b2830fce977e0e9d9b8f3466621cf3",
+      "rows": 2
+    },
+    "rekon_latest_upto_1130": {
+      "sha256": "aba5ad471ee8acf4b291f4bdf9ad08737a55c86d4310268c6c3680a3a539a627",
+      "rows": 4
+    },
+    "rekon_latest_upto_1415": {
+      "sha256": "3e3b311ac126847e27da335e29fa039406a99cc35a2f07d4b457c0babb0ca6b6",
+      "rows": 7
+    }
+  }
+}

@@ -1,0 +1,12 @@
+bash: /home/mkemalw/Projects/SSSAHAM_SERVICE/.locks/producer-1000.lock: No such file or directory
+flock: cannot open lock file /home/mkemalw/Projects/SSSAHAM_SERVICE/.locks/producer-1000.lock: No such file or directory
+[2025-08-28 10:20:31 WIB] JOB=slot-1000 SLOT=1000 → cutoff=09:30 min=65 fetch=1m
+[2025-08-28 10:20:31 WIB] EXIT rc=0 for slot-1000
+[2025-08-28 10:22:09 WIB] JOB=slot-1000 SLOT=1000 → cutoff=09:30 min=65 fetch=1m
+[2025-08-28 10:22:09 WIB] EXIT rc=0 for slot-1000
+[2025-08-28 10:26:59 WIB] JOB=slot-1000 SLOT=1000 → cutoff=09:30 min=65 fetch=1m
+[2025-08-28 10:26:59 WIB] EXIT rc=0 for slot-1000
+[2025-08-28 12:04:01 WIB] JOB=slot-1000 SLOT=1000 → cutoff=09:30 min=65 fetch=1m
+[2025-08-28 12:05:03 WIB] EXIT rc=0 for slot-1000
+/home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: 64: Bad substitution
+/home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh: 67: set: Illegal option -o pipefail

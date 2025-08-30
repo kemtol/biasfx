@@ -1,0 +1,2 @@
+[2025-08-28 16:00:01 WIB] JOB=slot-1600 SLOT=1600 → cutoff=15:50 min=65 fetch=1m,5m,15m,daily
+[2025-08-28 16:01:06 WIB] EXIT rc=0 for slot-1600

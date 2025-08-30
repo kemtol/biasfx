@@ -1,15 +1,33 @@
-# crontab — clean v2.1 (Asia/Jakarta)
+# === Base ===
 CRON_TZ=Asia/Jakarta
+TZ=Asia/Jakarta
 MAILTO=""
-
-# PATH (include venv if needed)
+SHELL=/bin/bash
 PATH=/usr/local/bin:/usr/bin:/bin
 
-# === Producer (slots) ===
-0 10 * * 1-5  /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh 1000 --job "slot-1000"
-0 12 * * 1-5  /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh 1200 --job "slot-1200"
-0 15 * * 1-5  /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh 1500 --job "slot-1500"
-0 16 * * 1-5  /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh 1600 --job "slot-1600"
+# === On boot (preflight dirs + catat status venv) ===
+@reboot /bin/bash -lc 'cd /home/mkemalw/Projects/SSSAHAM_SERVICE && mkdir -p .locks logs service/rekomendasi rekomendasi && if [ -x .venv/bin/python ]; then echo "$(date +\%F\ %T) [boot] venv=$(.venv/bin/python -V)" >> logs/boot.log; else echo "$(date +\%F\ %T) [boot] venv MISSING" >> logs/boot.log; fi'
 
-# === Consumer (contoh) ===
-# 0-30/1 15 * * 1-5  /home/mkemalw/Projects/SSSAHAM_SERVICE/markov_15.sh >> /home/mkemalw/Projects/SSSAHAM_SERVICE/logs/markov_15_cron.log 2>&1
+# === Producer (fetch + snapshot) ===
+0 10 * * 1-5 flock -n /home/mkemalw/Projects/SSSAHAM_SERVICE/.locks/producer-1000.lock /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh 1000 --job slot-1000 >> /home/mkemalw/Projects/SSSAHAM_SERVICE/logs/producer_1000.log 2>&1
+0 12 * * 1-5 flock -n /home/mkemalw/Projects/SSSAHAM_SERVICE/.locks/producer-1200.lock /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh 1200 --job slot-1200 >> /home/mkemalw/Projects/SSSAHAM_SERVICE/logs/producer_1200.log 2>&1
+0 15 * * 1-5 flock -n /home/mkemalw/Projects/SSSAHAM_SERVICE/.locks/producer-1500.lock /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh 1500 --job slot-1500 >> /home/mkemalw/Projects/SSSAHAM_SERVICE/logs/producer_1500.log 2>&1
+0 16 * * 1-5 flock -n /home/mkemalw/Projects/SSSAHAM_SERVICE/.locks/producer-1600.lock /home/mkemalw/Projects/SSSAHAM_SERVICE/cron_wrap.sh 1600 --job slot-1600 >> /home/mkemalw/Projects/SSSAHAM_SERVICE/logs/producer_1600.log 2>&1
+
+# === REKON + Markov (beberapa menit SETELAH Producer) ===
+5 10 * * 1-5  cd /home/mkemalw/Projects/SSSAHAM_SERVICE && DATE=$(date +\%F) && flock -n .locks/rekon-1005.lock ./markov_from_rekon.sh >> logs/rekon_markov_1005.log 2>&1
+5 12 * * 1-5  cd /home/mkemalw/Projects/SSSAHAM_SERVICE && DATE=$(date +\%F) && flock -n .locks/rekon-1205.lock ./markov_from_rekon.sh >> logs/rekon_markov_1205.log 2>&1
+5 15 * * 1-5  cd /home/mkemalw/Projects/SSSAHAM_SERVICE && DATE=$(date +\%F) && flock -n .locks/rekon-1505.lock ./markov_from_rekon.sh >> logs/rekon_markov_1505.log 2>&1
+12 16 * * 1-5 cd /home/mkemalw/Projects/SSSAHAM_SERVICE && DATE=$(date +\%F) && flock -n .locks/rekon-1612.lock ./markov_from_rekon.sh >> logs/rekon_markov_1612.log 2>&1
+
+# === KV SYNC (tiap 5 menit, Senin–Jumat) ===
+*/5 * * * 1-5 flock -n /home/mkemalw/Projects/SSSAHAM_SERVICE/.locks/kv_sync.lock /home/mkemalw/Projects/SSSAHAM_SERVICE/kv_sync.sh >> /home/mkemalw/Projects/SSSAHAM_SERVICE/logs/kv_sync_cron.log 2>&1
+
+# === Heartbeat (debug cron hidup) ===
+* * * * * echo "$(date +\%F\ %T) | $$" >> /home/mkemalw/Projects/SSSAHAM_SERVICE/logs/cron_heartbeat.log
+
+# PROBE: bukti cron berjalan tiap menit (tanpa %)
+* * * * * /usr/bin/date -Iseconds >> /tmp/cron_probe.log 2>&1
+
+# HEARTBEAT: tulis timestamp ISO + PID ke log project (tanpa %)
+* * * * * /bin/sh -lc 'printf "%s | %s\n" "$(date -Iseconds)" "$$" >> /home/mkemalw/Projects/SSSAHAM_SERVICE/logs/cron_heartbeat.log'

@@ -1,0 +1,13 @@
+name = "bpjs-reko"
+main = "worker.js"                        # ganti sesuai nama worker kamu
+compatibility_date = "2025-08-01"
+account_id = "5a6c75ee2f334a79233aeebffda06de5"
+
+# KV (kalau dipakai di kode)
+[[kv_namespaces]]
+binding = "REKO_KV"
+id = "89337288d9564a449eb99664973aa3cbwra"
+
+[[r2_buckets]]
+binding = "R2_SSSSAHAM"             # Name (dipakai di kode: env.R2_SSSSAHAM)
+bucket_name = "sssaham-emiten"      # Value (nama bucket R2 di dashboard)

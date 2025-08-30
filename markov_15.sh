@@ -170,3 +170,4 @@ if [[ -f "$OUTCSV" ]]; then
 else
   log "completed but output not found; check logs"
 fi
+

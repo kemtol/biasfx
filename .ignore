@@ -1,0 +1,59 @@
+ignore
+
+    # --- Python umum ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+*.log
+*.tmp
+
+# --- Virtual env / tooling ---
+.venv/
+venv/
+.env
+.env.*
+
+# --- Jupyter Notebook (exclude semua notebook) ---
+*.ipynb
+.ipynb_checkpoints/
+
+# --- Data & cache (opsional, tambahkan sesuai kebutuhanmu) ---
+*.csv.gz
+*.parquet
+*.feather
+*.sqlite*
+.cache/
+.tmp/
+artifacts/
+!artifacts/final.html        # contoh: tetap commit satu file HTML final
+artifacts/ipot-desktop-profile/  # profile/cache browser yang sangat besar
+
+# --- Node/CF Worker (kalau ada frontend/worker) ---
+node_modules/
+.wrangler/
+.parcel-cache/
+.esbuild/
+.sass-cache/
+.npm/
+.yarn/
+*.map
+
+# --- Editor/OS ---
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# --- Cadangan pola cache browser di mana pun (jaga-jaga) ---
+**/Cache/
+**/GPUCache/
+**/Code Cache/
+**/Local Storage/

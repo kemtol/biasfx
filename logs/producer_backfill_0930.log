@@ -1,0 +1,2 @@
+[2025-08-28 11:56:37 WIB] JOB=backfill-0930 SLOT=1000 → cutoff=09:30 min=65 fetch=1m
+[2025-08-28 11:57:59 WIB] EXIT rc=0 for backfill-0930

@@ -1,0 +1,93 @@
+[REKON] build for 2025-08-28  (snapshots: rekomendasi -> outputs: service/rekomendasi)
+ERROR: No snapshots found for 2025-08-28
+[REKON] build for 2025-08-28  (snapshots: rekomendasi -> outputs: service/rekomendasi)
+{
+  "status": "ok",
+  "date": "2025-08-28",
+  "outputs": {
+    "rekon_long": "/home/mkemalw/Projects/SSSAHAM_SERVICE/service/rekomendasi/bpjs_rekomendasi_2025-08-28_rekon_long.csv",
+    "rekon_latest_upto_0930": "/home/mkemalw/Projects/SSSAHAM_SERVICE/service/rekomendasi/bpjs_rekomendasi_2025-08-28_rekon_latest_upto_0930.csv",
+    "rekon_latest_upto_1130": "/home/mkemalw/Projects/SSSAHAM_SERVICE/service/rekomendasi/bpjs_rekomendasi_2025-08-28_rekon_latest_upto_1130.csv",
+    "rekon_latest_upto_1415": "/home/mkemalw/Projects/SSSAHAM_SERVICE/service/rekomendasi/bpjs_rekomendasi_2025-08-28_rekon_latest_upto_1415.csv"
+  },
+  "rows": {
+    "rekon_long": 10,
+    "rekon_latest_upto_0930": 10,
+    "rekon_latest_upto_1130": 10,
+    "rekon_latest_upto_1415": 10
+  },
+  "snapshots_present": {
+    "0930": true,
+    "1130": false,
+    "1415": false
+  }
+}
+[RUN] Markov slot 0930
+[OK] wrote rekomendasi/bpjs_rekomendasi_2025-08-28.csv  rows=10
+Rekomendasi Singkat Kode Saham  Skor Sistem  Kekuatan Menjelang Tutup  Dorongan Sore  Konsistensi Muncul  Kecepatan Volume  Peluang Bertahan sampai Tutup  Peluang Naik ≥3% Besok Pagi  Peluang Lanjut Naik Lusa  Peluang Total Berantai  Kelompok Likuiditas  Kelompok Volatilitas Arah Buka  Rata-rata: Bertahan sampai Tutup  Rata-rata: Naik ≥3% Besok Pagi  Rata-rata: Lanjut Naik Lusa
+   beli keluar lusa    DNET.JK      391.212                     0.031        391.212                   3             50.00                          0.792                        0.571                     0.887                   0.398                    5                     9        up                             0.657                           0.292                        0.813
+   beli keluar lusa    TEBE.JK      142.743                     0.293        142.743                   3             30.88                          0.791                        0.568                     0.886                   0.394                    9                     9      flat                             0.657                           0.292                        0.813
+            neutral    KONI.JK      115.600                     0.250        115.600                   3             12.71                          0.787                        0.559                     0.884                   0.379                    3                     9        up                             0.657                           0.292                        0.813
+               skip    MDKA.JK      126.161                     0.068        126.161                   3             11.47                          0.786                        0.558                     0.883                   0.376                    9                     9      flat                             0.657                           0.292                        0.813
+               skip    BUAH.JK       88.942                     0.058         88.942                   3              8.57                          0.783                        0.553                     0.882                   0.368                    8                     9        up                             0.657                           0.292                        0.813
+               skip    YULE.JK      109.311                     0.040        109.311                   3              6.67                          0.781                        0.547                     0.880                   0.359                    5                     9      down                             0.657                           0.292                        0.813
+               skip    BUKK.JK       93.894                     0.067         93.894                   3             22.69                          0.804                        0.502                     0.887                   0.353                    3                     5      flat                             0.680                           0.188                        0.815
+               skip    MEGA.JK      187.177                     0.045        187.177                   3             22.77                          0.806                        0.515                     0.854                   0.349                    4                     8      flat                             0.684                           0.208                        0.761
+               skip    INKP.JK      147.461                     0.066        147.461                   3              4.15                          0.774                        0.534                     0.877                   0.338                    9                     9      flat                             0.657                           0.292                        0.813
+               skip    KINO.JK      133.335                     0.045        133.335                   3            149.50                          0.592                        0.567                     0.814                   0.272                    3                     6        up                             0.321                           0.280                        0.691
+'rekomendasi/bpjs_rekomendasi_2025-08-28.csv' -> 'rekomendasi/bpjs_rekomendasi_2025-08-28_MARKOV_0930.csv'
+[SKIP] 1130 belum ready (service/rekomendasi/.rekon_ready_2025-08-28_1130 tidak ada)
+[SKIP] 1415 belum ready (service/rekomendasi/.rekon_ready_2025-08-28_1415 tidak ada)
+[DONE] DATE=2025-08-28  outputs in rekomendasi  |  REKON in service/rekomendasi
+[REKON] build for 2025-08-28  (snapshots: rekomendasi -> outputs: service/rekomendasi)
+{
+  "status": "ok",
+  "date": "2025-08-28",
+  "outputs": {
+    "rekon_long": "/home/mkemalw/Projects/SSSAHAM_SERVICE/service/rekomendasi/bpjs_rekomendasi_2025-08-28_rekon_long.csv",
+    "rekon_latest_upto_0930": "/home/mkemalw/Projects/SSSAHAM_SERVICE/service/rekomendasi/bpjs_rekomendasi_2025-08-28_rekon_latest_upto_0930.csv",
+    "rekon_latest_upto_1130": "/home/mkemalw/Projects/SSSAHAM_SERVICE/service/rekomendasi/bpjs_rekomendasi_2025-08-28_rekon_latest_upto_1130.csv",
+    "rekon_latest_upto_1415": "/home/mkemalw/Projects/SSSAHAM_SERVICE/service/rekomendasi/bpjs_rekomendasi_2025-08-28_rekon_latest_upto_1415.csv"
+  },
+  "rows": {
+    "rekon_long": 20,
+    "rekon_latest_upto_0930": 10,
+    "rekon_latest_upto_1130": 16,
+    "rekon_latest_upto_1415": 16
+  },
+  "snapshots_present": {
+    "0930": true,
+    "1130": true,
+    "1415": false
+  }
+}
+[RUN] Markov slot 0930
+[OK] wrote rekomendasi/bpjs_rekomendasi_2025-08-28.csv  rows=10
+Rekomendasi Singkat Kode Saham  Skor Sistem  Kekuatan Menjelang Tutup  Dorongan Sore  Konsistensi Muncul  Kecepatan Volume  Peluang Bertahan sampai Tutup  Peluang Naik ≥3% Besok Pagi  Peluang Lanjut Naik Lusa  Peluang Total Berantai  Kelompok Likuiditas  Kelompok Volatilitas Arah Buka  Rata-rata: Bertahan sampai Tutup  Rata-rata: Naik ≥3% Besok Pagi  Rata-rata: Lanjut Naik Lusa
+   beli keluar lusa    DNET.JK      391.212                     0.031        391.212                   3             50.00                          0.792                        0.571                     0.887                   0.398                    5                     9        up                             0.657                           0.292                        0.813
+   beli keluar lusa    TEBE.JK      142.743                     0.293        142.743                   3             30.88                          0.791                        0.568                     0.886                   0.394                    9                     9      flat                             0.657                           0.292                        0.813
+            neutral    KONI.JK      115.600                     0.250        115.600                   3             12.71                          0.787                        0.559                     0.884                   0.379                    3                     9        up                             0.657                           0.292                        0.813
+               skip    MDKA.JK      126.161                     0.068        126.161                   3             11.47                          0.786                        0.558                     0.883                   0.376                    9                     9      flat                             0.657                           0.292                        0.813
+               skip    BUAH.JK       88.942                     0.058         88.942                   3              8.57                          0.783                        0.553                     0.882                   0.368                    8                     9        up                             0.657                           0.292                        0.813
+               skip    YULE.JK      109.311                     0.040        109.311                   3              6.67                          0.781                        0.547                     0.880                   0.359                    5                     9      down                             0.657                           0.292                        0.813
+               skip    BUKK.JK       93.894                     0.067         93.894                   3             22.69                          0.804                        0.502                     0.887                   0.353                    3                     5      flat                             0.680                           0.188                        0.815
+               skip    MEGA.JK      187.177                     0.045        187.177                   3             22.77                          0.806                        0.515                     0.854                   0.349                    4                     8      flat                             0.684                           0.208                        0.761
+               skip    INKP.JK      147.461                     0.066        147.461                   3              4.15                          0.774                        0.534                     0.877                   0.338                    9                     9      flat                             0.657                           0.292                        0.813
+               skip    KINO.JK      133.335                     0.045        133.335                   3            149.50                          0.592                        0.567                     0.814                   0.272                    3                     6        up                             0.321                           0.280                        0.691
+'rekomendasi/bpjs_rekomendasi_2025-08-28.csv' -> 'rekomendasi/bpjs_rekomendasi_2025-08-28_MARKOV_0930.csv'
+[RUN] Markov slot 1130
+[OK] wrote rekomendasi/bpjs_rekomendasi_2025-08-28.csv  rows=16
+Rekomendasi Singkat Kode Saham  Skor Sistem  Kekuatan Menjelang Tutup  Dorongan Sore  Konsistensi Muncul  Kecepatan Volume  Peluang Bertahan sampai Tutup  Peluang Naik ≥3% Besok Pagi  Peluang Lanjut Naik Lusa  Peluang Total Berantai  Kelompok Likuiditas  Kelompok Volatilitas Arah Buka  Rata-rata: Bertahan sampai Tutup  Rata-rata: Naik ≥3% Besok Pagi  Rata-rata: Lanjut Naik Lusa
+   beli keluar lusa    APLI.JK       87.918                     0.033         87.918                   2            144.47                          0.897                        0.648                     0.900                   0.522                    3                     6      down                             0.829                           0.416                        0.834
+   beli keluar lusa    DNET.JK      391.212                     0.031        391.212                   3             50.00                          0.792                        0.571                     0.887                   0.398                    5                     9        up                             0.657                           0.292                        0.813
+   beli keluar lusa    TEBE.JK      127.960                     0.331        127.960                   3             20.30                          0.789                        0.565                     0.885                   0.388                    9                     9      flat                             0.657                           0.292                        0.813
+   beli keluar lusa    KONI.JK      115.600                     0.250        115.600                   3             12.71                          0.787                        0.559                     0.884                   0.379                    3                     9        up                             0.657                           0.292                        0.813
+            neutral    MDKA.JK      126.161                     0.068        126.161                   3             11.47                          0.786                        0.558                     0.883                   0.376                    9                     9      flat                             0.657                           0.292                        0.813
+               skip    SOHO.JK      108.393                     0.013        108.393                   2             66.73                          0.821                        0.516                     0.877                   0.370                    2                     7      flat                             0.705                           0.200                        0.796
+               skip    BUAH.JK       92.108                     0.078         92.108                   3              9.15                          0.784                        0.554                     0.882                   0.370                    8                     9        up                             0.657                           0.292                        0.813
+               skip    NICK.JK       88.404                     0.119         88.404                   2              8.80                          0.784                        0.553                     0.882                   0.369                    2                     9      flat                             0.657                           0.292                        0.813
+               skip    YULE.JK      109.311                     0.040        109.311                   3              6.67                          0.781                        0.547                     0.880                   0.359                    5                     9      down                             0.657                           0.292                        0.813
+               skip    BUKK.JK       93.894                     0.067         93.894                   3             22.69                          0.804                        0.502                     0.887                   0.353                    3                     5      flat                             0.680                           0.188                        0.815
+'rekomendasi/bpjs_rekomendasi_2025-08-28.csv' -> 'rekomendasi/bpjs_rekomendasi_2025-08-28_MARKOV_1130.csv'
+[SKIP] 1415 belum ready (service/rekomendasi/.rekon_ready_2025-08-28_1415 tidak ada)
+[DONE] DATE=2025-08-28  outputs in rekomendasi  |  REKON in service/rekomendasi

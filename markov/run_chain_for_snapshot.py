@@ -86,6 +86,15 @@ def latest_daily_stats(cache_dir: str, ticker: str):
 def load_snapshot(path):
     df = read_csv_or_parquet(path)
     df = normalize_cols(df)
+
+    # --- PATCH kompatibilitas schema baru ---
+    if "closing_strength" not in df.columns:
+        if "daily_return" in df.columns:
+            df["closing_strength"] = df["daily_return"]
+        else:
+            df["closing_strength"] = 0.0
+    # ----------------------------------------
+
     need = {"ticker","closing_strength","afternoon_power","vol_pace"}
     miss = need - set(df.columns)
     if miss:
@@ -159,13 +168,15 @@ def make_recommendation(row, q, guards, pchain_q80):
 
 # --------------------- main ---------------------
 def main():
-    ap = argparse.ArgumentParser(description="Run probability chain for a 14:15 snapshot.")
-    ap.add_argument("--snapshot1415", required=True, help="Path CSV/Parquet snapshot 14:15 (kolom rekom).")
+    ap = argparse.ArgumentParser(description="Run probability chain for a snapshot.")
+    ap.add_argument("--snapshot1415", help="Path CSV/Parquet snapshot 14:15 (kolom rekom).")
     ap.add_argument("--snapshot0930", help="(Opsional) snapshot 09:30 untuk persist_count.")
     ap.add_argument("--snapshot1130", help="(Opsional) snapshot 11:30 untuk persist_count.")
     ap.add_argument("--cache_daily_dir", default="emiten/cache_daily", help="Folder cache_daily per-emiten.")
     ap.add_argument("--sector_default", default="UNK", help="Sector default bila tidak diketahui.")
+    ap.add_argument("--slot", type=str, help="Cutoff slot (0930, 1130, 1415, 1550)")   # <-- PATCH
     args = ap.parse_args()
+
 
     # Muat snapshot 14:15
     snap = load_snapshot(args.snapshot1415)
@@ -296,12 +307,13 @@ def main():
     y, m, d = derive_date_parts_from_filename(args.snapshot1415)
     date_human = f"{y}-{m}-{d}"
     os.makedirs("rekomendasi", exist_ok=True)
-    out_path = f"rekomendasi/bpjs_rekomendasi_{date_human}.csv"
 
-    # Simpan & preview
+    slot = args.slot if args.slot else "MARKOV"
+    out_path = f"rekomendasi/bpjs_rekomendasi_{date_human}_MARKOV_{slot}.csv"
+
     out_df_readable.to_csv(out_path, index=False)
     print(f"[OK] wrote {out_path}  rows={len(out_df_readable)}")
-    print(out_df_readable.head(10).to_string(index=False))
+
 
 if __name__ == "__main__":
     main()

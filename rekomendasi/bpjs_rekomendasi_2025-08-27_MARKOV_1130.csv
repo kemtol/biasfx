@@ -1,0 +1,17 @@
+Rekomendasi Singkat,Kode Saham,Skor Sistem,Kekuatan Menjelang Tutup,Dorongan Sore,Konsistensi Muncul,Kecepatan Volume,Peluang Bertahan sampai Tutup,Peluang Naik ≥3% Besok Pagi,Peluang Lanjut Naik Lusa,Peluang Total Berantai,Kelompok Likuiditas,Kelompok Volatilitas,Arah Buka,Rata-rata: Bertahan sampai Tutup,Rata-rata: Naik ≥3% Besok Pagi,Rata-rata: Lanjut Naik Lusa
+beli keluar lusa,KONI.JK,150.248,0.243,150.248,2,43.88,0.792,0.57,0.887,0.397,3,9,up,0.657,0.292,0.813
+beli keluar lusa,CBUT.JK,156.362,0.073,156.362,3,43.36,0.792,0.57,0.887,0.397,6,9,flat,0.657,0.292,0.813
+beli keluar lusa,SHIP.JK,269.702,0.099,269.702,3,42.67,0.792,0.57,0.887,0.397,7,9,up,0.657,0.292,0.813
+beli keluar lusa,ADRO.JK,127.105,0.048,127.105,3,18.2,0.789,0.564,0.885,0.386,9,8,flat,0.657,0.292,0.813
+neutral,MASB.JK,154.303,0.031,154.303,3,13.56,0.787,0.56,0.884,0.381,2,9,down,0.657,0.292,0.813
+neutral,DUTI.JK,142.913,0.05,142.913,2,10.81,0.786,0.557,0.883,0.375,5,9,flat,0.657,0.292,0.813
+neutral,SURE.JK,124.561,0.06,124.561,3,8.04,0.783,0.552,0.882,0.366,5,9,flat,0.657,0.292,0.813
+neutral,YULE.JK,112.633,0.018,112.633,2,7.5,0.782,0.55,0.881,0.363,5,9,down,0.657,0.292,0.813
+skip,CBDK.JK,163.665,0.05,163.665,3,6.22,0.78,0.546,0.88,0.356,9,9,up,0.657,0.292,0.813
+skip,WIFI.JK,101.075,0.063,101.075,2,5.29,0.778,0.541,0.879,0.349,9,9,up,0.657,0.292,0.813
+skip,DATA.JK,107.05,0.236,107.05,3,3.76,0.773,0.53,0.876,0.333,0,9,flat,0.657,0.292,0.813
+skip,SMMT.JK,139.843,0.14,139.843,3,65.82,0.753,0.522,0.834,0.326,7,8,flat,0.592,0.21,0.725
+skip,AADI.JK,119.634,0.011,119.634,3,3.16,0.769,0.524,0.874,0.323,9,9,flat,0.657,0.292,0.813
+skip,PANI.JK,158.418,0.017,158.418,2,2.59,0.766,0.516,0.872,0.311,9,9,down,0.657,0.292,0.813
+skip,BREN.JK,108.174,0.073,108.174,2,2.02,0.76,0.505,0.869,0.295,9,9,flat,0.657,0.292,0.813
+skip,UNTR.JK,165.08,0.013,165.08,3,1.84,0.758,0.5,0.868,0.288,9,9,flat,0.657,0.292,0.813
